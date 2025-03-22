@@ -1,0 +1,175 @@
+{
+  "name": {
+    "text": "Source Terrarium"
+  },
+  "appearance": {
+    "block": "society:machine/source_terrarium",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:furnace",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "running": {
+      "ambient_sound": "alexscaves:nuclear_furnace_active"
+    },
+    "errored": {
+      "ambient_sound": "alexscaves:nuclear_furnace_active_supercritical"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "crop",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "soil",
+      "mode": "input"
+    },  
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "mode": "input",
+      "capacity": 16000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "priority": 10,
+      "x": 40,
+      "y": 0,
+      "width": 176,
+      "height": 193
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "priority": 1,
+      "x": 47,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "crop",
+      "priority": 1,
+      "x": 79,
+      "y": 37,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "soil",
+      "priority": 1,
+      "x": 79,
+      "y": 55,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "priority": 1,
+      "x": 54,
+      "y": 21,
+      "height": 69,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": 1,
+      "x": 158,
+      "y": 46,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "height": 20,
+      "width": 20,
+      "x": 117,
+      "y": 45
+    },
+    {
+      "type": "custommachinery:config",
+      "priority": 1,
+      "x": 186,
+      "y": 80
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 186,
+      "y": 10
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "x": 41,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "priority": 1,
+      "x": 0,
+      "y": 36,
+      "height": 36,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "crop",
+      "priority": 1,
+      "x": 18,
+      "y": 37,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "soil",
+      "priority": 1,
+      "x": 18,
+      "y": 55,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": 1,
+      "x": 70,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 105,
+      "y": 36,
+      "jei": true,
+      "text": {
+        "text": ""
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "Grows crops using liquid source",
+      "color": "gold"
+    },
+    {
+      "text": "Crop and soil in recipe not consumed",
+      "color": "gray"
+    }
+  ]
+}

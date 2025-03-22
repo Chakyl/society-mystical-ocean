@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"florist_objs_shipping_bulk",
+		"florist_objs_shipping"
+	],
+	"rewards": ["_large_sea_coin_rews_challenge", "florist_mastery"]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "phase": "balloonsummon",
+    "mob": "balloonbox:balloonbox",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 40,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 20
+    }
+  },
+  {
+    "phase": "balloonsummon2",
+    "mob": "balloonbox:balloonbox",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 20,
+      "maxdist": 40,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 20
+    }
+  }
+]

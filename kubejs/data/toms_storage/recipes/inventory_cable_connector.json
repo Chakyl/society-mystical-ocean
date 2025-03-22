@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	" qP",
+    "CcE",
+    " DP"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "tag": "forge:chests/wooden"
+    },
+    "D": {
+      "item": "eidolon:crimson_gem"
+    },
+    "C": {
+      "item": "toms_storage:ts.inventory_cable"
+    },
+    "E": {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    "q": {
+      "item": "eidolon:ender_calx"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_connector",
+    "count": 2
+  }
+}

@@ -1,0 +1,205 @@
+{
+    "content": {
+        "fisher_obj_crab_barrel": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "crabbersdelight:crab_barrel",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 495
+        },
+        "fisher_obj_bulk_random_fish": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#society:common_fish",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 185,
+            "weightMult": 3
+        },
+        "fisher_obj_cooked_fish_fillet_bulk_small": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "aquaculture:fish_fillet_cooked",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 55
+        },
+        "fisher_obj_cooked_unusual_fillet_bulk_small": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "unusualfishmod:cooked_unusual_fillet",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 175
+        },
+        "fisher_obj_clawster_barrel": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "crabbersdelight:clawster_barrel",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 495
+        },
+        "fisher_obj_raw_clam_meat_bulk": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "crabbersdelight:raw_clam_meat",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 70
+        },
+        "fisher_obj_clam_barrel": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "crabbersdelight:clam_barrel",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 495
+        },
+        "fisher_obj_shrimp_barrel": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "crabbersdelight:shrimp_barrel",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 495
+        },
+        "fisher_obj_cod_barrel": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "crabbersdelight:cod_barrel",
+            "rarity": "RARE",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 320
+        },
+        "fisher_obj_salmon_barrel": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "crabbersdelight:salmon_barrel",
+            "rarity": "RARE",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 350
+        },
+        "fisher_obj_cooked_fish_fillet_bulk_large": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "content": "aquaculture:fish_fillet_cooked",
+            "amount": {
+                "min": 128,
+                "max": 128
+            },
+            "unitWorth": 60
+        },
+        "fisher_obj_cooked_unusual_fillet_bulk_large": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "unusualfishmod:cooked_unusual_fillet",
+            "amount": {
+                "min": 128,
+                "max": 128
+            },
+            "unitWorth": 200
+        },
+        "fisher_obj_random_exotic_fish": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 2.5,
+            "content": "#society:exotic_fish",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 500
+        },
+        "fisher_obj_kelp_cider_bulk": {
+            "type": "item",
+            "content": "vinery:kelp_cider",
+            "rarity": "RARE",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+        "fisher_obj_tropical_fish_barrel": {
+            "type": "item",
+            "content": "crabbersdelight:tropical_fish_barrel",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 720
+        },
+        "fisher_obj_pufferfish_barrel": {
+            "type": "item",
+            "content": "crabbersdelight:pufferfish_barrel",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 900
+        },
+        "fisher_obj_thrasher_tooth_block": {
+            "type": "item",
+            "content": "upgrade_aquatic:tooth_block",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 1395
+        },
+        "fisher_obj_crab_leg_big": {
+            "type": "item",
+            "content": "quark:crab_leg",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 159
+        },
+        "fisher_obj_crab_shell_big": {
+            "type": "item",
+            "content": "quark:crab_shell",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 320
+        }
+    }
+}

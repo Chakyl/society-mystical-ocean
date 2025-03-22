@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+
+        {
+            "count": 1,
+            "item": "biomancy:ravenous_claws"
+        },
+        {
+            "count": 1,
+            "item": "aquaculturedelight:neptunium_knife"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:mob_fang"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:tough_fibers"
+        }
+    ],
+    "nutrientsCost": 100,
+    "result": {
+        "item": "artifacts:feral_claws"
+    }
+}

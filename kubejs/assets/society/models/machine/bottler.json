@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "embers:block/reinforced_sealed_planks",
+    "east": "embers:block/reinforced_sealed_planks",
+    "north": "society:block/bottler_front",
+    "particle": "embers:block/reinforced_sealed_planks",
+    "south": "embers:block/reinforced_sealed_planks",
+    "up": "embers:block/reinforced_sealed_planks",
+    "west": "embers:block/reinforced_sealed_planks"
+  }
+}

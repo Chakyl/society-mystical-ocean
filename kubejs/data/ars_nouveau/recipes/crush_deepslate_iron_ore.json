@@ -1,0 +1,27 @@
+{
+  "type": "ars_nouveau:crush",
+  "input": {
+    "item": "minecraft:deepslate_iron_ore"
+  },
+  "output": [
+    {
+      "chance": 1.0,
+      "count": 3,
+      "item": "society:iron_sea_coin",
+      "maxRange": 1
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "minecraft:raw_iron",
+      "maxRange": 1
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "minecraft:raw_iron",
+      "maxRange": 1
+    }
+  ],
+  "skip_block_place": false
+}

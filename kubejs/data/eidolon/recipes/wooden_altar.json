@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "xxx",
+    "y y",
+    "n n"
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "x": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "y": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "eidolon:wooden_altar",
+    "count": 3
+  }
+}

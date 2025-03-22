@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "biomancy:primordial_core"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 2,
+            "item": "biomancy:rejuvenation_serum"
+        },
+        {
+            "count": 10,
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "count": 4,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:primordial_cradle"
+    }
+}

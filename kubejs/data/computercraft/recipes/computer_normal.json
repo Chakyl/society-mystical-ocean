@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "dustrial_decor:industrial_iron_block"
+    },
+    "G": {
+      "item": "biomancy:bio_lumens"
+    },
+    "i": {
+      "item": "embers:intelligent_apparatus"
+    },
+    "R": {
+      "item": "advancedperipherals:peripheral_casing"
+    }
+  },
+  "pattern": [
+    "#i#",
+    "#R#",
+    "#G#"
+  ],
+  "result": {
+    "item": "computercraft:computer_normal"
+  },
+  "show_notification": true
+}

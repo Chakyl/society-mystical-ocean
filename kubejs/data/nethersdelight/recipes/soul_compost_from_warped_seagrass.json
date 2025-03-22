@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_seagrass"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_seagrass"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    }
+  ],
+  "result": {
+    "item": "nethersdelight:soul_compost"
+  }
+}

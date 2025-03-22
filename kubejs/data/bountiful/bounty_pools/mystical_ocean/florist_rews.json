@@ -1,0 +1,573 @@
+
+{
+	"content": {
+
+        "florist_rew_poppy": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:poppy",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_dandelion": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:dandelion",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_red_tulip": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:red_tulip",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_white_tulip": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:white_tulip",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_pink_tulip": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:pink_tulip",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_orange_tulip": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:orange_tulip",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_pink_petals": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:pink_petals",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_azure_bluet": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:azure_bluet",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_blue_orchid": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:blue_orchid",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_allium": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:allium",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_sunflower": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:sunflower",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_allium_bush": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "overweight_farming:allium_bush",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_peony": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:peony",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_rose_bush": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:rose_bush",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_lily_of_the_valley": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:lily_of_the_valley",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_cornflower": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:cornflower",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_lilac": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:lilac",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_oxeye_daisy": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:oxeye_daisy",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_big_dripleaf": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:big_dripleaf",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_small_dripleaf": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:small_dripleaf",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_moss_block": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:moss_block",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_fern": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:fern",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_lily_pad": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:lily_pad",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_mimicarnation": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "nethersdelight:mimicarnation",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_dead_bush": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:dead_bush",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 5
+        },
+        "florist_rew_pink_clover": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "buzzier_bees:pink_clover",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_white_clover": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "buzzier_bees:white_clover",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_buttercup": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "buzzier_bees:buttercup",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_autumn_crocus": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "autumnity:autumn_crocus",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_sandy_shrub": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "farmersdelight:sandy_shrub",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_white_searocket": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:white_searocket",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_pink_searocket": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:pink_searocket",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_pickerelreed": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:pickerelweed",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_tall_beachgrass": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:tall_beachgrass",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        },
+        "florist_rew_beachgrass": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:beachgrass",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        }, 
+        "florist_rew_flowering_rush": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:flowering_rush",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 10
+        }, 
+        "florist_rew_torchflower": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:torchflower",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 30
+        },
+        "florist_rew_pitcher_plant": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:pitcher_plant",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 30
+        },
+        "florist_rew_hanging_roots": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:hanging_roots",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 30
+        },
+        "florist_rew_spore_blossom": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:spore_blossom",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 70
+        },
+        "florist_rew_wild_crops": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "#farmersdelight:wild_crops",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 60
+        },
+        "florist_rew_wild_flax": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "supplementaries:wild_flax",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 150
+        },
+        "florist_rew_elodea": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "aquamirae:elodea",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 70
+        },
+        "florist_rew_wisteria_niveis": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "aquamirae:wisteria_niveis",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 70
+        },
+        "florist_rew_oxygelium": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "aquamirae:oxygelium",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 70
+        },
+        "florist_rew_four_leaf_clover": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "buzzier_bees:four_leaf_clover",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 70
+        },
+        "florist_rew_flaming_coral": {
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Flaming Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"minecraft:horn_coral_block\"},{Count:64b,Slot:1b,id:\"upgrade_aquatic:finger_coral_block\"},{Count:64b,Slot:2b,id:\"minecraft:fire_coral_block\"},{Count:64b,Slot:3b,id:\"minecraft:horn_coral\"},{Count:64b,Slot:4b,id:\"upgrade_aquatic:finger_coral\"},{Count:64b,Slot:5b,id:\"minecraft:fire_coral\"},{Count:64b,Slot:6b,id:\"minecraft:horn_coral_fan\"},{Count:64b,Slot:7b,id:\"upgrade_aquatic:finger_coral_fan\"},{Count:64b,Slot:8b,id:\"minecraft:fire_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_earthy_coral": {
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Earthy Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"upgrade_aquatic:star_coral_block\"},{Count:64b,Slot:1b,id:\"upgrade_aquatic:moss_coral_block\"},{Count:64b,Slot:2b,id:\"upgrade_aquatic:rock_coral_block\"},{Count:64b,Slot:3b,id:\"upgrade_aquatic:star_coral\"},{Count:64b,Slot:4b,id:\"upgrade_aquatic:moss_coral\"},{Count:64b,Slot:5b,id:\"upgrade_aquatic:rock_coral\"},{Count:64b,Slot:6b,id:\"upgrade_aquatic:star_coral_fan\"},{Count:64b,Slot:7b,id:\"upgrade_aquatic:moss_coral_fan\"},{Count:64b,Slot:8b,id:\"upgrade_aquatic:rock_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_pearlsescent_coral": {
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Pearlescent Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"minecraft:brain_coral_block\"},{Count:64b,Slot:1b,id:\"minecraft:bubble_coral_block\"},{Count:64b,Slot:2b,id:\"upgrade_aquatic:silk_coral_block\"},{Count:64b,Slot:3b,id:\"minecraft:brain_coral\"},{Count:64b,Slot:4b,id:\"minecraft:bubble_coral\"},{Count:64b,Slot:5b,id:\"upgrade_aquatic:silk_coral\"},{Count:64b,Slot:6b,id:\"minecraft:brain_coral_fan\"},{Count:64b,Slot:7b,id:\"minecraft:bubble_coral_fan\"},{Count:64b,Slot:8b,id:\"upgrade_aquatic:silk_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_prismarine_coral": {
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Prismarine Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"upgrade_aquatic:prismarine_coral_block\"},{Count:64b,Slot:1b,id:\"upgrade_aquatic:prismarine_coral_shower\"},{Count:64b,Slot:2b,id:\"upgrade_aquatic:elder_prismarine_coral_block\"},{Count:64b,Slot:3b,id:\"upgrade_aquatic:prismarine_coral\"},{Count:64b,Slot:5b,id:\"upgrade_aquatic:elder_prismarine_coral\"},{Count:64b,Slot:6b,id:\"upgrade_aquatic:prismarine_coral_fan\"},{Count:64b,Slot:7b,id:\"upgrade_aquatic:elder_prismarine_coral_shower\"},{Count:64b,Slot:8b,id:\"upgrade_aquatic:elder_prismarine_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_aqua_coral": {
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Aqua Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"minecraft:tube_coral_block\"},{Count:64b,Slot:1b,id:\"upgrade_aquatic:acan_coral_block\"},{Count:64b,Slot:2b,id:\"upgrade_aquatic:petal_coral_block\"},{Count:64b,Slot:3b,id:\"minecraft:tube_coral\"},{Count:64b,Slot:4b,id:\"upgrade_aquatic:acan_coral\"},{Count:64b,Slot:5b,id:\"upgrade_aquatic:petal_coral\"},{Count:64b,Slot:6b,id:\"minecraft:tube_coral_fan\"},{Count:64b,Slot:7b,id:\"upgrade_aquatic:acan_coral_fan\"},{Count:64b,Slot:8b,id:\"upgrade_aquatic:petal_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_neutral_coral":{
+            "type": "minecraft:item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4320,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\":coral: Neutral Coral Sack :coral:\"}',Items:[{Count:64b,Slot:0b,id:\"upgrade_aquatic:branch_coral_block\"},{Count:64b,Slot:1b,id:\"upgrade_aquatic:pillow_coral_block\"},{Count:64b,Slot:2b,id:\"upgrade_aquatic:chrome_coral_block\"},{Count:64b,Slot:3b,id:\"upgrade_aquatic:branch_coral\"},{Count:64b,Slot:4b,id:\"upgrade_aquatic:pillow_coral\"},{Count:64b,Slot:5b,id:\"upgrade_aquatic:chrome_coral\"},{Count:64b,Slot:6b,id:\"upgrade_aquatic:branch_coral_fan\"},{Count:64b,Slot:7b,id:\"upgrade_aquatic:pillow_coral_fan\"},{Count:64b,Slot:8b,id:\"upgrade_aquatic:chrome_coral_fan\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        },
+        "florist_rew_beemonicas_blessing": {
+          "type": "minecraft:item",
+          "rarity": "LEGENDARY",
+          "repRequired": 25,
+          "content": "supplementaries:sack",
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 150,
+          "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"beachparty:honey_cocktail\"},{Count:1b,Slot:1b,id:\"oceansdelight:honey_fried_kelp\"},{Count:1b,Slot:2b,id:\"farmersdelight:honey_cookie\"},{Count:1b,Slot:3b,id:\"minecraft:bee_spawn_egg\"},{Count:1b,Slot:4b,id:\"luphieclutteredmod:luphie_bee_lamp\"},{Count:1b,Slot:5b,id:\"minecraft:bee_spawn_egg\"},{Count:1b,Slot:6b,id:\"minecraft:beehive\"},{Count:1b,Slot:7b,id:\"etched:etched_music_disc\",tag:{DiscColor:5329233,LabelColor:{Primary:16777215,Secondary:16777215},Music:{Author:\"AlmostFamous\",Title:'{\"text\":\"Santa Monica Theme\"}',Url:\"https://soundcloud.com/elbaynetastic/02-santa-monica-theme\"},Pattern:5b}},{Count:1b,Slot:8b,id:\"minecraft:beehive\"}]},RepairCost:0,display:{Name:'{\"text\":\":bee: Beemonica\\'s Blessing :bee:\"}'}}"
+        }
+
+	}
+
+}

@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 5,
+            "item": "society:sea_coin_fragments"
+        },
+        {
+            "count": 4,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 50,
+    "result": {
+        "item": "aquaculture:neptunium_nugget",
+        "count": 5
+    }
+}

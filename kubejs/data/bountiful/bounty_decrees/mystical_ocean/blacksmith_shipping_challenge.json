@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"blacksmith_objs_shipping",
+		"blacksmith_objs_shipping_bulk"
+	],
+	"rewards": ["_large_sea_coin_rews_challenge", "blacksmith_mastery"]
+}

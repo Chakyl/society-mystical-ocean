@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "aquaculturedelight:neptunium_knife"
+    },
+    "nutrientsCost": 200,
+    "processingTime": 1500,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "min": 3,
+                "max": 6
+            },
+            "item": "aquaculture:neptunium_nugget"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 15,
+                "min": 10
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

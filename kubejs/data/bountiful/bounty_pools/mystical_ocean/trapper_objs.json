@@ -1,0 +1,124 @@
+{
+    "content": {
+        "trapper_obj_kill_cow": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "content": "minecraft:cow",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 120,
+            "weightMult": 0.2
+        },
+        "trapper_obj_kill_sheep": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "content": "minecraft:sheep",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 140,
+            "weightMult": 0.2
+        },
+        "trapper_obj_kill_pig": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "content": "minecraft:pig",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 140,
+            "weightMult": 0.2
+        },
+        "trapper_obj_kill_chicken": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "content": "minecraft:chicken",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 100,
+            "weightMult": 0.2
+        },
+        "trapper_obj_breed_animals": {
+            "type": "criteria",
+            "content": "minecraft:bred_animals",
+            "name": "Breed animals",
+            "rarity": "UNCOMMON",
+            "conditions": {
+            },
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 170,
+            "weightMult": 0.5
+        },
+        "sifter_obj_kill_phantom": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:phantom",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 750,
+            "weightMult": 0.25
+        },
+        "trapper_obj_target_snowball": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "content": "minecraft:target_hit",
+            "name": "Get a bullseye with a snowball",
+            "conditions": {
+                "signal_strength": 13,
+                "projectile": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:snowball"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 350,
+            "timeMult": 2,
+            "weightMult": 0.5
+        },
+        "trapper_obj_target_arrow": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "content": "minecraft:target_hit",
+            "name": "Get a bullseye with an arrow",
+            "conditions": {
+                "signal_strength": 13,
+                "projectile": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:arrow"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "timeMult": 2,
+            "weightMult": 0.5
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "P": {
+      "item": "aquaculture:neptunium_pickaxe"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "WWP",
+    " CW",
+    "C W"
+  ],
+  "result": {
+    "item": "rehooked:wood_hook"
+  },
+  "show_notification": true
+}

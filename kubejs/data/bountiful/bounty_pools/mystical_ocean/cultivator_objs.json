@@ -1,0 +1,62 @@
+{
+    "content": {
+        "cultivator_obj_kill_skeleton": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:creeper",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 450,
+            "weightMult": 0.25
+        },
+        "cultivator_obj_chop_on_cutting_board": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Strip wood on farmer's delight cutting board",
+            "content": "farmersdelight:use_cutting_board",
+            "conditions": {},
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 25,
+            "timeMult": 2,
+            "weightMult": 0.5
+        },
+        "cultivator_obj_strip_logs": {
+            "type": "criteria",
+            "content": "minecraft:item_used_on_block",
+            "rarity": "UNCOMMON",
+            "name": "Strip logs in world",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "equipment": {
+                            "mainhand": {
+                                "tag": "minecraft:axes"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "tag": "society:raw_logs"
+                            }
+                        }
+                    }
+                ]
+            },
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 128,
+            "weightMult": 0.5
+        }
+    }
+}

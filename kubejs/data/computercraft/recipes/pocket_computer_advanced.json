@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "A": {
+      "item": "computercraft:computer_normal"
+    },
+    "G": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "pattern": [
+    "N#N",
+    "#A#",
+    "NGN"
+  ],
+  "result": {
+    "item": "computercraft:pocket_computer_advanced"
+  },
+  "show_notification": true
+}

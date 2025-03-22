@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "north": "society:block/industrial_brewer_front",
+    "east": "candlelight:block/kitchen_hardware/deepslate_stove_side",
+    "south": "candlelight:block/kitchen_hardware/deepslate_stove_side",
+    "west": "candlelight:block/kitchen_hardware/deepslate_stove_side",
+    "up": "candlelight:block/kitchen_hardware/deeplsate_stove_stove_top",
+    "down": "candlelight:block/kitchen_hardware/deeplsate_stove_stove_bottom"
+  }
+}

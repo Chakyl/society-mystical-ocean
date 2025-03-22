@@ -1,0 +1,14 @@
+{
+    "objectives": [
+        "blacksmith_objs_shipping",
+        "cultivator_objs_shipping",
+        "fisher_objs_shipping",
+        "florist_objs_shipping",
+        "gourmand_objs_shipping",
+        "plunderer_objs_shipping",
+        "shady_wizard_objs_shipping",
+        "sifter_objs_shipping",
+        "trapper_objs_shipping"
+    ],
+    "rewards": ["_sea_coin_rews"]
+}

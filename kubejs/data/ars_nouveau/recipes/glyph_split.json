@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:relay_splitter"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:wilden_spike"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stonecutter"
+      }
+    },
+    {
+      "item": {
+        "item": "aquaculture:neptunium_axe"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_split"
+}

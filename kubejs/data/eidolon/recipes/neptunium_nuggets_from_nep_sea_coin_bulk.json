@@ -1,0 +1,23 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "society:neptunium_sea_coin" },
+        { "item": "society:neptunium_sea_coin" },
+        { "item": "society:neptunium_sea_coin" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "aquaculture:neptunium_ingot"
+  }
+}

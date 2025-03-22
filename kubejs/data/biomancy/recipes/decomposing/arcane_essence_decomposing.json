@@ -1,0 +1,18 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 25,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+            },
+            "item": "biomancy:exotic_dust"
+        }
+    ]
+}

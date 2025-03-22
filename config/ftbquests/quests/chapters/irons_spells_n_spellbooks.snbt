@@ -1,0 +1,990 @@
+{
+	autofocus_id: "18EB31E93D18912A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_n_spellbooks"
+	group: "418DBFC9E9BCC496"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:blaze_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 10
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "37810CF5DAF1D628"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13F60607A50B0BB7"]
+			description: [
+				"&5Iron's Spells n' Spellbooks&r is spellcasting magic mod that gives you access to powerful combat abilities with pre-set spells."
+				""
+				"This is an &eearly-game&r mod, with the cheapest up-front cost. It's central benefit is &acombat ability&r, giving you better tools to deal with mobs in dungeons as well as some small utility spells. It stays relevant throughout the game with its strong scaling and grows as you do."
+				""
+				"It's ultimate item is the &dArcane Anvil&r, which allows you to increase the level of spells, and upgrade armors and spellbooks. "
+			]
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:blaze_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3BE707404026A814"
+			rewards: [
+				{
+					id: "3E6AF61211938645"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:chain_creeper"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					id: "628B27F2FDD86004"
+					table_id: 7009983316627978625L
+					type: "choice"
+				}
+			]
+			size: 1.5d
+			subtitle: "Wizard combatants"
+			tasks: [{
+				id: "40B206865A47E7A4"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Iron's Spells n' Spellbooks"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BE707404026A814"]
+			description: [
+				"Spellbooks are required for casting the spells in scrolls you may found around the ocean. "
+				""
+				"They have a curio slot, and can be selected/casted using hotkeys. Be sure there are no conflicts!"
+				""
+				"To add spells to your book, place it in your Inscription Table and add scrolls to the bottom slot."
+			]
+			id: "18EB31E93D18912A"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "21387AE96E1CB37B"
+				table_id: 685907194123919480L
+				type: "choice"
+			}]
+			subtitle: "Spellbook for suckhead"
+			tasks: [{
+				id: "6D04B4BFBFC3A102"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:copper_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 5
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:iron_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any beginner spellbook"
+				type: "item"
+			}]
+			title: "Your First Spellbook"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"18EB31E93D18912A"
+				"332F3104243831AB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The spells you find throughout the world may not be particularly useful or powerful."
+				""
+				"Scrolls can be crafted using &5Spell Ink&r found in the world using the Scroll Forge."
+				""
+				"The tier of ink determines the power, and the secondary material determines the type of magic."
+			]
+			id: "65D14DFF699A0DB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "56449961CD2993CF"
+				table_id: 2257541802771021939L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1949C967A7E458FD"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Crafting Scrolls"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65D14DFF699A0DB3"]
+			description: [
+				"The Arcane Anvil is the most powerful workstation in the mod allowing you to apply up to 10 upgrade orbs on your spellbook and armor. You can also increase the level (and consequently damage) of two equal scrolls up to the max. "
+				""
+				"It also allows you to imbue weapons and armor with spells, giving extra slots for spells. "
+			]
+			id: "53A0520F323BEBFF"
+			rewards: [{
+				id: "38619883E00FDF97"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&dUltimate Librarian&r"
+			tasks: [{
+				id: "7BDF8B6B12273DB8"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Magical Upgrader"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65D14DFF699A0DB3"]
+			description: [
+				"The Alchemist Caudlron can be used to recycle scrolls into ink, or upgrade the tier of a given ink."
+				""
+				"You can also brew potions simply, however this does not count towards brew bounties."
+			]
+			id: "267289B5DB4A300C"
+			rewards: [{
+				id: "38CC6D114A085F25"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "One of many cauldrons"
+			tasks: [{
+				id: "1EA36AA88EFA2FB9"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Recycling Scrolls"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18EB31E93D18912A"]
+			description: ["Finding catacombs may prove difficult in an endless ocean. Using the Wayward compass will simplify the process."]
+			id: "3E7253B826CEBED6"
+			rewards: [{
+				id: "05403F9DB55D8254"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49A340E1D53BAE93"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: {
+						isInInventory: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Locating Catacombs"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18EB31E93D18912A"
+				"332F3104243831AB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Higher tier spellbooks offer more spell slots."
+				""
+				"Some of them even provide bonuses to your attributes."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:gold_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0CC626B4B3F508B5"
+			rewards: [{
+				id: "2B2781D8DD5A2507"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2766243785C336FE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:diamond_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:gold_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 8
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any apprentice spellbook"
+				type: "item"
+			}]
+			title: "Apprentice Spell Books"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CC626B4B3F508B5"]
+			description: [
+				"Adavanced spellbooks are the most expensive to craft, and may require certain books looted from boats or ancient cities."
+				""
+				"By now your reptuation with the &5Shady Wizard&r may be high enough to acquire the materials cheaply, apart from the high &3Neptunium&r cost."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:netherite_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "4B5CBB3E0D36440F"
+			rewards: [{
+				id: "4736FC8CE8DAB1B7"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "605F2AE275AFC776"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:dragonskin_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:netherite_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:druidic_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any advanced spellbook"
+				type: "item"
+			}]
+			title: "Advanced Spell Books"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3E7253B826CEBED6"
+				"4B5CBB3E0D36440F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Uniqu spellbooks can be found from unique bosses. Searching for the catacombs where they live will let you hunt them down."]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+				tag: {
+					ISBEnhance: "irons_spellbooks:raise_dead"
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "26E0275003F9CC5C"
+			rewards: [{
+				id: "0F40968BA153C537"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76D3CA653FEA0988"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:evoker_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [
+											{
+												id: "irons_spellbooks:fang_strike"
+												index: 0
+												level: 6
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:fang_ward"
+												index: 1
+												level: 4
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:summon_vex"
+												index: 2
+												level: 4
+												locked: 1b
+											}
+										]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:necronomicon_spell_book"
+								tag: {
+									ISBEnhance: "irons_spellbooks:raise_dead"
+									ISB_Spells: {
+										data: [
+											{
+												id: "irons_spellbooks:blood_slash"
+												index: 0
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:blood_step"
+												index: 1
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:ray_of_siphoning"
+												index: 2
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:blaze_storm"
+												index: 3
+												level: 5
+												locked: 1b
+											}
+										]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any unique spellbook"
+				type: "item"
+			}]
+			title: "Unique Spell Books"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BE707404026A814"]
+			description: ["There are some spellbooks that can be found throughout the world, and cannot be crafted. They are the easiest way to start casting spells."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:villager_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "332F3104243831AB"
+			rewards: [{
+				id: "4E59AB16C211ED41"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4715B06EBDD5A053"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:rotten_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 8
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:villager_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blaze_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any discovered spellbook"
+				type: "item"
+			}]
+			title: "Looting Books"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65D14DFF699A0DB3"]
+			description: [
+				"You can find Spell Ink in loot chests, or overpay for them from a particular Wizard."
+				""
+				"Later on you'll be able to recycle scrolls into ink. Other types of magic may be able to craft it from simple materials."
+			]
+			icon: "irons_spellbooks:uncommon_ink"
+			id: "22A90A97F81BA561"
+			rewards: [{
+				id: "5294AAC06A132CA9"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C385EFD2F9C133"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:common_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:uncommon_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:rare_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:epic_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:legendary_ink"
+							}
+						]
+					}
+				}
+				title: "Any spell ink"
+				type: "item"
+			}]
+			title: "Finding Ink"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"18EB31E93D18912A"
+				"332F3104243831AB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Many items in this mod are crafted using arcane items found in loot chests around the world."
+				""
+				"Arcane Essence can be found commonly, even in vanilla chests."
+				""
+				"&oIt may be difficult to secure rarer materials. Maybe the &5Shady Wizard&r &ohas some for sale...&r"
+			]
+			id: "410787AA0C95BD9D"
+			rewards: [{
+				id: "3F8B2F3A4FAD57D0"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "314BEF2C10013326"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Looted Materials"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22A90A97F81BA561"]
+			description: ["&5Iron's Spells n' Spellbooks&r has 8 unique artifacts crafted using various magical items. Some crafting ingredients may require items upgraded using orbs in the Arcane Anvil."]
+			icon: "artifacts:crystal_heart"
+			id: "1F5747F5635FAE2E"
+			rewards: [{
+				id: "1EFB101223336A06"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "69B909EC907492B4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artifacts:universal_attractor"
+							}
+							{
+								Count: 1b
+								id: "artifacts:crystal_heart"
+							}
+							{
+								Count: 1b
+								id: "artifacts:running_shoes"
+							}
+							{
+								Count: 1b
+								id: "artifacts:whoopee_cushion"
+							}
+							{
+								Count: 1b
+								id: "artifacts:aqua_dashers"
+							}
+							{
+								Count: 1b
+								id: "artifacts:cloud_in_a_bottle"
+							}
+							{
+								Count: 1b
+								id: "artifacts:superstitious_hat"
+							}
+							{
+								Count: 1b
+								id: "artifacts:scarf_of_invisibility"
+							}
+						]
+					}
+				}
+				title: "Any Iron's Spells artifact"
+				type: "item"
+			}]
+			title: "Iron's Spells Artifacts"
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A0520F323BEBFF"]
+			description: [
+				"Dimensional dungeons provide endless loot, provided you have the keys."
+				""
+				"The Gatekeeper &5decree&r sells certain keys and Key Inscribing Stations. Most noteably, it sells Arcane Crypt keys at a reputation of 20 and above. These crypts have high value mage loot that will rapidly increase your abilities."
+				""
+				"To craft, you'll need to apply 3 Ender Upgrade Orbs to an Artificer's Cane. Some Eidolon and Dimensional Dungeons progress will also be required for crafting..."
+			]
+			icon: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"gatekeeper\"]}"
+				}
+			}
+			id: "3A3F822F4BA0C43E"
+			rewards: [{
+				command: "/dimdungeons givekey basic @p 6"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "dimdungeons:item_portal_key"
+					tag: {
+						built: 0b
+						dest_x: 115
+						dest_z: 0
+						dungeon_type: "BASIC"
+						key_activated: 1b
+						name_part_1: 6
+						name_part_2: 20
+						name_type: 2
+						theme: 6
+					}
+				}
+				id: "1E933557696D6D29"
+				title: "Arcane Crypt Key"
+				type: "command"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "54AA4953B954A663"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "319C325865203238"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+				{
+					id: "029019FE8AE40624"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gatekeeper\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Arcane Dekeys"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65D14DFF699A0DB3"]
+			description: [
+				"Certain ender spells require more delicate arcane materials, and cannot be crafted using the Scroll Forge. You'll need a Black Hole spell scroll at level 5 as a base."
+				""
+				"Alternatively, you can find them in loot chests."
+			]
+			id: "084C04726BBFBFAB"
+			rewards: [{
+				id: "7DE97870AA3FC38A"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57229DB6420CCF47"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:teleport"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "51F122298D7BBE4F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:recall"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "40B7A8A22BCD67FF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Ender Powered"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["410787AA0C95BD9D"]
+			description: [
+				"The Netherite Monstrosity commands a blacksmith in the nether. This eye can help you find it and defeat it."
+				""
+				"A full spellbook and armor is reccomended, especially fire resistant ones."
+				""
+				"The &3Neptunium&r it drops more than makes up for the challenge."
+			]
+			id: "794E68C29B122508"
+			rewards: [{
+				count: 4
+				id: "6697AF7809E4A6C8"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF4D097446143EC"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["410787AA0C95BD9D"]
+			description: [
+				"One of the few points of interest in the end is the Ruined Citadel, home to the Ender Guardian."
+				""
+				"It can be found using this eye, though it's one of the more difficult fights for a novice spellcaster."
+			]
+			id: "5D29644C8EF36BC1"
+			rewards: [{
+				count: 4
+				id: "215F6AA27C9F8942"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "169A63F572147344"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Early Game"]
+	title: "Iron's Spells"
+}

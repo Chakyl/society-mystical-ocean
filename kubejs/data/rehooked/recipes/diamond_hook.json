@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "rehooked:diamond_chain"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "H": {
+      "item": "rehooked:iron_hook"
+    },
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "pattern": [
+    "DDP",
+    " HD",
+    "C D"
+  ],
+  "result": {
+    "item": "rehooked:diamond_hook"
+  },
+  "show_notification": true
+}

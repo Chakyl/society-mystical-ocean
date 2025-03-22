@@ -1,0 +1,137 @@
+
+{
+	"content": {
+        "florist_obj_honey_bottle": {
+            "type": "item",
+            "content": "minecraft:honey_bottle",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 12
+        },
+        "florist_obj_honeycomb": {
+            "type": "item",
+            "content": "minecraft:honeycomb",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 10
+        },
+        "florist_obj_bonemeal": {
+            "type": "item",
+            "content": "minecraft:bone_meal",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 4
+        },
+        "florist_obj_honey_block": {
+            "type": "item",
+            "content": "minecraft:honey_block",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 55
+        },
+        "florist_obj_honeycomb_block": {
+            "type": "item",
+            "content": "minecraft:honeycomb_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 40
+        },
+        "florist_obj_flower_pot": {
+            "type": "item",
+            "content": "vinery:flower_pot_big",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 125
+        },
+        "florist_obj_beehive": {
+            "type": "item",
+            "content": "minecraft:beehive",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 50
+        },
+        "florist_obj_bee_bottle": {
+            "type": "item",
+            "content": "buzzier_bees:bee_bottle",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 165
+        },
+        "florist_obj_crystallized_honey_block": {
+            "type": "item",
+            "content": "buzzier_bees:crystallized_honey_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 85
+        },
+        "florist_obj_glowing_wine": {
+            "type": "item",
+            "content": "vinery:glowing_wine",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "florist_obj_torchflower_seeds": {
+            "type": "item",
+            "content": "minecraft:torchflower_seeds",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "florist_obj_pitcher_pod": {
+            "type": "item",
+            "content": "minecraft:pitcher_pod",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "florist_obj_neptunium_axe": {
+            "type": "item",
+            "content": "aquaculture:neptunium_axe",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 11250
+        }
+
+    }
+}

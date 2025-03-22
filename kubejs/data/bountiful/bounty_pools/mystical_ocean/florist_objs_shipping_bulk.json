@@ -1,0 +1,222 @@
+{
+    "content": {
+        "florist_obj_random_flower": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#society:florist_flowers",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "weightMult": 1.75,
+            "unitWorth": 30
+        },
+        "florist_obj_bone_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:bone_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 36
+        },
+        "florist_obj_poppy_bag": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "society:poppy_bag",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "florist_obj_dandelion_bag": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "society:dandelion_bag",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "florist_obj_white_tulip_bag": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "society:white_tulip_bag",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "florist_obj_orange_tulip_bag": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "society:orange_tulip_bag",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "florist_obj_pink_tulip_bag": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "society:pink_tulip_bag",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "florist_obj_allium_bag": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "society:allium_bag",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 370
+        },
+        "florist_obj_blue_orchid_bag": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "society:blue_orchid_bag",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 370
+        },
+        "florist_obj_honey_block_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:honey_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 64,
+                "max": 128
+            },
+            "unitWorth": 55
+        },
+        "florist_obj_honeycomb_block_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:honeycomb_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 64,
+                "max": 128
+            },
+            "unitWorth": 80
+        },
+        "florist_obj_beehive_bulk": {
+            "type": "item",
+            "content": "minecraft:beehive",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+        "florist_obj_random_flower_medium": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "content": "#society:florist_flowers",
+            "amount": {
+                "min": 128,
+                "max": 128
+            },
+            "unitWorth": 45
+        },
+        "florist_obj_oanna_bloom": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "eidolon:oanna_bloom",
+            "rarity": "RARE",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 120
+        },
+        "florist_obj_avennian_sprig": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "eidolon:avennian_sprig",
+            "rarity": "RARE",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 80
+        },
+        "florist_obj_merammer_root": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "eidolon:merammer_root",
+            "rarity": "RARE",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 80
+        },
+        "florist_obj_flower_pot": {
+            "type": "item",
+            "content": "vinery:flower_pot",
+            "weightMult": 1.5,
+            "rarity": "RARE",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 50
+        },
+        "florist_obj_crystallized_honey_block_bulk": {
+            "type": "item",
+            "content": "buzzier_bees:crystallized_honey_block",
+            "weightMult": 1.5,
+            "rarity": "RARE",
+            "amount": {
+                "min": 64,
+                "max": 128
+            },
+            "unitWorth": 85
+        },
+        "florist_obj_glowing_wine_bulk": {
+            "type": "item",
+            "content": "vinery:glowing_wine",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+        "florist_obj_bio_fertilizer": {
+            "type": "item",
+            "weightMult": 1,
+            "content": "biomancy:fertilizer",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 500
+        }
+    }
+}

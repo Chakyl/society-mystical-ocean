@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "item": "biomancy:fleshkin_chest"
+        },
+        {
+            "item": "dimdungeons:item_homeward_pearl"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "count": 45,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 4,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 300,
+    "result": {
+        "item": "dimdungeons:item_key_build"
+    }
+}

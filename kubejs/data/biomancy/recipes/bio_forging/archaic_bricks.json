@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 4,
+            "item": "embers:caminite_brick"
+        },
+        {
+            "count": 16,
+            "item": "minecraft:soul_sand"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:stone_powder"
+        }
+    ],
+    "nutrientsCost": 200,
+    "result": {
+        "count": 64,
+        "item": "embers:archaic_bricks"
+    }
+}

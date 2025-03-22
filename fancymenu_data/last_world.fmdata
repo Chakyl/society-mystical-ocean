@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Victor/curseforge/minecraft/Instances/society-mystical-ocean/saves/Tofupie (3)
+}
+

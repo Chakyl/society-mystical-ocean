@@ -1,0 +1,16 @@
+{
+    "type": "embers:stamping",
+    "fluid": {
+      "amount": 90,
+      "tag": "minecraft:water"
+    },
+    "input": {
+      "item": "minecraft:dirt"
+    },
+    "output": {
+      "item": "minecraft:mud"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

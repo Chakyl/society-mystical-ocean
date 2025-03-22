@@ -1,0 +1,10 @@
+{
+  "type": "embers:melting",
+  "input": {
+    "item": "aquaculture:neptunium_ingot"
+  },
+  "output": {
+    "amount": 90,
+    "fluid": "aquaculture:molten_neptunium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "aquaculture:red_grouper",
+      "required": false
+    },
+	{
+      "id": "aquaculture:tambaqui",
+      "required": false
+    },
+	{
+      "id": "aquaculture:muskellunge",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:wildsplash",
+      "required": false
+    }
+  ]
+}

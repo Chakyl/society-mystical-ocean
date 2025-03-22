@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 4,
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "count": 12,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 6,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 3,
+            "item": "aquaculture:neptunium_nugget"
+        }
+    ],
+    "nutrientsCost": 300,
+    "result": {
+        "count": 6,
+        "item": "irons_spellbooks:magic_cloth"
+    }
+}

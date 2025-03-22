@@ -1,0 +1,18 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "eidolon:magicians_wax"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:black_dye"
+        }
+    ],
+    "nutrientsCost": 10,
+    "result": {
+        "item": "etched:blank_music_disc"
+    }
+}

@@ -1,0 +1,251 @@
+{
+  "content": {
+    "professor_obj_flesh_bits": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:flesh_bits",
+      "amount": {
+        "min": 32,
+        "max": 512
+      },
+      "unitWorth": 20
+    },
+    "professor_obj_exotic_dust": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:exotic_dust",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 85
+    },
+    "professor_obj_living_flesh": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:living_flesh",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 300
+    },
+    "professor_obj_creator_mix": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:creator_mix",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 250
+    },
+    "professor_obj_packed_flesh": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:packed_flesh",
+      "amount": {
+        "min": 1,
+        "max": 128
+      },
+      "unitWorth": 150
+    },
+    "professor_obj_tube_flesh": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:tubular_flesh",
+      "amount": {
+        "min": 1,
+        "max": 128
+      },
+      "unitWorth": 150
+    },
+    "professor_obj_unstable_compound": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:unstable_compound",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 80
+    },
+    "professor_obj_acid_bucket": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:acid_bucket",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 800
+    },
+    "professor_obj_essence": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:essence",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 300
+    },
+    "professor_obj_mob_claw": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:mob_claw",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 190
+    },
+    "professor_obj_mob_fang": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "biomancy:mob_fang",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 170
+    },
+    "professor_obj_enlargement_serum": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:enlargement_serum",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 232
+    },
+    "professor_obj_ageing_serum": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:ageing_serum",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 240
+    },
+    "professor_obj_rejuvenation_serum": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:rejuvenation_serum",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 280
+    },
+    "professor_obj_melon_cocktail": {
+      "type": "item",
+      "content": "beachparty:melon_cocktail",
+      "rarity": "RARE",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 666
+    },
+    "professor_obj_maw_hopper": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:maw_hopper",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 400
+    },
+    "professor_obj_fleshkin_chest": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:fleshkin_chest",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 550
+    },
+    "professor_obj_malignant_flesh_veins": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:malignant_flesh_veins",
+      "amount": {
+        "min": 4,
+        "max": 128
+      },
+      "unitWorth": 120
+    },
+    "professor_obj_malignant_flesh_block": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "biomancy:malignant_flesh",
+      "amount": {
+        "min": 4,
+        "max": 64
+      },
+      "unitWorth": 160
+    },
+    "professor_obj_absorption_boost": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "biomancy:absorption_boost",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 716
+    },
+    "professor_obj_shrinking_serum": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "biomancy:shrinking_serum",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 508
+    },
+    "professor_obj_cleansing_serum": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "biomancy:cleansing_serum",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 604
+    },
+
+    "professor_obj_malignant_primal_permeable_membrane": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "biomancy:primal_permeable_membrane",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2500
+    },
+    "professor_obj_everlasting_beef": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "artifacts:everlasting_beef",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 150000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "artifacts:eternal_steak"
+        }
+      ]
+    }
+  }
+}

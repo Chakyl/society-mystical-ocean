@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "handcrafted:red_sheet"
+    }
+  },
+  "result": {
+    "item": "furniture:pouffe_red",
+    "count": 1
+  }
+}

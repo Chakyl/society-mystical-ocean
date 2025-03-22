@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "y": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "yyy",
+    "xxx"
+  ],
+  "result": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "show_notification": true
+}

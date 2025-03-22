@@ -1,0 +1,1368 @@
+{
+	autofocus_id: "23BA863938E8706C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers"
+	group: "418DBFC9E9BCC496"
+	hide_quest_until_deps_visible: true
+	icon: "embers:winding_gears"
+	id: "110B751A6C5C1AB1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"13F60607A50B0BB7"
+				"33BA2492E563356F"
+			]
+			description: [
+				"&5Embers&r is an dwarven magi-tech mod focused on metallurgy, energy, and alchemy."
+				""
+				""
+				"This is a &emid-game&r mod that requires high quantities of low-cost components. It primarily benefits &atools \\& metals&r, giving you acces to ore processing and modualar tool upgrades. It even allows greater &3Neptunium&r yields from sea coins."
+				""
+				"Its ultimate item is the &dDawnstone Anvil&r, which allows you to cheaply repair items, - a more-easily aquirable alternative to mending."
+			]
+			hide_until_deps_visible: false
+			icon: "embers:winding_gears"
+			id: "41588334F6DF5773"
+			rewards: [{
+				id: "2685D16A2ED98E9B"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Definitely a magic mod"
+			tasks: [
+				{
+					id: "0B957B418B94ADF5"
+					item: "embers:tinker_hammer"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "382DDACE366757E4"
+					item: "embers:caminite_blend"
+					type: "item"
+				}
+				{
+					id: "28584ED0441A231F"
+					item: "embers:mechanical_core"
+					type: "item"
+				}
+			]
+			title: "Embers"
+			x: -11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41588334F6DF5773"]
+			description: [
+				"Dig down to bedrock and place your Ember Bore right on it."
+				""
+				"A Mechanical Core placed on top will act as a storage interface for the bore."
+				""
+				"Furnace fuel needs to be hoppered/piped into the Mechanical Core, and an Item Extractor with a redstone signal will pull out Ember."
+			]
+			icon: "embers:ember_shard"
+			id: "1ABF735C18D5A03D"
+			rewards: [{
+				id: "70CCC064F29A7328"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47B1D0D342C39771"
+					item: "embers:ember_bore"
+					type: "item"
+				}
+				{
+					id: "2F35DBF22A74FEBF"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "27C92BDA717C426D"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "70909D851E4AF426"
+					item: "embers:ember_shard"
+					type: "item"
+				}
+			]
+			title: "Hot and Boring"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"41588334F6DF5773"
+				"1ABF735C18D5A03D"
+				"43E2BEE79E2BFC9B"
+			]
+			description: [
+				"Ember drilled up by your Bore can be turned into energy using the Ember Activator."
+				""
+				"Link the Ember Emitter and Ember Receptor using the Tinker's Hammer, and give a redstone signal to the Emitter to send power to a device."
+				""
+				"The Codex contains more information on transfering Ember power."
+			]
+			icon: "embers:ember_activator"
+			id: "267DFCD356110D13"
+			rewards: [{
+				id: "74D84BA9B6F7E581"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Generating Power"
+			tasks: [
+				{
+					id: "65DF39E00EBF0FA0"
+					item: "embers:ember_activator"
+					type: "item"
+				}
+				{
+					id: "76ED2BC5057ECB55"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "1C972292F8A1F658"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "Power Unrelenting"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["267DFCD356110D13"]
+			description: [
+				"Using your newfound electricity, you can melt down metals into their liquid form. "
+				""
+				"Pipe the liquid into the Stamper Base, and put the Stamper with the Stamp one block above to form the molten metal into solid."
+				""
+				"The Melter and Stamper both use power."
+				""
+				"&oYou can get greater &3Neptunium&r&o yields from &3Neptunium&r&o sea coins and tools by melting them down.&r"
+			]
+			icon: "embers:molten_iron_bucket"
+			id: "259664E2BB249014"
+			rewards: [{
+				id: "120A39235B8B4E3C"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62FE275681B72C9C"
+					item: "embers:melter"
+					type: "item"
+				}
+				{
+					id: "4AF0E6DC5112D1F4"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+				{
+					id: "6AC46EB0E917BDC7"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "31F22DEA83BD03BE"
+					item: "embers:ingot_stamp"
+					type: "item"
+				}
+			]
+			title: "Working With Molten Metals"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["259664E2BB249014"]
+			description: [
+				"Melt copper, gold, and &3Neptunium&r in their own seperate Melter, and then pipe them into a powered Mixing Centrifuge will make Molten Dawnstone."
+				""
+				"Stamp it into an ingot, powerful relics await."
+			]
+			icon: "embers:dawnstone_ingot"
+			id: "39E7A6CC38056620"
+			rewards: [{
+				id: "47B20123DD1AE00E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "441E6422776750DB"
+					item: "embers:mixer_centrifuge"
+					type: "item"
+				}
+				{
+					id: "669781EDCA9301A5"
+					item: "embers:dawnstone_ingot"
+					type: "item"
+				}
+			]
+			title: "Mixing Dawnstone"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39E7A6CC38056620"]
+			description: ["Some magical tools need power to run. This can be supplied using the Charger."]
+			id: "5F65FDAC98E98437"
+			rewards: [{
+				id: "1E35BD4C8FCF4101"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33B6ADAA3BEE1CF1"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			title: "Charging Gadgets"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: [
+				"Dawnstone and alchemy allow you to craft digital building tools that greately increase the speed of construction. "
+				""
+				"&lThey consume no power to use&r due to the inert properties of Dawnstone."
+			]
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_copy_paste"
+				tag: { }
+			}
+			id: "4B51F25612366B22"
+			rewards: [{
+				id: "5C730F6F807B6372"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59E97132AD57C47E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildinggadgets2:gadget_copy_paste"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets2:gadget_exchanging"
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets2:gadget_building"
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets2:gadget_cut_paste"
+									tag: {
+										pastereplace: 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets2:gadget_destruction"
+								}
+							]
+						}
+					}
+					title: "Any building gadget"
+					type: "item"
+				}
+				{
+					id: "6ED2794BD1ABE4BA"
+					item: "embers:intelligent_apparatus"
+					type: "item"
+				}
+			]
+			title: "Ember Gadgets"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F65FDAC98E98437"]
+			description: [
+				"Charging each item indivually is a drag. Mantels mitigate this problem by being a portable battery."
+				""
+				"Cartridges need to be held in offhand, while Jars only need to be in your inventory."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						"embers:ember": 0.0d
+						"embers:ember_capacity": 6000.0d
+					}
+				}
+				id: "embers:ember_cartridge"
+				tag: {
+					ForgeCaps: {
+						"embers:ember_capacity": 6000.0d
+					}
+				}
+			}
+			id: "5C93BD105568BDD4"
+			rewards: [{
+				id: "618CFF61C4FC567C"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F723F01DD132092"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										"embers:ember": 0.0d
+										"embers:ember_capacity": 6000.0d
+									}
+								}
+								id: "embers:ember_cartridge"
+								tag: {
+									ForgeCaps: {
+										"embers:ember_capacity": 6000.0d
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										"embers:ember": 0.0d
+										"embers:ember_capacity": 2000.0d
+									}
+								}
+								id: "embers:ember_jar"
+								tag: {
+									ForgeCaps: {
+										"embers:ember_capacity": 2000.0d
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Any mantle"
+				type: "item"
+			}]
+			title: "Carrying Power"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39E7A6CC38056620"]
+			description: [
+				"Ember tools and weapons make quick use of daily tasks at the cost of Ember power instead of durability."
+				""
+				"Some can even be enchanted!"
+			]
+			icon: "embers:cinder_staff"
+			id: "32C5DF893AFDCA22"
+			rewards: [{
+				count: 3
+				id: "4F9252B10C4A419C"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BDBB8EEF788E87F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "embers:clockwork_axe"
+							}
+							{
+								Count: 1b
+								id: "embers:blazing_ray"
+							}
+							{
+								Count: 1b
+								id: "embers:cinder_staff"
+							}
+							{
+								Count: 1b
+								id: "embers:grandhammer"
+								tag: {
+									didUse: 0b
+									poweredOn: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "embers:clockwork_pickaxe"
+								tag: {
+									didUse: 0b
+									poweredOn: 0b
+								}
+							}
+						]
+					}
+				}
+				title: "Any mechanical tool"
+				type: "item"
+			}]
+			title: "Mechanical Tools"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39E7A6CC38056620"]
+			description: [
+				"Alchemy is the late game method of crafting items in Embers."
+				""
+				"Point a powered Beam Cannon at an Exchange Tablet, and place 4 Alchemy Pedestals around it."
+				""
+				"The \"Transmutation\" chapter of your Codex will guide you through the Alchemy process."
+			]
+			icon: "embers:alchemy_tablet"
+			id: "23BA863938E8706C"
+			rewards: [{
+				id: "11A35333E564523F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "They made it not suck"
+			tasks: [
+				{
+					id: "353812CDC3B1C7BB"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "47CBF8470268D893"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "2BE72B80325DBFFD"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+			]
+			title: "Electric Alchemy"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: [
+				"Ember Crystal Clusters provide more power than the sum of its parts."
+				""
+				"More importantly, they're used in advanced crafts. "
+			]
+			id: "480ED569D70CC611"
+			rewards: [{
+				id: "3E74BB1C2D26A70D"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71C9F86D2CC0A0E5"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"23BA863938E8706C"
+				"480ED569D70CC611"
+				"13B9CB022CBA5C7C"
+			]
+			description: ["The Wildfire Core is the main gate towards the highest tier of machines, and does not come cheap."]
+			id: "5C59B953D689C07E"
+			rewards: [{
+				id: "3653D9ADA6245218"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BAF1EFFFE5B64BA"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C59B953D689C07E"]
+			description: [
+				"The Dawnstone Hammer is the ultimate workstation of Embers, allowing you to add augments to tools and armor, and repair them without the need for experience."
+				""
+				"You'll need a Tinker's or Automatic Hammer to work the anvil."
+			]
+			id: "370C30A3B7064E52"
+			rewards: [{
+				id: "051FBAAC2155323D"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&dUltimate Dwarf&r"
+			tasks: [{
+				id: "5C6BFD5D9552A1DD"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["370C30A3B7064E52"]
+			description: [
+				"Isolated Materia can be used on the Dawnstone Anvil to repair tools without their needed item."
+				""
+				"It's the cheapest way to repair tools, though slightly less convenient than the rare Mending."
+			]
+			id: "14567EFFE6B0B712"
+			rewards: [{
+				id: "5E2921BA580D1CEA"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D142877A0042272"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			title: "Mending Material"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: [
+				"Instead of keeping track of your failed alchemy attempts manually, make a Codebreaker."
+				""
+				"Placing Alchemical Waste in each of the left slots will tell you information about the attempt."
+			]
+			id: "6F19E0E19922CAFB"
+			rewards: [{
+				id: "78D98A7D18B0E21A"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E297234E5E73F0"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: [
+				"Ancient Golems can only be found in Dimensional Dungeons."
+				""
+				"If you don't want to bother through that, their cores can be made using alchemy."
+			]
+			id: "13B9CB022CBA5C7C"
+			rewards: [{
+				id: "5E9BE4E3CA14ED24"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "681E7F3178E54D96"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			title: "Grab Their Core"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C59B953D689C07E"]
+			description: [
+				"Placing a seed above an Ember Injector supplied with power will let it generate nuggets of that seed's type."
+				""
+				"The seed will gain strength with use, and is a way to gain infinite metal."
+			]
+			icon: "embers:lead_crystal_seed"
+			id: "7BD79BFCACC31A67"
+			rewards: [{
+				id: "50CDEEC85436ECF0"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Farming nuggets"
+			tasks: [
+				{
+					id: "655E3ACB1074F660"
+					item: "embers:ember_injector"
+					type: "item"
+				}
+				{
+					id: "367E8D8D3802C569"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "embers:crystal_seeds"
+						}
+					}
+					title: "Any #embers:crystal_seeds"
+					type: "item"
+				}
+			]
+			title: "Productive Seeds"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5C59B953D689C07E"
+				"370C30A3B7064E52"
+			]
+			description: [
+				"Combining a tool and an Ancient Motive Core on a Dawnstone Anvil to allow it to store heat."
+				""
+				"With normal use, it will gain heat. Once it reaches maximum heat you'll be able to use the Inferno Forge to add augment slots."
+			]
+			id: "4748EDA4FAB76E09"
+			rewards: [{
+				id: "2967A7AB7B549B84"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Hottest of tools"
+			tasks: [{
+				id: "6C2072264BD67B19"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["267DFCD356110D13"]
+			description: ["The Tinker's Lense will give you inforamtion on what you're machines are doing."]
+			id: "3924BCE419786970"
+			rewards: [{
+				id: "6CD22DF427654509"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: ":beetle: Magic Debugging"
+			tasks: [{
+				id: "4D51BB901F876E38"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			title: "What's Going On?"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: ["&5Embers&r has 8 unique artifacts crafted using the alchemical process and items from it."]
+			icon: "artifacts:snorkel"
+			id: "3878FC57C9A7D92C"
+			rewards: [{
+				id: "415CC4F497021034"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "59A843CAAFD8FA42"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artifacts:pocket_piston"
+							}
+							{
+								Count: 1b
+								id: "artifacts:snowshoes"
+							}
+							{
+								Count: 1b
+								id: "artifacts:flame_pendant"
+							}
+							{
+								Count: 1b
+								id: "artifacts:fire_gauntlet"
+							}
+							{
+								Count: 1b
+								id: "artifacts:obsidian_skull"
+							}
+							{
+								Count: 1b
+								id: "artifacts:pickaxe_heater"
+							}
+							{
+								Count: 1b
+								id: "artifacts:power_glove"
+							}
+							{
+								Count: 1b
+								id: "artifacts:snorkel"
+							}
+						]
+					}
+				}
+				title: "Any Embers artifact"
+				type: "item"
+			}]
+			title: "Ember Artifacts"
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5C59B953D689C07E"]
+			description: [
+				"A Mini Boiler can be used to produce Steam, which can then be turned into Dwarven Oil and ultimately boiled again into Dwarven Gas."
+				""
+				"It's a complex chain, but Dwarven Gas can substitute gold in Dawnstone mixing. It makes triple the Dawnstone from the same amount of &3Neptunium&r!"
+			]
+			id: "7670F10E7CE09560"
+			rewards: [{
+				id: "391A7A77DD89B928"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1FE4442FDB0EEE27"
+				item: "embers:mini_boiler"
+				type: "item"
+			}]
+			title: "Tripling Dawnstone"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23BA863938E8706C"]
+			description: [
+				"Extractors get the job done for simple tasks, but sometimes you need more fine-grained control."
+				""
+				"Translocators are versatile devices that can move items and fluids from two inventories in a one-block gap between each of them. "
+				""
+				"Ponder the item using &6W&r for more detailed information."
+			]
+			id: "2C57C64FFE966FB7"
+			rewards: [{
+				id: "7E741C8EAF14DA7C"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Filtered extract and regulation!"
+			tasks: [
+				{
+					id: "2B8208EA7253239B"
+					item: "translocators:item_translocator"
+					type: "item"
+				}
+				{
+					id: "385B5CCFAD5AB207"
+					item: "translocators:fluid_translocator"
+					type: "item"
+				}
+			]
+			title: "Advanced Extraction"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4101920D504A9F77"]
+			description: [
+				"To harness the moon, you must first find a meteor fallen from it."
+				""
+				"The Aetheriometer will detect traces of Aetherium-Infused Suevite buried underground."
+				""
+				"It seems as though the meteors fallen in the ocean were already plundered. Maybe looting those large ships prowling the waters will yield some..."
+			]
+			icon: "aetherworks:aether_shard"
+			id: "5249D1BF52B5AB58"
+			rewards: [{
+				id: "40C070B1D7927676"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "235AD0CFC4C1E987"
+					item: "aetherworks:aetheriometer"
+					type: "item"
+				}
+				{
+					id: "3A6C5973932E65A8"
+					item: "aetherworks:aether_shard"
+					type: "item"
+				}
+			]
+			title: "Aetheric Materia"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5249D1BF52B5AB58"]
+			description: [
+				"The Refraction Prism collects moonlight, which can be used to form Aetherium Shards by hand."
+				""
+				"It requires a structure with 4 Moonlight Amplifiers pointed at it, ponder the Refraction Prism block with &6W&r to see how it's built."
+				""
+				"Assuming you've done the alchemy perfectly, you'll need 60 Aetherium Shards."
+			]
+			icon: "aetherworks:prism"
+			id: "015177C9D68FA426"
+			rewards: [{
+				count: 3
+				id: "1B81F9426C3CD3A7"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D373D8D517FC185"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4136B692CD0C975D"
+					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					type: "item"
+				}
+			]
+			title: "Collecting Moonlight"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4101920D504A9F77"]
+			description: [
+				"The Aetherium Forge is a multiblock structure that can be heated up to support various crafting stations."
+				""
+				"The crafting stations can be placed on any of the base blocks, and heating and cooling can be fed in through the sides."
+			]
+			icon: "aetherworks:aether_forge"
+			id: "096EEFECDF1FCDED"
+			rewards: [{
+				id: "608DBD152360612B"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4189C2C528BEF032"
+				item: "aetherworks:aether_forge"
+				type: "item"
+			}]
+			title: "Hot Stuff II"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"096EEFECDF1FCDED"
+				"015177C9D68FA426"
+			]
+			description: [
+				"Once you have Aetherium Aerosol being produced, it can be used to form Aetherium Plates, Ingots, and Gems."
+				""
+				"It needs to be placed on top of an Aetherium Forge. Different recipes have different temperature requirements for the Forge to craft."
+			]
+			id: "3786F10C09E9676E"
+			rewards: [{
+				id: "4603C43192A290F1"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679AA8A71814CEDD"
+				item: "aetherworks:forge_metal_former"
+				type: "item"
+			}]
+			title: "Forming Aetherium Metals"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C59B953D689C07E"]
+			description: [
+				"Aetherworks is an addon for Embers that harnesses the power of Ember and the moon to craft powerful tools and weapons."
+				""
+				"You'll need the elusive &5Aetherium Crown&r to complete the pack."
+			]
+			icon: "aetherworks:aspectus_aetherium"
+			id: "4101920D504A9F77"
+			tasks: [{
+				id: "01E21CD769C4C8C1"
+				title: "Aetherworks"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"096EEFECDF1FCDED"
+				"3786F10C09E9676E"
+			]
+			description: [
+				"To craft tools, the crude base parts must be worked on the Aetherium Anvil."
+				""
+				"Placed on top of the Aetherium Forge, it has heat requirements in order to operate like the other workstations."
+				""
+				"Use your Tinker's Hammer the required amount of times when the exclamation mark above the Anvil is green to complete the craft."
+				""
+				"Geodes dug up from a tool with the Tuning Cylinder augment can also be broken into various items on the Anvil, including Sea Coins."
+			]
+			id: "3A61DFD7A1DD87A4"
+			rewards: [{
+				id: "56256F8E6883B7F1"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E76C18EAB6B178A"
+				item: "aetherworks:forge_anvil"
+				type: "item"
+			}]
+			title: "Tools and Sea Coins!"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"096EEFECDF1FCDED"
+				"3A61DFD7A1DD87A4"
+			]
+			description: [
+				"The Tool Forge takes all the various Aetherium tool parts and combines them into a complete tool."
+				""
+				"Placed it on top of the Aetherium Forge, and make sure its temperature is in the required range for the duration of the craft."
+				""
+				"Use your Tinker's Hammer the required amount of times on the Tool Forge to complete the craft."
+			]
+			id: "7610EB8A9E7CDBE1"
+			rewards: [{
+				id: "36506C6CD429FDD1"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C2511C21F92310"
+				item: "aetherworks:forge_tool_station"
+				type: "item"
+			}]
+			title: "Forging Tools"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"015177C9D68FA426"
+				"3786F10C09E9676E"
+			]
+			description: ["To craft more Aetherium Shards with the Impure Sluge you're havesting, a &3Neptunium-like&r powder formed using alchemy is required."]
+			icon: "society:aquamagical_dust"
+			id: "6316984C314B2668"
+			rewards: [{
+				count: 3
+				id: "0E92AD374FFBB9C6"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58D5C48EAE5D26BF"
+					item: "society:aquamagical_dust"
+					type: "item"
+				}
+				{
+					id: "0E22AD924A9317A4"
+					item: "aetherworks:aspectus_aetherium"
+					type: "item"
+				}
+			]
+			title: "Aquamagical Alchemy"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A61DFD7A1DD87A4"]
+			description: [
+				"The Aetherium Crown holds the intense power of the moon, capable of applying potion effects to yourself or hostile mobs depending on the mode."
+				""
+				"You'll need to craft one to finish the pack."
+			]
+			icon: {
+				Count: 1
+				id: "aetherworks:aether_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40A1CE8176386DF0"
+			rewards: [{
+				id: "2B4C96BF6ED46246"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5887072A87F87AA8"
+					item: "aetherworks:aether_pearl"
+					type: "item"
+				}
+				{
+					id: "2D86EE11A73740BE"
+					item: {
+						Count: 1
+						id: "aetherworks:aether_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Crown Jewels"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["096EEFECDF1FCDED"]
+			description: ["Heating and cooling for the Aetherium Forge can only be provided from external sources. It is a delicate balance, as the Forge will explode if it runs too hot for too long."]
+			icon: "aetherworks:forge_heater"
+			id: "7F83765AF061136D"
+			rewards: [{
+				id: "20AF8069882DB92E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C3C9889B9B7239A"
+					item: "aetherworks:forge_heater"
+					type: "item"
+				}
+				{
+					id: "2AFD946223EBBBE2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aetherworks:forge_vent"
+								}
+								{
+									Count: 1b
+									id: "aetherworks:forge_cooler"
+								}
+							]
+						}
+					}
+					title: "Any cooling block"
+					type: "item"
+				}
+				{
+					id: "2A553D2DF68A5A3B"
+					item: "aetherworks:heat_dial"
+					type: "item"
+				}
+			]
+			title: "Managing Heat"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39E7A6CC38056620"]
+			description: [
+				"Brewing alcohol is the specialty of dwarves, and Dawnstone is the perfect conduit for crafting the machinary to do it."
+				""
+				"Three seperate multiblocks can be built to automate the otherwise manual process of brewing beer and whisky."
+				""
+				"Grapes can be juiced using a Melter, for those that love wine."
+				""
+				"&oMaybe there's a Decree that can provide profit from drinks...&r"
+			]
+			icon: "brewery:beer_mug"
+			id: "1B7DA045D1D67168"
+			tasks: [{
+				id: "29D2F268D746566A"
+				type: "checkmark"
+			}]
+			title: "Automatic Brewing"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B7DA045D1D67168"]
+			description: [
+				"Bottling drinks is a delicate process, so to avoid doing it by hand special machinery is required."
+				""
+				"The Bottler can be used to bottle drinks, or bucket any fluids."
+				""
+				"Ponder the Bottler block with &6W&r to see how it's built."
+			]
+			icon: "society:bottler"
+			id: "01677565C93996DF"
+			rewards: [{
+				count: 3
+				id: "2CE4FBF6B6C5E09E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "society:bottler"
+					id: "5477C8D43053D5D0"
+					item: "society:bottler"
+					type: "item"
+				}
+				{
+					id: "080E47477F6A8A96"
+					item: "littlelogistics:fluid_hopper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C01A400B994B379"
+					item: { Count: 2, id: "embers:sealed_wood_keg" }
+					type: "item"
+				}
+				{
+					id: "6623B4DBB80403FD"
+					item: "embers:fluid_vessel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2F88C516FB6F4AE3"
+					item: { Count: 2, id: "embers:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "7B3A8424B8D253F0"
+					item: "aetherworks:forge_metal_former"
+					type: "item"
+				}
+			]
+			title: "Bottler"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7DA045D1D67168"]
+			description: [
+				"Dried crops are a key resource in the brewing process. A Block of Dawnstone happens give off the perfect amount of heat."
+				""
+				"Ponder the Dehydrator block with &6W&r to see how it's built."
+			]
+			icon: "society:dehydrator"
+			id: "62E2958CE1C5947B"
+			rewards: [{
+				count: 3
+				id: "11ACC4C6DB64ADAA"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F82EE33DEC544CA"
+					item: "society:dehydrator"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D46F6A72FF9CBC2"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "1B57E5E000F908B3"
+					item: "embers:dawnstone_block"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "71C9320138ABA653"
+					item: { Count: 27, id: "brewery:silo_copper" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7DA045D1D67168"]
+			description: [
+				"Distilling and brewing crops into their fluids can be done much easier and faster using dwarven technology."
+				""
+				"A constant supply of water will be needed to brew."
+				""
+				"Ponder the Industrial Brewer block with &6W&r to see how it's built."
+			]
+			icon: "society:industrial_brewer"
+			id: "7F02CC2356B85411"
+			rewards: [{
+				count: 3
+				id: "3EE7A58DFA38AF5F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A11192C5FC4D791"
+					item: "society:industrial_brewer"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "2B5170C645D92B73"
+					item: "candlelight:deepslate_counter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "107AD97DDCEB1707"
+					item: "bakery:deepslate_stove"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "15497A6DD814672B"
+					item: { Count: 2, id: "handcrafted:kitchen_hood" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5037C409D107FB7F"
+					item: { Count: 4, id: "handcrafted:kitchen_hood_pipe" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "77503610B90773E3"
+					item: { Count: 2, id: "embers:fluid_vessel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3E9AA99C99E4C5F1"
+					item: { Count: 3, id: "embers:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "1D110E2D86F1B807"
+					item: "brewery:barrel_main"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41588334F6DF5773"]
+			description: [
+				"Almost every functional block in Embers and Aetherworks has a ponder- a visual tutorial with text that can be more clear than the Codex."
+				""
+				"Hold &6W&r on an item to ponder it."
+			]
+			icon: {
+				Count: 1
+				id: "embers:ashen_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43E2BEE79E2BFC9B"
+			subtitle: "Hold [&6W&r] to ponder"
+			tasks: [{
+				id: "0F4800200A2E6BA1"
+				title: "Advanced Information"
+				type: "checkmark"
+			}]
+			title: "Visual Tutorials"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["480ED569D70CC611"]
+			description: [
+				"The Harbinger lurks in an ancient factory, and this eye will help you locate it. A Nether Star is required to activate the Harbinger."
+				""
+				"It's an ancient aquamagical weapon running off pure &3Neptunium&r that will require high amounts of preperation to defeat."
+				""
+				"You can scavange powerful long range weaponry as well as a sizeable &3Neptunium&r from it."
+			]
+			id: "4B4ADCCAD70404FB"
+			rewards: [{
+				count: 4
+				id: "5F802F059204C983"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C7DA252D041D41C"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13B9CB022CBA5C7C"]
+			description: [
+				"Ignis is one of the most powerful beings alive, and taking it down will prove both challenging and rewarding."
+				""
+				"The Burning Arena can be found in the Nether using this eye. But you better be prepared..."
+			]
+			id: "78E7048BC9012C93"
+			rewards: [{
+				count: 4
+				id: "6E67FEA9CF93B0A0"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EC5AFAD641B9ADF"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+	]
+	subtitle: ["Mid Game"]
+	title: "Embers"
+}

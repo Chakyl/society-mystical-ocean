@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "starbunclemania:fluid_jar"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:hopper"
+      }
+    }
+  ],
+  "output": "starbunclemania:glyph_pickup_fluid"
+}

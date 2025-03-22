@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "upgrade_aquatic:thrasher_tooth"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:fish_bones"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    }
+  ]
+}

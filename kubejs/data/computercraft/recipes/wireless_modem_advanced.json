@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "W": {
+      "item": "computercraft:wireless_modem_normal"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "E": {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    }
+  },
+  "pattern": [
+    "EnE",
+    "nWn",
+    "EnE"
+  ],
+  "result": {
+    "count": 2,
+    "item": "computercraft:wireless_modem_advanced"
+  },
+  "show_notification": true
+}

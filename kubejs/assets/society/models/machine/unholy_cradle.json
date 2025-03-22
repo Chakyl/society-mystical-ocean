@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "biomancy:block/packed_flesh",
+    "east": "biomancy:block/packed_flesh",
+    "north": "society:block/unholy_cradle_front",
+    "particle": "biomancy:block/packed_flesh",
+    "south": "biomancy:block/packed_flesh",
+    "up": "biomancy:block/packed_flesh",
+    "west": "biomancy:block/packed_flesh"
+  }
+}

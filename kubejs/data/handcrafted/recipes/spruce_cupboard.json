@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    },
+    "/": {
+      "tag": "handcrafted:chests"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "n/n",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "item": "handcrafted:spruce_cupboard"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "nrn",
+    "eve",
+    "nrn"
+  ],
+  "reagents": "gghg",
+  "key": {
+    "e": {
+    	"item": "irons_spellbooks:greater_evasion_elixir"
+    },
+    "r": {
+    	"item": "eidolon:raven_feather"
+    },
+    "v": {
+    	"item": "eidolon:void_amulet"
+    },
+    "n": {
+    	"item": "aquaculture:neptunium_ingot"
+    },
+    "h": {
+    	"item": "eidolon:holy_symbol"
+    },
+    "g": {
+    	"item": "society:gold_sea_coin"
+    }
+    
+  },
+  "result": {
+    "item": "artifacts:cross_necklace"
+  }
+}

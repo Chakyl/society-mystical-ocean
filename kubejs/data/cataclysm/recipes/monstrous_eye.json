@@ -1,0 +1,32 @@
+{
+    "type": "eidolon:worktable",
+    "pattern": ["ANA", "GEG", "AOA"],
+    "reagents": "uc c",
+    "key": {
+      "O": {
+        "item": "eidolon:arcane_gold_ingot"
+      },
+      "N": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "A": {
+        "item": "eidolon:soul_shard"
+      },
+      "G": {
+        "item": "minecraft:blackstone"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      },
+      "u": {
+        "tag": "eidolon:patron_symbol"
+      },
+      "c": {
+        "item": "eidolon:crimson_gem"
+      }
+    },
+    "result": {
+      "item": "cataclysm:monstrous_eye"
+    }
+  }
+  

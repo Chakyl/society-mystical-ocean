@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "ars_nouveau:archwood_planks"
+    },
+    "y": {
+      "item": "minecraft:gold_nugget"
+    },
+    "z": {
+      "tag": "forge:chests"
+    }
+  },
+  "pattern": [
+    "yxy",
+    "xzx",
+    "yxy"
+  ],
+  "result": {
+    "item": "ars_nouveau:archwood_chest"
+  },
+  "show_notification": true
+}

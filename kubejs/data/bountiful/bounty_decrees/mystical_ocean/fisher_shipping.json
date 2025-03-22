@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"fisher_objs_shipping",
+		"fisher_objs_shipping_bulk"
+	],
+	"rewards": ["_large_sea_coin_rews", "fisher_mastery"]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GNG",
+    "ICI",
+    "IBI"
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "G": {
+      "tag": "aquaculture:tackle_box_green"
+    }
+  },
+  "result": {
+    "item": "aquaculture:tackle_box"
+  }
+}

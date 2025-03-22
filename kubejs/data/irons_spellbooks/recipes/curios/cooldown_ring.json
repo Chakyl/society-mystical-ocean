@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "tag": "forge:ingots/copper"
+    },
+    "X": {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "pattern": [
+    "nMn",
+    "MXM",
+    "nMn"
+  ],
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:cooldown_ring"
+  }
+}

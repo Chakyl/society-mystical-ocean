@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "item": "society:sea_coin_fragments"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "result": "aquaculture:neptunium_nugget"
+}

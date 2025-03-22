@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DnD",
+    "nWn",
+    "DnD"
+  ],
+  "key": {
+    "D": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "W": {
+      "tag": "irons_spellbooks:arcane_ingot_base"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:arcane_ingot",
+    "count": 4
+  }
+}

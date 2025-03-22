@@ -1,0 +1,25 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "item": "embers:ancient_motive_core"
+    },
+    {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  ],
+  "output": {
+    "item": "artifacts:fire_gauntlet"
+  },
+  "tablet": {
+    "item": "irons_spellbooks:fire_upgrade_orb"
+  }
+}

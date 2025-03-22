@@ -1,0 +1,10 @@
+{
+    "type": "embers:melting",
+    "input": {
+      "tag": "society:neptunium_tools"
+    },
+    "output": {
+      "amount": 90,
+      "fluid": "aquaculture:molten_neptunium"
+    }
+  }

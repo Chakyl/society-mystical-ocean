@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "society:aquamagical_dust"
+  },
+  "pedestalItems": [
+    {
+      "item": "society:iron_sea_coin"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "tag": "minecraft:fishes"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "sourceCost": 200
+}

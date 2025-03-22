@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:upgrade_base"
+    }
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "I": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "pattern": [
+    "PIP",
+    "IPI",
+    "PIP"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:upgrade_base"
+  }
+}

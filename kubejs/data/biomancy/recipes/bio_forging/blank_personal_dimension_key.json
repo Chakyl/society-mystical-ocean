@@ -1,0 +1,29 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "item": "biomancy:primordial_cradle"
+        },
+        {
+            "count": 1,
+            "item": "dimdungeons:item_homeward_pearl"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "count": 32,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_block"
+        }
+    ],
+    "nutrientsCost": 590,
+    "result": {
+        "item": "dimdungeons:item_blank_build_key"
+    }
+}

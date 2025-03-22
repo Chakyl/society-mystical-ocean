@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "ars_nouveau:magebloom"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 3,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_nugget"
+        }
+    ],
+    "nutrientsCost": 50,
+    "result": {
+        "count": 4,
+        "item": "ars_nouveau:magebloom_fiber"
+    }
+}

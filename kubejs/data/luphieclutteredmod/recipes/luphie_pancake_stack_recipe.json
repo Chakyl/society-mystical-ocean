@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "1",
+    "1",
+    "2"
+  ],
+  "key": {
+    "1": {
+      "item": "supplementaries:pancake"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_empty_plate"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pancake_stack",
+    "count": 1
+  }
+}

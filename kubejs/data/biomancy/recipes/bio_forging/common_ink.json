@@ -1,0 +1,21 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "eidolon:magic_ink"
+        },
+        {
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 2,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 200,
+    "result": {
+        "item": "irons_spellbooks:common_ink",
+        "count": 4
+    }
+}

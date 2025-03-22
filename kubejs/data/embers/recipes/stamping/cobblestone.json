@@ -1,0 +1,13 @@
+{
+    "type": "embers:stamping",
+    "input": {
+      "item": "biomancy:mineral_fragment"
+    },
+    "output": {
+      "count": 4,
+      "item": "minecraft:cobblestone"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

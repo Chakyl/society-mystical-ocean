@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "society:iron_sea_coin"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 4
+    }
+  ]
+}

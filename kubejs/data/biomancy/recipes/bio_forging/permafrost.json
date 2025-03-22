@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 32,
+            "item": "minecraft:ice"
+        },
+        {
+            "count": 64,
+            "item": "biomancy:mineral_fragment"
+        }
+    ],
+    "nutrientsCost": 45,
+    "result": {
+        "count": 64,
+        "item": "quark:permafrost"
+    }
+}

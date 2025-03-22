@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"sifter_objs_shipping_bulk",
+		"sifter_objs_shipping"
+	],
+	"rewards": ["_extra_large_sea_coin_rews"]
+}

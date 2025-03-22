@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "aquaculture:neptunium_nugget"
+  },
+  "output": "ars_nouveau:water_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "aquaculture:neptuna"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:kelp"
+      }
+    }
+  ],
+  "source": 2000
+}

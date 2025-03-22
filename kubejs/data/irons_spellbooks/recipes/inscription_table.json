@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    "NTN",
+    "L L"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "T": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "L": {
+      "tag": "minecraft:wooden_fences"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:inscription_table",
+    "count": 1
+  }
+}

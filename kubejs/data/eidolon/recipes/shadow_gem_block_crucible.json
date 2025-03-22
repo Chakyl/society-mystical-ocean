@@ -1,0 +1,56 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:coal_block" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "minecraft:ghast_tear" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "eidolon:lesser_soul_gem" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" },
+        { "item": "eidolon:death_essence" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "aquaculture:neptunium_block" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:shadow_gem_block"
+  }
+}

@@ -1,0 +1,101 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:nether_brick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:soul_sand"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "netherdepthsupgrade:warped_kelp"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "netherdepthsupgrade:crimson_kelp"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "netherdepthsupgrade:warped_seagrass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "netherdepthsupgrade:crimson_seagrass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "nethersdelight:propelpearl"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "nethersdelight:hoglin_loin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:nether_wart"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:ghast_tear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:obsidian"
+          },     
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "netherdepthsupgrade:fortress_grouper_plate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_pearl"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "nethersdelight:hoglin_hide"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "netherdepthsupgrade:eyeball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "netherdepthsupgrade:lava_sponge"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_pearl"
+          }
+        ]
+      }
+    ]
+  }

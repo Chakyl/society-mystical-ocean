@@ -1,0 +1,14 @@
+{
+  "type": "beachparty:tiki_bar_mixing",
+  "ingredients": [
+    {
+      "item": "beachparty:sweetberry_icecream"
+    },
+    {
+      "tag": "candlelight:milk"
+    }
+  ],
+  "result": {
+    "item": "beachparty:sweetberry_milkshake"
+  }
+}

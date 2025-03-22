@@ -1,0 +1,37 @@
+{
+  "branch": "minecolonies:technology",
+  "effects": [
+    {
+      "minecolonies:effects/blockhutsifter": 1
+    }
+  ],
+  "icon": "minecolonies:blockhutsifter",
+  "parentResearch": "minecolonies:technology/woodwork",
+  "requirements": [
+    {
+      "building": "fisherman",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:item_list",
+      "item": {
+        "items": [
+          "society:sifter_mastery"
+        ]
+      },
+      "quantity": 1
+    },
+    {
+      "type": "minecolonies:item_list",
+      "item": {
+        "items": [
+          "aquaculture:neptunium_ingot"
+        ]
+      },
+      "quantity": 8
+    }
+  ],
+  "researchLevel": 2,
+  "sortOrder": 2,
+  "subtitle": "com.minecolonies.research.technology.sieving.subtitle"
+}

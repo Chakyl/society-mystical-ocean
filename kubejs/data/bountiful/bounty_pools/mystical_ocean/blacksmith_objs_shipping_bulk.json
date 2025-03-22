@@ -1,0 +1,216 @@
+{
+    "content": {
+        "blacksmith_obj_charcoal_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "quark:charcoal_block",
+            "amount": {
+                "min": 2,
+                "max": 32
+            },
+            "unitWorth": 80
+        },
+        "blacksmith_obj_raw_iron_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:raw_iron_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 360,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:iron_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_copper_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:raw_copper_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 270,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:copper_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_gold_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:raw_gold_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 450,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:gold_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_lead_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "oreganized:raw_lead_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 450,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "oreganized:lead_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_silver_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "oreganized:raw_silver_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 585,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "oreganized:silver_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_electrum": {
+            "type": "item",
+            "content": "oreganized:electrum_ingot",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 4,
+                "max": 64
+            },
+            "unitWorth": 150
+        },
+        "blacksmith_obj_silver_plate": {
+            "type": "item",
+            "content": "embers:silver_plate",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 32,
+                "max": 128
+            },
+            "unitWorth": 95
+        },
+        "blacksmith_obj_anvil_bulk": {
+            "type": "item",
+            "content": "minecraft:anvil",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 350
+        },
+        "blacksmith_obj_solidified_metal": {
+            "type": "item",
+            "content": "embers:solidified_metal",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 350
+        },
+        "blacksmith_obj_blazewine_pinot_bulk": {
+            "type": "item",
+            "content": "nethervinery:blazewine_pinot",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+        "blacksmith_obj_arcane_debris_bulk": {
+            "type": "item",
+            "content": "irons_spellbooks:arcane_debris",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 550
+        },
+        "blacksmith_obj_ancient_debris": {
+            "type": "item",
+            "content": "minecraft:ancient_debris",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2250
+        },
+        "blacksmith_obj_lead_bulb": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "oreganized:lead_bulb",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 655
+        },
+        "blacksmith_obj_sturdy_stone_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "quark:sturdy_stone",
+            "rarity": "RARE",
+            "amount": {
+                "min": 32,
+                "max": 256
+            },
+            "unitWorth": 30
+        },
+        "blacksmith_obj_sturdy_deesplate_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:cobbled_deepslate",
+            "rarity": "RARE",
+            "amount": {
+                "min": 64,
+                "max": 256
+            },
+            "unitWorth": 20
+        },
+        "blacksmith_obj_forged_wall": {
+            "type": "item",
+            "content": "tetra:forged_wall",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 450
+        }
+    }
+}

@@ -1,0 +1,1896 @@
+{
+	autofocus_id: "307A6CCA4A9AF2C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "refrence"
+	group: "4A4C6D0E79E013A8"
+	icon: "oreganized:electrum_upgrade_smithing_template"
+	id: "266F51E78A1D6B42"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"With so many different mods, it can be difficult to figure out what you should be progressing towards, especially with &3Neptunium&r being a limited resource."
+				""
+				"This chapter lays out the common mechanics and the ways you can accomplish them in the different mods."
+			]
+			icon: "oreganized:electrum_upgrade_smithing_template"
+			id: "307A6CCA4A9AF2C8"
+			size: 2.0d
+			tasks: [{
+				id: "4CCE1D2DAE152082"
+				type: "checkmark"
+			}]
+			title: "Progression Reference"
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"There are many different mods and methodologies for storing items."
+				""
+				"Most of them are costly, but worth the investment."
+			]
+			icon: "minecraft:chest"
+			id: "3E440C23E190E7E9"
+			size: 1.5d
+			tasks: [{
+				id: "00ED91C7E7538775"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
+				type: "item"
+			}]
+			title: "Storage"
+			x: -6.0d
+			y: 2.75d
+		}
+		{
+			description: [
+				"Bundles allow you to store many different items of small stack sizes."
+				""
+				"They can only be bought from a Blacksmith."
+			]
+			id: "47E9759D086061B5"
+			subtitle: "Blacksmith"
+			tasks: [{
+				id: "47CC5B2BA7D51E35"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Sacks provide early game storage from just Flax. "
+				""
+				"They retain their small inventory when broken, however you cannot carry too many of them without being slowed down by the weight."
+			]
+			id: "37C47C4AA5C951FC"
+			tasks: [{
+				id: "337356DF7F450A5A"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Shulkers can be aquired much earlier in vanilla, from the Blacksmith decree."
+				""
+				"They can also be upgraded with Sophisticated Storage tier upgrades."
+			]
+			id: "12FDB9F20B290485"
+			subtitle: "Level 5 Blacksmith"
+			tasks: [{
+				id: "28FB3642DCC8EAD1"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Backpacks seem expensive, however all it takes is fishing up a &3Neptune's Bounty&r and a few Neptunium Ingots. Alternatively, they can be bought from a high tier Blacksmith."
+				""
+				"They are the ultimate utility in mobile storage, and have a multitude of upgrades that make life easier- for a steep cost."
+			]
+			id: "2DD6B68BC8F45375"
+			subtitle: "Level 15 Blacksmith"
+			tasks: [{
+				id: "7EA5DC2686E4479B"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-1022613010
+							-347714958
+							-1083570195
+							-1822462473
+						]
+						inventorySlots: 27
+						renderInfo: {
+							upgradeItems: [{
+								Count: 1b
+								id: "minecraft:air"
+							}]
+						}
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Storage Sacs are smaller shulkers with limited size"
+				""
+				"By this point in the game, easier and better storage methods should be within reach easily, however these can be used in crafting."
+			]
+			id: "797445306CE5550C"
+			subtitle: "&5Biomancy&r"
+			tasks: [{
+				id: "1AFCA617F1B8C97A"
+				item: {
+					Count: 1
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Bio-Forge provides cheaper crafting for &3Neptunium&r storage items. "
+				""
+				"In particular, a Gold Backpack can be crafted using just 3 ingots. Tier upgrades for Sophisticated Storage can also be crafted for much cheaper."
+			]
+			icon: "biomancy:bio_forge"
+			id: "5A68A5FF77D7F7C6"
+			subtitle: "&5Biomancy&r"
+			tasks: [
+				{
+					id: "6CE6176F078D2DF3"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+						tag: {
+							contentsUuid: [I;
+								-1137693681
+								-142851103
+								-1664363357
+								511190896
+							]
+							inventorySlots: 81
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+								]
+							}
+							upgradeSlots: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25FCB3162D0DBE7A"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "33A3D9A92E9FA4DD"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+			]
+			title: "Cheaper Storage"
+			x: 3.75d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Sophisticated Storage provides deeper stationary storage for your base."
+				""
+				"The Storage Controller links inventories together wirelessly (within range). Useful when used with other mods."
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "4C8B7448238E98D5"
+			tasks: [
+				{
+					id: "0302F3E8237075B7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "sophisticatedstorage:base_tier_wooden_storage"
+						}
+					}
+					title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+					type: "item"
+				}
+				{
+					id: "03F93BDA2D0253C0"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Storage"
+			x: -3.75d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Functional Storage provides bulk storage for items. Storages can be linked using a Storage Controller wirelessly (within range)."
+				""
+				"Sophisticated Storage provides similar utiltity with Limited Item barrels, however the costs for stack upgrades are much steeper."
+			]
+			icon: "functionalstorage:oak_1"
+			id: "67E071C0E6D11592"
+			tasks: [
+				{
+					id: "7C2308FCE4B72E83"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "377C45B9861EB37E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "Any #functionalstorage:drawer"
+					type: "item"
+				}
+			]
+			title: "Functional Storage"
+			x: -2.25d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Accessing items in various storage can become a chore quickly. The Storage and Crafting Terminals provide a convenient way to access multiple inventories."
+				""
+				"It also has an Advanced Wireless Terminal that works cross-dimensionally."
+			]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "09BF87162362EF83"
+			subtitle: "&5Eidolon&r"
+			tasks: [
+				{
+					id: "5E73D137D7E82C6F"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "18DB552A0BB02153"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Much like Tom's Simple Storage, the Storage Lectern connects selected inventories with a single interface."
+				""
+				"The difference is this can be done without cables and connectors, at the tradeoff with allowing for less automation."
+				""
+				"Wireless capabilities using the Enchanters Eye is also much easier and cheaper to obtain, though does not work cross-dimensionally."
+				""
+				"It requires some progression in &5Ars Nouveau&r."
+			]
+			icon: "ars_nouveau:storage_lectern"
+			id: "60FA40B0B323443D"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [
+				{
+					id: "11FE2C1D462BC665"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "67C33C1DC2523F1C"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+				{
+					id: "13AC90276EFBE720"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			description: ["Faster smelting is much limited in options, however these usually come cheaper with a little bit of magical progression."]
+			id: "0AB1CF05E3BCF4A5"
+			size: 1.5d
+			tasks: [{
+				id: "24CD3AD6C99341F1"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Smelting"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The Hearth Coil smelts all items dropped upon it using Ember power."
+				""
+				"Clever dwarven engineers use a pressure plate to toggle the power usage on whenever there is an item smelting, instead of wasting ember."
+				""
+				"The efficiency of this smelting device will come with your progression in &5Embers&r, as you upgrade your power generators and fuel."
+			]
+			id: "7C82A643C791396D"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "3175CEECB49563CD"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Instead of wasting time using machines to smelt, it can be simpler to do it at the point of collection."
+				""
+				"You'll need some &5Embers&r alchemy to craft it."
+			]
+			id: "701DC12B9DDF25B0"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "54D353DD60084EED"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Smelting comes cheap with the Glyph of Smelt, providing utility wherever you are."
+				""
+				"It can be automated in a stable way using Source and a Spell Turret or Rune, much like the Hearth Coil."
+			]
+			id: "3EAB9EF65D7B3CF0"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "252F2CCC0575DF5C"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Using Flint to break down your &3Neptunium&r Sea Coins is very much a temporary measure."
+				""
+				"You should make seeking out alternatives a priority."
+				""
+				"This section also covers &3Neptunium&r tool processing as well. Smelting for some nuggets is also ineficcient."
+			]
+			id: "62638403F9B0DF65"
+			size: 1.5d
+			tasks: [{
+				id: "250237F449C861D9"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			title: "Neptunium Processing"
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			description: ["The Crucible can be used to break down &3Neptunium&r Sea Coins into &33&r nuggets, and &3Neptuna&r into &32&r nuggets."]
+			id: "38D706AD7AEE494E"
+			subtitle: "&5Eidolon&r"
+			tasks: [{
+				id: "6245FEAA8D608DA9"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.5d
+		}
+		{
+			description: ["The Melter can be used to melt down &3Neptunium&r Sea Coins into &33&r nuggets, &3Neptunium&r tools/armors into &31&r ingot, and &3Neptuna&r into &33&r nuggets."]
+			id: "736D35F87745EB11"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "5427FB1E7FA3933E"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.5d
+		}
+		{
+			description: [
+				"The Decomposer works differently than other methodologies, giving you a variable amount of &3Neptunium&r depending on how much it takes to craft those items. For example:"
+				""
+				"- A &3Neptunium&r shovel will give &33-6&r nuggets"
+				""
+				"- A &3Neptunium&r chestplate will give &322-46&r nuggets"
+				""
+				"&3Neptuna&r gives &32-4&r nuggets."
+			]
+			id: "42BA99FBD560039E"
+			subtitle: "&5Biomancy&r"
+			tasks: [{
+				id: "00088956AA443054"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: -0.7500000000000071d
+			y: 8.464285714285715d
+		}
+		{
+			dependencies: ["42BA99FBD560039E"]
+			description: [
+				"The Bio-Forge allows you to craft &3Neptunium&r nuggets from Sea Coin Fragments. "
+				""
+				"Decomposing Gold Sea Coins will give you a 50% chance of getting a Sea Coin Fragment."
+				""
+				"10 Gold Sea Coins will give you &35&r Nuggets on average."
+				""
+				"Additionally, the Bio-Forge makes crafting certain &3Neptunium&r items siginificantly cheaper, using Aquamagical Dust."
+			]
+			hide_dependency_lines: false
+			icon: "biomancy:bio_forge"
+			id: "214A6C8E32D0E2BD"
+			subtitle: "&5Biomancy&r"
+			tasks: [
+				{
+					id: "66D9242A98DBD0BA"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+				{
+					id: "318A518DFA02B45D"
+					item: "society:sea_coin_fragments"
+					type: "item"
+				}
+				{
+					id: "629B5B0435404589"
+					item: "society:aquamagical_dust"
+					type: "item"
+				}
+			]
+			title: "Bio-Forge"
+			x: 0.7499999999999929d
+			y: 8.464285714285715d
+		}
+		{
+			description: [
+				"&5Iron's Spells 'n Spellbooks&r provides multiple teleportation based scrolls. Most need to be found in loot chests, but one can be crafted."
+				""
+				"- &5Recall&r brings you to your bed."
+				""
+				"- &5Teleport&r moves you to where you point, with range limited depending on scroll level. This scroll cannot be crafted."
+				""
+				"- &5Portal&r creates a temporary portal at the given point. The next &5Portal&r you cast will link it to the first. This scroll cannot be crafted. Alternatively you can find a &5Hither-Thither Wand&r."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:recall"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "5548FA23E69AEFE6"
+			subtitle: "&5Iron's Spells 'n Spellbooks&r"
+			tasks: [
+				{
+					id: "32D11167CB138C86"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:recall"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2D89CB6F5FA74F1B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:teleport"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1A66E9D9A7B7D4E4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "412F5D41B0F2E99D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:hither_thither_wand"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Teleportation Scrolls"
+			x: -18.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"The Blank Teleporter Key provides a portal hub. It contains 7 other keys that can be linked to portals wherever you build in world."
+				""
+				"It can only be found from Dimensional Dungeons."
+			]
+			id: "6116395EF1686687"
+			subtitle: "Dimensional Dungeons"
+			tasks: [{
+				id: "6BDE6D11825D9C25"
+				item: "dimdungeons:item_blank_teleporter_key"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.0d
+		}
+		{
+			description: ["The Tablet of Warping teleports all entities around it using a Warp Scroll."]
+			id: "5ACD0372D1BA6B91"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "7BF660FE99F2A224"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"Warp Scrolls are one-time use items for teleporting to a set point."
+				""
+				"Stablized Warp Scrolls either create a portal on use without consuming the scroll, or can be used to make a 1-time use portal that lasts indefinitely."
+			]
+			id: "5384FC508D2C2166"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [
+				{
+					id: "2746CF682AA44871"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53D8D5A40F40BB0B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 11.0d
+		}
+		{
+			description: ["The Glyph of Blinking teleports you to the targeted location. Holding a Warp Scroll in your offhand while casting blink teleports the target to the location of the scroll."]
+			id: "7F6007E37D91305F"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "20181218C022BB39"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 11.0d
+		}
+		{
+			description: ["Teleportation is one of the most expensive things to obtain, but obviously makes traveling large distances much easier."]
+			id: "3D8DAC321406F351"
+			size: 1.5d
+			tasks: [{
+				id: "46D1986F00898D83"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Teleportation"
+			x: -14.25d
+			y: 11.0d
+		}
+		{
+			description: ["The Nuclear Furnace smelts five times faster than a blast furnace, but requires Uranium to run. You'll also need to be careful of the waste..."]
+			icon: "alexscaves:nuclear_furnace_component"
+			id: "41AEBD998E2D9BCC"
+			subtitle: "Alex's Caves"
+			tasks: [
+				{
+					count: 8L
+					id: "5167BB9B7130933D"
+					item: "alexscaves:nuclear_furnace_component"
+					type: "item"
+				}
+				{
+					id: "1B6AEE6B8D1D6441"
+					item: "alexscaves:metal_barrel"
+					type: "item"
+				}
+				{
+					id: "2FE1140BE3155C7E"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
+			title: "Nuclear Furnace"
+			x: -3.75d
+			y: 6.0d
+		}
+		{
+			description: [
+				"While it may only be able to smelt down ores, it does so much more efficicently with the use of ember power rather than coal."
+				""
+				"It also multiplies raw ore output by 1.3."
+			]
+			id: "22564DB81F9C843B"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "3FC07F5E49628746"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Unless you have an intense love of fishing, Sea Coins will likely be your number one path to &3Neptunium&r."
+				""
+				"The base decrees will not generate enough income for your needs, especially as the cost of items grow. Here are some alternatives."
+			]
+			id: "0AE75073CA4CA61E"
+			size: 1.5d
+			tasks: [{
+				id: "36A71AF7F7A7CEE8"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Sea Coins"
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"A variable amount of Sea Coins can be gotten from decomposing gold and iron ore gathered with Silk Touch, though the metal ends up wasted and no raw ore is produced."
+				""
+				"&oDeepslate ores give more on average!&r"
+			]
+			icon: "biomancy:decomposer"
+			id: "07C870E110F2A016"
+			subtitle: "&5Biomancy&r"
+			tasks: [
+				{
+					id: "01F11BE3294A4F37"
+					item: "biomancy:decomposer"
+					type: "item"
+				}
+				{
+					id: "556074B457F73E62"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Iron/Gold Ore\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:iron_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:gold_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:deepslate_iron_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:deepslate_gold_ore"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.7499999999999929d
+			y: 10.964285714285715d
+		}
+		{
+			description: [
+				"A constant amount of Sea Coins can be made using the Glyph of Crush on gold and iron ore gathered with Silk Touch. The ore also is preserved, giving greater raw ore yield occasionally. "
+				""
+				"This process can be easily automated using a Spell Turret."
+				""
+				"&oDeepslate ores give more!&r"
+			]
+			icon: "ars_nouveau:glyph_crush"
+			id: "0392FAA47E4330F4"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [
+				{
+					id: "23551B0DF013988D"
+					item: "ars_nouveau:glyph_crush"
+					type: "item"
+				}
+				{
+					id: "0E19DB7C5C9B82C6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Iron/Gold Ore\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:iron_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:gold_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:deepslate_iron_ore"
+								}
+								{
+									Count: 1b
+									id: "minecraft:deepslate_gold_ore"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.249999999999993d
+			y: 10.964285714285715d
+		}
+		{
+			description: ["Dimensional Dungeons are renewable but highly variable when it comes to looting Sea Coins. The other loot as a byproduct generally makes it worth your time."]
+			id: "0FE2ECC0B2AC59CC"
+			subtitle: "Dimensional Dungeons"
+			tasks: [{
+				id: "5186AC8710D8D2DF"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: -2.238095238095248d
+			y: 10.977380952380948d
+		}
+		{
+			description: [
+				"Purchasing one of the 9 \"Bulk Shipping\" decrees from the Decree Shop in the questbook will unlock high-reward bounties that only give Sea Coins (unless you have multiple decrees on one board)."
+				""
+				"These bulk shipping decrees act as professions and goals for automation as you unlock more options for aquiring resources."
+				""
+				"Certain hidden shipping decrees can also be crafted..."
+			]
+			id: "27EE3C38DF7B69BA"
+			tasks: [{
+				id: "758D89BC0732D323"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Shipping Decrees"
+			x: -3.738095238095248d
+			y: 10.977380952380948d
+		}
+		{
+			description: [
+				"With Librarian villagers absent, mending becomes more challenging to acquire."
+				""
+				"There are ways to increase your chances of getting it, but be careful where you spend it- armor should be your priority."
+				""
+				"&oTetra tools can be repaired in the workbench infinitely, meaning they require mending less.&r"
+			]
+			id: "47076FA7AD22EFC5"
+			size: 1.5d
+			tasks: [{
+				id: "120EDB6903F61A65"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mending"
+			x: -14.25d
+			y: 8.5d
+		}
+		{
+			description: [
+				"Bring your Unidentified Artifacts to the Archeology Table to potentially unveil a mending book!"
+				""
+				"The shards can be found in world or bought from a high level Plunderer."
+			]
+			icon: "betterarcheology:unidentified_artifact"
+			id: "4E7488109108E541"
+			subtitle: "Level 5 or 15 Plunderer"
+			tasks: [
+				{
+					id: "41489B6E955588B3"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+				{
+					id: "26C36F4FCC853C73"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			description: ["This Crab Trap chum is pricey, but has a decent chance of providing mending. At worst, you'll get a bunch of potentially useful enchanted books."]
+			id: "351F99C37ED90001"
+			subtitle: "&5Eidolon \\& Iron's Spells 'n Spellbooks&r"
+			tasks: [{
+				id: "51AB191C557CC3E9"
+				item: {
+					Count: 1
+					id: "society:bucket_of_book_chum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"While not literally the mending enchantment, the Dawnstone Anvil provides a renewable way to repair your tools without the need for experience or that pesky \"Too expensive!\" message."
+				""
+				"Isolated Materia can substitute any repair material, making it ideal for repairing Neptunium tools."
+				""
+				"Simply place your tool, then repair material, and whack away with your Tinker's Hammer."
+			]
+			icon: "embers:dawnstone_anvil"
+			id: "406482B0A3424153"
+			subtitle: "&5Embers&r"
+			tasks: [
+				{
+					id: "7A3E16AD57254B12"
+					item: "embers:dawnstone_anvil"
+					type: "item"
+				}
+				{
+					id: "5DAF465AF592DECA"
+					item: "embers:isolated_materia"
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"Dungeons have a small chance for mending books in the more challenging to find chests."
+				""
+				"It's not exactly reliable, but getting good at raiding dungeons will pay off long term."
+			]
+			id: "6336D9C7FB966776"
+			subtitle: "Dimensional Dungeons"
+			tasks: [{
+				id: "593F1A848A155D05"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"There are some resources difficult or impossible to farm using basic mechanics. "
+				""
+				"Magic can help with handling these, even allowing you to create items from magical energies."
+			]
+			id: "682F2785E8B58F0C"
+			size: 1.5d
+			tasks: [{
+				id: "30E2CA5F5C8FF259"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "Resource Generation"
+			x: -14.0d
+			y: 2.75d
+		}
+		{
+			description: ["Nuggets for every metal type can be conjured from ember energy. With enough improvements to your power production and infrastructure, this becomes essentially free."]
+			icon: "embers:ember_injector"
+			id: "349EF677B9DC4D7A"
+			subtitle: "[Metals] &5Embers&r"
+			tasks: [
+				{
+					id: "0C2C5BECF67841F6"
+					item: "embers:ember_injector"
+					type: "item"
+				}
+				{
+					id: "4AC8CA89D4814CB3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "embers:gold_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:iron_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:copper_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:lead_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:silver_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:dawnstone_crystal_seed"
+								}
+							]
+						}
+					}
+					title: "Any Crystal Seed"
+					type: "item"
+				}
+			]
+			title: "Ember Injector"
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"While not simply a one-block resource generation solution, the Bio-Forge can create otherwise non-renewable resources from things that can be easily farmed, like plants to dirt."
+				""
+				"Look through the base Biomancy resources, and figure out which resources are easiest to find. Get a healthy supply of nutrient bars, and you're on your way."
+			]
+			id: "570841A4E9A138A0"
+			subtitle: "[Misc] &5Biomancy&r"
+			tasks: [{
+				id: "421D644C3340ADA6"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Using a low-cost ritual of awakening, Amethyst Golems can produce an infinite amount of amethyst, and turn Amethyst blocks into Budding Amethyst."
+				""
+				"No source required!"
+			]
+			icon: "ars_nouveau:amethyst_golem_charm"
+			id: "569D35C53998DAD2"
+			subtitle: "[Amethyst] &5Ars Nouveau&r"
+			tasks: [
+				{
+					id: "558260052B99E396"
+					item: "ars_nouveau:amethyst_golem_charm"
+					type: "item"
+				}
+				{
+					id: "4FBC95E499CE04EF"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"A chunk loaded fishing tug aquires fish slowly but consistently. Attatch more Auto-Fishing Barges to increase the rates of catching."
+				""
+				"&oIt might be worth sending the tug off to far-away biomes for fish you can't normally catch. But be mindful to avoid underwater bubbles!&r"
+			]
+			id: "5896962990ED6B44"
+			subtitle: "[Fish]"
+			tasks: [{
+				id: "24C2E6AD3AC5223C"
+				item: "littlelogistics:fishing_barge"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Using source, Drygmys automatically produce drops of mobs both in and out of jars around them."
+				""
+				"More Drygmys and more unique mobs equates to more drops!"
+			]
+			id: "10192D0B80B9CF15"
+			subtitle: "[Mob drops] &5Ars Nouveau&r"
+			tasks: [{
+				id: "7A5922583403D362"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Whirlsprigs replicate plants and logs planted around them using source. The more unique plants around them, the more they produce."
+				""
+				"You can right click Whirlsprigs with an item to see if they can replicate it."
+				""
+				"&oExperiment with different items, you may find unexpected things they love...&r"
+			]
+			id: "5B1C1F87D608CD61"
+			subtitle: "[Plants, logs] &5Ars Nouveau&r"
+			tasks: [{
+				id: "332618D4F7711E4B"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Sirens produce fish and fishing loot using source. "
+				""
+				"Like Drygmys, the more Sirens and unique fish and ocean blocks are around, the higher the rate of production."
+			]
+			id: "64CF473A30731BF9"
+			subtitle: "[Fish] &5Ars Nouveau&r"
+			tasks: [{
+				id: "249629F48396749C"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Crab Traps are an early game way of automatically fishing certain items."
+				""
+				"Best used early game or for bulk shipping fish."
+			]
+			id: "4BF8C9845FD26B77"
+			subtitle: "[Fish]"
+			tasks: [{
+				id: "4DA791B653CD785B"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Hidden deep in Tetra ruins, the Earthpiercer breaks blocks in a line."
+				""
+				"Honing can increase how deep it pierces."
+			]
+			id: "421D5D4917B92067"
+			subtitle: "Tetra"
+			tasks: [{
+				id: "55EC0E65237BEADF"
+				item: {
+					Count: 1
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						id: "8ced788b-43bb-4f75-bfab-d313c05bdc98"
+						"single/basic_handle_material": "basic_handle/stick"
+						"single/earthpiercer_material": "earthpiercer/earthpiercer"
+						"single/handle": "single/basic_handle"
+						"single/head": "single/earthpiercer"
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			description: ["Like the Earthpiercer, the Stonecutter can be looted in Tetra ruins, and breaks stone blocks in a horizontal sweep."]
+			id: "04D5A8CFE0B3D936"
+			subtitle: "Tetra"
+			tasks: [{
+				id: "53E806AA7C5803D8"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "98fa1ac9-ada9-46be-b9f5-44171553dbb9"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/stonecutter"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/stonecutter_material": "stonecutter/stonecutter"
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The Glyph of AOE combined with Glyph of Break can instantly destroy a huge radius of block where the spell hits."
+				""
+				"It can be chained up to a max of 9x9x1"
+			]
+			id: "7C0C10C7D47957C2"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "3DE5AB45245A9CA1"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 6.0d
+		}
+		{
+			description: ["Spectral Hammer is a spell that breaks a 3x3x3 of blocks where targeted. As the spell levels up using better inks or the Arcane Anvil, the raidus increases up to a max of 11x11x11!"]
+			id: "5F959CC6B848054C"
+			subtitle: "&5Iron's Spells 'n Spellbooks&r"
+			tasks: [{
+				id: "059AC677DDB46BAE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spectral_hammer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -24.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Augments can be added to most kinds of tools (even vanilla) using the Dawnstone Anvil as you level up the heat of the tool."
+				""
+				"The Blasting Core increases the radius of blocks broken. This upgrade stacks!"
+			]
+			id: "1AF675D9BBFAB3FF"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "6A7801A5AFEF62D6"
+				item: "embers:blasting_core"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Mining one block of a time is tedious, especially with so many magic mods in the pack."
+				""
+				"Using magic, you can increase the radius of breaking blocks."
+			]
+			id: "450DE7D4257B1A42"
+			size: 1.5d
+			tasks: [{
+				id: "639C2B21C370B524"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Multiblock Mining"
+			x: -14.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Like Sacks and Shulker Boxes, Coffers retain their inventory when broken."
+				""
+				"They have more space than the both of them, but don't have the upgradability of Shulker Boxes."
+			]
+			id: "72D1A92F3FF380D6"
+			tasks: [{
+				id: "0BE6F4FCC33E42E3"
+				item: "furniture:coffer"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.0d
+		}
+		{
+			description: ["Your Ender Chest from anywhere, making it a reliable global storage. Both &5Iron's Spells and Spellbooks&r and &5Ars Nouveau&r have solutions for accessing it."]
+			hide_until_deps_visible: false
+			icon: "minecraft:ender_chest"
+			id: "24A986286788C9AF"
+			subtitle: "&5Iron's Spells and Spellbooks&r, &5Ars Nouveau&r"
+			tasks: [
+				{
+					id: "0CD186DEDC1B001C"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					id: "3FCB0E2B5B506BAA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:summon_ender_chest"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "45458F2282323071"
+					item: "ars_nouveau:glyph_ender_inventory"
+					type: "item"
+				}
+			]
+			title: "Ender Access"
+			x: -0.75d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Tuning Cylinder is an augment that can be added to a tool using the Dawnstone Anvil."
+				""
+				"Blocks broken using that tool will have a chance to drop a Geode depending on the biome and depth. "
+				""
+				"These can be cracked open on an Aetherium Anvil for a chance at Sea Coins."
+			]
+			id: "714EF21E335834B9"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "0E999E128324D9C7"
+				item: "aetherworks:tuning_cylinder"
+				type: "item"
+			}]
+			x: -0.7500000000000071d
+			y: 10.964285714285715d
+		}
+		{
+			description: [
+				"Automation is the key to wealth when it comes to having items prepared for decrees. "
+				""
+				"Spend less time running around by automatically transporting items to your machines and bounty boards."
+			]
+			id: "262DECD80EA50256"
+			size: 1.5d
+			tasks: [{
+				id: "58EB7234B9355AF6"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Item Transport"
+			x: -6.0d
+			y: 14.25d
+		}
+		{
+			description: ["Rapid Hoppers pull and insert from inventories and entities at a rate significantly higher than normal Hoppers."]
+			id: "4A232E680FCA6B38"
+			tasks: [{
+				id: "2A2D0D018DDD4673"
+				item: "littlelogistics:rapid_hopper"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Sophisticated Storage inventories can be upgraded with a Hopper Upgrade. "
+				""
+				"The advanced version has filters for both the extract and insert."
+			]
+			id: "640057AFA48A51EF"
+			tasks: [{
+				id: "237C839B1740A802"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Embers offers various items to aid in item transport:"
+				""
+				"- Item Extractors quickly extract from inventories when given a redstone signal"
+				"- Item Pipes move items along"
+				"- Item Transfers can be given a filter with right click and filter the insert from pipes"
+			]
+			icon: "embers:item_pipe"
+			id: "357E44895B2936FD"
+			subtitle: "&5Embers&r"
+			tasks: [
+				{
+					id: "12483F5D79E5BC2A"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "35D3EB0D3B90CE4F"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "33ACB2F957BA011E"
+					item: "embers:item_transfer"
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Translocators transfer items from attached inventories in one block space."
+				""
+				"They can be upgraded with a &3Neptunium&r Ingot to support regulate mode, which puts exact amounts of items you specify into an inventory."
+				""
+				"Most useful for machines that accept multiple inputs of different items."
+			]
+			id: "79F39827CF4E6252"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "7C1CFF7D10C8F904"
+				item: "translocators:item_translocator"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 15.0d
+		}
+		{
+			description: [
+				"In cases where you need to filter what you're extracting, a Golden Hopper will be the most accessible option."
+				""
+				"Place an item in the filter slot, and it will only pull that item."
+			]
+			id: "4F2D130D844DD886"
+			tasks: [{
+				id: "32806AA40418CA57"
+				item: "goldenhopper:golden_hopper"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Maw Hoppers are the pipes of Biomancy, combining with adjacent Maw Hoppers."
+				""
+				"They transfer 16 items at a time, but can only hold one type of item."
+				""
+				"There are also some strange behaviors it exhibits, such as pulling from player inventories..."
+			]
+			id: "5848C418F9D807DC"
+			subtitle: "&5Biomancy&r"
+			tasks: [{
+				id: "5FDE7695D0F73E3C"
+				item: "biomancy:maw_hopper"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Starbuncles manually carry items throughout the world."
+				""
+				"Filters can be provided by right click on one with an Item Scroll that has items assigned to it."
+				""
+				"They are most useful for transfering items from one inventory into many."
+			]
+			id: "66837E7267DEF633"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "599A0ADC7E2BAF10"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 15.0d
+		}
+		{
+			description: [
+				"While Tom's Simple Storage Mod is primarily used for viewing all items in your storage, it also has I/O capabilities with the Inventory Hopper."
+				""
+				"Use Inventory Cables to expand your network over any distance."
+			]
+			id: "1055BD4A2E1E7502"
+			subtitle: "&5Eidolon&r"
+			tasks: [{
+				id: "7F8348804863AD4E"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 13.5d
+		}
+		{
+			description: ["Moving fluids around isn't something you'll need to do often, so there are only a handful of options for doing so."]
+			id: "35B03D105955BA66"
+			size: 1.5d
+			tasks: [{
+				icon: "littlelogistics:fluid_hopper"
+				id: "31B2D7327D9A010D"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Fluid Transport"
+			x: -14.25d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Embers offers various items to aid in fluid transport:"
+				""
+				"- Fluid Extractors quickly extract from tanks when given a redstone signal"
+				"- Fluid Pipes move fluids along"
+				"- Fluid Transfers can be given a filter with right click and filter the insert from pipes"
+			]
+			icon: "embers:fluid_pipe"
+			id: "34C05C93C653D21A"
+			subtitle: "&5Embers&r"
+			tasks: [
+				{
+					id: "6A7AF0E193700AB3"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "5728EA10EC4E7A73"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "18F69D97139897AE"
+					item: "embers:fluid_transfer"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Translocators transfer fluids from attached inventories in one block space."
+				""
+				"They can be upgraded with a &3Neptunium&r Ingot to support regulate mode, which puts exact amounts of fluids you specify into a tank."
+			]
+			id: "74B257A7D7CE6030"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "6111D0606A065C20"
+				item: "translocators:fluid_translocator"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Starbuncles can be upgraded to carry fluids with a Starbucket."
+				""
+				"Filters can be provided by right click on one with an Fluid Scroll that has items assigned to it."
+				""
+				"They are most useful for transfering fluids from one inventory into many."
+			]
+			id: "25856D659068ED7C"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "166455046C297C46"
+				item: "starbunclemania:star_bucket"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Little Logistics offers automated solutions for running trains and tugs."
+				""
+				"They are best used to transport fluids over large distances, as vehicles have built in chunk loaders."
+			]
+			icon: "littlelogistics:fluid_barge"
+			id: "6FE1A80C882F51E5"
+			tasks: [{
+				id: "2282B9FCBB491A87"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "littlelogistics:fluid_barge"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:fluid_car"
+							}
+						]
+					}
+				}
+				title: "Any fluid Barge or Train Car"
+				type: "item"
+			}]
+			title: "Fluid Trains and Barges"
+			x: -16.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Little Logistics offers automated solutions for running trains and tugs."
+				""
+				"They are best used to transport items over large distances, as vehicles have built in chunk loaders."
+			]
+			icon: "littlelogistics:barge"
+			id: "7E89853BB6B050B8"
+			tasks: [{
+				id: "64E434F3BBAD461B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "littlelogistics:chest_car"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:barrel_car"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:barge"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:barrel_barge"
+							}
+						]
+					}
+				}
+				title: "Any container Barge or Train Car"
+				type: "item"
+			}]
+			title: "Chest Barges and Trains"
+			x: -0.75d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Instant teleportation of items is exceedingly difficult to obtain, but it does exist in the Ender Drawer."
+				""
+				"Any items in one drawer appear in the linked drawer as well. Don't lock the drawer if you want to handle multiple types of items. "
+			]
+			id: "2781F4E67C8A3F71"
+			subtitle: "&5Iron's Spells and Spellbooks&r"
+			tasks: [{
+				count: 2L
+				id: "04D5C80F5CC41CBA"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Some machines such as furnaces only allow input and extract from certain sides."
+				""
+				"The Wrym Decree can be given to a Starbuncle to make it respect sidedness."
+			]
+			id: "53F400525C642E1E"
+			subtitle: "&5Ars Nouveau&r"
+			tasks: [{
+				id: "7417E52730AB30F2"
+				item: "starbunclemania:wyrm_degree"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 15.0d
+		}
+		{
+			description: [
+				"&3Primordial Neptunium&r rips apart &3Neptunium&r Sea Coins into &36&r nuggets."
+				""
+				"[ \"See the \", { \"text\": \"Endgame\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"025B6B888D8984CD\" } }, \" chapter for how to obtain it.\" ]"
+			]
+			id: "2FF3D037E652483A"
+			tasks: [{
+				id: "0F71988D2A1D5E2E"
+				item: "society:primordial_neptunium"
+				type: "item"
+			}]
+			x: 2.249999999999993d
+			y: 8.464285714285715d
+		}
+		{
+			description: [
+				"Progressing through Aetherworks provides you the ability to forge strong and specialized tools."
+				""
+				"Each tool has an AOE ability that can be toggled provided you have ember power in your inventory."
+			]
+			icon: {
+				Count: 1
+				id: "aetherworks:pickaxe_ember"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D0D44802FBDCF61"
+			subtitle: "&5Embers&r"
+			tasks: [{
+				id: "7EF662686AA23B79"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aetherworks:pickaxe_ember"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aetherworks:pickaxe_aether"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aetherworks:axe_ender"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aetherworks:axe_sculk"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aetherworks:shovel_slime"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aetherworks:shovel_prismarine"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Aetherworks tool"
+				type: "item"
+			}]
+			title: "Aetherworks Tools"
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The Tuning Cylinder is an augment that can be added to a tool using the Dawnstone Anvil."
+				""
+				"Blocks broken using that tool will have a chance to drop a Geode depending on the biome and depth. "
+				""
+				"These can be cracked open on an Aetherium Anvil for various resources and ores."
+			]
+			id: "662F6FB3CA378207"
+			subtitle: "[Metals, misc] &5Embers&r"
+			tasks: [{
+				id: "4CC7FF0E2815ACDD"
+				item: "aetherworks:tuning_cylinder"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Source Terrarium is a multiblock machine that rapidly grows crops using Liquified Source or Source-Gro."
+				""
+				"It's the counterpart to the Whirlisprig, which is fairly slow and focused more on farming many plants."
+			]
+			id: "65128D710A090711"
+			subtitle: "[Plants] &5Ars Nouveau&r"
+			tasks: [{
+				id: "1A4BA4F7519DFAC5"
+				item: "society:source_terrarium"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.5d
+		}
+	]
+	title: "Progression"
+}

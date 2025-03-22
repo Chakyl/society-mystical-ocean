@@ -1,0 +1,998 @@
+{
+	autofocus_id: "72CB28E236E930F4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "418DBFC9E9BCC496"
+	hide_quest_until_deps_visible: true
+	icon: "biomancy:primordial_cradle"
+	id: "7F4A61821CCCA6B1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"13F60607A50B0BB7"
+				"33BA2492E563356F"
+			]
+			description: [
+				"&5Biomancy&r is an alchemical magic mod centered around harvesting flesh and components from mobs and reconstructing them into tools, blocks, and tinctures."
+				""
+				"This is a &emid-game&r mod, with a high up-front cost. Its main boon is &aeconomic&r, providing more ways to generate Sea Coins and allowing you to craft magical items with less &3Neptunium."
+				""
+				"Its ultimate item is the &dUnholy Contract&r, which allows you to craft a lucrative decree for selling flesh-made objects. "
+			]
+			hide_until_deps_visible: false
+			icon: "biomancy:primordial_cradle"
+			id: "02053233DC91C4A1"
+			rewards: [{
+				id: "09D7CF351FBC29CF"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Fleshy horrid capitalism"
+			tasks: [{
+				id: "452A49788CFFC3F1"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			title: "Biomancy"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02053233DC91C4A1"]
+			description: [
+				"There is no record or guide to the ways of fleshcrafting."
+				""
+				"But innately you have a desire to rip flesh from bone. You should use a tool suited for it, or find a way to enchant a mundane weapon with the ability."
+			]
+			icon: {
+				Count: 1
+				id: "biomancy:despoil_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F01D344556D6620"
+			rewards: [{
+				id: "09BAE2B39D62A990"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "biomancy:despoil"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB241BF8348712D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:despoil_sickle"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "biomancy:mob_fang"
+							}
+						]
+					}
+				}
+				title: "Flesh Plunderer or Sharp Fang"
+				type: "item"
+			}]
+			title: "Sundering Flesh"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F01D344556D6620"]
+			description: [
+				"You're inspired to use another &5Primordial Core&r, combining it with your newly aquired claws, fresh meat, and &3Neptunium&r."
+				""
+				"The cradle desire's flesh. Feed the flesh until it cannot be fed any longer, then feed it potions of regeneration to aide in digestion."
+				""
+				"You can ponder the cradle for more information."
+			]
+			icon: "biomancy:primordial_cradle"
+			id: "1C557BD63B53EA94"
+			rewards: [{
+				id: "61B1CDA875B7602E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "10% mother"
+			tasks: [{
+				id: "27E6AD63B0680C13"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EF58DF5A85ECB8F"]
+			description: [
+				"Some &cliving flesh&r slipped into the Decomposer and yielded exotic dust."
+				""
+				"Combining it with some more flesh bits and &3Neptunium&r lets me call into the flesh itself, allowing for the crafting of strange and &4powerful&r artifacts."
+			]
+			id: "72CB28E236E930F4"
+			rewards: [{
+				id: "599066E4F572F2C4"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Introduction to Fleshcrafting"
+			tasks: [{
+				id: "5AB6558431007349"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "Want to Learn Vicissitude?"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1C557BD63B53EA94"
+				"372EF59FA1DABE12"
+			]
+			description: [
+				"The living flesh seems to bind reactively to &3Neptunium&r. I can fashion a horribly noisy \"living stomach\" to break items into their base resources."
+				""
+				"It just requires nutrition in order to work, like any other living thing."
+				""
+				""
+				"&oI wonder if it will break down ores into Sea Coins more efficiently....&r"
+			]
+			id: "4EF58DF5A85ECB8F"
+			rewards: [{
+				id: "7975181A56B5E44C"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Gurgling and squirting"
+			tasks: [{
+				id: "1390ADA77936997B"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "Churning And Crushing"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17ED0D659EFA5BC9"]
+			description: [
+				"&cThe Flesh has spoken to me. A mysterious foreign professor named Woland wishes to study the powers of the living. He'll pay a hefty sum for things I can synthesize using&r &4worthless&r &cmeat."
+				""
+				"&cI should Forge a contract with the Professor. This flesh has given me so much, it would be &4evil&r &cnot to share the gift."
+			]
+			id: "375EB7435881043E"
+			rewards: [{
+				id: "7A8C86C66E2D5609"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&dUltimate Tzimisce&r"
+			tasks: [{
+				id: "42C64DA102D17E2F"
+				item: "society:unholy_contract"
+				type: "item"
+			}]
+			title: "Dealing With the Delightful"
+			x: 8.75d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"72CB28E236E930F4"
+				"48D47ECC62BBBE07"
+			]
+			description: ["I require more &4living meat&r maybe fashioning a growth serum will improve my ability to gather more."]
+			icon: {
+				Count: 1
+				id: "biomancy:injector"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24DE55F94146B5D7"
+			rewards: [{
+				id: "0E47B862D2620670"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B913EF278E845F6"
+					item: {
+						Count: 1
+						id: "biomancy:injector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "406BCA13D6861C6A"
+					item: "biomancy:enlargement_serum"
+					type: "item"
+				}
+			]
+			title: "Injecting Serums Unwillingly"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: [
+				"Using flesh and decomposed bits, it seems as though I can create powerful compounds capable of transforming &4life itself&r."
+				""
+				"Though I may have little use for these, maybe someone else does?"
+			]
+			id: "48D47ECC62BBBE07"
+			rewards: [{
+				count: 3
+				id: "2BDA082DC94D61B2"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63857B4D4C30646D"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "Malignant Alchemy"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: ["With movable storage so expensive and difficult to obtain, fashioning flesh into a makeshift backpack doesn't seem like a bad idea."]
+			id: "418C52E974C1D075"
+			rewards: [{
+				count: 3
+				id: "2F622B7506D10F14"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6059BE0C1D1F47BD"
+				item: {
+					Count: 1
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Almost a Shulker"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: ["Feeding the Decomposer and Bio Forge is getting difficult. Pre-digesting it should be more efficient."]
+			id: "38A11F6ABE1643D1"
+			rewards: [{
+				count: 3
+				id: "39DEE782C9625818"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A5D3A5A233AA30F"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "Like a Bird"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: [
+				"In a rash expiriment, I've fed the Decomposer something &4magical&r and it vomited out a bright powder. It's as if it came from the &3sea itself&r."
+				""
+				"Its chemical composition seems similar enough to &3Neptunium&r. The Bio Forge can utilize the dust as much easier to obtain substitute for it."
+			]
+			id: "17ED0D659EFA5BC9"
+			rewards: [{
+				id: "029FE2AA09898F0A"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636201816268F19A"
+				item: "society:aquamagical_dust"
+				type: "item"
+			}]
+			title: "Essence of the Sea"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17ED0D659EFA5BC9"]
+			description: [
+				"I've discovered something impossible. Decomposing some Gold Sea Coins and combining the result with a &3Neptunium&r catalyst, I've created more of it."
+				""
+				"&4&o&lThis shouldn't be possible. What is this wretched flesh.&r"
+			]
+			id: "2F3DEB7CEB3DBE61"
+			rewards: [{
+				id: "7C8E19EBC097AEB7"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Organic Efficiency"
+			tasks: [{
+				count: 5L
+				id: "4527DB6B8EA6F0AE"
+				item: "society:sea_coin_fragments"
+				type: "item"
+			}]
+			title: "Synthesizing Neptunium"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17ED0D659EFA5BC9"]
+			description: ["&4&oI need to get away from these horrible creatures. Somewhere pure and untained. Before it's too late."]
+			id: "334024093CE6DCC0"
+			rewards: [{
+				id: "11EA39E4E04F300F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EBB27010E863D9C"
+				item: {
+					Count: 1
+					id: "dimdungeons:item_key_build"
+					tag: {
+						built: 0b
+						dest_x: 1
+						dest_z: 0
+						dungeon_type: "PERSONAL_BUILD"
+						key_activated: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "The Personal Dimension"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48D47ECC62BBBE07"]
+			description: [
+				"I'm going mad feeding these machines, I can barely feed myself any longer."
+				""
+				"I wonder what a &4taste&r of it would be like..."
+				""
+				"{@pagebreak}"
+				""
+				"&o&4I'm disgusted with myself. No matter how much I eat, it keeps coming back.&r"
+				""
+				"&o&4I've tried to feed it to my machines but they gulp it down and it is never seen again. Yet I'm compelled to make more...&r"
+			]
+			id: "3637CB9F010A6CA9"
+			rewards: [{
+				id: "4E781B53BC3B0450"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "05AA3BC3EFA2782B"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			title: "Flesh Everlasting"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C557BD63B53EA94"]
+			description: [
+				"The Primordial Cradle gave rise to a wretched and disgusting creature. Killing it yields a warm mass of reflexively moving flesh."
+				""
+				"It seems as though this flesh is particularly malleable using magic. Maybe fattening up these blobs before killing them would be more efficient?"
+				""
+				"&oIs meat the only thing that the Cradle eats...?&r"
+			]
+			icon: "biomancy:living_flesh"
+			id: "372EF59FA1DABE12"
+			rewards: [{
+				count: 8
+				id: "438EBA996DC09583"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61C7F49E3B88C5D3"
+					observe_type: 0
+					timer: 0L
+					title: "Observe a flesh blob"
+					to_observe: "biomancy:flesh_blob"
+					type: "observation"
+				}
+				{
+					id: "3C5B47FA751EE6B3"
+					item: "biomancy:living_flesh"
+					type: "item"
+				}
+			]
+			title: "Seeping Mass of Curse"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C557BD63B53EA94"]
+			description: [
+				"The Cradle seems to have reacted negatively to something I've done."
+				""
+				"I should clean this up before it consumes my work area- &oor worse...&r"
+			]
+			icon: "biomancy:primal_permeable_membrane"
+			id: "258D7259107E079B"
+			invisible: true
+			rewards: [{
+				id: "38AE0BBDEC42D0B8"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "biomancy:malignant_flesh_veins"
+				id: "1FDDE2D641B84D3A"
+				observe_type: 0
+				timer: 0L
+				title: "Observe malignant veins"
+				to_observe: "biomancy:malignant_flesh_veins"
+				type: "observation"
+			}]
+			title: "Tainted Ground"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48D47ECC62BBBE07"]
+			description: ["&5Biomancy&r has 7 unique artifacts crafted using the Bio-Forge and serums."]
+			icon: "artifacts:digging_claws"
+			id: "3DF8F283A58F7952"
+			rewards: [{
+				id: "4E703F846EEDD0C5"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7C218C69AFF3EE82"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artifacts:plastic_drinking_hat"
+							}
+							{
+								Count: 1b
+								id: "artifacts:digging_claws"
+							}
+							{
+								Count: 1b
+								id: "artifacts:feral_claws"
+							}
+							{
+								Count: 1b
+								id: "artifacts:kitty_slippers"
+							}
+							{
+								Count: 1b
+								id: "artifacts:rooted_boots"
+							}
+							{
+								Count: 1b
+								id: "artifacts:onion_ring"
+							}
+							{
+								Count: 1b
+								id: "artifacts:antidote_vessel"
+							}
+						]
+					}
+				}
+				title: "Any Biomancy Artifact"
+				type: "item"
+			}]
+			title: "Biomancy Artifacts"
+			x: 5.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["4EF58DF5A85ECB8F"]
+			description: [
+				"It seems &3Neptunium&r tools and armors can be decomposed into &3Neptunium Nuggets&r, provided you feed the Decomposer enough."
+				""
+				"Its output will depend on the material value of the item."
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CC3A56815E037D0"
+			rewards: [{
+				id: "4B9CA5B1B6952CDD"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11FD6373893C1DC1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_pickaxe"
+								tag: {
+									Damage: 0
+									inWater: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_shovel"
+								tag: {
+									Damage: 0
+									inWater: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_bow"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculturedelight:neptunium_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquaculture:neptunium_fillet_knife"
+							}
+						]
+					}
+				}
+				title: "Any Neptunium Item"
+				type: "item"
+			}]
+			title: "Crunching Tools"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: [
+				"After studying these Primordial Cores, it appears they have rote computational capabilities. "
+				""
+				"Perhaps giving them a more fitting body, along with some additional intellegence, can make a basic computer."
+				""
+				"I'll need to be well versed in &5Dwarven Magic&r to craft one."
+			]
+			icon: "computercraft:computer_normal"
+			id: "54364FB5AB63C578"
+			rewards: [{
+				id: "63FB4A578C14B47A"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "22CDAC5F39CD3F09"
+					item: "advancedperipherals:peripheral_casing"
+					type: "item"
+				}
+				{
+					id: "4362941999ECCCA3"
+					item: "computercraft:computer_normal"
+					type: "item"
+				}
+			]
+			title: "Flesh Computing"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"72CB28E236E930F4"
+				"54364FB5AB63C578"
+				"0A333CE2B3BC90D4"
+			]
+			description: [
+				"Crafting flesh using the Bio-Forge is handy, but far too manual. Making use of these flesh computers should let me take my hands of things."
+				""
+				"It'll need a constant supply of liquid nutrients to run. I should set my Digesters to work..."
+				""
+				"Ponder the Biomechanical Forge block with &6W&r to see how it's built."
+				""
+				"&oOrifices spawn underneath Primordial Cradles alongside malignant flesh. Leave some empty blocks underneath it.&r"
+			]
+			icon: "society:biomechanical_forge"
+			id: "3ECF5B9149DE5B3C"
+			rewards: [{
+				id: "72C179A8CAFB4676"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2943432229DC39E0"
+					item: "society:biomechanical_forge"
+					type: "item"
+				}
+				{
+					id: "3A174BA0B7C044AD"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0B279C7C6965A1A6"
+					item: "biomancy:primal_flesh"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3D329CEFA7E92B3F"
+					item: { Count: 8, id: "biomancy:primal_flesh_wall" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "77C8C5C1A310906B"
+					item: { Count: 4, id: "biomancy:primal_flesh_slab" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7C665B07C38277FA"
+					item: { Count: 4, id: "biomancy:flesh_spike" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4C0EF483FBED859D"
+					item: "biomancy:bloomlight"
+					type: "item"
+				}
+			]
+			title: "Automating Forging"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A333CE2B3BC90D4"]
+			description: [
+				"The Biomechanical Forge requires liquid nutrients piped in to operate."
+				""
+				"Constructing a Masticator will help ne process Nutrient Bars down into a thick slurry."
+				""
+				"Ponder the Masticator block with &6W&r to see how it's built."
+			]
+			icon: "society:masticator"
+			id: "590DE168054AAE6C"
+			rewards: [{
+				id: "3F893F3468E018C3"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BAD4C83482712AD"
+					item: "society:masticator"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "535B869C36BE0D57"
+					item: { Count: 3, id: "biomancy:ornate_flesh" }
+					type: "item"
+				}
+				{
+					id: "62FA013256821A5F"
+					item: "biomancy:modular_larynx"
+					type: "item"
+				}
+				{
+					id: "32DEEAF9CDF1AE07"
+					item: "biomancy:bio_lantern_yellow"
+					type: "item"
+				}
+				{
+					id: "669E69859AB0F0D7"
+					item: "biomancy:bio_lantern_blue"
+					type: "item"
+				}
+			]
+			title: "Intense Chewing"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["375EB7435881043E"]
+			description: [
+				"I've fulfilled enough of this strange being's requests. It seems I finally have a &o&4Reptuation&r&r..."
+				""
+				"He seems to rarely stop by with a curios seed. I wonder how the flesh would combine with it..."
+			]
+			id: "5D22E5AB7393E963"
+			rewards: [{
+				id: "296D311DB262A154"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3927BC6658BCA231"
+				item: "society:seed_of_evil"
+				type: "item"
+			}]
+			title: "Wish Granting Seed"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D22E5AB7393E963"]
+			description: [
+				"&4&oI've stuffed that Seed of Desire into a second cradle.&r"
+				""
+				"&4&oIt seems to have grown into a mound of flesh that births Flesh Blobs without my constant gaze.&r"
+				""
+				"&4&oThough I'll need to keep it filled with blood and aquamagical-infused carcasses...&r"
+				""
+				"Ponder the Unholy Cradle block with &6W&r to see how it's built."
+			]
+			icon: "society:unholy_cradle"
+			id: "75DB0D8D773F7C40"
+			rewards: [{
+				count: 2
+				id: "568CB3C0F17120F7"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64F1A3C719C9C054"
+					item: "society:unholy_cradle"
+					type: "item"
+				}
+				{
+					id: "0280348F3752F18E"
+					item: "biomancy:primordial_cradle"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "77D901B263E99402"
+					item: { Count: 32, id: "biomancy:packed_flesh" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42FB339E11B8F729"
+					item: { Count: 16, id: "biomancy:packed_flesh_wall" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "25B0B84DFBD65494"
+					item: "biomancy:ornate_flesh"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0634D25D1A2E01B6"
+					item: "biomancy:bloomlight"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5528D0A7084C289D"
+					item: { Count: 8, id: "biomancy:malignant_flesh" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "147DE461188BD0FE"
+					item: { Count: 8, id: "biomancy:flesh_spike" }
+					type: "item"
+				}
+			]
+			title: "&4&lFlesh Abomination"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258D7259107E079B"]
+			description: [
+				"Letting the flesh run amok has garnered interesting results..."
+				""
+				"These strange Primal Blooms can be harvested for their berries, but waiting too long seems to let them spew out flesh."
+			]
+			icon: "biomancy:bloomberry"
+			id: "0A333CE2B3BC90D4"
+			rewards: [{
+				id: "73F9DCBC81370935"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "biomancy:primal_bloom"
+					id: "5AE646B583CF02B3"
+					observe_type: 0
+					timer: 0L
+					title: "Observe Primal Bloom"
+					to_observe: "biomancy:primal_bloom"
+					type: "observation"
+				}
+				{
+					id: "524A1C8358092D81"
+					item: "biomancy:bloomberry"
+					type: "item"
+				}
+			]
+			title: "Bloodberries"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75DB0D8D773F7C40"]
+			description: [
+				"&4&oRaising these blobs has become tedious, crafting a nest to raise them until their natural death will prove easier.&r"
+				""
+				"&4&oAutocrafting Enlargement Fluid will be necessary as to ensure their growth.&r"
+				""
+				"The Incubator needs a block of Malignant Flesh Block with a Primal Bloom planted atop it to operate."
+			]
+			icon: "society:incubator"
+			id: "40049B57864D8266"
+			rewards: [{
+				id: "13E2489E5F5D9588"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Factory Farming"
+			tasks: [
+				{
+					id: "52BC165ECAD3A166"
+					item: "society:incubator"
+					type: "item"
+				}
+				{
+					id: "7487F7449B9BAA17"
+					item: "biomancy:malignant_flesh"
+					type: "item"
+				}
+				{
+					id: "32B0671D695CBF49"
+					item: "biomancy:primal_bloom"
+					type: "item"
+				}
+			]
+			title: "Raising Flesh Blobs"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72CB28E236E930F4"]
+			description: [
+				"There are tales of dangerous reanimated corpses walking the desert lands..."
+				""
+				"Maybe this forge will help in locating them, for my studies of course."
+			]
+			id: "14CAB721098B6E61"
+			rewards: [{
+				id: "34DA19EB4EE8A812"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CDEBFDB04EA5C15"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "Reanimation Studies"
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["Mid Game"]
+	title: "Biomancy"
+}

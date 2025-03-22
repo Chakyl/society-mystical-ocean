@@ -1,0 +1,1546 @@
+{
+	autofocus_id: "0E88BD6807C6E957"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_construction_society"
+	group: "0826EBDD2586467D"
+	icon: "luphieclutteredmod:unpainted_birdhouse"
+	id: "3E6E358F6077DED0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Mass placing blocks can be tedious, use a Construction Wand instead!"
+				""
+				"&bShift + Scroll&r sets the block restrictions, making it so you only place blocks in a set way."
+				""
+				"&bShift + Right Click&r brings up the options screen for the wand."
+				""
+				"Crafting wands with a Angel/Destruction core allows for more options."
+			]
+			id: "0C7CCF0C26E5F7F5"
+			rewards: [{
+				id: "57330881A9D3DD85"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				id: "73DE766F0E628EF2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&bRight Clicking&r with the Trowel will randomly place blocks from your hotbar."
+				""
+				"Having an item in multiple hotbar slots will raise the chance it's used. E.x., &b3&r slots filled with Stone and &b1&r slot with Cobblestone gives Stone a &b75%&r chance of being placed."
+			]
+			id: "79F208C0FA6DE836"
+			rewards: [{
+				id: "1DF12A297C14973D"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BACF1F557F71D96"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These tools make building fun and easy, allowing you to modify hundreds blocks at once."
+				""
+				"Holding &bG&r while holding a gadget will bring up a radial menu with options."
+				""
+				"Charging these devices requires progression in &5Embers&r."
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "2E90656A5D84F777"
+			rewards: [{
+				id: "49602107F76F8617"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B82DD58050166A8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_building"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_exchanging"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_copy_paste"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_cut_paste"
+								tag: {
+									pastereplace: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_destruction"
+							}
+						]
+					}
+				}
+				title: "Any Building Gadget"
+				type: "item"
+			}]
+			title: "Building Gadgets"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Wrench can rotate blocks, making it easy to place specific redstone components when you don't have a lot of space."
+				""
+				"This tool is enchantable."
+			]
+			id: "2B09F8EDDF2A20AF"
+			rewards: [{
+				id: "71E700F772ABA5B3"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F36111C589E731E"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Rotating Redstone Components"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: ["The Abacus measures distances between two points."]
+			id: "03486AA982229440"
+			rewards: [{
+				id: "7B1C0F17B8BFC306"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD65B34835FFD07"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "Counting Blocks"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Once you run out of space on your island, underwater building may be your next step."
+				""
+				"A Conduit will supply oxygen, night vision, and damage mobs in a radius around it."
+				""
+				"It needs to be placed in water, with a frame. The frame is built out of prismarine blocks in three 5×5 open squares centered on the conduit, one around each axis."
+			]
+			id: "598649D94790B9AD"
+			rewards: [{
+				id: "5A8AC350CD038BF6"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "This is vanilla"
+			tasks: [{
+				id: "35F04F3AEBB43E36"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Deepsea Building"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			description: ["Backported from 1.21, the Crafter can automatically craft items with a redstone signal."]
+			id: "24A58529EDEB997A"
+			rewards: [{
+				id: "2FC625C9B0088EDA"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "This is also vanilla"
+			tasks: [{
+				id: "3A132054629F553E"
+				item: "quark:crafter"
+				type: "item"
+			}]
+			title: "Autocrafting"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			description: ["TIS-3D is a unique mod for handling redstone signals. It's mostly a toy mod, not required for anything any anyone."]
+			id: "0EB422DB6ACC6C90"
+			rewards: [{
+				id: "6D051F1D77F90428"
+				item: "tis3d:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398282F87FB0CB59"
+				item: "tis3d:controller"
+				type: "item"
+			}]
+			title: "Redstone For Turbonerds"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"SecurityCraft offers multiple ways to create secure buildings and traps."
+				""
+				"The Block Reinforcer is used to create Reinforced versions of items, mainly for crafting."
+				""
+				"This is most useful in Multiplayer, however some gadgets can add sauce to your builds in single player."
+			]
+			id: "7EEE4C538245E42D"
+			rewards: [
+				{
+					id: "6FB176867906DCC5"
+					item: "securitycraft:sc_manual"
+					type: "item"
+				}
+				{
+					id: "4215E265B517C2BC"
+					item: {
+						Count: 1
+						id: "securitycraft:universal_block_remover"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DD7F9EFFC819216"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SecurityCraft - Gadgets and Protections"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Item transport options are limited, especially over long distances. Creating a Tug network on sea or a rail network on land can handle this for you."
+				""
+				"It can be especially useful for transporting yourself across the sea to different islands."
+			]
+			icon: "littlelogistics:tug"
+			id: "68EA773AD1E4ECA6"
+			rewards: [{
+				id: "342A0D44D50C1C9C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "778D51DCEB251FBB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "littlelogistics:tug"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:steam_locomotive"
+							}
+						]
+					}
+				}
+				title: "Any logistics vehicle"
+				type: "item"
+			}]
+			title: "Little Logistics"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68EA773AD1E4ECA6"]
+			description: [
+				"Instead of driving around your vehicles, have them drive themselves!"
+				""
+				"Mark out a route of nodes using a routing device, and place it in your Locomotive or Tug. They will automatically pathfind to each node in order. Docks can interact with inventories of Tugs. Locomotives using Docking Rails."
+				""
+				"Vehicles can be registered to automatically load the chunks around them as they move, but if you want your docks to work, you'll need to load them using FTB Chunks."
+			]
+			icon: "littlelogistics:tug_dock"
+			id: "12D5841EFDACFE1E"
+			rewards: [
+				{
+					id: "19856C5B18398D74"
+					item: "littlelogistics:rapid_hopper"
+					type: "item"
+				}
+				{
+					id: "2D622450737850CA"
+					item: "littlelogistics:conductors_wrench"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0CD00F45523932B9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "littlelogistics:tug_route"
+								}
+								{
+									Count: 1b
+									id: "littlelogistics:locomotive_route"
+								}
+							]
+						}
+					}
+					title: "Any route device"
+					type: "item"
+				}
+				{
+					id: "3B8B1C8BAE28BF4C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "littlelogistics:tug_dock"
+								}
+								{
+									Count: 1b
+									id: "littlelogistics:barge_dock"
+								}
+								{
+									Count: 1b
+									id: "littlelogistics:locomotive_dock_rail"
+								}
+								{
+									Count: 1b
+									id: "littlelogistics:car_dock_rail"
+								}
+							]
+						}
+					}
+					title: "Any docking block"
+					type: "item"
+				}
+			]
+			title: "Automated Logistics"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Drawers can be made out of any of the vanilla wood types, and can be used to store high quantities of a single item."
+				""
+				"A Storage Controller with a configured Linking Tool link together multiple drawers, convenient for input/output."
+			]
+			icon: "functionalstorage:oak_1"
+			id: "36F01A930B8E5635"
+			rewards: [
+				{
+					id: "113E5B8A84E5FF6A"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+				{
+					id: "784321AC873AD850"
+					item: {
+						Count: 1
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A851BEE0DFFEC70"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "04A558AC1093F4E7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "Any #functionalstorage:drawer"
+					type: "item"
+				}
+			]
+			title: "Bulk Storage"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Teas and other brewed drinks can be made using a Kettle."
+				""
+				"To dry tea leaves, craft them into block form and place them in the world. Wait until dried to harvest."
+				""
+				"&oEach bounty profession has a favorite drink. Mass producing it would be a good idea.&r"
+			]
+			icon: "herbalbrews:black_tea"
+			id: "6A4FE6DE9200C42F"
+			rewards: [{
+				id: "2701B6759270387A"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12F8FD753E516704"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "herbalbrews:copper_tea_kettle"
+							}
+							{
+								Count: 1b
+								id: "herbalbrews:tea_kettle"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Brewing Tea"
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"In a multiblock Silo place Wheat, Barley, or Corn to dry."
+				""
+				"Next, place down your Brewingstation. Place the ingredients, water, and coal in the different sections of the station. "
+				""
+				"You'll need to babysit the brewing process in case it needs more coal, water etc. The better you do and the higher the tier of Brewstation, the more servings you'll produce!"
+				""
+				"You can ponder the brewingstation for more detailed information."
+				""
+				"&oEach bounty profession has a favorite drink. Mass producing it would be a good idea.&r"
+			]
+			icon: "brewery:beer_wheat"
+			id: "23D2AA66F1283A9B"
+			rewards: [{
+				id: "7F90115605AD5289"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6272B63BA74541BF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "brewery:wooden_brewingstation"
+								}
+								{
+									Count: 1b
+									id: "brewery:copper_brewingstation"
+								}
+								{
+									Count: 1b
+									id: "brewery:netherite_brewingstation"
+								}
+							]
+						}
+					}
+					title: "Any Brewingstation"
+					type: "item"
+				}
+				{
+					id: "498823C51CFAAECA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "brewery:silo_wood"
+								}
+								{
+									Count: 1b
+									id: "brewery:silo_copper"
+								}
+							]
+						}
+					}
+					title: "Any Silo"
+					type: "item"
+				}
+				{
+					id: "6664AAF27F5FDF12"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "brewery:dried_barley"
+								}
+								{
+									Count: 1b
+									id: "brewery:dried_wheat"
+								}
+								{
+									Count: 1b
+									id: "brewery:dried_corn"
+								}
+							]
+						}
+					}
+					title: "Any dried ingredient"
+					type: "item"
+				}
+			]
+			title: "Brewing Beer \\& Whisky"
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			description: ["The Tiki Bar and Mini Fridge can be used to create beachy treats."]
+			icon: "beachparty:honey_cocktail"
+			id: "3C8CA08F4645F811"
+			rewards: [{
+				id: "6FE8BC89DA8002E1"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CD4E99483C8CE44"
+					item: "beachparty:tiki_bar"
+					type: "item"
+				}
+				{
+					id: "735626C711AAB179"
+					item: "beachparty:mini_fridge"
+					type: "item"
+				}
+			]
+			title: "Beach Treats"
+			x: -19.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Brewing wine is a more primitive way of gaining effects that strengthen over time as they age."
+				""
+				"Grape juice can be made by putting grapes in a Grapevine Pot and stomping on it. Once the grapes are liquid, right click on the Pot with an empty Wine Bottle."
+				""
+				"Alternatively, Apple Mash can be aquired putting apples in an Apple Press."
+				""
+				"The are the bases of wine, brewed in a Aging Barrel."
+				""
+				"&oEach bounty profession has a favorite drink. Mass producing it would be a good idea.&r"
+			]
+			icon: {
+				Count: 1
+				id: "vinery:cherry_wine"
+				tag: {
+					Year: 0
+				}
+			}
+			id: "437B130751BCCB4E"
+			rewards: [{
+				id: "1C00E2E3374CC6FA"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26FBC95C28DAA90E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vinery:apple_press"
+								}
+								{
+									Count: 1b
+									id: "vinery:grapevine_pot"
+								}
+							]
+						}
+					}
+					title: "Any juicer"
+					type: "item"
+				}
+				{
+					id: "3B88A7DFCE300593"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "635DA288EEA2C389"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+			]
+			title: "Winemaking"
+			x: -20.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Candlelight adds many dishes along with romantic decor for your restaurant."
+				""
+				"Meals cooked using these pots and pans can be eaten from multiple times."
+			]
+			icon: "candlelight:glass"
+			id: "5A7D18A959D0AB29"
+			rewards: [{
+				id: "6F40785B9BA7F03E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49FD820AB047400C"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "612001B68FA36B01"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fine Dining \\& Breathing"
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Various mods add basic sushi, but Sushi Go Crafting lets you make complex rolls with different effects and high saturation."
+				""
+				"The crafting process is far more involved."
+			]
+			icon: "sushigocrafting:salmon_gunkan"
+			id: "56420D9B656618EE"
+			rewards: [{
+				id: "0B24FF638B034167"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "sushigocrafting:sushigocrafting"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03400D0CD4ECC945"
+					item: "sushigocrafting:roller"
+					type: "item"
+				}
+				{
+					id: "461C85672B12CB64"
+					item: "sushigocrafting:cutting_board"
+					type: "item"
+				}
+				{
+					id: "4FC03F2A395A18E7"
+					item: "sushigocrafting:rice_cooker"
+					type: "item"
+				}
+				{
+					id: "684837033A6744A7"
+					item: "sushigocrafting:fermentation_barrel"
+					type: "item"
+				}
+			]
+			title: "Designer Sushi"
+			x: -17.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Farmers Delight is likely a classic mod you're familiar with. If you aren't, it allows you to make better meals using a Cooking Pot."
+				""
+				"The Cutting board is an important crafting device, letting you chop ingredients for more efficient use."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "6786C644E4613D75"
+			rewards: [{
+				id: "0DC46523569B6D55"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "258AA6AD3B7F1AEA"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "700994A065820EEB"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0F1CBF01B4EBB7FA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+			]
+			title: "Delightful Farming"
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Bakery allows you to create baked goods with many unique features."
+				""
+				"You'll need a Small Cooking Pot for reductions and an Oven for baking."
+			]
+			icon: "bakery:cobblestone_stove"
+			id: "44C8BEE34706030B"
+			rewards: [{
+				id: "0E22F172005D2E30"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D365FFD02B0EBA7"
+					item: {
+						Count: 1
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AB5938CD506E629"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "bakery:brick_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:cobblestone_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:stone_bricks_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:granite_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:deepslate_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:mud_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:sandstone_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:end_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:red_nether_bricks_stove"
+								}
+								{
+									Count: 1b
+									id: "bakery:quartz_stove"
+								}
+							]
+						}
+					}
+					title: "Any bakery oven"
+					type: "item"
+				}
+			]
+			title: "Hardcore Baking"
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Custom discs can be made using the Etching Table. They can be played using any jukebox, though an Album Jukebox will give you better control."
+				""
+				"&oSupports Bandcamp, SoundCloud, MP3, WAV, OGG, and Sound Events.&r"
+			]
+			icon: "etched:etching_table"
+			id: "2265E17EE3A23865"
+			rewards: [{
+				id: "2D9F52B002D93702"
+				item: "etched:boombox"
+				type: "item"
+			}]
+			subtitle: "Bandcraft"
+			tasks: [
+				{
+					id: "0647CCC8BAD1463D"
+					item: "etched:etching_table"
+					type: "item"
+				}
+				{
+					id: "52BAD217E3262B68"
+					item: "etched:album_jukebox"
+					type: "item"
+				}
+				{
+					id: "0E8E850202BBBD6B"
+					item: "etched:blank_music_disc"
+					type: "item"
+				}
+				{
+					id: "6D61D37665B2B1B6"
+					item: {
+						Count: 1
+						id: "etched:music_label"
+						tag: {
+							Label: {
+								Author: "Chakyl"
+								Title: "Custom Music"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Playing Custom Music"
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Custom images can be displayed using the Immersive Paintings mod."
+				""
+				"&oDo note that players will be able to upload ANYTHING&r."
+			]
+			id: "527C61D12ACE2F07"
+			rewards: [{
+				id: "724978790F5EE38D"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A80C2761BFDFE4F"
+				item: "immersive_paintings:painting"
+				title: "Images in Minecraft"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Need stairs for a block that doesn't have any? Use Framed Stairs!"
+				""
+				"Each of the variants can create any shape with any block, excluding block entities."
+			]
+			id: "2D4F379B6B746E55"
+			rewards: [{
+				id: "0EF84FF6DA49F398"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64AE973F5B8EA940"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A Post Box can be used to send mail to other players' Mailboxes."
+				" "
+				"In single player this can be useful for transporting items between bases."
+			]
+			id: "1493F3466C70D048"
+			rewards: [{
+				id: "63E781E7173BFA87"
+				item: "mighty_mail:oak_mail_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "334C8434D6E5F7EE"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			title: "Server Mail"
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Aesthetic photos can be taken of the world using the Exposure mod. "
+				""
+				"Once taken, a Film roll needs to be developed using a bottle of water and a Lightroom"
+			]
+			icon: "exposure:camera"
+			id: "694268E696A2DFA3"
+			rewards: [{
+				id: "5AE18B5E42AE0DEB"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40E7766F75D8866F"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "7A1CBAA003E02D6A"
+					item: "exposure:camera"
+					type: "item"
+				}
+				{
+					id: "1DDC6A5B9AD058C7"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+			]
+			title: "Exposed"
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Need to make sea coins from you friends? Try capitalism!"
+				""
+				"The Bartering Station will let you make secure shops."
+			]
+			id: "2C40F85896A335C6"
+			rewards: [{
+				id: "4F173C444F1EA9FE"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39847192C7315099"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			title: "Local Economies"
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Elaborate elevators can be built using the Moving Elevators mod."
+				""
+				"Creating an Elevator:"
+				"1. Craft at least 2 Elevator Controllers"
+				"2. Place the first Elevator Controller where you want your elevator"
+				"3. Right-Click on a side of the Elevator Controller that has no buttons"
+				"4. Adjust the cabin size and offset to fit your need"
+				"5. Place at least 1 block in the cabin area"
+				"7. Place the other Elevator Controllers above or below the first one and facing the same direction"
+				"8. Use the middle button to request the platform and the other two to move up or down"
+				""
+				"See the mod page for more information."
+			]
+			id: "746494DF6CCE1E14"
+			rewards: [{
+				id: "428DEF986F15B211"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Create Elevators at home"
+			tasks: [{
+				id: "25977B4D0FE7DDF8"
+				item: "movingelevators:elevator_block"
+				type: "item"
+			}]
+			title: "Elevators"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: ["Small passive animals can be transported using a cage."]
+			id: "26ABBCC0302AE0C2"
+			rewards: [{
+				id: "2DC4BA05F1C10227"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6451A757DB84E55D"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Transporting Mobs"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Cooking For Blockheads allows you to create a multiblock kitchen, letting you craft food from connected containers."
+				""
+				"&oDoes not work with unique crafting devices, such as Farmers Delight Pots or Bakery Ovens.&r"
+			]
+			id: "07C5656EC979AE13"
+			rewards: [{
+				id: "1A08D177BE3E562D"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1617629B008FC691"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "Easy Cooking"
+			x: -20.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"This chapter serves as an overview of the various secondary mods in the pack."
+				""
+				"You'll find various descriptions of tools and features, such as moving elevators and the different types of brewing setups."
+				""
+				"Also included is a section on Workers, the backbone of your island society used to gather resources for bounty boards."
+			]
+			icon: "luphieclutteredmod:unpainted_birdhouse"
+			id: "0E88BD6807C6E957"
+			size: 2.0d
+			subtitle: "And its benefits"
+			tasks: [{
+				id: "6621B5488471AEBE"
+				type: "checkmark"
+			}]
+			title: "Society"
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Some less obvious hotkeys (by default):"
+				""
+				"  &bP&r - Place item in world"
+				""
+				"  &bY&r - Find hovered item in nearby inventories. Works when hovering in JEI!"
+			]
+			icon: "securitycraft:keypad_item"
+			id: "3A3BA28EEA6324CD"
+			rewards: [{
+				id: "21D990CDACBE181A"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68CFDD32B7E8757D"
+				title: "Useful Keys"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Magnets are useful tools for collecting items just outside of your normal pickup range. They can be turned off and on, and when upgraded can be filtered."]
+			id: "435258228D127E4C"
+			rewards: [{
+				id: "34859014544D7C19"
+				item: "simplemagnets:basic_demagnetization_coil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08F32D2ABBC3AB95"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Fun With Magnets"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Saws make crafting wooden items way less tedious, especially useful if you're doing lots of decorating."]
+			id: "73CB2CEAC2A7CCF2"
+			rewards: [{
+				id: "6EA9C62CDE02A8A7"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E510B1746DABA3B"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Cutting Wood"
+			x: -20.5d
+			y: 2.5d
+		}
+		{
+			description: ["You advancements and stats can be displayed for all to see using Advancement Frames."]
+			icon: "advancementframes:advancement_frame"
+			id: "50F6C759F21039C4"
+			rewards: [{
+				id: "24746CF894FBA62F"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AC58FA7B0C1E292"
+					item: "advancementframes:stat_frame"
+					type: "item"
+				}
+				{
+					id: "4FC9C33F9B8D1C74"
+					item: "advancementframes:advancement_frame"
+					type: "item"
+				}
+			]
+			title: "Holding Frame"
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			description: ["Computers can provide advanced control of the world using lua scripting."]
+			id: "406F22A873944C95"
+			rewards: [{
+				id: "288AA95587DAC87C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "advancedperipherals:manual"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D58BF227896F6C"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			title: "Advanced Logic"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: [
+				"Livestock workers all generally operate the same way. "
+				""
+				"They will breed the animals their table specializes in, and kill any excess livestock once it reaches the specified limit."
+				""
+				"You can &bShift + Right&r click on the worker to set the limit."
+			]
+			icon: "farmersdelight:horse_feed"
+			id: "72F0AD371E7DABD8"
+			rewards: [
+				{
+					id: "0F651A117E154A9C"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "5B128C36B39E9FD3"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "644410D0F5B40E1B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "workers:cattle_farmer_block"
+							}
+							{
+								Count: 1b
+								id: "workers:swineherd_block"
+							}
+							{
+								Count: 1b
+								id: "workers:shepherd_block"
+							}
+							{
+								Count: 1b
+								id: "workers:chicken_farmer_block"
+							}
+						]
+					}
+				}
+				title: "Any Livestock Manager Table"
+				type: "item"
+			}]
+			title: "Livestock Workers"
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: [
+				"The Fisherman Worker will use its supplied rod to fish for you."
+				""
+				"It is able to use Aquaculture fishing rods, and enchantments such as Unusual Catch will apply."
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:iron_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4018A50F16E36638"
+			rewards: [
+				{
+					id: "17651B69ED15379A"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "547B5AAF87EEE429"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "652D9DC8A2909496"
+				item: "workers:fisherman_block"
+				type: "item"
+			}]
+			title: "Fisherman Worker"
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: [
+				"The Farmer Worker plants and harvests crops when provided with seeds."
+				""
+				"Unforunately, it has no idea how to plant non-vanilla crops..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B993ED8C29A4079"
+			rewards: [
+				{
+					id: "6931ED51A69C3F43"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "70889073F8A048D6"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "606B0D0AF60CDAC8"
+				item: "workers:farmer_block"
+				type: "item"
+			}]
+			title: "Farmer Worker"
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: [
+				"Merchant workers are complex and mainly used in multiplayer to trade between players."
+				""
+				"A maximum of 4 trade offers can be created, and the merchant will use supplied items to trade."
+				""
+				"Waypoints can be set either on the ground or water, and merchants will automatically board vanilla boats or small ships to travel."
+				""
+				"You can &bShift + Right&r click on the worker to change its settings. See the mod page for more info."
+				""
+				"{@pagebreak}"
+				""
+				"{image:society:textures/gui/workers.png width:248 height:200 align:center}"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{image:society:textures/gui/workers_waypoints.png width:238 height:190 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wandering_magician_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "188B5B6B0B78307E"
+			rewards: [
+				{
+					id: "73EC25EDCB959BCB"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "274BEA7234DA7E14"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Trade with others"
+			tasks: [{
+				id: "1C6A375642A49895"
+				item: "workers:merchant_block"
+				type: "item"
+			}]
+			title: "Merchant Worker"
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: [
+				"The &bMiner&r worker will dig in a large area using their equipment."
+				""
+				"You can &bShift + Right&r click on the worker to set the mining mode."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FCD01BEB74DC7F2"
+			rewards: [
+				{
+					id: "261CA47C99BCBDF3"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "688FC51F7D7CB50E"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C910D262A1C1FF8"
+				item: "workers:miner_block"
+				type: "item"
+			}]
+			title: "Miner Worker"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7178BFC71F44A4DE"]
+			description: ["The Lumberjack worker chops down and replants any trees in its working radius. It works with both modded and vanilla saplings."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BCEF31A3AB69F9C"
+			rewards: [
+				{
+					id: "4530574EB40B9C0D"
+					item: "society:gold_sea_coin"
+					type: "item"
+				}
+				{
+					id: "29D883F1E220BCF4"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E6FC6D321D1B3AF"
+				item: "workers:lumberjack_block"
+				type: "item"
+			}]
+			title: "Lumberjack Worker"
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Workers are capable villagers able to automate resource collection early-mid game without the need for magic."
+				""
+				"Their tables can be either crafted or recieved as a reward from relevant decrees (E.g, Miner's Table comes from Blacksmith)."
+				""
+				"Once hired using Gold Sea Coins, they need three things to work:"
+				"- Food"
+				"- Tools"
+				"- Structure (A bed and chest)"
+				""
+				"Their working area, bed, and chest can be set using a hotkey &bX&r."
+				""
+				"Extra settings and inventory can be accessed by &bShift + Left Clicking&r the worker."
+			]
+			icon: "artifacts:villager_hat"
+			id: "7178BFC71F44A4DE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "254AF3E9759C242D"
+				type: "checkmark"
+			}]
+			title: "Colonizing the Sea"
+			x: -13.0d
+			y: -5.0d
+		}
+	]
+	title: "Society"
+}

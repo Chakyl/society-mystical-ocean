@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "biomancy:block/primal_flesh",
+    "east": "biomancy:block/primal_flesh",
+    "north": "society:block/biomechanical_forge_front",
+    "particle": "biomancy:block/primal_flesh",
+    "south": "biomancy:block/primal_flesh",
+    "up": "biomancy:block/primal_flesh",
+    "west": "biomancy:block/primal_flesh"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pylons",
+  "key": {
+    "c": {
+      "item": "eidolon:arcane_seal"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "g": {
+      "tag": "forge:glass"
+    },
+    "a": {
+      "tag": "forge:ingots/pewter"
+    }
+  },
+  "pattern": [
+    "aca",
+    "gdg",
+    "aaa"
+  ],
+  "result": {
+    "item": "pylons:player_filter"
+  },
+  "show_notification": true
+}

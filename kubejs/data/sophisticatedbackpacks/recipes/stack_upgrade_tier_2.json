@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    }
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "NGN",
+    "GSG",
+    "NGN"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+  }
+}

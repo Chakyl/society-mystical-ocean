@@ -1,0 +1,820 @@
+{
+  "content": {
+    "shady_wizard_rew_common_ink": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "irons_spellbooks:common_ink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500
+    },
+    "shady_wizard_rew_arcane_essence": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "irons_spellbooks:arcane_essence",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 250
+    },
+    "shady_wizard_rew_frozen_bone": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "irons_spellbooks:frozen_bone",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 150
+    },
+    "shady_wizard_rew_soul_shard": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "eidolon:raven_feather",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 420
+    },
+    "shady_wizard_rew_tattered_cloth": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "eidolon:tattered_cloth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 230
+    },
+    "shady_wizard_rew_elder_brick": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "eidolon:elder_brick",
+      "amount": {
+        "min": 64,
+        "max": 64
+      },
+      "unitWorth": 15
+    },
+    "shady_wizard_rew_ember_shard": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "embers:ember_shard",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 50
+    },
+    "shady_wizard_rew_ember_grit": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "embers:ember_grit",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 20
+    },
+    "shady_wizard_rew_archaic_brick": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "embers:archaic_brick",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 320
+    },
+    "shady_wizard_rew_mob_sinew": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:mob_sinew",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 50
+    },
+    "shady_wizard_rew_mob_marrow": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:mob_marrow",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 80
+    },
+    "shady_wizard_rew_mob_gland": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "biomancy:mob_gland",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 110
+    },
+    "shady_wizard_rew_wilden_horn": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "ars_nouveau:wilden_horn",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 290
+    },
+    "shady_wizard_rew_wilden_spike": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "ars_nouveau:wilden_spike",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 290
+    },
+    "shady_wizard_rew_wilden_wing": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "ars_nouveau:wilden_wing",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 290
+    },
+    "shady_wizard_rew_uncommon_ink": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "irons_spellbooks:uncommon_ink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1200
+    },
+    "shady_wizard_rew_arcane_salvage": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "irons_spellbooks:arcane_salvage",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1900
+    },
+    "shady_wizard_rew_blood_vial": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "irons_spellbooks:blood_vial",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 200
+    },
+    "shady_wizard_rew_ender_calx": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "eidolon:ender_calx",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 420
+    },
+    "shady_wizard_rew_lesser_soul_gem": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "eidolon:fungus_sprouts",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 245
+    },
+    "shady_wizard_rew_zombie_heart": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "eidolon:zombie_heart",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 550
+    },
+    "shady_wizard_rew_ember_crystal": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "embers:ember_crystal",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 300
+    },
+    "shady_wizard_rew_ancient_motive_core": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "embers:ancient_motive_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 907
+    },
+    "shady_wizard_rew_archaic_bricks": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "embers:archaic_bricks",
+      "amount": {
+        "min": 32,
+        "max": 64
+      },
+      "unitWorth": 160
+    },
+    "shady_wizard_rew_volatile_gland": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "biomancy:volatile_gland",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 100
+    },
+    "shady_wizard_rew_bio_lumens": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "biomancy:bio_lumens",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 120
+    },
+    "shady_wizard_rew_withered_mob_marrow": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "biomancy:withered_mob_marrow",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 160
+    },
+    "shady_wizard_rew_starbuncle_shard": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "ars_nouveau:starbuncle_shards",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 750
+    },
+    "shady_wizard_rew_wixie_shard": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "ars_nouveau:wixie_shards",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 750
+    },
+    "shady_wizard_rew_sourcestone": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "content": "ars_nouveau:sourcestone",
+      "amount": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 56
+    },
+    "shady_wizard_rew_rare_ink": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "irons_spellbooks:rare_ink",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2500
+    },
+
+    "shady_wizard_rew_lightning_bottle": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "irons_spellbooks:lightning_bottle",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 700
+    },
+    "shady_wizard_rew_spell_sack": {
+      "type": "command",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "name": "Spell Sack",
+      "icon": "supplementaries:sack",
+      "content": "/give %PLAYER_NAME% supplementaries:sack{BlockEntityTag:{LootTable:\"irons_spellbooks:magic_items/scroll_pouch\"}}",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3900
+    },
+    "shady_wizard_rew_crimson_essence": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "eidolon:crimson_essence",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 750
+    },
+    "shady_wizard_rew_imbued_bones": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "eidolon:imbued_bones",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 956
+    },
+    "shady_wizard_rew_wraith_heart": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "eidolon:wraith_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 450
+    },
+    "shady_wizard_rew_ashen_fabric": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "embers:ashen_fabric",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1750
+    },
+    "shady_wizard_rew_archaic_circuit": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "embers:archaic_circuit",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1380
+    },
+    "shady_wizard_rew_caminite_plate": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "embers:caminite_plate",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 2000
+    },
+    "shady_wizard_rew_mob_fang": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "biomancy:mob_fang",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 650
+    },
+    "shady_wizard_rew_mob_claw": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "biomancy:mob_claw",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 650
+    },
+    "shady_wizard_rew_nutrient_bar": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "biomancy:nutrient_bar",
+      "amount": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 250
+    },
+    "shady_wizard_rew_drygmy_shard": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "ars_nouveau:drygmy_shard",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 750
+    },
+    "shady_wizard_rew_whirlisprig_shards": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "ars_nouveau:whirlisprig_shards",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 750
+    },
+    "shady_wizard_rew_siren_shards": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "weightMult": 0.5,
+      "content": "ars_elemental:siren_shards",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 850
+    },
+    "shady_wizard_rew_epic_ink": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "irons_spellbooks:epic_ink",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 3900
+    },
+    "shady_wizard_rew_blank_rune": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "irons_spellbooks:blank_rune",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1600
+    },
+    "shady_wizard_rew_ancient_knowledge_fragment": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "irons_spellbooks:ancient_knowledge_fragment",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3400
+    },
+    "shady_wizard_rew_offering_incense": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "eidolon:offering_incense",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 760
+    },
+    "shady_wizard_rew_death_essence": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "eidolon:death_essence",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 560
+    },
+    "shady_wizard_rew_magicians_wax": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "eidolon:magicians_wax",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 560
+    },
+    "shady_wizard_rew_shifting_scales": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "embers:shifting_scales",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2900
+    },
+    "shady_wizard_rew_ember_crystal_cluster": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "embers:isolated_materia",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 2900
+    },
+    "shady_wizard_rew_iron_seed": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "weightMult": 0.3,
+      "content": "embers:iron_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9900
+    },
+    "shady_wizard_rew_creator_mix": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "biomancy:creator_mix",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 720
+    },
+    "shady_wizard_rew_storage_sac": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "biomancy:storage_sac",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1750
+    },
+    "shady_wizard_rew_enlargement_serum": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "biomancy:enlargement_serum",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 2250
+    },
+    "shady_wizard_rew_magebloom_fiber": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "ars_nouveau:magebloom_fiber",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 2600
+    },
+    "shady_wizard_rew_manipulation_essence": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "ars_nouveau:manipulation_essence",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1050
+    },
+    "shady_wizard_rew_blank_parchment": {
+      "type": "item",
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "content": "ars_nouveau:blank_parchment",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 2200
+    },
+    "shady_wizard_rew_legendary_ink": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "irons_spellbooks:legendary_ink",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8800
+    },
+    "shady_wizard_rew_ruined_book": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "irons_spellbooks:ruined_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000
+    },
+    "shady_wizard_rew_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "irons_spellbooks:upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 9200
+    },
+    "shady_wizard_rew_pewter_ingot": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "eidolon:pewter_ingot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1075
+    },
+    "shady_wizard_rew_crimson_gem": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "eidolon:crimson_gem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 2500
+    },
+    "shady_wizard_rew_wicked_wave": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "eidolon:wicked_weave",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1656
+    },
+    "shady_wizard_rew_ember_mechanical_core": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "embers:mechanical_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 48020
+    },
+    "shady_wizard_rew_caminite_bricks": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "embers:caminite_bricks",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1100
+    },
+    "shady_wizard_rew_alchemy_pedestal": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "embers:alchemy_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 55000
+    },
+    "shady_wizard_rew_primal_bloom": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "biomancy:primal_bloom",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 23737
+    },
+    "shady_wizard_rew_primordial_core": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "biomancy:primordial_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20737
+    },
+    "shady_wizard_rew_despoil": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5660,
+      "nbt": "{StoredEnchantments:[{id:\"biomancy:despoil\",lvl:3s}]}"
+    },
+    "shady_wizard_rew_warp_scroll": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "ars_nouveau:warp_scroll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 38000
+    },
+    "shady_wizard_rew_blank_thread": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "ars_nouveau:blank_thread",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 40300
+    },
+    "shady_wizard_rew_spell_turret": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "content": "ars_nouveau:basic_spell_turret",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 20200
+    }
+  }
+}

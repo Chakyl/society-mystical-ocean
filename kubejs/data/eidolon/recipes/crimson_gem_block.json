@@ -1,0 +1,61 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "minecraft:coal_block"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "tetra:geode" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" }
+        
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "eidolon:lesser_soul_gem" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" },
+        { "item": "eidolon:crimson_essence" }
+      ]
+    },
+    {
+      "items": [
+        {
+          "tag": "forge:storage_blocks/diamond"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:crimson_gem_block"
+  }
+}

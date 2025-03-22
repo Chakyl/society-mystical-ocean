@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 64,
+            "item": "minecraft:sand"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:gem_fragments"
+        }
+    ],
+    "nutrientsCost": 45,
+    "result": {
+        "count": 64,
+        "item": "beachparty:sandwaves"
+    }
+}

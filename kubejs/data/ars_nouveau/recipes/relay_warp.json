@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:relay_warp"
+  },
+  "pedestalItems": [
+    {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:relay"
+    }
+  ],
+  "sourceCost": 0
+}

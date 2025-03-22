@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "r r",
+    "wnw",
+    "wgw"
+  ],
+  "reagents": "urpr",
+  "key": {
+    "p": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "r": {
+      "item": "eidolon:raven_feather"
+    },
+    "w": {
+      "item": "eidolon:wicked_weave"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_chestplate"
+    },
+    "g": {
+      "item": "eidolon:gravity_belt"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    }
+  },
+  "result": {
+    "item": "eidolon:raven_cloak"
+  }
+}

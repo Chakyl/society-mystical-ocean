@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "N N",
+    "NCN",
+    "EFE"
+  ],
+  "key":
+  {
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "E":
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "F":
+    {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    "C":
+    {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:alchemist_cauldron",
+    "count": 1
+  }
+}

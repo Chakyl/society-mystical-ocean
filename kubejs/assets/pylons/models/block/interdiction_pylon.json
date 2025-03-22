@@ -1,0 +1,7 @@
+{
+  "parent": "pylons:block/pylon",
+  "textures": {
+    "center": "eidolon:block/arcane_gold_block",
+    "particle": "eidolon:block/arcane_gold_block"
+  }
+}

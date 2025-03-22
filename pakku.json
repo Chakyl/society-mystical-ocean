@@ -1,0 +1,7 @@
+{
+    "name": "Society - Mystical Ocean",
+    "version": "2.1.1",
+    "overrides": [
+        "config"
+    ]
+}

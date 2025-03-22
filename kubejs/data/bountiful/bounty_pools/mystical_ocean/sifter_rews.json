@@ -1,0 +1,315 @@
+{
+    "content": {
+        "sifter_rew_lapis": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:lapis_lazuli",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 10
+        },
+        "sifter_rew_clay_ball": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:clay_ball",
+            "amount": {
+              "min": 1,
+              "max": 64
+            },
+            "unitWorth": 10
+        },
+        "sifter_rew_redstone": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:redstone",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 15
+        },
+        "sifter_rew_sand": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:sand",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 16,
+                "max": 128
+            },
+            "unitWorth": 3
+        },
+        "sifter_rew_gravel": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:gravel",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 16,
+                "max": 128
+            },
+            "unitWorth": 2
+        },
+        "sifter_rew_emerald": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 4,
+                "max": 64
+            },
+            "unitWorth": 35
+        },
+        "sifter_rew_amethyst_shard": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:amethyst_shard",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 45
+        },
+        "sifter_rew_diamond": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "minecraft:diamond",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 300
+        },
+        "sifter_rew_red_sand": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "minecraft:red_sand",
+            "amount": {
+                "min": 16,
+                "max": 256
+            },
+            "unitWorth": 6
+        },
+        "sifter_rew_glowstone_dust": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:glowstone_dust",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 45
+        },
+        "sifter_rew_nether_quartz": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:quartz",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 55
+        },
+        "sifter_rew_clay": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:clay",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 20
+        },
+        "sifter_rew_neptunium_nugget": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "aquaculture:neptunium_nugget",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1000
+        },
+        "sifter_rew_corundum": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "#quark:corundum",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 550
+        },
+        "sifter_rew_myalite_crystal": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "quark:myalite_crystal",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "sifter_rew_mineral_fragment": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "biomancy:mineral_fragment",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 15
+        },
+        "sifter_rew_stone_powder": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "biomancy:stone_powder",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 15
+        },
+        "sifter_rew_aquamagical_dust": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "society:aquamagical_dust",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 270
+        },
+        "sifter_rew_gold_ring": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 15,
+            "content": "candlelight:gold_ring",
+            "weightMult": 0.1,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 90125
+        },
+        "sifter_rew_pristine_lapis": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:pristine_lapis",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 900
+        },
+        "sifter_rew_pristine_emerald": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:pristine_emerald",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+        "sifter_rew_pristine_diamond": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:pristine_diamond",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "sifter_rew_pristine_amethyst": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:pristine_amethyst",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1400
+        },
+        "sifter_rew_lucky_scarf": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "weightMult": 0.5,
+            "content": "artifacts:lucky_scarf",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13000
+        },
+        "sifter_rew_raw_scarlet_neodymium": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "alexscaves:raw_scarlet_neodymium",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1150
+        },
+        "sifter_rew_raw_azure_neodymium": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "alexscaves:raw_azure_neodymium",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1150
+        },
+        "sifter_rew_alexscaves": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "alexscaves:uranium",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 450
+        },
+        "sifter_rew_budding_amethyst": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:budding_amethyst",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        }
+    }
+}

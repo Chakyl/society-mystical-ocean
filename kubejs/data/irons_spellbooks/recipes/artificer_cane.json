@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NC",
+    " CG",
+    "CG "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:crimson_planks"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:artificer_cane",
+    "count": 1
+  }
+}

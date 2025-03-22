@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "biomancy:block/flesh",
+    "east": "biomancy:block/flesh",
+    "north": "society:block/masticator_front",
+    "particle": "biomancy:block/flesh",
+    "south": "biomancy:block/flesh",
+    "up": "biomancy:block/flesh",
+    "west": "biomancy:block/flesh"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:rods/blaze"
+    },
+    "D": {
+      "item": "rehooked:diamond_chain"
+    },
+    "H": {
+      "item": "rehooked:diamond_hook"
+    }
+  },
+  "pattern": [
+    "BBH",
+    " DB",
+    "D B"
+  ],
+  "result": {
+    "item": "rehooked:blaze_hook"
+  },
+  "show_notification": true
+}

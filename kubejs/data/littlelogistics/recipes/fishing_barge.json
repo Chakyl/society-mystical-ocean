@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "aquaculture:neptunium_fishing_rod"
+    },
+    "$": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "$$$"
+  ],
+  "result": {
+    "item": "littlelogistics:fishing_barge"
+  },
+  "show_notification": true
+}

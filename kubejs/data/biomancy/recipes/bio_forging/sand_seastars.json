@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 64,
+            "item": "minecraft:sand"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:nether_star"
+        }
+    ],
+    "nutrientsCost": 45,
+    "result": {
+        "count": 64,
+        "item": "beachparty:sand_seastars"
+    }
+}

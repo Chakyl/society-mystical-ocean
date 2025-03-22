@@ -1,0 +1,128 @@
+{
+  "name": {
+    "text": "Masticator"
+  },
+  "appearance": {
+    "block": "society:machine/masticator",
+    "ambient_sound": "",
+    "interaction_sound": "biomancy:decomposer",
+    "color": 16777215,
+    "tool_type": "minecraft:mineable/hoe",
+    "running": {
+      "ambient_sound": "biomancy:block.decomposer.crafting"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "mode": "output",
+      "capacity": 16000,
+      "max_input": 1000,
+      "max_output": 1000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "priority": 10,
+      "texture": "society:textures/gui/menu_masticator.png",
+      "x": 40,
+      "y": 0,
+      "width": 176,
+      "height": 193
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "",
+      "priority": 1,
+      "x": 47,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "society:textures/gui/transparent.png",
+      "id": "input",
+      "priority": 1,
+      "x": 79,
+      "y": 54,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "texture": "society:textures/gui/transparent.png",
+      "priority": 1,
+      "x": 163,
+      "y": 47,
+      "height": 36,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "texture_empty": "society:textures/gui/transparent.png",
+      "texture_filled": "society:textures/gui/biomancy-cm-progress.png",
+      "height": 20,
+      "width": 20,
+      "x": 117,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:config",
+      "priority": 1,
+      "x": 50,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 186,
+      "y": 10
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "priority": 1,
+      "x": 83,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "x": 116,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "priority": 1,
+      "x": 155,
+      "y": 54,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 117,
+      "y": 80,
+      "jei": true,
+      "text": {
+        "text": ""
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "Automatable Biomancy machine",
+      "color": "red"
+    }
+  ]
+}

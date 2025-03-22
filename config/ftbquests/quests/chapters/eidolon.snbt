@@ -1,0 +1,959 @@
+{
+	autofocus_id: "3B5186A31206427A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "418DBFC9E9BCC496"
+	hide_quest_until_deps_visible: true
+	icon: "eidolon:unholy_symbol"
+	id: "7F54CE3FB9CFD568"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13F60607A50B0BB7"]
+			description: [
+				"&5Eidolon&r is an alchemical \\& theurgical magic mod that lets you craft arcane relics and engage in rituals to the dark or heavenly lord."
+				""
+				"This is an &eearly-game&r mod, with multiple low-cost paths. It mainly provides &astorage management&r and player &autility&r in the form of equipable curios, and undead-focused tools."
+				""
+				"Its ultimate item is the &dSoul Enchanter&r, which allows you to upgrade the level of enchantments."
+			]
+			hide_until_deps_visible: false
+			icon: "eidolon:unholy_symbol"
+			id: "5BF58D659915F1AB"
+			rewards: [{
+				id: "65582A733D4CB963"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Tactical utility witchery"
+			tasks: [{
+				id: "353AD409975A4F96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "eidolon:pewter_ingot"
+							}
+							{
+								Count: 1b
+								id: "eidolon:pewter_blend"
+							}
+						]
+					}
+				}
+				title: "Any Pewter"
+				type: "item"
+			}]
+			title: "Eidolon"
+			x: 7.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BF58D659915F1AB"]
+			description: [
+				"The Crucible is the heart of crafting alchemical compounds."
+				""
+				"It needs to be placed over a heat source and filled with water."
+				""
+				"The crafting works in steps. Add the items or mix the Crucible one step at a time. When the water color changes, that means the Cruicible is ready for the next step."
+				""
+				"You can ponder the Crucible for more information."
+			]
+			id: "2260B385CCC2057C"
+			rewards: [{
+				id: "7D0A73C606106D07"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69CBD883613A0C67"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			title: "The Crucible"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BF58D659915F1AB"]
+			description: ["Rituals are a key aspect of progression as well as ability. Place the activation item on the Brazier and the reagents on nearby Stone Hands, then light then Brazier with a Flint and Steel."]
+			icon: "eidolon:brazier"
+			id: "114B3D779B546E3A"
+			rewards: [{
+				id: "334ABDA3B1C5D5C4"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58EC01642873DE00"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26BFCA4CEAD25130"
+					item: { Count: 2, id: "eidolon:stone_hand" }
+					type: "item"
+				}
+			]
+			title: "Theological Rituals"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BF58D659915F1AB"]
+			description: [
+				"Altars are your way of communicating with higher powers. Creating a table of altar blocks in any shape or size and placing your Straw Effigy on it will let it act as a conduit."
+				""
+				"Once a worldy being has written a sigil in your Ars Ecclesia (see attached quests), you'll be able to perform the Light or Dark Prayer once a day."
+			]
+			icon: "eidolon:wooden_altar"
+			id: "3CD5D1B897F04C85"
+			rewards: [{
+				id: "64E6C9CFA199C347"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47BD32E44F8E3692"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "23DA210B5CDDABB5"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+			]
+			title: "Communing With the Otherworldly"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BF58D659915F1AB"]
+			description: ["Some magical crafting recipes require more items than a mundane workbench will support. "]
+			hide_dependent_lines: true
+			id: "68607F4D57096EFA"
+			rewards: [{
+				id: "7B028531489DC474"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Budget Avaritia"
+			tasks: [{
+				id: "3DC7F080EB6281AA"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			title: "Magical Crafting"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CD5D1B897F04C85"]
+			description: [
+				"Some sigils require researching the the Research Table.&l"
+				""
+				"The process begins with using your Note-Taking Tools on a Stray, Wraith, or Blaze."
+				""
+				"Place the note in the table, and complete the steps to unlock the Sigil."
+			]
+			icon: "eidolon:research_table"
+			id: "3106F0626FB7543E"
+			rewards: [{
+				id: "4230C6EA4A1FC5E9"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "28FF1F4EB1AFB0EA"
+					item: "eidolon:research_table"
+					type: "item"
+				}
+				{
+					id: "4377F3C623CEB06C"
+					item: "eidolon:notetaking_tools"
+					type: "item"
+				}
+			]
+			title: "Researching Sigils"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CD5D1B897F04C85"]
+			description: [
+				"Your puny Wooden Altar won't be enough to perform more complex theological feats. Upgrading it to stone and placing occult items on it will upgrade its power."
+				""
+				"See your Ars Ecclesia's Theurgy chapter for more information on what can be added."
+			]
+			icon: "eidolon:stone_altar"
+			id: "4D10EFBFCDB87D84"
+			rewards: [{
+				id: "0FDF0503AEB64F41"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03738EF41086D32F"
+				item: "eidolon:stone_altar"
+				type: "item"
+			}]
+			title: "Altar Upgrades"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"039025CA1D4B7B2F"
+				"4DF4D8B72A7A86CA"
+			]
+			dependency_requirement: "one_started"
+			description: ["The Soul Enchanter is the most powerful workstation in the mod, allowing you to increase the level of enchantments on items using Soul Shards."]
+			id: "1968E82FC0B28B0C"
+			rewards: [{
+				id: "70A9D9F235B8BFD0"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&dUltimate Disciple&r"
+			tasks: [{
+				id: "4004A90164B043F6"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			title: "Overpowered Enchanting"
+			x: 17.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DF4D8B72A7A86CA"]
+			description: [
+				"The Reaper's Scythe allows you to harvest Soul Shards from the undead without the need of the Crystallization Ritual. "
+				""
+				"A necessary tool for fueling the &dSoul Enchanter&r."
+			]
+			id: "2F190C692404A0AD"
+			rewards: [{
+				count: 3
+				id: "3C8130A315A3FE4D"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2398A7856B560778"
+				item: {
+					Count: 1
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ditching the Ritual"
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114B3D779B546E3A"]
+			description: [
+				"The first Ritual you'll need to perform is the Crystallization Ritual. It will turn nearby undead mobs into Soul Shards."
+				""
+				"Enchanted Ash is toxic to the undedead, placing a circle of it around you should prevent them from touching you."
+			]
+			id: "23248AB61FBF78FE"
+			rewards: [{
+				id: "5064DF5DC2D821F1"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42C74703C3CC869B"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			title: "Harvesting Souls"
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"23248AB61FBF78FE"
+				"2260B385CCC2057C"
+			]
+			description: [
+				"Normal gold isn't a suitable conduit for the arcane. You'll need to use the Crucible to make something more fitting."
+				""
+				"Its primary use in progression is for crafting Goblet or Censer for sacrifices."
+			]
+			id: "7529C2FF2CC834F8"
+			rewards: [{
+				id: "434B3DD751678075"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042C309D68AB3E18"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			title: "Arcane Gold"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD5D1B897F04C85"]
+			description: [
+				"Hand your Ars Ecclesia to a Witch to learn the &5Wicked Sign&r."
+				""
+				"This will put you on the Unholy path."
+				""
+				"&oYou can do both paths at the same time!&r"
+			]
+			id: "1E0C2138862176EE"
+			rewards: [{
+				id: "2EF3C534ABBB1290"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "herbalbrews:witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3F65CD7440B0005C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:witch"
+				type: "observation"
+			}]
+			title: "Lord of the Pit"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CD5D1B897F04C85"]
+			description: [
+				"Hand your Ars Ecclesia to a Cleric (Villager employed at Brewing Stand) to learn the &eSacred Sign&r."
+				""
+				"This will put you on the Holy path."
+				""
+				"If you cannot find a village nearby, a Trapper may be able to \"acquire\" one for you..."
+				""
+				"&oYou can do both paths at the same time!&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B82CC8BB076896B"
+			rewards: [{
+				id: "5EBED292AFFEC547"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:brewing_stand"
+				id: "6F953D430F23B993"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "Lord of the Heavens"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2260B385CCC2057C"]
+			description: [
+				"Don't want to craft a flint and steel, but need to make potions? An Apothocary Stand on top of a boiling crucible will not require Blaze Powder."
+				""
+				"Sprouting Fungus works as a substitute for Nether Warts."
+			]
+			icon: "eidolon:wooden_brewing_stand"
+			id: "3B5186A31206427A"
+			rewards: [{
+				id: "14C28653E9695E4F"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "I can't afford the Nether"
+			tasks: [
+				{
+					id: "4254B4F3659F845F"
+					item: "eidolon:wooden_brewing_stand"
+					type: "item"
+				}
+				{
+					id: "289F7E8A4AB18484"
+					item: "eidolon:fungus_sprouts"
+					type: "item"
+				}
+			]
+			title: "Early Game Potions"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DF4D8B72A7A86CA"]
+			description: ["&5Eidolon&r's has 9 unique artifacts crafted using the magic worktable and crucible items. "]
+			icon: "artifacts:cross_necklace"
+			id: "549C1896DE79AC85"
+			rewards: [{
+				id: "6F4A0105841F30FC"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Across from where?"
+			tasks: [{
+				id: "541C4467C96A5A42"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artifacts:flippers"
+							}
+							{
+								Count: 1b
+								id: "artifacts:chorus_totem"
+							}
+							{
+								Count: 1b
+								id: "artifacts:thorn_pendant"
+							}
+							{
+								Count: 1b
+								id: "artifacts:panic_necklace"
+							}
+							{
+								Count: 1b
+								id: "artifacts:night_vision_goggles"
+							}
+							{
+								Count: 1b
+								id: "artifacts:steadfast_spikes"
+							}
+							{
+								Count: 1b
+								id: "artifacts:golden_hook"
+							}
+							{
+								Count: 1b
+								id: "artifacts:cross_necklace"
+							}
+							{
+								Count: 1b
+								id: "artifacts:vampiric_glove"
+							}
+						]
+					}
+				}
+				title: "Any Eidolon artifact"
+				type: "item"
+			}]
+			title: "Eidolon Artifacts"
+			x: 17.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23248AB61FBF78FE"
+				"7529C2FF2CC834F8"
+			]
+			description: [
+				"Imbuing souls with a touch of &3Neptunium&r in a crucible creates a delicate gem."
+				""
+				"A suitable conduit for more intricate devices. "
+			]
+			id: "039025CA1D4B7B2F"
+			rewards: [{
+				id: "01AF362633D3E977"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3649A8F6067DAA01"
+				item: "eidolon:shadow_gem"
+				type: "item"
+			}]
+			title: "Neptunic Alchemy"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["039025CA1D4B7B2F"]
+			description: [
+				"With the essence of souls imbued in mundane wood, you can create a more organized storage system."
+				""
+				"The Inventory Connector acts as the unifying block for inventories, while your Storage or Crafting Terminal makes the items from it accessible."
+				""
+				"Inventory Cable Connectors can be placed on inventories to connect them to the storage network."
+			]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "4E70F363A21557EB"
+			rewards: [{
+				id: "0658587609AF0C27"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Unrefined Energistics"
+			tasks: [
+				{
+					id: "530A850F490F7310"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0C7735A5F594EF9C"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "7B0FBF5BCEB33A3A"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "3679FB96F59322FC"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			title: "Arcane Storage"
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E70F363A21557EB"]
+			description: [
+				"Needing to always be close to your terminal gets old fast."
+				""
+				"The Wireless Terminal allows you to access it from a short range- provided you can see it."
+			]
+			id: "4C7683FA6C2124CB"
+			rewards: [{
+				id: "72EAF6E6F4B0726F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F2EC723215DEFE5"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "Wirless Access"
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C7683FA6C2124CB"]
+			description: [
+				"After mastering every aspect of the occult, you now have enough understanding to channel the souls through your terminal at a greater range."
+				""
+				"It will require a completed research of any type, and progression in both the path of dark and light."
+			]
+			id: "348C52CABEAA3D02"
+			rewards: [{
+				count: 2
+				id: "231CAFEE84965947"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AEE489502D94661"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "Mostly Unlimited Access"
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DF4D8B72A7A86CA"]
+			description: ["The Raven Cloak is the cloest thing you'll get to a \"jet pack\" for those with magical prowess."]
+			id: "7A34DCD1F69929EC"
+			rewards: [{
+				id: "03D936BCA27AB21A"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F64FE5870C88F31"
+				item: "eidolon:raven_cloak"
+				type: "item"
+			}]
+			title: "Jetpack Jones"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CD5D1B897F04C85"]
+			description: [
+				"The amount of favor you recieve from your Patron depends on how nice your altar is. "
+				""
+				"Adding certain items increases it more than others. Consult the manual for the specific values."
+			]
+			icon: "eidolon:magic_candlestick"
+			id: "5DB0D5150E0D7195"
+			rewards: [{
+				id: "20B00FCF7CA69FC9"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C18F589FF3C4BB1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "eidolon:candle"
+							}
+							{
+								Count: 1b
+								id: "eidolon:candlestick"
+							}
+							{
+								Count: 1b
+								id: "eidolon:magic_candle"
+							}
+							{
+								Count: 1b
+								id: "eidolon:magic_candlestick"
+							}
+							{
+								Count: 1b
+								id: "eidolon:unholy_effigy"
+							}
+							{
+								Count: 1b
+								id: "minecraft:wither_skeleton_skull"
+							}
+							{
+								Count: 1b
+								id: "minecraft:skeleton_skull"
+							}
+						]
+					}
+				}
+				title: "Any altar upgrade"
+				type: "item"
+			}]
+			title: "Altaring Altars"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BA36DBD6523AD42"]
+			description: [
+				"With more prayer and daily devotion, your holy Lord will teach you the inner workings of the arcane."
+				""
+				"You'll be taught to transform those mundane inlays..."
+				""
+				"&oMake sure to use every new sign and spell you learn at least once to unlock Touch of Light!&r"
+			]
+			id: "4CF1ADB8BAF3689C"
+			rewards: [{
+				id: "47518E01D574D464"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B7D071FFBE11415"
+				item: "eidolon:holy_symbol"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["762B69B5391CFE23"]
+			description: [
+				"With more prayer and daily devotion, your unholy Lord will teach you the inner workings of the arcane."
+				""
+				"You'll be taught to transform those mundane inlays..."
+				""
+				"&oMake sure to use every new sign and spell you learn at least once to unlock Touch of Darkness!&r"
+			]
+			id: "359BD0B7D49F9BA5"
+			rewards: [{
+				id: "28969637A8551311"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64FA7D430CFCB41C"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B82CC8BB076896B"]
+			description: [
+				"Progressing with Theology may be confusing to those unfamiliar. In order to progress and unlock more symbols, you must perform a Censor offering and any new spells as they are unlocked."
+				""
+				"See the next page for a more obvious path of progression, if you don't care about spoilers."
+				""
+				"{@pagebreak}"
+				""
+				"- Perform a Censer offering "
+				""
+				"- Perform Lay on Hands on an entity different from yourself"
+				""
+				"- Have a stone altar and perform Purify Zombie"
+				""
+				"- Perform Smite"
+			]
+			icon: "eidolon:censer"
+			id: "5BA36DBD6523AD42"
+			rewards: [{
+				id: "54C2D6623BAA1E36"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6254A32AE005768B"
+					item: "eidolon:censer"
+					type: "item"
+				}
+				{
+					id: "4F4039EE24975007"
+					item: "eidolon:offering_incense"
+					type: "item"
+				}
+			]
+			title: "Holy Progression"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E0C2138862176EE"]
+			description: [
+				"Progressing with Theology may be confusing to those unfamiliar. In order to progress and unlock more symbols, you must perform Animal Sacrifice and any new spells as they are unlocked."
+				""
+				"See the next page for a more obvious path of progression, if you don't care about spoilers."
+				""
+				"{@pagebreak}"
+				""
+				"- Perform Animal Sacrifice"
+				""
+				"- Perform Lay on Hands on an entity different from yourself"
+				""
+				"- Have a stone altar and perform Villager Sacrifice"
+				""
+				"- Perform Zombify"
+				""
+				"- Perform Enthrall"
+			]
+			id: "762B69B5391CFE23"
+			rewards: [{
+				id: "6AEFAE4D89D6A1CF"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "359A7F9EF7230C8F"
+				item: "eidolon:goblet"
+				type: "item"
+			}]
+			title: "Unholy Progression"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["359BD0B7D49F9BA5"]
+			description: [
+				"The Infusion Pylon gives potion effects to their owner."
+				""
+				"Right click with the Potion Filter card while under the effect of a potion, and the duration and effect will be added to the card. This must be done until the progress on the card is complete, so you'll need multiple potions."
+			]
+			icon: "pylons:infusion_pylon"
+			id: "148EEEBEDE69DAB6"
+			rewards: [{
+				id: "0083C66CEE6AEE90"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5721BB4FBB5278B8"
+					item: "pylons:infusion_pylon"
+					type: "item"
+				}
+				{
+					id: "4AA4F603C93E4971"
+					item: "pylons:potion_filter"
+					type: "item"
+				}
+			]
+			title: "Infusing Darkness"
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CF1ADB8BAF3689C"]
+			description: [
+				"The Interdiction Pylon uses the power of the Light to block mob spawns in a radius around it."
+				""
+				"You'll need a mob filter to specify which ones to block, and they don't come cheap."
+			]
+			icon: "pylons:interdiction_pylon"
+			id: "10052BBF4969CDAE"
+			rewards: [{
+				id: "00B9D20A8BE6E19F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B43709DB377B22F"
+					item: "pylons:interdiction_pylon"
+					type: "item"
+				}
+				{
+					id: "105A5D4973D52EAE"
+					item: "pylons:mob_filter"
+					type: "item"
+				}
+			]
+			title: "Blocking Mob Spawns"
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"359BD0B7D49F9BA5"
+				"4CF1ADB8BAF3689C"
+				"68607F4D57096EFA"
+			]
+			description: [
+				"Patron Symbols are needed to craft the most powerful items from this mod. "
+				""
+				"When used in the additional slots in the Magic Workbench, they are not consumed in crafting."
+			]
+			icon: "eidolon:scriptorium"
+			id: "4DF4D8B72A7A86CA"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "7E62C17ED0850DBF"
+				title: "Symbol Crafting"
+				type: "checkmark"
+			}]
+			x: 17.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DF4D8B72A7A86CA"]
+			description: ["The Harvester Pylon harvests crops in a radius. You'll need to supply it with a hoe to operate."]
+			icon: "pylons:harvester_pylon"
+			id: "07F6870F68EBE5F0"
+			rewards: [{
+				id: "760748FEB0D5CA5E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1841AF05AA26C752"
+					item: "pylons:harvester_pylon"
+					type: "item"
+				}
+				{
+					id: "1FCAA4EE5D53FBB0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:hoes"
+						}
+					}
+					title: "Any #minecraft:hoes"
+					type: "item"
+				}
+			]
+			title: "Auto Farming "
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["039025CA1D4B7B2F"]
+			description: [
+				"Wixies from Ars Nouveau can automate Crucible recipes using nearby source. Just right click the charm on the Crucible!"
+				""
+				"If you're not great at crucible mixing, or are just tired of doing it, making one of these charms and a Sourcelink should be your top priority."
+				""
+				"&oThe up front &3Neptunium&r &ocost will be steep if you haven't dipped into Ars yet.&r"
+			]
+			id: "2F8AE76A9F7D7E46"
+			rewards: [{
+				id: "531C77C99D2F6461"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Or are you just bad at it"
+			tasks: [{
+				id: "457920C291F4E302"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			title: "Tired of Mixing?"
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"410787AA0C95BD9D"
+				"4DF4D8B72A7A86CA"
+			]
+			description: [
+				"The Netherite Monstrosity commands a blacksmith in the nether. This eye can help you find it and defeat it."
+				""
+				"The &3Neptunium&r it drops more than makes up for the challenge."
+			]
+			id: "00189B85C5B5A2D5"
+			rewards: [{
+				count: 4
+				id: "0C1E62F10E569480"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B58722E61F8D7BA"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Early Game"]
+	title: "Eidolon"
+}

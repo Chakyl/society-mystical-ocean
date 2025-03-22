@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": 120,
+  "output": {
+    "item": "minecraft:cobblestone"
+  },
+  "required_block": {
+    "amount": 9,
+    "block_tag": "society:cobblestone_boring"
+  },
+  "weight": 20
+}

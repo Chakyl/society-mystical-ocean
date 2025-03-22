@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "embers:ember_crystal"
+    },
+    "nutrientsCost": 30,
+    "processingTime": 900,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "irons_spellbooks:cinder_essence"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 6,
+                "min": 3
+            },
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 64,
+                "min": 16
+            },
+            "item": "supplementaries:ash"
+        }
+    ]
+}

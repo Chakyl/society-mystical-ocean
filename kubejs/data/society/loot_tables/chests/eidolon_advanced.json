@@ -1,0 +1,293 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": 3.0,
+          "max": 5.0,
+          "type": "minecraft:uniform"
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "eidolon:zombie_heart"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 14,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:crimson_gem"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 30,
+            "name": "society:iron_sea_coin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "society:gold_sea_coin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:wither_skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "society:neptunium_sea_coin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "eidolon:shadow_gem"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "eidolon:basic_ring"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "eidolon:basic_amulet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "eidolon:basic_belt"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 0.01,
+            "name": "eidolon:top_hat"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "eidolon:raven_feather"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "eidolon:wicked_weave"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 6.0,
+          "max": 9.0,
+          "type": "minecraft:uniform"
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 3.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:arcane_gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:gold_inlay"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:pewter_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:pewter_inlay"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:fungus_sprouts"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "eidolon:death_essence"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "eidolon:warlock_hat"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "eidolon:warlock_cloak"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "eidolon:warlock_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "count": {
+              "min": 2.0,
+              "max": 6.0,
+              "type": "minecraft:uniform"
+            },
+            "name": "eidolon:soul_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "count": {
+              "min": 1.0,
+              "max": 2.0,
+              "type": "minecraft:uniform"
+            },
+            "name": "eidolon:lesser_soul_gem"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 3.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "society:gold_sea_coin"
+          }
+        ]
+      }
+    ]
+  }

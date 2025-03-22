@@ -1,0 +1,10 @@
+{
+  "type": "embers:melting",
+  "input": {
+    "item": "quark:sturdy_stone"
+  },
+  "output": {
+    "amount": 90,
+    "fluid": "minecraft:lava"
+  }
+}

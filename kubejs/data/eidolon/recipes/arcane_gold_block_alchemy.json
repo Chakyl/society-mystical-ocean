@@ -1,0 +1,22 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "aquaculture:neptunium_ingot" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "tag": "forge:storage_blocks/gold" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:arcane_gold_block"
+  }
+}

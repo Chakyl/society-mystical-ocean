@@ -1,0 +1,17 @@
+{
+    "type": "embers:stamping",
+    "fluid": {
+      "amount": 4,
+      "name": "aetherworks:aether_gas_impure"
+    },
+    "input": {
+      "item": "biomancy:mineral_fragment"
+    },
+    "output": {
+      "count": 16,
+      "item": "aetherworks:suevite_cobble"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

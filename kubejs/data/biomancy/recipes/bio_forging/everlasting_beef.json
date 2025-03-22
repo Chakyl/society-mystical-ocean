@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "count": 128,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 64,
+            "item": "biomancy:creator_mix"
+        },
+        {
+            "count": 32,
+            "item": "biomancy:nutrients"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:rejuvenation_serum"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_block"
+        }
+    ],
+    "nutrientsCost": 666,
+    "result": {
+        "item": "artifacts:everlasting_beef"
+    }
+}

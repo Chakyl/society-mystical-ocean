@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "advancedperipherals:peripheral_casing"
+    },
+    "D": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "L": {
+      "item": "embers:intelligent_apparatus"
+    },
+    "R": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "S": {
+      "item": "embers:wildfire_core"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "DSD",
+    "RLR"
+  ],
+  "result": {
+    "item": "advancedperipherals:weak_automata_core"
+  },
+  "show_notification": true
+}

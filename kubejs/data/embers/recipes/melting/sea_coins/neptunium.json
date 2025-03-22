@@ -1,0 +1,10 @@
+{
+  "type": "embers:melting",
+  "input": {
+    "item": "society:neptunium_sea_coin"
+  },
+  "output": {
+    "amount": 30,
+    "fluid": "aquaculture:molten_neptunium"
+  }
+}

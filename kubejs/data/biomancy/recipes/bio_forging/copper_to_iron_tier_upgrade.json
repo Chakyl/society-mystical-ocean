@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "biomancy:storage_sac"
+        },
+        {
+            "count": 1,
+            "item": "biomancy:creator_mix"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 2,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 200,
+    "result": {
+        "item": "sophisticatedstorage:copper_to_iron_tier_upgrade"
+    }
+}

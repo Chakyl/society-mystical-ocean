@@ -1,0 +1,36 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:thread_undying"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "society:aquamagical_crystal"
+    },
+    {
+      "item": "society:aquamagical_crystal"
+    },
+    {
+      "item": "society:aquamagical_crystal"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:blank_thread"
+    }
+  ],
+  "sourceCost": 1000
+}

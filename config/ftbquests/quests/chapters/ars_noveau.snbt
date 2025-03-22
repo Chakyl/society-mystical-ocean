@@ -1,0 +1,1047 @@
+{
+	autofocus_id: "1B94174826A059D4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_noveau"
+	group: "418DBFC9E9BCC496"
+	hide_quest_until_deps_visible: true
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "5476A00134AD78F3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"13F60607A50B0BB7"
+				"33BA2492E563356F"
+			]
+			description: [
+				"&5Ars Nouveau&r is a spellcrafting mod with magical automation and rituals."
+				""
+				"This is the only &elate-game&r mod, with huge &3Neptunium&r costs. It is a generalist mod, good at &aeverything&r. Though its magical storage system and spellcasting system are uniquely powerful."
+				""
+				"Its ultimate item is the &dArchmage Spellbook&r, which allows you to craft the most powerful of spells."
+			]
+			hide_until_deps_visible: false
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "05EBCFE9E79F53E5"
+			rewards: [{
+				id: "1BD86C459DF5432D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "The one that does all"
+			tasks: [{
+				id: "17202EB8A794BC47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:imbuement_chamber"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:novice_spell_book"
+							}
+						]
+					}
+				}
+				title: "Novice Spellbook or Imbuement Chamber"
+				type: "item"
+			}]
+			title: "Ars Nouveau"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["05EBCFE9E79F53E5"]
+			description: [
+				"Glyphs are the individual elements of each spell you put together using your spellbook. Use the Scribe's Table to craft more by tossing the required items once selecting a glyph, or having those items in a nearby chest."
+				""
+				"Note that you'll only be able to cast glyphs of your spellbook's tier or lower, and each learned glyph increases your maximum mana."
+			]
+			id: "7E0D3DB19E1343A9"
+			rewards: [{
+				id: "121D3DBE5970DEF3"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32EFF885EB867566"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "Crafting Glyphs"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CA60FAD35335398"]
+			description: [
+				"Curio items can be crafted to improve your magical abilities when worn."
+				""
+				"Just hope you've been stockpiling that &3Neptunium&r"
+			]
+			icon: "ars_nouveau:dull_trinket"
+			id: "424C6BE6E2A07E1A"
+			rewards: [{
+				count: 3
+				id: "2C36D746B4EFD641"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14671E9F31CEBF64"
+					item: "ars_nouveau:ring_of_potential"
+					type: "item"
+				}
+				{
+					id: "69199FAF317BBEC4"
+					item: "ars_nouveau:dull_trinket"
+					type: "item"
+				}
+			]
+			title: "Potentially Costly Improvements"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E0D3DB19E1343A9"]
+			description: ["Certain tier 1 glyphs are more powerful than the rest, and will require some &3Neptunium&r."]
+			icon: "ars_nouveau:glyph_amplify"
+			id: "217146E45B7D493E"
+			rewards: [{
+				count: 3
+				id: "1494CB5B5520CE56"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E91D312A2ADDC8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_amplify"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_bounce"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_leap"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_launch"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_rune"
+							}
+						]
+					}
+				}
+				title: "Any rare tier 1 glyph"
+				type: "item"
+			}]
+			title: "Rare Tier 1 Glyphs"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05EBCFE9E79F53E5"]
+			description: [
+				"The Enchanting Apparatus is the final structure necessary to unlock the powers of the tier 3 spellbook."
+				""
+				"It needs to be placed above an Arcane Core, and surrounded with Arcane Pedestals. "
+				""
+				"Some recipes require nearby Source in the form of Source Jars."
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "6CA60FAD35335398"
+			rewards: [{
+				id: "19CA8C68163C24F5"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B7BC7FDD0603787"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "3F9F978543531CED"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Source Enchanting"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2464840C00DA0E37"]
+			description: ["Magical Armor will naturally boost your ability to cast spells, but it also comes with the added bonus of accepting modular upgrades in the form of threads."]
+			id: "44543B5B0F0B4108"
+			rewards: [{
+				id: "230C95FAC900691A"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BCCF1FC3BD0DA02"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			title: "Wizard Couture"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E0D3DB19E1343A9"]
+			description: [
+				"Magebloom Fiber is a versatile crafting ingredient needed for magical armor and scrolls."
+				""
+				"You'll need to use &3Neptunium&r and grown Magebloom to craft it, unless you find some other method..."
+			]
+			icon: "ars_nouveau:magebloom_fiber"
+			id: "2464840C00DA0E37"
+			rewards: [{
+				id: "49A88236BF338900"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0539B4BDE638645E"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "7BB23FE7D3C27879"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "5036EB46BA63BE78"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "Magical Fibers"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D71B1C90501E001"]
+			description: ["Stabalized Warp scrolls are the only reliable way of crafting permanant teleportation. Making a single one of them will require your &3Neptunium&r life savings."]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:stable_warp_scroll"
+				tag: { }
+			}
+			id: "45985B8E876120C0"
+			rewards: [{
+				id: "104C52E0730C2CD1"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Stargate"
+			tasks: [
+				{
+					id: "7264925C3473402F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1D89D9C1BB13CB96"
+					item: {
+						Count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05EBCFE9E79F53E5"]
+			description: [
+				"Source is an essential ingredient for sorcery, needed for certain recipes, rituals, or automation tools."
+				""
+				"Each source generator will automatically deposit into nearby Source Jars."
+				""
+				"Consult the Worn Notebook for details on each generator, as well as transporting source from place to place."
+			]
+			icon: "ars_nouveau:creative_source_jar"
+			id: "3944EECFBF399A71"
+			rewards: [{
+				count: 3
+				id: "3E5FFF852367846C"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59C3C741944D3CE1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:agronomic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:volcanic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:alchemical_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:vitalic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:mycelial_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "starbunclemania:fluid_sourcelink"
+								}
+							]
+						}
+					}
+					title: "Any Sourcelink"
+					type: "item"
+				}
+				{
+					id: "3FB7C6EBEA7313C4"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Creating Source"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44543B5B0F0B4108"]
+			description: [
+				"Using an Enchanting Apparatus, Blank Threads can be crafted into specialized modules that boost different aspects of your armor. "
+				""
+				"They're quite expensive, so be selective with your choices."
+			]
+			id: "6ECCC0735480201C"
+			rewards: [{
+				id: "04D55B8F1CBAB9DB"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE5830DE90DCFF9"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			title: "Dressed to Kill"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3944EECFBF399A71"]
+			description: [
+				"All magical essences will be required in the progression, however Water Essence in particular is an important step in creating the Mage's Spellbook."
+				""
+				"Place each ingredient on Arcane Pedestals near an Imbument Chamber, then place a &3Neptunium nugget&r."
+				""
+				"Only the &3Neptunium nugget&r is consumed in this recipe."
+			]
+			id: "095FBEBF6D41BD41"
+			rewards: [{
+				id: "04A1B78FD2965BAB"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57D246F2A4B8308A"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			title: "The Essence of the Sea"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"095FBEBF6D41BD41"
+				"6CA60FAD35335398"
+			]
+			description: [
+				"An Urn of Endless Waters provides water to nearby tanks or cauldrons for a small source cost. The positions can be set using a Dominion Wand."
+				""
+				"More importantly, it's a crafting ingredient for the Mage's Spellbook."
+			]
+			id: "1B94174826A059D4"
+			rewards: [{
+				count: 3
+				id: "2685319C366526D0"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08865F1F1A692199"
+				item: "ars_elemental:everfull_urn"
+				type: "item"
+			}]
+			title: "The Body of the Sea"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B94174826A059D4"]
+			description: ["The Mage's Spellbook will unlock more powerful glyphs to use, as well as improving your maximum mana and mana regeneration."]
+			id: "7ABFBB443EFFAE5D"
+			rewards: [{
+				id: "2E82777A25A3387A"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Finally, Tier 2"
+			tasks: [{
+				id: "3F88109948AD83E2"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B94174826A059D4"]
+			description: [
+				"In order to obtain a Wilden Tribute, an important crafting component for the Archmage Spellbook and other late game items, you'll need to perform a ritual. "
+				""
+				"Use all three Wilden drops in the Ritual Brazier to summon the Wilden Chimera, and kill it in cold blood."
+			]
+			id: "5D71B1C90501E001"
+			rewards: [{
+				id: "18D55D2558D156A9"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1934EC3819502ABF"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5D71B1C90501E001"
+				"4B70DD60580C30A9"
+			]
+			description: [
+				"Ars Nouveau contains a handful of familiars that can automate resoure generation using &5source.&r"
+				""
+				"You will need the accompanying charm to summon them, which can be crafted using a token or shard."
+				""
+				"Consult your worn notebook for more details on obtaining these creatures and using them."
+				""
+				"&oSome charms require Aqumagical Crystals!&r"
+			]
+			icon: "ars_nouveau:familiar_drygmy"
+			id: "4620A0E839C5706B"
+			tasks: [{
+				id: "2F9FA2D0982B83E3"
+				type: "checkmark"
+			}]
+			title: "Conjuring Friends"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4620A0E839C5706B"]
+			description: [
+				"Whrilisprigs duplicate natural items (logs, crops flowers, etc) around their flower at the cost of source."
+				""
+				"Use their charm on a flower to summon, the more nature that surrounds them the more they produce."
+				""
+				"&oCertain decrees will find these profitable...&r"
+			]
+			id: "0F982F8035929F33"
+			rewards: [{
+				id: "2C8A03784D9452AB"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Bulk supplier"
+			tasks: [{
+				id: "6E867DF3D52B6E97"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			title: "Unlimited Nature"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4620A0E839C5706B"]
+			description: [
+				"Drygmy's act as mob farmers by giving you the drops of mobs near them at the cost of source."
+				""
+				"Use their charm on a piece of mossy coblestone or existing henge to summon. The more mobs that surround them, the more they produce."
+				""
+				"Fish and powerful magical creatures are too arcane to have their drops farmed from Drygmys. You can check which ones by hovering over their spawn egg/bucket in JEI."
+			]
+			id: "55360776CC3298A5"
+			rewards: [{
+				id: "19E7F7B474D74A2F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: ":heart: My beloved :heart:"
+			tasks: [{
+				id: "00CDA8AC786D032A"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			title: "Unlimited Mob Drops"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4620A0E839C5706B"]
+			description: [
+				"Sirens are the most powerful of auto-fishers using only the cost of source."
+				""
+				"Use their charm on Prismarine to summon. The more water animals and plants that surround them, the more they produce."
+			]
+			id: "0AA30FBA4A98B376"
+			rewards: [{
+				count: 3
+				id: "4004083F84E58AD7"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Fisherpleaser"
+			tasks: [{
+				id: "43CBB7571691A541"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			title: "Unlimited Fish"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5D71B1C90501E001"
+				"7ABFBB443EFFAE5D"
+			]
+			description: [
+				"The Archmage Spellbook is the highest tier of spellbook, unlocking devestating glyphs with even higher mana regeneration and maximum mana."
+				""
+				"A legendary rich mage like you should have no trouble clearing out most enemies and crafting complex magical automations."
+			]
+			id: "16E68CD736461D18"
+			rewards: [{
+				count: 9
+				id: "0198047FFFB3AECC"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&dUltimate Neptunium Hoarder&r"
+			tasks: [{
+				id: "1EB3980863BFDB6C"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["767084E9E1A0F8AC"]
+			description: [
+				"Bookwyrms can be harnessed for storage organization, indexing items in chests."
+				""
+				"They need to be attached to a Storage Lecturn, which also acts as a crafting terminal."
+				""
+				"This generally has more limitations than Tom's Simple Storage, but is much cheaper to set up and expand if you're already using Ars Nouveau."
+			]
+			icon: "ars_nouveau:bookwyrm_charm"
+			id: "6AB313A76CB3002E"
+			rewards: [{
+				id: "1C8072EE81E171A3"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Magical Energistics II"
+			tasks: [
+				{
+					id: "2D2A3179A5E33AE6"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "47839C8A753C0788"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+			]
+			title: "Unrefined Storage"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7ABFBB443EFFAE5D"]
+			description: [
+				"Certain tier 2 glyphs are more powerful than the rest, and will require some &3Neptunium&r."
+				""
+				"Glyph of Crush in particular is a powerful spell that increases Sea Coin yield from ores."
+			]
+			icon: "ars_nouveau:glyph_aoe"
+			id: "667DFBC37A5AD07F"
+			rewards: [{
+				id: "55F77BF34E1A0CE0"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21BA58C159E6F117"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_aoe"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_extend_time"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_fortune"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_extract"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_crush"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_slowfall"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_smelt"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_exchange"
+							}
+						]
+					}
+				}
+				title: "Any rare tier 2 glyph"
+				type: "item"
+			}]
+			title: "Rare Tier 2 Glyphs"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16E68CD736461D18"]
+			description: ["Certain tier 3 glyphs are more powerful than the rest, and will require some &3Neptunium&r."]
+			id: "04CD8D6A245EECFC"
+			rewards: [{
+				id: "2025D9AF15E02B7E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ars_nouveau:glyph_split"
+				id: "3536EFFB7B6DE434"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_split"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_blink"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:glyph_homing_projectile"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:glyph_linger"
+							}
+						]
+					}
+				}
+				title: "Any rare tier 3 glyph"
+				type: "item"
+			}]
+			title: "Rare Tier 3 Glyphs"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7ABFBB443EFFAE5D"]
+			description: [
+				"Using the &5Crush&r glyph on iron and gold ore yields x2 of their respective coin &lguaranteed&r!"
+				""
+				"Deepslate ores give x3 yield!"
+			]
+			id: "303D2DD52AA42BB4"
+			rewards: [{
+				count: 3
+				id: "7EE29385FBD2DB23"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Ars Economics"
+			tasks: [{
+				id: "4D1A7CA0443A556C"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			title: "Crushing Ores"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CA60FAD35335398"]
+			description: ["&5Ars Nouveau&r has nine unique artifacts crafted using mana enchanting and arcane items."]
+			icon: "artifacts:anglers_hat"
+			id: "5D0A7784BF3A1D41"
+			rewards: [{
+				id: "16CD6FF516C0C4D9"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5E0DE27BB8200AF4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artifacts:anglers_hat"
+							}
+							{
+								Count: 1b
+								id: "artifacts:cowboy_hat"
+							}
+							{
+								Count: 1b
+								id: "artifacts:villager_hat"
+							}
+							{
+								Count: 1b
+								id: "artifacts:lucky_scarf"
+							}
+							{
+								Count: 1b
+								id: "artifacts:umbrella"
+							}
+							{
+								Count: 1b
+								id: "artifacts:shock_pendant"
+							}
+							{
+								Count: 1b
+								id: "artifacts:charm_of_sinking"
+							}
+							{
+								Count: 1b
+								id: "artifacts:helium_flamingo"
+							}
+							{
+								Count: 1b
+								id: "artifacts:bunny_hoppers"
+							}
+						]
+					}
+				}
+				title: "Any Ars Nouveau Artifact"
+				type: "item"
+			}]
+			title: "Ars Nouveau Artifacts"
+			x: 2.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["767084E9E1A0F8AC"]
+			description: [
+				"Starbuncles are complex babies that can be used to harvest Sourceberries, pick up items, or transport items and fluids."
+				""
+				"They can be filtered in many ways, making them the best form of transport for complex tasks. The downside of course being the fact that they are entities in world instead of solid unkillable blocks."
+			]
+			id: "3A825EB1B7E7D956"
+			rewards: [{
+				id: "251D1965AD96704D"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684D9BAFD0C10003"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Entity Pipes"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["767084E9E1A0F8AC"]
+			description: [
+				"Wixies can automate all sorts of recipes using nearby source. They are the primary source of autocrafting in the pack!"
+				""
+				"The specific things they automate are:"
+				""
+				"- Potion crafting"
+				""
+				"- Crafting Table, Furnace, and Stonecutter recipes"
+				""
+				"- Crucible recipes"
+				""
+				"- Farmers Delight Cutting Board and Cooking Pot recipes"
+				""
+				"Just have the ingredients nearby and right click the item you want to craft on the Wixie's workstation."
+			]
+			id: "55A95E7175CC6B8C"
+			rewards: [{
+				id: "7273821C945F75E5"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC44B60D79D0917"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			title: "Crafting CPU Witches"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CA60FAD35335398"]
+			description: [
+				"There are a handful of inexpensive Charms that can be used to automate basic tasks like crafting, item transport, and storage."
+				""
+				"A Dominion Wand may be needed for controlling some of these."
+			]
+			icon: "ars_nouveau:familiar_starbuncle"
+			id: "767084E9E1A0F8AC"
+			tasks: [{
+				id: "66E4B206A0457580"
+				type: "checkmark"
+			}]
+			title: "Starter Minions"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D71B1C90501E001"]
+			description: [
+				"Using a Wilden Tribute, you can imbue &3Neptunium&r ingots into Aquamagical Essence, which can then be enchanted into Aquamagical Crystals."
+				""
+				"These crystals are required for certain crafts, but also can be substituted for recipes that would otherwise take &3Neptunium&r."
+			]
+			icon: "society:aquamagical_crystal"
+			id: "4B70DD60580C30A9"
+			rewards: [{
+				count: 3
+				id: "23D1F7836091BA18"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Neptunium discounts!"
+			tasks: [
+				{
+					id: "4ACB42F19A0CF95F"
+					item: "society:aquamagical_essence"
+					type: "item"
+				}
+				{
+					id: "5D2BC90D19A9D7D5"
+					item: "society:aquamagical_crystal"
+					type: "item"
+				}
+			]
+			title: "Neptonic Ars"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D71B1C90501E001"]
+			description: [
+				"While Whrilisprigs are good for farming a variety of crops slowly, sometimes you may only need one crop quickly."
+				""
+				"The Source Terrarium grows crop using Liquified Source. Any seed, crop, or block used in the input port are &lnot&r consumed."
+				""
+				"Ponder the Source Terrarium block with &6W&r to see how it's built."
+			]
+			icon: "society:source_terrarium"
+			id: "3F08CF4E22507446"
+			rewards: [{
+				id: "55277E872E824ED7"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DC3A8348DF07779"
+					item: "society:source_terrarium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "19B0526CA984E0A4"
+					item: "ars_nouveau:sourcestone_large_bricks"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6087A8AC8E12250B"
+					item: { Count: 9, id: "ars_nouveau:sourcestone_large_bricks_slab" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "5D79B5B2E915DC50"
+					item: { Count: 17, id: "alexscaves:depth_glass" }
+					type: "item"
+				}
+				{
+					id: "01EBA8933ABA2BE5"
+					item: "supplementaries:planter"
+					type: "item"
+				}
+				{
+					id: "36E9FB0668D7E2B0"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Rapid Gardening"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F08CF4E22507446"]
+			description: [
+				"When used in the place of Liquified Source, Source-Gro triples the speed and doubles the output of the Source Terrarium."
+				""
+				"You'll need some knowledge of dwarven and flesh magic to create it."
+			]
+			id: "39580EB8B14489ED"
+			rewards: [{
+				id: "535429BB831E9CDF"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			subtitle: "It's what plants crave"
+			tasks: [{
+				id: "4BDCF9917AE03571"
+				item: "society:source_gro_bucket"
+				type: "item"
+			}]
+			title: "Plant Food...?"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["16E68CD736461D18"]
+			description: [
+				"Taking a clipping from your Archmage Spellbook, you can imbue Aquamagical Essence into a Wilden Tribute."
+				""
+				"This is convenient and cheaper, but requires you to master flesh related magic."
+				""
+				"The spellbook is not consumed in crafting."
+			]
+			id: "17CCD9AF18F63E9F"
+			rewards: [{
+				id: "5F7756A6EF871A72"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BC8330212E2BD2"
+				item: "society:archmage_clippings"
+				type: "item"
+			}]
+			title: "Cheaper Wilden Tributes"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["095FBEBF6D41BD41"]
+			description: [
+				"A frozen prison holds the immeasurably powerful being Maledictus. "
+				""
+				"Its eye can be crafted and used to locate it, though an unprepared mage will end up dead in the ocean."
+			]
+			id: "44CC127A0CF45013"
+			rewards: [{
+				count: 4
+				id: "15921266D8338BB4"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33D4255EBAA48DAF"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Late Game"]
+	title: "Ars Noveau"
+}

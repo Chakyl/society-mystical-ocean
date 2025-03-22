@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"blacksmith_objs",
+		"blacksmith_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"blacksmith_rews",
+		"_small_sea_coin_rews"
+	]
+}

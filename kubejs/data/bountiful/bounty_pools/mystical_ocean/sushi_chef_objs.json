@@ -1,0 +1,87 @@
+{
+  "content": {
+    "sushi_chef_obj_sides": {
+      "type": "minecraft:item",
+      "rarity": "COMMON",
+      "weightMult": 1.4,
+      "content": "#society:sushi_sides",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 75
+    },
+    "sushi_chef_obj_sushigo_basic": {
+      "type": "minecraft:item",
+      "rarity": "COMMON",
+      "content": "#society:sushigo_basic",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 160
+    },
+    "sushi_chef_obj_sushigo_advanced": {
+      "type": "minecraft:item",
+      "rarity": "RARE",
+      "content": "#society:sushigo_advanced",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 180
+    },
+    "sushi_chef_obj_basic_sushi": {
+      "type": "minecraft:item",
+      "rarity": "COMMON",
+      "content": "#society:basic_sushi",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 250
+    },   
+    "sushi_chef_obj_rice_roll_medley_block": {
+      "type": "item",
+      "rarity": "RARE",
+      "weightMult": 0.3,
+      "content": "farmersdelight:rice_roll_medley_block",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 800
+    },
+    "sushi_chef_obj_exotic_sushi": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "#society:exotic_sushi",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 650
+    },
+    "sushi_chef_obj_noodle_soup": {
+      "type": "minecraft:item",
+      "rarity": "RARE",
+      "content": "farmersdelight:noodle_soup",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 550
+    }, 
+    "sushi_chef_obj_nether_roll_medley": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "weightMult": 0.3,
+      "content": "netherdepthsupgrade:nether_rice_roll_medley_block",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1600
+    }
+  }
+}

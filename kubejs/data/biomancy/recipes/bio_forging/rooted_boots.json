@@ -1,0 +1,27 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+
+        {
+            "count": 1,
+            "item": "vinery:winemaker_boots"
+        },
+        {
+            "count": 1,
+            "item": "artifacts:everlasting_beef"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 8,
+            "item": "irons_spellbooks:nature_upgrade_orb"
+        }
+    ],
+    "nutrientsCost": 200,
+    "result": {
+        "item": "artifacts:rooted_boots"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 2,
+      "name": "biomancy:digested_nutrients"
+    },
+    {
+      "amount": 2,
+      "name": "starbunclemania:source_fluid"
+    },
+    {
+      "amount": 2,
+      "name": "starbunclemania:sourceberry_juice"
+    }
+  ],
+  "output": {
+    "amount": 1,
+    "fluid": "society:source_gro"
+  }
+}

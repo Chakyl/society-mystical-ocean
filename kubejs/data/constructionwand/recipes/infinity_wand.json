@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    },
+    "#": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "constructionwand:infinity_wand"
+  }
+}

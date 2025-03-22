@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#N#",
+    "#W#"
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "#": {
+      "item": "minecraft:white_wool"
+    },
+    "W": {
+       "item": "minecraft:black_wool"
+  }
+  },
+  "result": {
+    "item": "candlelight:chefs_jacket"
+  }
+}

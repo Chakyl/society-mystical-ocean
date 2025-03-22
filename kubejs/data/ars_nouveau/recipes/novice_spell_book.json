@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:dragonskin_spell_book"
+    },
+    {
+      "item": "aquaculture:neptunium_shovel"
+    },
+    {
+      "item": "aquaculture:neptunium_pickaxe"
+    },
+    {
+      "item": "aquaculture:neptunium_axe"
+    },
+    {
+      "item": "aquaculture:neptunium_sword"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:novice_spell_book"
+  }
+}

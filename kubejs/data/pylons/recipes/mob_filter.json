@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pylons",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "d": {
+      "item": "aquaculture:neptunium_sword"
+    },
+    "s": {
+      "item": "eidolon:arcane_seal"
+    },
+    "o": {
+      "item": "eidolon:oanna_bloom"
+    },
+    "n": {
+      "item": "eidolon:crimson_gem"
+    }
+  },
+  "pattern": [
+    "asa",
+    "odo",
+    "ana"
+  ],
+  "result": {
+    "item": "pylons:mob_filter"
+  },
+  "show_notification": true
+}

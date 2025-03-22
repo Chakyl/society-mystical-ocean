@@ -1,0 +1,25 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:bone_fragments"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:tendon_chain"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:maw_hopper"
+    }
+}

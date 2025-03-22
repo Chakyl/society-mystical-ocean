@@ -1,0 +1,188 @@
+{
+    "content": {
+        "blacksmith_obj_coals": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:charcoal",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 10
+        },
+        "blacksmith_obj_raw_iron": {
+            "type": "item",
+            "content": "minecraft:raw_iron",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 40,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:iron_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_copper": {
+            "type": "item",
+            "content": "minecraft:raw_copper",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 30,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:copper_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_gold": {
+            "type": "item",
+            "content": "minecraft:raw_gold",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 50,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:gold_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_sturdy_stone": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "quark:sturdy_stone",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 25
+        },
+        "blacksmith_obj_deesplate": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:cobbled_deepslate",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 15
+        },
+        "blacksmith_obj_raw_lead": {
+            "type": "item",
+            "content": "oreganized:raw_lead",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 50,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "oreganized:lead_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_raw_silver": {
+            "type": "item",
+            "content": "oreganized:raw_silver",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 65,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "oreganized:silver_ingot"
+                }
+            ]
+        },
+        "blacksmith_obj_lava_bucket": {
+            "type": "item",
+            "content": "minecraft:lava_bucket",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 255,
+            "timeMult": 2
+        },
+        "blacksmith_obj_anvil": {
+            "type": "item",
+            "content": "minecraft:anvil",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 320
+        },
+        "blacksmith_obj_geode": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "tetra:geode",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 240
+        },
+        "blacksmith_obj_arcane_debris": {
+            "type": "item",
+            "content": "irons_spellbooks:arcane_debris",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 450
+        },
+        "blacksmith_obj_lead_bulb": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "oreganized:lead_bulb",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 615
+        },
+        "blacksmith_obj_blazewine_pinot": {
+            "type": "item",
+            "content": "nethervinery:blazewine_pinot",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "blacksmith_obj_neptunium_pickaxe": {
+            "type": "item",
+            "content": "aquaculture:neptunium_pickaxe",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 11250
+        }
+    }
+}

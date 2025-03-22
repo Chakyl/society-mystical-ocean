@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "G": {
+      "item": "biomancy:bio_lumens"
+    },
+    "i": {
+      "item": "embers:intelligent_apparatus"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "C": {
+      "item": "advancedperipherals:peripheral_casing"
+    }
+  },
+  "pattern": [
+    "NiN",
+    "#C#",
+    "NGN"
+  ],
+  "result": {
+    "item": "computercraft:computer_advanced"
+  },
+  "show_notification": true
+}

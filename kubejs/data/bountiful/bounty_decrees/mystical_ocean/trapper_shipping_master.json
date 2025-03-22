@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"trapper_objs_shipping_bulk",
+		"trapper_objs_shipping"
+	],
+	"rewards": ["_extra_large_sea_coin_rews"]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "quark:bottled_cloud"
+  },
+  "output": "minecraft:dragon_breath",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "eidolon:withered_heart"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      }
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:blood_staff"
+      }
+    }
+  ],
+  "source": 500
+}

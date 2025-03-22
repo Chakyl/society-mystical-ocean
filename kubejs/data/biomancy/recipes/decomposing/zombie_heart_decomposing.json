@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "eidolon:zombie_heart"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 20,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 12,
+                "min": 1
+            },
+            "item": "biomancy:flesh_bits"
+        },        
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:regenerative_fluid"
+        }
+    ]
+}

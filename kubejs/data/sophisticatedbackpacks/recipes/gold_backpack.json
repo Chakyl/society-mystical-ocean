@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "GNG",
+    "NBN",
+    "GNG"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

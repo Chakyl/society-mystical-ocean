@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "aquaculture:boulti",
+      "required": false
+    },
+	{
+      "id": "aquaculture:piranha",
+      "required": false
+    },
+	{
+      "id": "aquaculture:bluegill",
+      "required": false
+    },
+	{
+      "id": "aquaculture:synodontis",
+      "required": false
+    },
+	{
+      "id": "aquaculture:atlantic_herring",
+      "required": false
+    },
+	{
+      "id": "aquaculture:perch",
+      "required": false
+    },
+	{
+      "id": "aquaculture:minnow",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:splashtail",
+      "required": false
+    }
+  ]
+}

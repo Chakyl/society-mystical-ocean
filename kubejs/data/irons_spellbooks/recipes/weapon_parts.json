@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IM",
+    " nI",
+    "M  "
+  ],
+  "key": {
+    "M": {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    "I": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:weapon_parts",
+    "count": 1
+  }
+}

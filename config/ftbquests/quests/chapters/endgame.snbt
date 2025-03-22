@@ -1,0 +1,1370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endgame"
+	group: "0826EBDD2586467D"
+	hide_quest_until_deps_visible: true
+	icon: "aquaculture:neptunes_bounty"
+	id: "644262E0518FB1CF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3885E62B830ABE44"
+				"21A6DD9648354DA4"
+				"30252B2FD8365D4A"
+				"7C80D2E57A8E0E6C"
+				"0E3DAF692A1B50D6"
+				"6A2BC76BA57852D2"
+				"01F1AA1EDA6455D0"
+				"5326B0F2199233FD"
+				"3164621162E3BB39"
+			]
+			description: [
+				"Once all &lNine&r Shipping Masteries are collected via bounties, you can craft the Shipping Mastery."
+				""
+				"It has no use outside of the endgame quest line."
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			id: "1FB7535F60F76F53"
+			rewards: [{
+				id: "348F464CE7685C12"
+				item: "society:shipping_mastery_trophy"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "070DC3AF09B2DC73"
+				item: "society:shipping_mastery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.75d
+		}
+		{
+			description: [
+				"The &l&6Blacksmith Mastery&r token can be found as a reward in the Blacksmith Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Blacksmith Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "30252B2FD8365D4A"
+			rewards: [{
+				id: "7B153A3CAA035565"
+				item: "society:blacksmith_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30EBB34C0F08F5B4"
+				item: "society:blacksmith_mastery"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &l&6Gourmand Mastery&r token can be found as a reward in the Gourmand Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Gourmand Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "6A2BC76BA57852D2"
+			rewards: [{
+				id: "26356D6E2868DEDE"
+				item: "society:gourmand_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B658B540F0A0C34"
+				item: "society:gourmand_mastery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &l&6Sifter Mastery&r token can be found as a reward in the Sifter Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Sifter Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+				""
+				"&6It is also required to unlock the Minecolonies Sifter, which can find Sea Coins from dusts.&r"
+			]
+			id: "3164621162E3BB39"
+			rewards: [{
+				id: "642AEE99E10C7B15"
+				item: "society:sifter_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "386031030F4040AF"
+				item: "society:sifter_mastery"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &l&6Trapper Mastery&r token can be found as a reward in the Trapper Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Trapper Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "21A6DD9648354DA4"
+			rewards: [{
+				id: "6E90220C7BAEC638"
+				item: "society:trapper_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "256D2E3722748B1F"
+				item: "society:trapper_mastery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &l&6Cultivator Mastery&r token can be found as a reward in the Cultivator Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Cultivator Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "5326B0F2199233FD"
+			rewards: [{
+				id: "57FD60D13208FBD8"
+				item: "society:cultivator_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "706858C08CD16929"
+				item: "society:cultivator_mastery"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &l&6Fisher Mastery&r token can be found as a reward in the Fisher Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Fisher Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "3885E62B830ABE44"
+			rewards: [{
+				id: "4E99739162BF0924"
+				item: "society:fisher_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D9CBCA0F11D07C"
+				item: "society:fisher_mastery"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &l&6Florist Mastery&r token can be found as a reward in the Florist Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Florist Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "01F1AA1EDA6455D0"
+			rewards: [{
+				id: "04B0EF13E66BF3E0"
+				item: "society:florist_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC4EC7919C1D8A4"
+				item: "society:florist_mastery"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &l&6Plunderer Mastery&r token can be found as a reward in the Plunderer Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+			]
+			id: "0E3DAF692A1B50D6"
+			rewards: [{
+				id: "13D96722CDE4DB6D"
+				item: "society:plunderer_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F82FFE65F8CA0F9"
+				item: "society:plunderer_mastery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &l&6Shady Wizard Mastery&r token can be found as a reward in the Shady Wizard Bulk Shipping decree. "
+				""
+				"It will never have Sea Coins as an objective, and generally requires the same items every time it appears with small variance."
+				""
+				"You can craft it into the Master Shady Wizard Bulk Shipping decree, which has an increased cap on Sea Coin rewards."
+			]
+			id: "7C80D2E57A8E0E6C"
+			rewards: [{
+				id: "5CC7F2113FB75FF5"
+				item: "society:shady_wizard_mastery_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30ADBD5BE584C437"
+				item: "society:shady_wizard_mastery"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53A0520F323BEBFF"
+				"634F75A5BCC4F44A"
+			]
+			description: [
+				"With the Arcane Anvil, you're one step closer to mastering Iron's Spells n' Spellbooks."
+				""
+				"To obtain the &3Mastery&r, you must use the anvil to upgrade unique artifacts using vast quantities of orbs."
+				""
+				"You'll also need a hefty supply of &3Neptunium&r of course."
+			]
+			hide_until_deps_visible: false
+			id: "61898489D1C2ECA6"
+			size: 1.5d
+			tasks: [{
+				id: "1477C036B5A73214"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Mastering Iron's Spells n' Spellbooks"
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["61898489D1C2ECA6"]
+			description: [
+				"You'll need 10 Mana Upgrade Orbs in order to obtain the mastery."
+				""
+				"Arcane Essence is best gotten by decomposing various arcane items. Some are even easily renewable..."
+			]
+			id: "4C0DCBFE00FF023C"
+			rewards: [{
+				id: "234C464F8DA5F609"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00CADAAB7F3B624E"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			title: "Channeling Mana"
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["61898489D1C2ECA6"]
+			description: [
+				"You'll need 10 Cooldown Upgrade Orbs in order to obtain the mastery."
+				""
+				"Phantom Membranes can be crafted easily by a skilled fleshcrafter, or harvested by little overpowered wood gnomes using source."
+			]
+			id: "4913E66010E80EBA"
+			rewards: [{
+				id: "4DB3CB8C2458936B"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7069BDAB248695E8"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			title: "Channeling Phantoms"
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["61898489D1C2ECA6"]
+			description: [
+				"You'll need 10 Blood Upgrade Orbs in order to obtain the mastery."
+				""
+				"If you don't feel like melting yourself in a cauldron for years, Blood Vials can be crafted using melted down flesh using various methods."
+			]
+			id: "7FC2D15D6E784263"
+			rewards: [{
+				id: "17EE1BE2BDF398FD"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C523C938F5DEB1"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "Channeling Blood"
+			x: -15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C0DCBFE00FF023C"]
+			description: [
+				"The &3&lAquamagical Resonance Charm&r&r is crafted via progression in a different arcane art of spellcrafting. You'll need to fish up some Soul Suckers in a Soul Sand Valley to reinforce the thread with the sea."
+				""
+				"It will need to be upgraded with 10 Mana Upgrade Orbs in the Arcane Anvil."
+			]
+			id: "144A167E3009C88F"
+			rewards: [{
+				id: "5A09377D0D5AD064"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41D239644C1F1821"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_resonance_charm"
+					tag: {
+						ISBUpgrades: [{
+							id: "irons_spellbooks:mana"
+							slot: "necklace"
+							upgrades: 10
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquamagical Resonance"
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4913E66010E80EBA"]
+			description: [
+				"The &b&lAncient Codex&r&r is crafted from the Ruined Spellbook. You can either find this in an Ancient City, or purchase it from a Plunderer."
+				""
+				"It will need to be upgraded with 10 Cooldown Upgrade Orbs in the Arcane Anvil."
+			]
+			id: "6BA9EADB865D500E"
+			rewards: [{
+				id: "2F9D1923B0C034E7"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C3DE57902C67219"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISBUpgrades: [{
+							id: "irons_spellbooks:cooldown"
+							slot: "spellbook"
+							upgrades: 10
+						}]
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ancient Power"
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7FC2D15D6E784263"]
+			description: [
+				"The &l&4Staff of Blood&r&r is a common drop from The Dead King found in ancient catacombs. A Wayward Compass is recommended if you're having trouble locating the structure."
+				""
+				"It will need to be upgraded with 10 Blood Upgrade Orbs in the Arcane Anvil."
+			]
+			id: "2D8D704392438BA6"
+			rewards: [{
+				id: "0F7459E001CE9572"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30E7E178C4555109"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blood_staff"
+					tag: {
+						ISBUpgrades: [{
+							id: "irons_spellbooks:blood_power"
+							slot: "mainhand"
+							upgrades: 10
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bloody Old Bones"
+			x: -15.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"6BA9EADB865D500E"
+				"144A167E3009C88F"
+				"2D8D704392438BA6"
+			]
+			description: [
+				"Finally you've obtained mastery in the Iron school of magic."
+				""
+				"&oOnly after mastering the other four will you be able to summon the disaster that infused the sea with &3Neptunium&r&o..."
+			]
+			id: "36DB0DFB74C357CF"
+			rewards: [
+				{
+					count: 10
+					id: "5B0EAD1024E2FE23"
+					item: "irons_spellbooks:upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3EFC17D25D239A7C"
+					item: "society:irons_spells_mastery_trophy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2628A13C19C7D2DD"
+				item: "society:irons_spells_mastery"
+				type: "item"
+			}]
+			title: "&3Iron's Spells Mastery"
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"375EB7435881043E"
+				"634F75A5BCC4F44A"
+			]
+			description: [
+				"With the Unholy Contract, you're one step closer to mastering Biomancy."
+				""
+				"To obtain the &3Mastery&r, you must fulifil the Unholy Contract's ultimate challenge for the Seed of Evil."
+				""
+				"You'll also need a hefty supply of &3Neptunium&r of course."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "1B2A30F3E62F3EC2"
+			size: 1.5d
+			tasks: [{
+				id: "677525CF0EFFAEAD"
+				item: "society:unholy_contract"
+				type: "item"
+			}]
+			title: "Mastering Biomancy"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1968E82FC0B28B0C"
+				"634F75A5BCC4F44A"
+			]
+			description: [
+				"With the Soul Enchanter, you're one step closer to mastering Eidolon."
+				""
+				"To obtain the &3Mastery&r, you must master your masters and the Crucible that binds you together."
+				""
+				"You'll also need a decent supply of &3Neptunium&r of course."
+			]
+			hide_until_deps_visible: false
+			id: "12ED8B319F85B942"
+			size: 1.5d
+			tasks: [{
+				id: "188CB61E4682B8D3"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			title: "Mastering Eidolon"
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["12ED8B319F85B942"]
+			description: [
+				"Take your Note-Taking tools, and right click them on a mob thatm masters fire or ice. "
+				""
+				"Using a Research Table, finish the given tasks five times until you're able to complete the research notes with an Arcane Seal."
+			]
+			id: "2030FAD72A458DD3"
+			rewards: [{
+				id: "7AB4A77926356814"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B2177BAAA3F1D4F"
+				item: "eidolon:completed_research"
+				type: "item"
+			}]
+			title: "Researching Neptunium"
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["12ED8B319F85B942"]
+			description: ["Both the paths of Dark and Light are required to truly call yourself a master theologist."]
+			id: "74BD10E31C4F6496"
+			rewards: [{
+				id: "0F94AB258B914343"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AEA9B33A24DD594"
+					item: "eidolon:unholy_symbol"
+					type: "item"
+				}
+				{
+					id: "2077DFE78FBD79A6"
+					item: "eidolon:holy_symbol"
+					type: "item"
+				}
+			]
+			title: "Double-Sided Patron"
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["12ED8B319F85B942"]
+			description: ["You'll need to craft a variety of items in the Crucible"]
+			icon: "eidolon:soulbone_amulet"
+			id: "08B5871F54D9FA4B"
+			rewards: [{
+				id: "6FC58BC14F1AAC14"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00D35B11D7A07A65"
+					item: "eidolon:soulbone_amulet"
+					type: "item"
+				}
+				{
+					id: "5618F6C6B368D6CA"
+					item: "eidolon:crimson_gem_block"
+					type: "item"
+				}
+				{
+					id: "78B5CD9026CB5C36"
+					item: "eidolon:shadow_gem_block"
+					type: "item"
+				}
+				{
+					id: "39820124E8640F82"
+					item: "eidolon:arcane_gold_block"
+					type: "item"
+				}
+				{
+					id: "07075D7FBC7AD33A"
+					item: "eidolon:pewter_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "063EEB65E57EA177"
+					item: "eidolon:magic_candlestick"
+					type: "item"
+				}
+			]
+			title: "Mastering the Crucible"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"2030FAD72A458DD3"
+				"74BD10E31C4F6496"
+				"08B5871F54D9FA4B"
+			]
+			description: [
+				"Finally you've obtained mastery in the Theological school of magic."
+				""
+				"&oOnly after mastering the other four will you be able to summon the disaster that infused the sea with &3Neptunium&r&o..."
+			]
+			id: "1295410AD7E6C7CF"
+			rewards: [
+				{
+					count: 9
+					id: "56A95B628B5B5E88"
+					item: "eidolon:shadow_gem"
+					type: "item"
+				}
+				{
+					id: "5DEEAB5900705A43"
+					item: "society:eidolon_mastery_trophy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5D2B5CF651E0BD92"
+				item: "society:eidolon_mastery"
+				type: "item"
+			}]
+			title: "&3Eidolon Mastery"
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"370C30A3B7064E52"
+				"634F75A5BCC4F44A"
+			]
+			description: [
+				"With the Dawnstone Anvil, you're one step closer to mastering Embers."
+				""
+				"To obtain the &3Mastery&r, fine control of Heat and a handful of alchemy is required."
+				""
+				"You'll also need a huge supply of &3Neptunium&r of course."
+			]
+			hide_until_deps_visible: false
+			id: "72A91286D312D005"
+			size: 1.5d
+			tasks: [{
+				id: "4D1AB70533C71CDD"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			title: "Mastering Embers"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["72A91286D312D005"]
+			description: [
+				"To master Embers, you'll need a suitable crown with 5 levels of heat. "
+				""
+				"Crafting the crown will be a delicate process, and you'll need to progress through Aetherworks completely."
+			]
+			id: "5DC7820A6DC4CE43"
+			rewards: [{
+				id: "0D121848AB6C19A6"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DF73A0C2D0326A"
+				item: {
+					Count: 1
+					id: "aetherworks:aether_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crown of Heat"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["72A91286D312D005"]
+			description: ["A few lingering alchemy crafts remain before you can truly call yourself a master of it."]
+			icon: "embers:winding_gears"
+			id: "135E7F3D645FD126"
+			rewards: [{
+				id: "43EC3FB64DFA7D3E"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5617500F630DAB16"
+					item: {
+						Count: 1
+						id: "embers:tyrfing"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51CE78584F863B44"
+					item: { Count: 2, id: "embers:winding_gears" }
+					type: "item"
+				}
+			]
+			title: "Light Alchemy"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["72A91286D312D005"]
+			description: [
+				"The Aetherium Crown you will use to craft will need 5 augment slots. This means you'll need to build up heat by wearing the crown, and turn that heat into an augment slot using the Inferno Forge."
+				""
+				"Open the hatch, toss the crown in with Ember Crystals and close the hatch. The more Ember Crystals and higher quality of the crystals, the higher chance the Inferno Forge works. "
+				""
+				"The more heat that has been accumulated, the more Ember Crystals you'll need."
+			]
+			id: "55BEB7CF55D34650"
+			rewards: [{
+				id: "06923946EA7CA251"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CD2688095806ECF"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			title: "Upgrading the Crown"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"55BEB7CF55D34650"
+				"5DC7820A6DC4CE43"
+			]
+			description: [
+				"Using the Dawnstone Anvil, upgrade your Aetherium Crown with an Ancient Motive Core so it can build up heat."
+				""
+				"Once the Inferno Forge is used, you'll be able to augment the crown with an Intellegence Apparatus."
+				""
+				"You'll need a crown with Intellegent V to craft the Embers Mastery."
+				""
+				"&6Be careful not to add heat to the crown once it has level 5 heat.&r"
+			]
+			icon: "embers:intelligent_apparatus"
+			id: "3DA8146CBE43B85C"
+			rewards: [{
+				id: "48EB065F325C1CBC"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30CFC377F29376CC"
+					item: "embers:ancient_motive_core"
+					type: "item"
+				}
+				{
+					id: "0938936C9462445D"
+					item: { Count: 5, id: "embers:intelligent_apparatus" }
+					type: "item"
+				}
+			]
+			title: "Hot Intel Temps"
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"135E7F3D645FD126"
+				"3DA8146CBE43B85C"
+			]
+			description: [
+				"Finally you've obtained mastery in the Dwarven school of magic."
+				""
+				"&oOnly after mastering the other four will you be able to summon the disaster that infused the sea with &3Neptunium&r&o..."
+			]
+			id: "753C0FA1986BB998"
+			rewards: [
+				{
+					count: 3
+					id: "7ACB108D1031EF92"
+					item: "embers:wildfire_core"
+					type: "item"
+				}
+				{
+					id: "1F08B3358C8E035D"
+					item: "society:embers_mastery_trophy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "52A1789C41432174"
+				item: "society:embers_mastery"
+				type: "item"
+			}]
+			title: "&3Embers Mastery"
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5AEE9325BDDA06FA"]
+			description: [
+				"The professor decree offers a seed only obtainable via flesh goods. It only appears when you've built up a reputation of at least 25 on the board it's on."
+				""
+				"It's required for the mastery, but can also be crafted into a master decree that doubles the Sea Coin rewards, removing other options from the pool."
+				""
+				"&o&4Is that still the professor?&r"
+			]
+			id: "5660BE6ED23DA362"
+			rewards: [{
+				id: "18B66455DFD7CFCD"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8BDB7D6CFE6D24"
+				item: "society:seed_of_evil"
+				type: "item"
+			}]
+			title: "Spawn of the Devil"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B2A30F3E62F3EC2"]
+			description: ["Bloomberries can be harvested from a Primal Bloom, which only appear when your Primordial Cradle is run amok with energy from failing crafts."]
+			id: "19F20563935D51FC"
+			rewards: [{
+				id: "6ACDA92D17385542"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37180C57C8E8185C"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			title: "Berry Farming"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1B2A30F3E62F3EC2"]
+			description: ["&l&4ETERNAL MEAT. NOTHING IS MORE BEAUTIFUL&r&r"]
+			id: "66376A1921AFB1C1"
+			rewards: [{
+				id: "52B6CC4567A40A2A"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF62B3A6ABC34C9"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			title: "Masterful Meat"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"66376A1921AFB1C1"
+				"19F20563935D51FC"
+				"5660BE6ED23DA362"
+			]
+			description: [
+				"Finally you've obtained mastery in the Biomechanical school of magic."
+				""
+				"&oOnly after mastering the other four will you be able to summon the disaster that infused the sea with &3Neptunium&r&o..."
+			]
+			id: "1B441BAEAF238E9E"
+			rewards: [
+				{
+					count: 64
+					id: "52EF873B2D5503A9"
+					item: "biomancy:living_flesh"
+					type: "item"
+				}
+				{
+					id: "06E32E46E6E3AF78"
+					item: "society:biomancy_mastery_trophy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "121C3C3708FF70C1"
+				item: "society:biomancy_mastery"
+				type: "item"
+			}]
+			title: "&3Biomancy Mastery"
+			x: 4.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"16E68CD736461D18"
+				"634F75A5BCC4F44A"
+			]
+			description: [
+				"With the Archmage Spellbook, you're one step closer to mastering Ars Nouveau."
+				""
+				"To obtain the &3Mastery&r, you must use enchantment crafting to obtain the most exotic of Ars items."
+				""
+				"You'll also need an intense supply of &3Neptunium&r of course."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "77C54429249841EE"
+			size: 1.5d
+			tasks: [{
+				id: "200C5C388D6EA53F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:archmage_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mastering Ars Nouveau"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77C54429249841EE"]
+			description: [
+				"Using delicate Aquamagical Crystals, you can take tiny clippings of your Archmage Spellbook."
+				""
+				"Thankfully, this doesn't damage the spellbook at all, and it's not consumed in crafting."
+			]
+			id: "0C24163A8B2C7A37"
+			rewards: [{
+				id: "6B05AD5ACA53908D"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "44BF7A3E6259C6A7"
+				item: { Count: 4, id: "society:archmage_clippings" }
+				type: "item"
+			}]
+			title: "Plant Clippings"
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["77C54429249841EE"]
+			description: ["Mastering space and time itself using a stable Warp Scroll is a prerequisite to obtaining the mastery."]
+			id: "748E2DBD2CF1458D"
+			rewards: [{
+				id: "592B9AFFF1D8EB7B"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF5865F25F6E7AE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Stargate (Cont.)"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["77C54429249841EE"]
+			description: ["By now you've probably crafted plenty of these. This should hopefully be your last."]
+			id: "70D2C6BBAE57990A"
+			rewards: [{
+				id: "627B4F1D938DCD6D"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19EFE9EB4731EDEF"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			title: "Essence Mastery"
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"70D2C6BBAE57990A"
+				"0C24163A8B2C7A37"
+				"748E2DBD2CF1458D"
+			]
+			description: [
+				"Finally you've obtained mastery in the Nouvic school of magic."
+				""
+				"&oOnly after mastering the other four will you be able to summon the disaster that infused the sea with &3Neptunium&r&o..."
+			]
+			id: "5C789AC9B836C8B0"
+			rewards: [
+				{
+					id: "7F99D41AC0BF0A3A"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+				{
+					id: "6B72BEC7BBCD00CE"
+					item: "society:ars_nouveau_mastery_trophy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5C45CAAF6568EE46"
+				item: "society:ars_nouveau_mastery"
+				type: "item"
+			}]
+			title: "&3Ars Nouveau Mastery"
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			description: [
+				"In order to \"Complete\" Society: Mystical Ocean, you must master the five magic mods, the ocean, and society itself (commerce)."
+				""
+				"This questline will tell you how, though it will only vaguely guide you on the specifics unless they aren't clear."
+				""
+				"Everything here is a work in progress, and may be prone to changes before release. "
+				""
+				"&oCompleting the pack is purely for a trophy, no creative items are awarded.&r "
+			]
+			icon: "aquaculture:neptunes_bounty"
+			id: "634F75A5BCC4F44A"
+			size: 2.0d
+			subtitle: "Not as scary as it looks!"
+			tasks: [{
+				id: "5DA93F79622A7763"
+				type: "checkmark"
+			}]
+			title: "Mastering Mastery"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B2A30F3E62F3EC2"]
+			description: [
+				"Your first step in mastering flesh lies in that wretched Unholy Contract. "
+				""
+				"Craft the Professor Decree using a Primordial Core, and refine your setup for fulfiling these bloody bounties."
+			]
+			id: "5AEE9325BDDA06FA"
+			rewards: [{
+				id: "51FC6A0D1F250DE4"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E909E01C316D2A5"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"professor\"]}"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Meeting the Professor"
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"1295410AD7E6C7CF"
+				"5C789AC9B836C8B0"
+				"1B441BAEAF238E9E"
+				"36DB0DFB74C357CF"
+				"753C0FA1986BB998"
+			]
+			description: ["The culimination of everything you've studied and toiled for: The &3Heart of Neptunium&r. Combine all 5 masteries with some &bFading Aquamagic&r for energy to create this fabled amulet."]
+			id: "18814FF3959F2494"
+			rewards: [{
+				id: "28CEC733AFC89B4A"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Hunting the Behemoth"
+			tasks: [{
+				id: "4CB319B28FA12BFC"
+				item: "society:heart_of_neptunium"
+				type: "item"
+			}]
+			title: "Neptunium Calling"
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			description: [
+				"Shipping Masteries are RNG dependent, which can be frustrating if you've already set up your farms and are waiting for one to show up."
+				""
+				"Combine a Netherite Smithing Template, shipping decree, and Gold Sea Coin in a Smithing Table to craft a \"Challenge\" decree of that type. "
+				""
+				"Challenge decrees have a &lsignificantly higher&r chance to give Masteries, provided the Bounty Board is level 25 and only contains challenge decrees."
+			]
+			icon: "ars_nouveau:glyph_randomize"
+			id: "578BAF7D3007984D"
+			tasks: [{
+				id: "2585E3904A8BE660"
+				title: "Struggling to Find Masteries?"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B57528C201E6C85"]
+			description: [
+				"With the death of a Neptunium Behemoth, you finally have the purest form of &3Neptunium&r. The source of all magic in the sea."
+				""
+				"It resonates with the Neptunium Sea Coins in your pocket, giving the highest yield possible- better than any magical method."
+				""
+				"With that, you've mastered all the magic the ocean has to offer. You've grinded out senselessly complicated endgame recipes for very little gain. Maybe it's time you relax on the beach..."
+			]
+			id: "025B6B888D8984CD"
+			rewards: [
+				{
+					id: "41D317038377DA07"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							RepairCost: 0
+							SkullOwner: {
+								Id: [I;
+									-1925411279
+									-1955380426
+									-1696866427
+									150442577
+								]
+								Name: "Chakyl"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzc0OTEzOTA2NCwKICAicHJvZmlsZUlkIiA6ICI4ZDNjOGUzMThiNzM0MzM2OWFkYmRmODUwOGY3OTI1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGFreWwiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc3MzIwYjc5MzQ2MzgwNzAxNWI0MjI0MDljZjg2YWZhODc0NTA0NTk1N2NlNGEzMmQ3ZjA3ZDlkZTZkZWRlIgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Thanks for playing Society: Mystical Ocean!\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DAC8821DAACF577"
+					item: {
+						Count: 1
+						id: "supplementaries:sack"
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "beachparty:beach_hat"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "aquaculture:neptuna"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "beachparty:beach_parasol"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "aquaculture:neptuna"
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "beachparty:honey_cocktail"
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "aquaculture:neptuna"
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "beachparty:lounge_chair"
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "aquaculture:neptuna"
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "beachparty:crocs"
+										tag: {
+											Damage: 0
+										}
+									}
+								]
+								id: "supplementaries:sack"
+							}
+							RepairCost: 0
+							display: {
+								Lore: ["\"(+NBT)\""]
+								Name: "{\"text\":\"Vacation Sack\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "You are truly Society: Mystical Ocean"
+			tasks: [{
+				id: "2E65ABF798FD03EB"
+				item: "society:primordial_neptunium"
+				type: "item"
+			}]
+			title: "&3The Source of Neptunium&r"
+			x: -1.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["6498CCA532AEFC43"]
+			description: [
+				"Once crafted, carefully make your way through the city to the Altar of the Abyss. Place the Abyssal Sacrafice inside to summon the &3&lNeptunium Behemoth&r&r."
+				""
+				"You'll need all the power and protection from your magical studies to take down one of the arcane sources of aquamagic. It is far more difficult than anything you've encountered before."
+				""
+				"If you want to fight the Behemoth again for some reason, surround the amulet with 4 &bFading Aquamagic&r to re-imbue it with energy, and find another city."
+			]
+			id: "1B57528C201E6C85"
+			rewards: [{
+				id: "38FA92B853810A47"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09E38C766E01C199"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "The Sacrifice"
+			x: -1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["18814FF3959F2494"]
+			description: [
+				"A &3Neptonic Priest&r lies at the altar, protecting the Behemoth's slumber."
+				""
+				"Killing it will yield the Oceanic Athame, which needs an offering from one of the nearby beasts to use."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6498CCA532AEFC43"
+			rewards: [{
+				id: "13B811F38BEE1E0D"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "040950095F8C943D"
+					item: {
+						Count: 1
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "352CDBDAEA8BF770"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cataclysm:crystallized_coral"
+								}
+								{
+									Count: 1b
+									id: "cataclysm:coral_chunk"
+								}
+							]
+						}
+					}
+					title: "Either Offering"
+					type: "item"
+				}
+			]
+			title: "Killing the False Priest"
+			x: -1.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["18814FF3959F2494"]
+			description: ["Your final battle will take place at the Sunken City somewhere in the ocean. To find one if you haven't already, craft an Eye of the Abyss."]
+			id: "0225EFA46141124F"
+			rewards: [{
+				id: "7B7A2D233076DE0F"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "525696E1D978041F"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "Finding the Sunken City"
+			x: 0.5d
+			y: -20.0d
+		}
+	]
+	title: "Endgame"
+}

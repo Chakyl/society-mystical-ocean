@@ -1,0 +1,4 @@
+{
+  "objectives": ["_sea_coin_objs"],
+  "rewards": ["gourmand_rews", "mystery_sack_rews"]
+}

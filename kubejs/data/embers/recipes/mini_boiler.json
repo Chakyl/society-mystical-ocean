@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "embers:wildfire_core"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "E P",
+    "PPP"
+  ],
+  "result": {
+    "item": "embers:mini_boiler"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "brewery:barley_seeds"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "brewery:barley_seeds"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "bakery:oat_seeds",
+    "count": 2
+  }
+}

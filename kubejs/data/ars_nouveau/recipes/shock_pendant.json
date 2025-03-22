@@ -1,0 +1,31 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "artifacts:shock_pendant"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "ars_nouveau:glyph_lightning"
+    },
+    {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    {
+      "item": "irons_spellbooks:lightning_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      
+    "item": "ars_nouveau:dull_trinket"
+    }
+  ],
+  "sourceCost": 0
+}

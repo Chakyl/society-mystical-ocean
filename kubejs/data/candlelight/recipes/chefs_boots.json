@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "n n",
+    "S S",
+    "# #"
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "S": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "candlelight:chefs_boots"
+  }
+}

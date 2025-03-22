@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "ars_nouveau:stable_warp_scroll"
+  },
+  "pedestalItems": [
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "ars_nouveau:glyph_blink"
+    },
+    {
+      "item": "artifacts:charm_of_sinking"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:warp_scroll"
+    }
+  ],
+  "sourceCost": 0
+}

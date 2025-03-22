@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "item": "pylons:interdiction_pylon"
+    },
+    {
+      "item": "pylons:interdiction_pylon"
+    },
+    {
+      "item": "pylons:mob_filter"
+    },
+    {
+      "item": "pylons:mob_filter"
+    },
+    {
+      "item": "pylons:mob_filter"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_sanctuary"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "minecraft:bucket"
+        },
+        {
+            "count": 10,
+            "item": "biomancy:flesh_bits"
+        }
+    ],
+    "nutrientsCost": 5,
+    "result": {
+        "count": 1,
+        "item": "biomancy:blood_bucket"
+    }
+}

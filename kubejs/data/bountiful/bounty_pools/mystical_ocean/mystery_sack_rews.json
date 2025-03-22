@@ -1,0 +1,407 @@
+{
+    "content": {
+        "gournmand_mystery_sack_1": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"betterarcheology:growth_totem\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_2": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:11b,Slot:0b,id:\"herbalbrews:coffee_beans\"},{Count:7b,Slot:1b,id:\"herbalbrews:coffee_beans\"},{Count:3b,Slot:4b,id:\"herbalbrews:coffee_beans\"},{Count:3b,Slot:5b,id:\"herbalbrews:coffee_beans\"},{Count:7b,Slot:6b,id:\"herbalbrews:coffee_beans\"},{Count:1b,Slot:7b,id:\"luphieclutteredmod:luphie_coffee_grinder\"},{Count:7b,Slot:8b,id:\"herbalbrews:coffee_beans\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_3": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:nether_wart\"},{Count:5b,Slot:1b,id:\"minecraft:blaze_powder\"},{Count:1b,Slot:2b,id:\"minecraft:nether_wart\"},{Count:1b,Slot:3b,id:\"minecraft:nether_wart\"},{Count:1b,Slot:4b,id:\"minecraft:brewing_stand\"},{Count:1b,Slot:5b,id:\"minecraft:nether_wart\"},{Count:2b,Slot:6b,id:\"minecraft:soul_sand\"},{Count:2b,Slot:7b,id:\"minecraft:soul_sand\"},{Count:2b,Slot:8b,id:\"minecraft:soul_sand\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_4": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:2b,id:\"minecraft:coal_block\"},{Count:1b,Slot:3b,id:\"minecraft:coal_block\"},{Count:1b,Slot:7b,id:\"minecraft:coal_block\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_5": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"buzzier_bees:four_leaf_clover\"},{Count:1b,Slot:1b,id:\"minecraft:rabbit_foot\"},{Count:1b,Slot:2b,id:\"buzzier_bees:four_leaf_clover\"},{Count:1b,Slot:3b,id:\"minecraft:rabbit_foot\"},{Count:1b,Slot:4b,id:\"buzzier_bees:four_leaf_clover\"},{Count:1b,Slot:5b,id:\"minecraft:rabbit_foot\"},{Count:1b,Slot:6b,id:\"buzzier_bees:four_leaf_clover\"},{Count:1b,Slot:7b,id:\"minecraft:rabbit_foot\"},{Count:1b,Slot:8b,id:\"buzzier_bees:four_leaf_clover\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_6": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"aquaculture:neptunium_fillet_knife\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_7": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"minecraft:potion\",tag:{Potion:\"buzzier_bees:strong_unluck\"}}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_8": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:1b,id:\"supplementaries:bamboo_spikes_tipped\",tag:{Damage:0,Potion:\"minecraft:long_poison\"}},{Count:1b,Slot:2b,id:\"supplementaries:bamboo_spikes_tipped\",tag:{Damage:0,Potion:\"oreganized:strong_stunning\"}},{Count:1b,Slot:3b,id:\"supplementaries:bamboo_spikes_tipped\",tag:{Damage:0,Potion:\"ars_elemental:shock_potion_long\"}},{Count:1b,Slot:7b,id:\"supplementaries:bamboo_spikes_tipped\",tag:{Damage:0,Potion:\"oreganized:long_stunning\"}}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_10": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"aquaculture:neptunium_ingot\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_11": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"aquaculture:neptunium_nugget\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_12": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"farmersdelight:dog_food\"},{Count:1b,Slot:1b,id:\"alexscaves:heavy_bone\"},{Count:1b,Slot:2b,id:\"farmersdelight:dog_food\"},{Count:1b,Slot:3b,id:\"alexscaves:heavy_bone\"},{Count:1b,Slot:4b,id:\"betterarcheology:wolf_fossil\"},{Count:1b,Slot:5b,id:\"alexscaves:heavy_bone\"},{Count:1b,Slot:6b,id:\"farmersdelight:dog_food\"},{Count:1b,Slot:7b,id:\"alexscaves:heavy_bone\"},{Count:1b,Slot:8b,id:\"farmersdelight:dog_food\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_13": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"biomancy:mob_claw\"},{Count:1b,Slot:1b,id:\"luphieclutteredmod:luphie_black_cat_garland\"},{Count:1b,Slot:2b,id:\"biomancy:mob_claw\"},{Count:1b,Slot:3b,id:\"luphieclutteredmod:luphie_orange_cat_plant_pot\"},{Count:1b,Slot:4b,id:\"betterarcheology:ocelot_fossil\"},{Count:1b,Slot:5b,id:\"luphieclutteredmod:luphie_black_cat_plant_pot\"},{Count:1b,Slot:6b,id:\"biomancy:mob_claw\"},{Count:1b,Slot:7b,id:\"aquaculture:catfish\"},{Count:1b,Slot:8b,id:\"biomancy:mob_claw\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_14": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:white_wool\"},{Count:1b,Slot:2b,id:\"minecraft:white_wool\"},{Count:1b,Slot:3b,id:\"minecraft:white_wool\"},{Count:1b,Slot:4b,id:\"betterarcheology:sheep_fossil\"},{Count:1b,Slot:5b,id:\"minecraft:white_wool\"},{Count:1b,Slot:6b,id:\"minecraft:white_wool\"},{Count:1b,Slot:7b,id:\"minecraft:goat_horn\",tag:{instrument:\"minecraft:yearn_goat_horn\"}},{Count:1b,Slot:8b,id:\"minecraft:white_wool\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_15": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:chicken\"},{Count:1b,Slot:1b,id:\"brewery:half_chicken\"},{Count:1b,Slot:2b,id:\"minecraft:chicken\"},{Count:1b,Slot:3b,id:\"brewery:half_chicken\"},{Count:1b,Slot:4b,id:\"betterarcheology:chicken_fossil\"},{Count:1b,Slot:5b,id:\"brewery:half_chicken\"},{Count:1b,Slot:6b,id:\"minecraft:chicken\"},{Count:1b,Slot:7b,id:\"brewery:half_chicken\"},{Count:1b,Slot:8b,id:\"minecraft:chicken\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_16": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:emerald\"},{Count:1b,Slot:1b,id:\"tetra:pristine_emerald\"},{Count:1b,Slot:2b,id:\"minecraft:emerald\"},{Count:1b,Slot:3b,id:\"tetra:pristine_emerald\"},{Count:1b,Slot:4b,id:\"betterarcheology:villager_fossil\"},{Count:1b,Slot:5b,id:\"tetra:pristine_emerald\"},{Count:1b,Slot:6b,id:\"minecraft:emerald\"},{Count:1b,Slot:7b,id:\"tetra:pristine_emerald\"},{Count:1b,Slot:8b,id:\"minecraft:emerald\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_17": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:prismarine_shard\"},{Count:1b,Slot:1b,id:\"minecraft:prismarine_crystals\"},{Count:1b,Slot:2b,id:\"minecraft:prismarine_shard\"},{Count:1b,Slot:3b,id:\"minecraft:prismarine_crystals\"},{Count:1b,Slot:4b,id:\"betterarcheology:guardian_fossil_head\"},{Count:1b,Slot:5b,id:\"minecraft:prismarine_crystals\"},{Count:1b,Slot:6b,id:\"minecraft:prismarine_shard\"},{Count:1b,Slot:7b,id:\"minecraft:prismarine_crystals\"},{Count:1b,Slot:8b,id:\"minecraft:prismarine_shard\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_18": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"farmersdelight:salmon_roll\"},{Count:1b,Slot:1b,id:\"farmersdelight:cod_roll\"},{Count:1b,Slot:2b,id:\"farmersdelight:salmon_roll\"},{Count:1b,Slot:3b,id:\"farmersdelight:cod_roll\"},{Count:1b,Slot:4b,id:\"society:gourmand_contract\"},{Count:1b,Slot:5b,id:\"farmersdelight:cod_roll\"},{Count:1b,Slot:6b,id:\"farmersdelight:salmon_roll\"},{Count:1b,Slot:7b,id:\"farmersdelight:cod_roll\"},{Count:1b,Slot:8b,id:\"farmersdelight:salmon_roll\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_19": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"candlelight:gold_ring\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_20": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"irons_spellbooks:emerald_stoneplate_ring\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_21": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:2b,id:\"aquamirae:sharp_bones\"},{Count:1b,Slot:3b,id:\"netherdepthsupgrade:bonefish\"},{Count:1b,Slot:4b,id:\"fishofthieves:fish_bone\"},{Count:1b,Slot:7b,id:\"aquaculture:fish_bones\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_22": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:diamond\"},{Count:1b,Slot:2b,id:\"minecraft:diamond\"},{Count:1b,Slot:4b,id:\"minecraft:diamond\"},{Count:1b,Slot:6b,id:\"minecraft:diamond\"},{Count:1b,Slot:8b,id:\"minecraft:diamond\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_23": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:gunpowder\"},{Count:8b,Slot:1b,id:\"smallships:cannon_ball\"},{Count:1b,Slot:2b,id:\"quark:gunpowder_sack\"},{Count:1b,Slot:4b,id:\"minecraft:gunpowder\"},{Count:1b,Slot:5b,id:\"minecraft:gunpowder\"},{Count:1b,Slot:6b,id:\"quark:gunpowder_sack\"},{Count:1b,Slot:7b,id:\"minecraft:gunpowder\"},{Count:8b,Slot:8b,id:\"smallships:cannon_ball\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_24": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"vinery:villagers_fright\",tag:{Year:1}}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_25": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"beachparty:melon_cocktail\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_26": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"minecraft:cobblestone\"},{Count:1b,Slot:1b,id:\"quark:sturdy_stone\"},{Count:1b,Slot:2b,id:\"minecraft:cobblestone\"},{Count:1b,Slot:3b,id:\"minecraft:cobblestone\"},{Count:1b,Slot:4b,id:\"minecraft:cobblestone\"},{Count:1b,Slot:5b,id:\"quark:sturdy_stone\"},{Count:1b,Slot:6b,id:\"quark:sturdy_stone\"},{Count:1b,Slot:7b,id:\"quark:sturdy_stone\"},{Count:1b,Slot:8b,id:\"minecraft:cobblestone\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_27": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"luphieclutteredmod:seaweed_planter\"},{Count:1b,Slot:1b,id:\"minecraft:flower_pot\"},{Count:1b,Slot:2b,id:\"luphieclutteredmod:seaweed_planter\"},{Count:1b,Slot:3b,id:\"supplementaries:planter\"},{Count:1b,Slot:4b,id:\"minecraft:painting\"},{Count:1b,Slot:5b,id:\"supplementaries:planter\"},{Count:1b,Slot:6b,id:\"vinery:flower_pot_big\"},{Count:1b,Slot:7b,id:\"vinery:flower_pot_big\"},{Count:1b,Slot:8b,id:\"vinery:flower_pot_big\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_28": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:1b,id:\"ars_nouveau:wilden_wing\"},{Count:1b,Slot:3b,id:\"farmersdelight:sandy_shrub\"},{Count:1b,Slot:4b,id:\"minecraft:paper\",tag:{RepairCost:0,display:{Name:'{\"text\":\"4 8 15 16 23 42\"}'}}},{Count:1b,Slot:5b,id:\"farmersdelight:sandy_shrub\"},{Count:1b,Slot:6b,id:\"minecraft:sand\"},{Count:1b,Slot:7b,id:\"minecraft:sand\"},{Count:1b,Slot:8b,id:\"minecraft:sand\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_29": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"society:message_in_a_bottle\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_30": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:4b,id:\"beachparty:message_in_a_bottle\"}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_31": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:2b,id:\"bakery:small_cooking_pot\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"bakery:rolling_pin\",tag:{Damage:0}},{Count:1b,Slot:8b,id:\"bakery:bread_knife\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\"Gourmand\\'s Mystery Sack\"}'}}"
+        },
+        "gournmand_mystery_sack_32": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2200,
+            "nbt": "{BlockEntityTag:{CustomName:'{\"text\":\"Gourmand\\'s Mystery Sack\"}',Items:[{Count:1b,Slot:0b,id:\"society:aquamagical_dust\"},{Count:1b,Slot:1b,id:\"minecraft:tnt\"},{Count:1b,Slot:2b,id:\"society:aquamagical_dust\"},{Count:1b,Slot:3b,id:\"minecraft:tnt\"},{Count:1b,Slot:4b,id:\"betterarcheology:creeper_fossil\"},{Count:1b,Slot:5b,id:\"minecraft:tnt\"},{Count:1b,Slot:6b,id:\"society:aquamagical_dust\"},{Count:1b,Slot:7b,id:\"minecraft:tnt\"},{Count:1b,Slot:8b,id:\"society:aquamagical_dust\"}],id:\"supplementaries:sack\"},display:{Lore:['\"(+NBT)\"']}}"
+        }
+    }
+}

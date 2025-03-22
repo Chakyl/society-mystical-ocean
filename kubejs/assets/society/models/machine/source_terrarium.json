@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "ars_nouveau:block/sourcestone_large_bricks",
+    "east": "ars_nouveau:block/sourcestone_large_bricks",
+    "north": "society:block/source_terrarium_front",
+    "particle": "ars_nouveau:block/sourcestone_large_bricks",
+    "south": "ars_nouveau:block/sourcestone_large_bricks",
+    "up": "ars_nouveau:block/sourcestone_large_bricks",
+    "west": "ars_nouveau:block/sourcestone_large_bricks"
+  }
+}

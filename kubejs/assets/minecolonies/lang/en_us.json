@@ -1,0 +1,19 @@
+{
+    "block.minecolonies.cabbage": "Danish Cabbage",
+    "block.minecolonies.chickpea": "Chickpea",
+    "block.minecolonies.onion": "Yellow Onion",
+    "block.minecolonies.soybean": "Brown Soybean",
+    "block.minecolonies.tomato": "Santorini Tomato",
+    "block.minecolonies.rice": "Basmati Rice",
+    "item.minecolonies.cooked_rice": "Cooked Basmati Rice",
+    "com.minecolonies.research.technology.gildedhammer.name": "Neptunium Hammer",
+    "item.minecolonies.sifter_mesh_diamond": "Neptunium Mesh",
+    "com.minecolonies.research.effects.sifterdiamondunlock.description": "Mechanic Learns How to Make Neptunium Meshes for the Sifter",
+    "com.minecolonies.research.unlockable.diamondmesh.name": "Neptunium Mesh",
+    "com.minecolonies.research.technology.aquamagicalsieving.name": "Aquamagical Sieving",
+    "com.minecolonies.research.technology.aquamagicalsieving.subtitle": "Magical Minecolonies addict",
+    "com.minecolonies.research.effects.aquamagicalsievingunlock.description": "Sifter learns how to sift Aquamagical Dust for Neptunium Nuggets",
+    "com.minecolonies.research.technology.neptuniumenchanting.name": "Neptunium Enchanting",
+    "com.minecolonies.research.technology.neptuniumenchanting.subtitle": "Breaking down Neptunium- magically!",
+    "com.minecolonies.research.effects.neptuniumenchantingunlock.description": "Enchanter learns how to enchant sea coins and Neptunium tools into Sea Coin Fragments"
+}

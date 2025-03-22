@@ -1,0 +1,38 @@
+{
+	id: "7BCF72204C088B23"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"trapper\"]}"
+				}
+			}
+			title: "Trapper Decree"
+		}
+		{
+			item: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"sifter\"]}"
+				}
+			}
+			title: "Sifter Decree"
+		}
+		{
+			item: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"cultivator\"]}"
+				}
+			}
+			title: "Cultivator Decree"
+		}
+	]
+	title: "First Bounty Choice"
+}

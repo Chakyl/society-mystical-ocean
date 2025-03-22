@@ -1,0 +1,13 @@
+{
+    "type": "embers:stamping",
+    "input": {
+      "item": "minecraft:quartz_block"
+    },
+    "output": {
+      "count": 4,
+      "item": "minecraft:quartz"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

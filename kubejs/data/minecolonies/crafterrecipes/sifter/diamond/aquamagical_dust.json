@@ -1,0 +1,30 @@
+{
+  "type": "recipe",
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    },
+    {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    {
+      "item": "society:iron_sea_coin"
+    },
+    {
+      "item": "society:gold_sea_coin"
+    }
+  ],
+  "crafter": "sifter_custom",
+  "inputs": [
+    {
+      "item": "society:aquamagical_dust"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "loot-table": "minecolonies:recipes/diamond/aquamagical_dust",
+  "research-id": "minecolonies:effects/aquamagicalsievingunlock",
+  "min-building-level": 5
+}

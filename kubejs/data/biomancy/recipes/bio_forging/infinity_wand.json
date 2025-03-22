@@ -1,0 +1,25 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "item": "minecraft:stick",
+            "count": 2
+        },
+        {
+            "count": 45,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 3,
+            "item": "aquaculture:neptunium_ingot"
+        },
+        {
+            "item": "biomancy:primordial_core"
+        }
+    ],
+    "nutrientsCost": 450,
+    "result": {
+        "item": "constructionwand:infinity_wand"
+    }
+}

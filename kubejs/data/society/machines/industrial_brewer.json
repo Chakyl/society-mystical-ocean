@@ -1,0 +1,248 @@
+{
+  "name": {
+    "text": "Industrial Brewer"
+  },
+  "appearance": {
+    "block": "society:machine/industrial_brewer",
+    "ambient_sound": "",
+    "interaction_sound": "brewery:netherite_brewingstation",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "running": {
+      "ambient_sound": "doapi:brewstation_ambient"
+    },
+    "errored": {
+      "ambient_sound": "doapi:brewstation_whistle"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input0",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "fuel",
+      "mode": "input",
+      "variant": "custommachinery:fuel"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "filter": "minecraft:water",
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 16000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "mode": "output",
+      "capacity": 16000,
+      "max_input": 1000,
+      "max_output": 1000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "priority": 10,
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 40,
+      "y": 0,
+      "width": 176,
+      "height": 193
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "priority": 1,
+      "x": 47,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "priority": 1,
+      "x": 54,
+      "y": 28,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input0",
+      "priority": 1,
+      "x": 79,
+      "y": 28,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "priority": 1,
+      "x": 79,
+      "y": 46,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "priority": 1,
+      "x": 79,
+      "y": 64,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 10,
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 40,
+      "y": 0,
+      "width": 176,
+      "height": 193
+    },
+    {
+      "type": "custommachinery:fuel",
+      "priority": 1,
+      "x": 119,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel",
+      "priority": 1,
+      "x": 117,
+      "y": 64,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "priority": 1,
+      "x": 163,
+      "y": 28,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "height": 20,
+      "width": 20,
+      "x": 117,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:config",
+      "priority": 1,
+      "x": 186,
+      "y": 80
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 186,
+      "y": 10
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "height": 20,
+      "width": 20,
+      "x": 117,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluidInput",
+      "priority": 1,
+      "x": 54,
+      "y": 28,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input0",
+      "priority": 1,
+      "x": 79,
+      "y": 28,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "priority": 1,
+      "x": 79,
+      "y": 46,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "priority": 1,
+      "x": 79,
+      "y": 64,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fuel",
+      "priority": 1,
+      "x": 119,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel",
+      "priority": 1,
+      "x": 117,
+      "y": 64,
+      "height": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "priority": 1,
+      "x": 163,
+      "y": 28,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 105,
+      "y": 90,
+      "jei": true,
+      "text": {
+        "text": ""
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "Automatable Brewingstation",
+      "color": "gray"
+    }
+  ]
+}

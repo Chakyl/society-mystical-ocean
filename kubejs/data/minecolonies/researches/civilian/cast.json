@@ -1,0 +1,22 @@
+{
+  "branch": "minecolonies:civilian",
+  "effects": [
+    {
+      "minecolonies:effects/regenerationmultiplier": 5
+    }
+  ],
+  "icon": "minecolonies:textures/icons/research/regeneration5.png",
+  "parentResearch": "minecolonies:civilian/compress",
+  "requirements": [
+    {
+      "type": "minecolonies:item_list",
+      "item": {
+        "items": [
+          "society:fisher_mastery"
+        ]
+      },
+      "quantity": 1
+    }
+  ],
+  "researchLevel": 6
+}

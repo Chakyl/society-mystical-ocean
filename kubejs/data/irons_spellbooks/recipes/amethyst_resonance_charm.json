@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "LNL",
+    "AL "
+  ],
+  "key": {
+    "L": {
+      "item": "netherdepthsupgrade:soul_sucker_leather"
+    },
+    "N": {
+      "item": "ars_nouveau:amulet_of_mana_regen"
+    },
+    "A": {
+      "item": "society:aquamagical_crystal"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:amethyst_resonance_charm",
+    "count": 1
+  }
+}

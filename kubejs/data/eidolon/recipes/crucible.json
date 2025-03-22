@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "x x",
+    "x x",
+    "xnx"
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "x": {
+      "item": "eidolon:pewter_ingot"
+    }
+  },
+  "result": {
+    "item": "eidolon:crucible"
+  }
+}

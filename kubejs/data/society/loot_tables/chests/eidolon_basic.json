@@ -1,0 +1,179 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4.0,
+          "max": 7.0,
+          "type": "minecraft:uniform"
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:pewter_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 3.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:ender_calx"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "eidolon:crimson_essence"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "eidolon:red_candy"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "eidolon:grape_candy"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 14,
+            "name": "eidolon:soul_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3.0,
+                  "max": 7.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:arrow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3.0,
+                  "max": 7.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:soul_sand"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "eidolon:death_essence"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 13,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 5.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "society:iron_sea_coin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 3.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ]
+      }
+    ]
+  }

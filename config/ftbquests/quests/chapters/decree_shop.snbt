@@ -1,0 +1,1562 @@
+{
+	autofocus_id: "67D1DF9A97B711D7"
+	consume_items: true
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "decree_shop"
+	group: "4A4C6D0E79E013A8"
+	icon: {
+		Count: 1
+		id: "bountiful:decree"
+		tag: {
+			"bountiful:decree_data": "{}"
+		}
+	}
+	id: "71F375DCFE6148F7"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"The obligatory Blacksmith sells &5tools&r and &5ingots&r, handcrafted."
+				""
+				"All you need to do is mine for &2raw ores&r."
+			]
+			icon: "minecraft:anvil"
+			id: "049008CF750F8A97"
+			optional: true
+			rewards: [{
+				id: "19BE49F9BBA3F0C8"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"blacksmith\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1750DA8AB58F9209"
+				item: { Count: 3, id: "society:gold_sea_coin" }
+				type: "item"
+			}]
+			title: "Blacksmith"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"This anxious looking wizard seems to be offloading &5rare magical goods&r, some even composed of &3Neptunium."
+				""
+				"Strangely enough, he's seeking out &2basic magical goods&r you can find anywhere."
+			]
+			icon: "eidolon:raven_cloak"
+			id: "72369C2CF5A44325"
+			optional: true
+			rewards: [{
+				id: "38A0E148CE47BA98"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"shady_wizard\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4DD52AA2325D297F"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Shady Wizard"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"You watch the Sifter work as &5gems and dusts&r are being sifted from seemingly nothing."
+				""
+				"To aquire some, you'll need to manufacture &2redstone machines&r, &2concrete&r, and &2explosives&r, amongst other sifting materials."
+			]
+			icon: {
+				Count: 1
+				id: "betterarcheology:netherite_brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18348100BFE351E4"
+			optional: true
+			rewards: [{
+				id: "3ABD1ACCDED158E5"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"sifter\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6F4C828DC75610E6"
+				item: { Count: 3, id: "society:gold_sea_coin" }
+				type: "item"
+			}]
+			title: "Sifter"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"This old retired Fisher is selling off &5fishing and deep-sea diving equipment&r."
+				""
+				"This will come at the cost of some of your &2fish&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27746F7728AE70D3"
+			optional: true
+			rewards: [{
+				id: "6953662F4C959BA5"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"fisher\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "19A08CFBF5A61418"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			title: "Fisher"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"A Trapper offers &5spawn eggs&r collected from all over the world."
+				""
+				"But you are expected to cultivate and farm the animals, giving back &2meat&r and &2traps&r."
+			]
+			icon: "supplementaries:cage"
+			id: "093C73A5DC42C023"
+			optional: true
+			rewards: [{
+				id: "1F7B3D3F5D503C94"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"trapper\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "14C0A7140653998E"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			title: "Trapper"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"A humble gardener comes to you selling their excess &5seeds and saplings&r collected from all over the world."
+				""
+				"It will cost you &2lumber&r and other farming supplies."
+			]
+			icon: "bakery:oat_seeds"
+			id: "6499DE8DFCAB7FA7"
+			optional: true
+			rewards: [{
+				id: "67C48CD4A5004DA3"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"cultivator\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3C46534087289A43"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			title: "Cultivator"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"A treasure trawling boat docks, peddling &5rare loot&r and &5smithing templates&r."
+				""
+				"For some reason all it costs is some &2sea junk&r."
+			]
+			icon: "quark:dark_oak_chest"
+			id: "302F9B3452363E1C"
+			optional: true
+			rewards: [{
+				id: "0722C93AF6425AC9"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"plunderer\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0275645FD68850E2"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Plunderer"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"Somehow this granola lookin' person has collected a variety of &5flowers&r that would normally be limited in this sunken world."
+				""
+				"The Florist wants you to farm some &2bees&r to pay off your bill."
+			]
+			icon: "vinery:flower_pot_big"
+			id: "7CC3DE99A826674F"
+			optional: true
+			rewards: [{
+				id: "6D9D8F2B50FEAECB"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"florist\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1FDCE3829388F0D2"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Florist"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"An excellent eater offers you large sums of money, along with &5cooking equipment&r and &5rare ingredients&r."
+				""
+				"But you must &2farm&r, &2cook&r and &2brew&r to satiate the endless void in front of you."
+			]
+			icon: {
+				Count: 1
+				id: "candlelight:cooking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38007BCA59389D62"
+			optional: true
+			rewards: [{
+				id: "07EAF83240019C79"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "638FCF3E800BC1D2"
+				item: { Count: 3, id: "society:gold_sea_coin" }
+				type: "item"
+			}]
+			title: "Gourmand"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"This Decree combines every (non-bulk) shipping pool into one."
+				""
+				"Not particularly useful unless you're looking to offload a random bunch of goods."
+			]
+			icon: "farmersdelight:tomato_crate"
+			id: "35A81EF135AFCA60"
+			optional: true
+			rewards: [{
+				id: "105EA20007A22341"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "115D69485E3E9D7A"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "All Shipping Objectives"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Cultivator&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "vinery:apple_bag"
+			id: "06D5FCF8860D92DF"
+			optional: true
+			rewards: [{
+				id: "73A7D86C4D7330F3"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"cultivator_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2F3A03AD059BF8"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Cultivator Bulk Shipping"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Trapper&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "quark:bonded_leather"
+			id: "21939BEE70F70CCB"
+			optional: true
+			rewards: [{
+				id: "11A547C535B43CEB"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"trapper_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25830DEC66975374"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Trapper Bulk Shipping"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Fisher&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "crabbersdelight:crab_barrel"
+			id: "2FAFC8D4BA14625F"
+			optional: true
+			rewards: [{
+				id: "44BDC497154B1469"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"fisher_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DDBEAFE39EF1B60"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Fisher Bulk Shipping"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Sifter&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "quark:gunpowder_sack"
+			id: "778DFF91B46C6BA7"
+			optional: true
+			rewards: [{
+				id: "36B2F73AE2D71BC2"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"sifter_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6157DFDDDF374F46"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Sifter Bulk Shipping"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Blacksmith&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "minecraft:raw_iron_block"
+			id: "67D1DF9A97B711D7"
+			optional: true
+			rewards: [{
+				id: "652D866B975D4270"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"blacksmith_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1098E8E2F872E006"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Blacksmith Bulk Shipping"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Plunderer&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "minecraft:prismarine_bricks"
+			id: "205AC12C874FD3F4"
+			optional: true
+			rewards: [{
+				id: "2EF6A023B61902C5"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"plunderer_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "51AAAECF406A7864"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Plunderer Bulk Shipping"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Shady Wizard&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "minecraft:glowstone"
+			id: "4A1106380748497D"
+			optional: true
+			rewards: [{
+				id: "69BEC5C15D715AA9"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"shady_wizard_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "707F2AEDA53D6805"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Shady Wizard Bulk Shipping"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Florist&r lets you sell items in bulk alongside the usual objectives."]
+			icon: "minecraft:honey_block"
+			id: "00409E0720915B8A"
+			optional: true
+			rewards: [{
+				id: "6D14793373726C73"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"florist_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6FF14F8711BF116E"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Florist Bulk Shipping"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["Improving your relationship with the &2Gourmand&r lets you sell vegetables in bulk alongside the usual objectives."]
+			icon: "farmersdelight:tomato_crate"
+			id: "2475A1C293709335"
+			optional: true
+			rewards: [{
+				id: "188BA2ADA8222A88"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"gourmand_shipping\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39FB27D0823240C3"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Gourmand Bulk Shipping"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"It can be useful to have multiple Bounty Boards as they each have their own pool and decree slots."
+				""
+				"Your reputation will &lnot&r carry over however. Reputation only counts for the board you submit the bounty to."
+				""
+				"&oIt comes with it's own fisher decree!&r"
+			]
+			icon: "bountiful:bountyboard"
+			id: "3AC715BAE98C0DBB"
+			optional: true
+			rewards: [{
+				id: "1053A341377482B7"
+				item: {
+					Count: 1
+					id: "bountiful:bountyboard"
+					tag: {
+						BlockEntityTag: {
+							bounty_inv: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 3b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_brew_water_breathing\",\"logicId\":\"minecraft:criteria\",\"content\":\"minecraft:brewed_potion\",\"amount\":2,\"name\":\"Brew a potion of water breathing\",\"rarity\":\"RARE\",\"critConditions\":{\"potion\":\"minecraft:water_breathing\"}},{\"id\":\"fisher_obj_clawster\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:clawster\",\"amount\":7}],\"rewards\":[{\"id\":\"fisher_rew_ench_book_lure\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:enchanted_book\",\"amount\":1,\"nbt\":\"{StoredEnchantments:[{id:\\\"minecraft:lure\\\",lvl:1s}]}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":23084}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_clawster\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:clawster\",\"amount\":2},{\"id\":\"sea_coin_obj_iron_sea_coin\",\"logicId\":\"minecraft:item\",\"content\":\"society:iron_sea_coin\",\"amount\":4}],\"rewards\":[{\"id\":\"fisher_rew_bucket_of_shrimp_chum\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:bucket_of_shrimp_chum\",\"amount\":2,\"nbt\":\"{Damage:0}\"}]}"
+											"bountiful:bounty_info": "{\"timeStarted\":7309258,\"timeToComplete\":17029}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"sea_coin_obj_gold_sea_coin\",\"logicId\":\"minecraft:item\",\"content\":\"society:gold_sea_coin\",\"amount\":4}],\"rewards\":[{\"id\":\"fisher_rew_bucket_of_clawster_chum\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:bucket_of_clawster_chum\",\"amount\":1,\"nbt\":\"{Damage:0}\"},{\"id\":\"fisher_rew_ench_book_unbreaking\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:enchanted_book\",\"amount\":1,\"nbt\":\"{StoredEnchantments:[{id:\\\"minecraft:unbreaking\\\",lvl:1s}]}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":25079}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_shrimp\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:shrimp\",\"amount\":6}],\"rewards\":[{\"id\":\"fisher_rew_scuba_boots\",\"logicId\":\"minecraft:item\",\"content\":\"scuba_gear:scuba_boots\",\"amount\":1,\"nbt\":\"{Damage:0}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":18569}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 18b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_shrimp\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:shrimp\",\"amount\":16},{\"id\":\"fisher_obj_trop_fish\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:tropical_fish\",\"amount\":12}],\"rewards\":[{\"id\":\"fisher_rew_tug\",\"logicId\":\"minecraft:item\",\"content\":\"littlelogistics:tug\",\"amount\":1,\"rarity\":\"UNCOMMON\"},{\"id\":\"fisher_water_breathing_potion\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:potion\",\"amount\":1,\"nbt\":\"{Potion:\\\"minecraft:long_water_breathing\\\"}\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":29979}"
+										}
+									}
+								]
+							}
+							completed: "{\n}"
+							decree_inv: {
+								Items: [{
+									Count: 1b
+									Slot: 0b
+									id: "bountiful:decree"
+									tag: {
+										"bountiful:decree_data": "{\"ids\":[\"fisher\"]}"
+									}
+								}]
+							}
+							id: "bountiful:board-be"
+							taken: "{\n    \"8d3c8e31-8b73-4336-9adb-df8508f79251\": [\n    ]\n}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7A3C3CAE54B9997A"
+				item: { Count: 2, id: "society:gold_sea_coin" }
+				type: "item"
+			}]
+			title: "Bounty Board"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This chapter is dedicated to buying Decrees for your Bounty Board. "
+				""
+				"The pools are broken down into categories that resemble &2professions&r with set objectives and rewards. Learning each &2profession&r's objectives will let you stock up and farm for easier income."
+				""
+				"There are also &5Bulk Shipping&r Decrees that only provide item turn-in objectives, along with special bulk ones. "
+				""
+				"Combine Decrees to get what you need! More tips and info can be found under:"
+				""
+				"{ \"text\": \"\\\"More on Decrees\\\"\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C1B1A4BF0DBA22D\" } }"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{}"
+				}
+			}
+			id: "2147D46F31676D2E"
+			size: 2.0d
+			tasks: [{
+				id: "4F6F7E02FC7223DF"
+				type: "checkmark"
+			}]
+			title: "Buying Decrees"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Cultivator&r rewards with cold hard Sea Coins."]
+			icon: "minecraft:cherry_sapling"
+			id: "2E8F535C98EC97B9"
+			optional: true
+			rewards: [{
+				id: "2B37381C3EBC01D1"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"cultivator_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38321A6B3B299206"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Cultivator Shop"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Trapper&r rewards with cold hard Sea Coins."]
+			icon: "minecraft:parrot_spawn_egg"
+			id: "266BAF25AAAE2FC4"
+			optional: true
+			rewards: [{
+				id: "271F979C405E7ECF"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"trapper_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "556429367B57156E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Trapper Shop"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Fisher&r rewards with cold hard Sea Coins."]
+			icon: {
+				Count: 1
+				id: "netherdepthsupgrade:lava_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19F97E766274D88E"
+			optional: true
+			rewards: [{
+				id: "60C3F5F652CFB5C8"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"fisher_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E5763A2984DB894"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			title: "Fisher Shop"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Sifter&r rewards with cold hard Sea Coins."]
+			icon: "minecraft:diamond"
+			id: "6E59F48748339AB3"
+			optional: true
+			rewards: [{
+				id: "4487DC111B5F7041"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"sifter_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EF8335F1B30CF71"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Sifter Shop"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Blacksmith&r rewards with cold hard Sea Coins."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03BB7E2AAC08A1E0"
+			optional: true
+			rewards: [{
+				id: "1D657ADB198B4FFB"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"blacksmith_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69AFCB66C9779560"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Blacksmith Shop"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Plunderer&r rewards with cold hard Sea Coins."]
+			icon: "minecraft:wild_armor_trim_smithing_template"
+			id: "5AAA56A8B4F91ACF"
+			optional: true
+			rewards: [{
+				id: "064CE0BEA28E25D8"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"plunderer_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "251E93550ADFA3FC"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Plunderer Shop"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Shady Wizard&r rewards with cold hard Sea Coins."]
+			icon: "eidolon:lesser_soul_gem"
+			id: "3490D939D2FD8C8D"
+			optional: true
+			rewards: [{
+				id: "77A99C9FD6C701A1"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"shady_wizard_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "41BB918348D7ADDF"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Shady Wizard Shop"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Florist&r rewards with cold hard Sea Coins."]
+			icon: "minecraft:lily_of_the_valley"
+			id: "32236A4D003CCFF6"
+			optional: true
+			rewards: [{
+				id: "37CA88F45D57C6A8"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"florist_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "63C1CB34ABB6124B"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Florist Shop"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: ["This decree allows you to buy &2Gourmand&r rewards with cold hard Sea Coins."]
+			icon: "farmersdelight:cooking_pot"
+			id: "75B15863C4796BCB"
+			optional: true
+			rewards: [{
+				id: "43B1574B7856F310"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"gourmand_shop\"]}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7290FC3BF889479D"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Gourmand Shop"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"There are 5 hidden decrees that can be crafted from progressing through certain parts of the game."
+				""
+				"Some provde easier access to difficult to obtain items, or provide steady incomes from specilized professions."
+			]
+			icon: "eidolon:parchment"
+			id: "2921B8DA9C530D79"
+			size: 2.0d
+			tasks: [{
+				id: "48D8DF15DEE1CFE8"
+				type: "checkmark"
+			}]
+			title: "Hidden Decrees"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Sushi Chef&r decree requires progression in the Gourmand decree's reputation, and Alex's Caves."
+				""
+				"It is a shipping decree, providing wealth to those that can run a well-preped sushi restaurant."
+			]
+			icon: "sushigocrafting:tobiko_crab_california"
+			id: "50876D968D5FB9C9"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "160A7532265C3D08"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					icon: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					id: "6601E7DCB2881071"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3546488AA807C803"
+					item: "society:gourmand_contract"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7D5C09CBDD987D9F"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"sushi_chef\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Sushi Chef"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Baker&r requires progression in the Gourmand decree's reputation, Bakery, and HerbalBrews."
+				""
+				"It is a shipping decree, providing wealth to those that can run an efficient bakery and cafe."
+				""
+				"&oBe sure to replicate the banners in a smithing table before crafting, as they are one-time rewards!"
+			]
+			icon: {
+				Count: 1
+				id: "bakery:rolling_pin"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E11D27A4845E40D"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "5C7B10EC7A137560"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					icon: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					id: "6DAD4C8C607F9C30"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3235102667A87876"
+					item: { Count: 2, id: "society:gourmand_contract" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "45DEC160AC868561"
+					item: "herbalbrews:herbalbrews_standard"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "20624BD2A0574368"
+					item: "bakery:bakery_standard"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11A8DCC42A8B3141"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"baker\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Baker"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Professor&r decree requires progression in Biomancy."
+				""
+				"It is primarily a shipping decree, with the occasional rare eldritch rewards."
+				""
+				"&4&oWhat you'll be shipping however, is up to you to discover...&r"
+			]
+			icon: "irons_spellbooks:fire_upgrade_orb"
+			id: "26B21A72F3FCF235"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "34E6DB14E55F3511"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "46B32B38C406B1A7"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B628BC33E75C19F"
+					item: "society:unholy_contract"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11032247B6DB42ED"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"professor\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Professor"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Gatekeeper&r decree requires progression in Dimensional Dungons, Eidolon, and Iron's Spellbooks."
+				""
+				"It is a shop decree, providing a steady supply of certain dungeon keys, as well as key inscribers."
+			]
+			icon: {
+				Count: 1
+				id: "dimdungeons:item_portal_key"
+				tag: {
+					built: 0b
+					dest_x: 25
+					dest_z: 0
+					dungeon_type: "BASIC"
+					key_activated: 1b
+					name_part_1: 18
+					name_part_2: 7
+					name_type: 2
+					theme: 6
+				}
+			}
+			id: "7DADB82616DCCDE3"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "1EC32BCD2BE82D09"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4D6D744044338D33"
+					item: "dimdungeons:block_portal_crown"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1E05D05412E39291"
+					item: "eidolon:crucible"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "17B7CCA8EB59A160"
+					item: "irons_spellbooks:arcane_anvil"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B37584DA61517D0"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gatekeeper\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Gatekeeper"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Hunter&r decree requires progression in Dimensional Dungons."
+				""
+				"It is an objective decree, requiring you to slay rare monsters found in and out of dungeons."
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A1D739C32B53055"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "02B692119E431929"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "10112FAFE62F29EC"
+					item: "dimdungeons:block_portal_crown"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47AB8E56A2EAAA1F"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"hunter\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Hunter"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2147D46F31676D2E"]
+			description: [
+				"With the random nature of Bounty Boards, it can be difficult to figure out which decree has which rewards."
+				""
+				"Each of the stock lists will tell you which items are possible and how much reputation is required."
+				""
+				"&oSome items are listed but hidden...&r"
+			]
+			icon: "vinery:basket"
+			id: "35A6DE4973E442BC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32DCE4021694AE13"
+				table_id: 5393018169428299414L
+				type: "choice"
+			}]
+			subtitle: "Seeing what they sell"
+			tasks: [{
+				id: "54098602841974FC"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			title: "Decree Stock Lists"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["26B21A72F3FCF235"]
+			description: [
+				"The &2Baphomet&r decree is a Master version of the &2Professor&r."
+				""
+				"It is identical to the &2Professor&r, but with higher Sea Coin reward maximums and exclusively has Sea Coin rewards."
+			]
+			hide_until_deps_visible: true
+			icon: "society:seed_of_evil"
+			id: "4CA72B5A92DC938A"
+			rewards: [{
+				id: "4895649177605437"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "46C5489A548D9F4C"
+					item: "society:seed_of_evil"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4DC88FBA11F081F8"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"professor_master\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Baphomet"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Chef&r decree requires progression in the Gourmand decree's reputation,."
+				""
+				"It is a shipping decree, providing wealth to those with giant fully-stocked kitchens, ready to prepare any dish at any time."
+			]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "52EAF842079B34A0"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "1C69FF41F0822755"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					icon: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					id: "1DF5EE4228156929"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "358339092A83475F"
+					item: "society:gourmand_contract"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4729EF9C6A83CFC9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "endersdelight:stuffed_shulker"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:roast_chicken_block"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:stuffed_pumpkin_block"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:honey_glazed_ham_block"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:shepherds_pie_block"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:rice_roll_medley_block"
+								}
+								{
+									Count: 1b
+									id: "oceansdelight:guardian_soup"
+								}
+								{
+									Count: 1b
+									id: "nethersdelight:stuffed_hoglin"
+								}
+							]
+						}
+					}
+					title: "Any feast"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "369BDB0F8773997A"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"chef\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Chef"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2921B8DA9C530D79"]
+			description: [
+				"The &2Bartender&r requires progression in the Gourmand decree's reputation, Vinery, Nethervinery, and Brewery."
+				""
+				"It is a shipping decree, providing wealth to those that can run a fully fledged bar."
+				""
+				"&oBe sure to replicate the banners in a smithing table before crafting, as they are one-time rewards!"
+			]
+			icon: "brewery:beer_hops"
+			id: "465574808F71B443"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "150ADA61A59DF234"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					icon: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					id: "463D9153A53E08F7"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"gourmand\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4AAEDF4BEAE95B4A"
+					item: { Count: 2, id: "society:gourmand_contract" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47A87356AEE339FF"
+					item: "vinery:vinery_standard"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "217B88B6C3A6722F"
+					item: "brewery:beer_standard"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "782A6228DEEE94B8"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"bartender\"]}"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Bartender"
+			x: 3.0d
+			y: 8.0d
+		}
+	]
+	title: "Decree Shop"
+}

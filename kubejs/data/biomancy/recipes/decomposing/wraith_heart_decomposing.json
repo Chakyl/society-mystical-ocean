@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "eidolon:wraith_heart"
+    },
+    "nutrientsCost": 10,
+    "processingTime": 50,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+            },
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+            },
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 3
+            },
+            "item": "quark:permafrost"
+        }
+    ]
+}

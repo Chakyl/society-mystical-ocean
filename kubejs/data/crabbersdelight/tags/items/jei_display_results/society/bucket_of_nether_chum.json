@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:nether_brick",
+    "minecraft:soul_sand",
+    "netherdepthsupgrade:warped_kelp",
+    "netherdepthsupgrade:crimson_kelp",
+    "netherdepthsupgrade:warped_seagrass",
+    "netherdepthsupgrade:crimson_seagrass",
+    "nethersdelight:propelpearl",
+    "netherdepthsupgrade:fortress_grouper_plate",
+    "minecraft:quartz",
+    "nethersdelight:hoglin_loin",
+    "netherdepthsupgrade:eyeball",
+    "nethersdelight:hoglin_hide",
+    "minecraft:ender_pearl",
+    "netherdepthsupgrade:lava_sponge",
+    "minecraft:nether_wart",
+    "minecraft:ghast_tear",
+    "minecraft:obsidian"
+  ]
+}

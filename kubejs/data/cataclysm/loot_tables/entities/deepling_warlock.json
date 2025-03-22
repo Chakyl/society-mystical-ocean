@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "deepling_warlock",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:athame",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "deepling_coin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "society:gold_sea_coin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

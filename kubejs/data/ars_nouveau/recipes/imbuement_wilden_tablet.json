@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "society:aquamagical_essence"
+  },
+  "output": "ars_nouveau:wilden_tribute",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:ritual_wilden_summon"
+      }
+    },
+    {
+      "item": {
+        "item": "society:archmage_clippings"
+      }
+    },
+    {
+      "item": {
+        "item": "society:unholy_contract"
+      }
+    }
+  ],
+  "source": 2000
+}

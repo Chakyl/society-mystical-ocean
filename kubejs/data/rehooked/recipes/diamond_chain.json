@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "pattern": [
+    " Dn",
+    "DnD",
+    "nD "
+  ],
+  "result": {
+    "item": "rehooked:diamond_chain"
+  },
+  "show_notification": true
+}

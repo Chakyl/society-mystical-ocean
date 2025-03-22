@@ -1,0 +1,353 @@
+{
+    "content": {
+        "hunter_obj_zombie": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "timeMult": 6,
+            "content": "minecraft:zombie",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_husk": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "timeMult": 6,
+            "content": "minecraft:husk",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_drowned": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "timeMult": 6,
+            "content": "minecraft:drowned",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_spider": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "timeMult": 6,
+            "content": "minecraft:spider",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_pillager": {
+            "type": "entity",
+            "rarity": "COMMON",
+            "timeMult": 6,
+            "content": "minecraft:pillager",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 360
+        },
+        "hunter_obj_stray": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "timeMult": 6,
+            "content": "minecraft:stray",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 360
+        },
+        "hunter_obj_zombie_brute": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "timeMult": 6,
+            "content": "eidolon:zombie_brute",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 360
+        },
+        "hunter_obj_wraith": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "timeMult": 6,
+            "content": "eidolon:wraith",
+            "amount": {
+                "min": 2,
+                "max": 20
+            },
+            "unitWorth": 360
+        },
+        "hunter_obj_goblin": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "timeMult": 6,
+            "content": "legendarycreatures:forest_mojo",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_sprinter": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "timeMult": 6,
+            "content": "legendarycreatures:bullfrog",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 240
+        },
+        "hunter_obj_witch": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:witch",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 200
+        },
+        "hunter_obj_wither_skeleton": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:wither_skeleton",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 200
+        },
+        "hunter_obj_piglin": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:piglin",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 200
+        },
+        "hunter_obj_vindicator": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:vindicator",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 240
+        },
+        "hunter_obj_hoglin": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:hoglin",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 240
+        },
+        "hunter_obj_blaze": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "minecraft:blaze",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 200
+        },
+        "hunter_obj_troll": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "legendarycreatures:hound",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_meature": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "legendarycreatures:corpse_eater",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_giant_skeleton": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "eidolon:giant_skeleton",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "hunter_obj_tarantula": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "legendarycreatures:scarecrow",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "hunter_obj_wasp": {
+            "type": "entity",
+            "timeMult": 6,
+            "rarity": "RARE",
+            "content": "legendarycreatures:peacock_spider",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "hunter_obj_guardian": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 6,
+            "content": "minecraft:guardian",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 600
+        },
+        "hunter_obj_evoker": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 8,
+            "content": "minecraft:evoker",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000,
+            "weightMult": 0.2
+        }, 
+        "hunter_obj_citadel_keeper": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "weightMult": 0.5,
+            "content": "irons_spellbooks:citadel_keeper",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 5000
+        },
+        "hunter_obj_starved": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "weightMult": 0.3,
+            "content": "legendarycreatures:desert_mojo",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 11800
+        },
+        "hunter_obj_scorpion": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "content": "legendarycreatures:scorpion",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 11800
+        },
+        "hunter_obj_brainiac": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "weightMult": 0.4,
+            "content": "alexscaves:brainiac",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 11800
+        },
+        "hunter_obj_silverqueen": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "weightMult": 0.3,
+            "content": "legendarycreatures:hound",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000
+        },
+        "hunter_obj_wither": {
+            "type": "entity",
+            "timeMult": 12,
+            "rarity": "EPIC",
+            "weightMult": 0.2,
+            "content": "minecraft:wither",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 60000
+        },
+        "hunter_obj_warden": {
+            "type": "entity",
+            "timeMult": 12,
+            "weightMult": 0.2,
+            "content": "minecraft:warden",
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 36000
+        },
+        "hunter_obj_elder_guardian": {
+            "type": "entity",
+            "rarity": "LEGENDARY",
+            "timeMult": 8,
+            "weightMult": 0.2,
+            "content": "minecraft:elder_guardian",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        }
+    }
+}

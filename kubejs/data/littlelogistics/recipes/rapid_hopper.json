@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": {
+      "item": "minecraft:gold_ingot"
+    },
+    "_": {
+      "item": "minecraft:hopper"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "$_$",
+    " n "
+  ],
+  "result": {
+    "item": "littlelogistics:rapid_hopper"
+  },
+  "show_notification": true
+}

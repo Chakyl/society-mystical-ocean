@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 6,
+            "item": "minecraft:clay"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:sand"
+        },
+        {
+            "count": 2,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 5,
+    "result": {
+        "count": 16,
+        "item": "embers:caminite_blend"
+    }
+}

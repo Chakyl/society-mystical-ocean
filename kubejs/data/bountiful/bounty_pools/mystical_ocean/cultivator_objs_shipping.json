@@ -1,0 +1,177 @@
+{
+    "content": {
+        "cultivator_obj_paper": {
+            "type": "item",
+            "rarity": "COMMON",
+            "weightMult": 0.75,
+            "content": "minecraft:paper",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 12
+        },
+        "cultivator_obj_small_oak_log": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:oak_log",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "cultivator_obj_small_spruce_log": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:spruce_log",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "cultivator_obj_small_birch_log": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:birch_log",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "cultivator_obj_small_acacia_log": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:acacia_log",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "cultivator_obj_apple": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:apple",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 13
+        },
+        "cultivator_obj_small_random_log": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#society:raw_logs",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 80
+        },
+        "cultivator_obj_tree_bark": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "farmersdelight:tree_bark",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 20
+        },
+        "cultivator_obj_medium_oak_log": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:oak_log",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 30
+        },
+        "cultivator_obj_medium_spruce_log": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:spruce_log",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 30
+        },
+        "cultivator_obj_medium_birch_log": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:birch_log",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 30
+        },
+        "cultivator_obj_medium_acacia_log": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:acacia_log",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 30
+        },
+        "cultivator_obj_rich_soil": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "farmersdelight:rich_soil",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 330
+        },
+        "cultivator_obj_medium_random_log": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "#society:raw_logs",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 100
+        },
+        "cultivator_obj_mojang_noir": {
+            "type": "item",
+            "content": "vinery:bottle_mojang_noir",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "cultivator_obj_golden_apple": {
+            "type": "item",
+            "rarity": "EPIC",
+            "weightMult": 0.5,
+            "content": "minecraft:golden_apple",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 160
+        },
+        "cultivator_obj_neptunium_hoe": {
+            "type": "item",
+            "content": "aquaculture:neptunium_hoe",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500
+        }
+    }
+}

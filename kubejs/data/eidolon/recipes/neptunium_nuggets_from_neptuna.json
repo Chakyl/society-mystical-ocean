@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "aquaculture:neptuna" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon:soul_shard" }
+      ]
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "aquaculture:neptunium_nugget"
+  }
+}

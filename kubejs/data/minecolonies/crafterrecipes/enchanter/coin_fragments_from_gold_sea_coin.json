@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 4,
+  "crafter": "enchanter_custom",
+  "inputs": [
+    {
+      "item": "society:gold_sea_coin",
+      "count": 9
+    },
+    {
+      "item": "society:aquamagical_dust",
+      "count": 4
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "minecolonies:effects/neptuniumenchantingunlock",
+  "result": "society:sea_coin_fragments"
+}

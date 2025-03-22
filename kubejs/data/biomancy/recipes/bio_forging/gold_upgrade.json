@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "functionalstorage:copper_upgrade"
+        },
+        {
+            "count": 2,
+            "item": "biomancy:chrysalis"
+        },
+        {
+            "count": 48,
+            "item": "biomancy:nutrient_bar"
+        },
+        {
+            "count": 18,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 200,
+    "result": {
+        "item": "functionalstorage:gold_upgrade"
+    }
+}

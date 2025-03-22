@@ -1,0 +1,383 @@
+{
+    "content": {
+        "gourmand_rew_canvas_sign": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:canvas",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 50
+        },
+        "gourmand_rew_wine_bottle": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "vinery:wine_bottle",
+            "amount": {
+                "min": 32,
+                "max": 32
+            },
+            "unitWorth": 15
+        },
+        "gourmand_rew_nori_sheets": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "sushigocrafting:nori_sheets",
+            "amount": {
+                "min": 8,
+                "max": 8
+            },
+            "unitWorth": 30
+        },
+        "gourmand_rew_yeast": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "bakery:yeast",
+            "amount": {
+                "min": 12,
+                "max": 48
+            },
+            "unitWorth": 15
+        },
+        "gourmand_rew_compost": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:organic_compost",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 175
+        },
+        "gourmand_rew_cooking_pot": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 0.5,
+            "repRequired": 5,
+            "content": "farmersdelight:cooking_pot",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 570
+        },
+        "gourmand_rew_farmer_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:farmer_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "gourmand_rew_enderman_sight": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "endersdelight:enderman_sight",
+            "amount": {
+                "min": 16,
+                "max": 16
+            },
+            "unitWorth": 75
+        },
+        "gourmand_rew_candle_cooking_pot": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "candlelight:cooking_pot",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 600
+        },
+        "gourmand_rew_cooking_pan": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "candlelight:cooking_pan",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 600
+        },
+        "gourmand_rew_tentacles": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "oceansdelight:tentacles",
+            "amount": {
+                "min": 8,
+                "max": 8
+            },
+            "unitWorth": 100
+        },
+        "gourmand_rew_esca": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "aquamirae:esca",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 250
+        },
+        "gourmand_rew_fermentation_barrel": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.5,
+            "content": "vinery:fermentation_barrel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1100
+        },
+        "gourmand_rew_copper_silo": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.5,
+            "content": "brewery:silo_copper",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 300
+        },
+        "gourmand_rew_copper_brewingstation": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.3,
+            "content": "brewery:copper_brewingstation",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 350
+        },
+        "gourmand_rew_propelpearl": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "nethersdelight:propelpearl",
+            "amount": {
+                "min": 16,
+                "max": 16
+            },
+            "unitWorth": 175
+        },
+        "gourmand_rew_mite_crust": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "endersdelight:mite_crust",
+            "amount": {
+                "min": 8,
+                "max": 8
+            },
+            "unitWorth": 275
+        },
+        "gourmand_rew_seashell": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "beachparty:seashell",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 25
+        },
+        "gourmand_rew_hoglin_hide": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "nethersdelight:hoglin_hide",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 300
+        },
+        "gourmand_rew_strider_slice": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "nethersdelight:strider_slice",
+            "amount": {
+                "min": 16,
+                "max": 16
+            },
+            "unitWorth": 275
+        },
+        "gourmand_rew_wine_bottle_large": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "vinery:wine_bottle",
+            "amount": {
+                "min": 256,
+                "max": 256
+            },
+            "unitWorth": 10
+        },
+        "gourmand_rew_plastic_drinking": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.1,
+            "content": "artifacts:plastic_drinking_hat",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12500
+        },
+        "gourmand_rew_turtle_meat": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "aquaculturedelight:small_turtle_meat",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 175
+        },
+        "gourmand_rew_shulker_mollusk": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "endersdelight:shulker_mollusk",
+            "amount": {
+                "min": 8,
+                "max": 8
+            },
+            "unitWorth": 350
+        },
+        "gourmand_rew_shulker_bowl": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "endersdelight:shulker_bowl",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 150
+        },
+        "gourmand_rew_brewfest_dress_outfit": {
+            "type": "item",
+            "name": "Brewfest dress outfit",
+            "rarity": "EPIC",
+            "weightMult": 0.2,
+            "repRequired": 15,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"brewery:brewfest_hat_red\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"brewery:brewfest_dress\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"brewery:brewfest_blouse\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"brewery:brewfest_shoes\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Brewfest dress outfit :shirt:\"}'}}"
+        },
+        "gourmand_rew_brewfest_regalia_outfit": {
+            "type": "item",
+            "content": "supplementaries:sack",
+            "rarity": "EPIC",
+            "weightMult": 0.2,
+            "repRequired": 15,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"brewery:brewfest_hat\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"brewery:brewfest_regalia\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"brewery:brewfest_trousers\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"brewery:brewfest_boots\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Brewfest regalia outfit :shirt:\"}'}}"
+        },
+        "gourmand_rew_chef_outfit": {
+            "type": "item",
+            "content": "supplementaries:sack",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "weightMult": 0.5,
+            "name": "Chef outfit",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"candlelight:cooking_hat\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"candlelight:chefs_jacket\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"candlelight:chefs_pants\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"candlelight:chefs_boots\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Chef outfit :shirt:\"}'}}"
+        },
+        "gourmand_rew_winemaker_outfit": {
+            "type": "item",
+            "content": "supplementaries:sack",
+            "name": "Winemaker outfit",
+            "weightMult": 0.5,
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"vinery:straw_hat\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"vinery:winemaker_apron\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"vinery:winemaker_leggings\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"vinery:winemaker_boots\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Winemaker outfit :shirt:\"}'}}"
+        },
+        "gourmand_rew_growth_totem": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "betterarcheology:growth_totem",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "gourmand_rew_approval": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "weightMult": 1.2,
+            "content": "society:gourmand_contract",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000
+        },
+        "gourmand_rew_novelty_drinking_hat": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "weightMult": 0.01,
+            "content": "artifacts:novelty_drinking_hat",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13000
+        },
+        "gourmand_rew_netherite_brewingstation": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "brewery:netherite_brewingstation",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "biomancy:mob_marrow"
+        },
+        {
+            "count": 6,
+            "item": "minecraft:bone"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:bone_fragments"
+        },
+        {
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 4,
+    "result": {
+        "item": "eidolon:imbued_bones"
+    }
+}

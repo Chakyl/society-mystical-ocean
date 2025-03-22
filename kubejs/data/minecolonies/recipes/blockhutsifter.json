@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "structurize:sceptergold"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_shovel"
+    }
+  },
+  "pattern": [
+    "XTX",
+    "NNN",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecolonies:blockhutsifter"
+  },
+  "show_notification": true
+}

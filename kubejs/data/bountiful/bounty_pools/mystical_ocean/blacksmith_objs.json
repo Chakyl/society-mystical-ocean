@@ -1,0 +1,90 @@
+{
+    "content": {
+        "blacksmith_obj_cure_enchant_item_low": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Enchant an item using at least 2 levels",
+            "content": "minecraft:enchanted_item",
+            "conditions": {
+                "levels": {
+                    "min": 2
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 235,
+            "timeMult": 2,
+            "weightMult": 0.4
+        },
+        "blacksmith_obj_open_geodes": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Break open geodes on Workbench",
+            "content": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "tetra:geode"
+                    ]
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 120,
+            "timeMult": 2,
+            "weightMult": 0.4
+        },
+        "blacksmith_obj_cure_enchant_item_high": {
+            "type": "criteria",
+            "rarity": "RARE",            
+            "name": "Enchant an item using at least 3 levels",
+            "content": "minecraft:enchanted_item",
+            "conditions": {
+                "levels": {
+                    "min": 3
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "timeMult": 2,
+            "weightMult": 0.3
+        },
+        "blacksmith_obj_kill_toretoise": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "quark:toretoise",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 550,
+            "weightMult": 0.25
+        },
+		"blacksmith_obj_summon_golem": {
+            "type": "criteria",
+            "rarity": "EPIC",
+            "name": "Summon an Iron Golem",
+            "content": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                  }
+            },
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 950,
+            "timeMult": 2,
+            "weightMult": 0.5
+        }
+    }
+}

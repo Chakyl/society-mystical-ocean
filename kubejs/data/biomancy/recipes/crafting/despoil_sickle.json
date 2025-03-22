@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "N": {
+            "item": "aquaculture:neptunium_ingot"
+        },
+        "B": {
+            "tag": "forge:bones"
+        },
+        "C": {
+            "item": "biomancy:primordial_core"
+        },
+        "M": {
+            "tag": "biomancy:raw_meats"
+        }
+    },
+    "pattern": [
+        "NB ",
+        " BM",
+        "MC "
+    ],
+    "result": {
+        "item": "biomancy:despoil_sickle"
+    },
+    "show_notification": true
+}

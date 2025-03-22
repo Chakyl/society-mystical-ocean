@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "key": {
+    "C": {
+      "item": "aquaculture:neptunes_bounty"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "NCN",
+    "LNL"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:backpack"
+  }
+}

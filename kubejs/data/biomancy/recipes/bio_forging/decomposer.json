@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "count": 16,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:bone_fragments"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 6,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:decomposer"
+    }
+}

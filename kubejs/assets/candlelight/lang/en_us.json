@@ -1,0 +1,10 @@
+{
+  "advancement.candlelight.eat_tomato": "Eat an Heirloom Tomato",
+  "advancement.candlelight.eat_tomato.desc": "Heirloom Tomatoes can be found in temperate biomes",
+  "block.candlelight.tomato_crate": "Heirloom Tomato Bag",
+  "block.candlelight.tomato_crop": "Heirloom Tomato Seeds",
+  "block.candlelight.wild_tomatoes": "Wild Heirloom Tomatoes",
+  "item.candlelight.tomato": "Heirloom Tomato",
+  "item.candlelight.tomato_seeds": "Heirloom Tomato Seeds",
+  "block.candlelight.cooking_pot": "Copper Cooking Pot"
+}

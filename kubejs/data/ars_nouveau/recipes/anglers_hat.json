@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "artifacts:anglers_hat"
+  },
+  "pedestalItems": [
+    {
+      "item": "aquaculture:neptunium_fishing_rod"
+    },
+    {
+      "item": "netherdepthsupgrade:nether_rice_roll_medley_block"
+    },
+    {
+      "item": "ars_nouveau:glyph_fortune"
+    },
+    {
+      "item": "artifacts:lucky_scarf"
+    },
+    {
+      "item": "candlelight:gold_ring"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    }
+  ],
+  "reagent": [
+    {
+      
+    "item": "beachparty:beach_hat"
+    }
+  ],
+  "sourceCost": 0
+}

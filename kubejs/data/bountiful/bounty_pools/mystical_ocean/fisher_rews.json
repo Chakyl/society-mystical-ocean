@@ -1,0 +1,548 @@
+
+{
+	"content": {
+
+        "fisher_rew_ship": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#smallships:ships",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 200
+        },
+        "fisher_water_breathing_potion": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:potion",
+            "name": "Potion of Water Breathing",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 400,
+            "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+        },
+        "fisher_rew_bucket": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:bucket",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "weightMult": 0.5,
+            "unitWorth": 65
+        },
+        "fisher_rew_bucket_of_crab_chum": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:bucket_of_crab_chum",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 120,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_bucket_of_clawster_chum": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:bucket_of_clawster_chum",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 140,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_bucket_of_clam_chum": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:bucket_of_clam_chum",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 120,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_bucket_of_shrimp_chum": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:bucket_of_shrimp_chum",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 200,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_sack_o_worms": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200,
+            "weightMult": 0.25,
+            "nbt": "{BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:\"fishofthieves:earthworms\"},{Count:32b,Slot:1b,id:\"fishofthieves:grubs\"},{Count:32b,Slot:2b,id:\"aquaculture:worm\",tag:{Damage:0}},{Count:32b,Slot:3b,id:\"fishofthieves:leeches\"},{Count:32b,Slot:4b,id:\"aquaculture:worm\",tag:{Damage:0}},{Count:32b,Slot:5b,id:\"fishofthieves:leeches\"},{Count:32b,Slot:6b,id:\"fishofthieves:grubs\"},{Count:32b,Slot:7b,id:\"fishofthieves:earthworms\"}]},RepairCost:0,display:{Name:'{\"text\":\":worm: Sack o\\' worms :worm:\"}'}}"
+        },
+        "fisher_rew_iron_fishing_rod": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "aquaculture:iron_fishing_rod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50,
+            "weightMult": 0.25,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_tug": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "littlelogistics:tug",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "weightMult": 0.5,
+            "unitWorth": 1400
+        },
+        "fisher_rew_crab_trap": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "crabbersdelight:crab_trap",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650
+        },
+        "fisher_rew_scuba_helmet": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "scuba_gear:scuba_helmet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 450,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_scuba_chestplate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "scuba_gear:scuba_chestplate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 450,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_scuba_leggings": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "scuba_gear:scuba_leggings",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 450,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_scuba_boots": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "scuba_gear:scuba_boots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 450,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_ench_book_lure": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:lure\"}]}"
+        },
+        "fisher_rew_ench_book_luck_sea": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:luck_of_the_sea\"}]}"
+        },
+        "fisher_rew_ench_book_unbreaking": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:unbreaking\"}]}"
+        },
+        "fisher_rew_ench_book_unusual_catch": {
+            "type": "minecraft:item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000,
+            "nbt": "{StoredEnchantments:[{id:\"unusualfishmod:unusual_catch\",lvl:1s}]}"
+        },
+        "fisher_rew_diamond_fillet_knife": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "aquaculture:diamond_fillet_knife",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_bucket_of_thrasher_chum": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "society:bucket_of_thrasher_chum",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 820,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_naut_shell": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:nautilus_shell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 800
+        },
+        "fisher_rew_steadfast_traveller": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "name": "Potion of the Steadfast Traveller",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 650,
+            "weightMult": 0.5,
+            "nbt": "{Potion:\"netherdepthsupgrade:obsidianfish_resistance\"}"
+        },
+        "fisher_rew_lava_vision": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "name": "Potion of Lava Vision",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 650,
+            "weightMult": 0.5,
+            "nbt": "{Potion:\"netherdepthsupgrade:lava_vision\"}"
+        },
+        "fisher_rew_flippers": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "artifacts:flippers",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "fisher_rew_diamond_fishing_rod": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "aquaculture:diamond_fishing_rod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650,
+            "weightMult": 0.5,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_lava_fishing_rod": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "netherdepthsupgrade:lava_fishing_rod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2100,
+            "weightMult": 0.5,
+            "nbt": "{Damage:0}"
+        },
+        "fisher_rew_tackle_box": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "aquaculture:tackle_box",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5500
+        },
+        "fisher_rew_bioluminescent_torch": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:bioluminescent_torch",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 120
+        },
+        "fisher_rew_luck_potion": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "name": "Potion of Luck",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2500,
+            "nbt": "{Potion:\"minecraft:luck\"}"
+        },
+        "fisher_rew_sponge": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:sponge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+        "fisher_rew_neptunium_nugget": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "aquaculture:neptunium_nugget",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1000
+        },
+		"fisher_rew_neptunium_ingot": {
+			"type": "item",
+			"rarity": "EPIC",
+            "repRequired": 15,
+			"content": "aquaculture:neptunium_ingot",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 9000,
+			"weightMult": 0.5
+		},
+        "fisher_rew_heart_sea": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:heart_of_the_sea",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "fisher_rew_crabs": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1280,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"crabbersdelight:crab_bucket\",tag:{}},{Count:1b,Slot:1b,id:\"quark:crab_bucket\",tag:{}},{Count:1b,Slot:2b,id:\"crabbersdelight:crab_bucket\"},{Count:1b,Slot:4b,id:\"crabbersdelight:crab_bucket\"},{Count:1b,Slot:6b,id:\"quark:crab_bucket\"},{Count:1b,Slot:8b,id:\"quark:crab_bucket\"}],id:\"supplementaries:sack\"},RepairCost:0,display:{Lore:['\"(+NBT)\"'],Name:'{\"text\":\":crab: CRABS :crab:\"}'}}"
+        },
+        "fisher_rew_charm_of_sinking": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "artifacts:charm_of_sinking",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 64000
+        },
+        "fisher_rew_conduit": {
+            "type": "item",
+            "content": "minecraft:conduit",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9600
+        },
+        "fisher_rew_bikini_outfit": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "weightMult": 0.05,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"beachparty:beach_hat\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"beachparty:rubber_ring_blue\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"beachparty:bikini\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"beachparty:crocs\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Bikini outfit :shirt:\"}'}}"
+        },
+        "fisher_swimming_trunks_outfit": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 25,
+            "content": "supplementaries:sack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "weightMult": 0.05,
+            "nbt": "{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:\"beachparty:sunglasses\",tag:{Damage:0}},{Count:1b,Slot:1b,id:\"beachparty:swim_wings\",tag:{Damage:0}},{Count:1b,Slot:2b,id:\"beachparty:trunks\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"beachparty:crocs\",tag:{Damage:0}}]},RepairCost:0,display:{Name:'{\"text\":\":shirt: Swimming trunks outfit :shirt:\"}'}}"
+        },
+        "fisher_rew_snorkel": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "artifacts:snorkel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250000
+        },
+        "fisher_rew_submarine": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "alexscaves:submarine",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000
+        },
+        "fisher_rew_neptunium_fishing_rod": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "aquaculture:neptunium_fishing_rod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 14500
+        },
+        "fisher_rew_nether_star_hook":{
+            "type": "item",
+            "content": "aquaculture:nether_star_hook",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 14500
+        },
+        "fisher_rew_n_fishing_barge": {
+            "type": "item",
+            "content": "littlelogistics:fishing_barge",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100000
+        },
+        "fisher_rew_n_fisherman_block": {
+            "type": "item",
+            "content": "workers:fisherman_block",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 104000
+        },
+        "fisher_rew_axolotl_bucket": {
+            "type": "item",
+            "content": "minecraft:axolotl_bucket",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 400
+        }
+	}
+}

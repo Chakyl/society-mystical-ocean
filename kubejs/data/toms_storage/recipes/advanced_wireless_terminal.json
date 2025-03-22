@@ -1,0 +1,38 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "nbn",
+    "gog",
+    "nsn"
+  ],
+  "reagents": "uihi",
+  "key": {
+    "b": {
+      "item": "eidolon:completed_research"
+    },
+    "n": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "o": {
+      "item": "toms_storage:ts.wireless_terminal"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    },
+    "g": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "i": {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    "u": {
+      "item": "eidolon:unholy_symbol"
+    },
+    "h": {
+      "item": "eidolon:holy_symbol"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.adv_wireless_terminal"
+  }
+}

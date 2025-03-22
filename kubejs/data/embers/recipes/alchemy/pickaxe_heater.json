@@ -1,0 +1,28 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "item": "embers:superheater"
+    },
+    {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  ],
+  "output": {
+    "item": "artifacts:pickaxe_heater"
+  },
+  "tablet": {
+    "item": "irons_spellbooks:fire_upgrade_orb"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "structurize:sceptergold"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "NTN",
+    "XBX",
+    "NXN"
+  ],
+  "result": {
+    "item": "minecolonies:blockhutnetherworker"
+  },
+  "show_notification": true
+}

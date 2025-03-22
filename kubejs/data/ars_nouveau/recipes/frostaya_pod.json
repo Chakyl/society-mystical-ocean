@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "ars_nouveau:frostaya_pod"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:blue_archwood_leaves"
+    },
+    {
+      "item": "ars_nouveau:blue_archwood_leaves"
+    }, 
+    {
+      "item": "ars_nouveau:blue_archwood_leaves"
+    },  
+    {
+      "item": "ars_nouveau:blue_archwood_leaves"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:apple"
+    }
+  ]
+}

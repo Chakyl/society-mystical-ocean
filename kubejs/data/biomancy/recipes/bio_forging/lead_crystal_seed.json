@@ -1,0 +1,25 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:misc",
+    "ingredients": [
+        {
+            "item": "embers:lead_aspectus"
+        },
+        {
+            "count": 4,
+            "item": "oreganized:lead_bulb"
+        },
+        {
+            "count": 9,
+            "item": "oreganized:lead_block"
+        },
+        {
+            "count": 8,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 550,
+    "result": {
+        "item": "embers:lead_crystal_seed"
+    }
+}

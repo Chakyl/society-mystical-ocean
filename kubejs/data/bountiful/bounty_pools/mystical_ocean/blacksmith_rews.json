@@ -1,0 +1,690 @@
+{
+    "content": {
+        "blacksmith_rew_iron_ingot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "blacksmith_rew_rusty_iron_ingot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "dustrial_decor:rusty_iron_ingot",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "weightMult": 0.5,
+            "unitWorth": 10
+        },
+        "blacksmith_rew_rusty_iron_plate": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "quark:rusty_iron_plate",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "weightMult": 0.5,
+            "unitWorth": 3
+        },
+        "blacksmith_rew_rusty_sheet_metal": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "dustrial_decor:rusty_sheet_metal",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "weightMult": 0.5,
+            "unitWorth": 10
+        },
+        "blacksmith_rew_copper_ingot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:copper_ingot",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 10
+        },
+        "blacksmith_rew_gold_ingot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:gold_ingot",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 30
+        },
+        "blacksmith_rew_geode": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "tetra:geode",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 75
+        },
+        "blacksmith_rew_bundle": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:bundle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "weightMult": 0.5,
+            "unitWorth": 1200
+        },
+        "blacksmith_rew_phantom_membrane": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:phantom_membrane",
+            "amount": {
+                "min": 3,
+                "max": 16
+            },
+            "weightMult": 0.5,
+            "unitWorth": 125
+        },
+        "blacksmith_rew_scrap": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "tetra:metal_scrap",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "weightMult": 0.5,
+            "unitWorth": 220
+        },
+        "blacksmith_rew_hook": {
+            "type": "item",
+            "content": "rehooked:wood_hook",
+            "repRequired": 5,
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "weightMult": 0.25,
+            "unitWorth": 12500
+        },
+        "blacksmith_rew_iron_rod": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "quark:iron_rod",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 120
+        },
+        "blacksmith_rew_forged_beam": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "tetra:forged_beam",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650
+        },
+        "blacksmith_rew_forged_bolt": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "tetra:forged_bolt",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 650
+        },
+        "blacksmith_rew_flex_mesh": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "tetra:forged_mesh",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 650
+        },
+        "blacksmith_rew_copper_upgrade": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "functionalstorage:copper_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "blacksmith_rew_safe": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.3,
+            "content": "supplementaries:safe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "blacksmith_rew_lead_ingot": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "oreganized:lead_ingot",
+            "amount": {
+                "min": 4,
+                "max": 12
+            },
+            "unitWorth": 30
+        },
+        "blacksmith_rew_silver_ingot": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "oreganized:silver_ingot",
+            "amount": {
+                "min": 4,
+                "max": 12
+            },
+            "unitWorth": 45
+        },
+        "blacksmith_rew_shulker_box": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:shulker_box",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+        "blacksmith_rew__to_iron_tier_upgrade": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2000
+        },
+        "blacksmith_rew_copper_to_iron_tier_upgrade": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.5,
+            "content": "sophisticatedstorage:copper_to_iron_tier_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2000
+        },
+        "cultivator_rew_miner_block": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "workers:miner_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000
+        },
+        "blacksmith_rew_iron_block": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:iron_block",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 180
+        },
+        "blacksmith_rew_copper_block": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:copper_block",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 90
+        },
+        "blacksmith_rew_gold_block": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:gold_block",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 270
+        },
+        "blacksmith_rew_quick_latch": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.3,
+            "content": "tetra:quick_latch",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "blacksmith_rew_thermal_cell":{
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.5,
+            "content": "tetra:thermal_cell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3200,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_chthonic_extractor": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "tetra:chthonic_extractor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500
+        },
+        "blacksmith_rew_lubricant_dispenser": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "tetra:lubricant_dispenser",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3200
+        },
+        "blacksmith_rew_pickarang": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.1,
+            "content": "quark:pickarang",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_gold_upgrade": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "functionalstorage:gold_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 14400
+        },
+        "blacksmith_rew_stack_upgrade_tier_1": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "sophisticatedstorage:stack_upgrade_tier_1",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13145
+        },
+        "blacksmith_rew_iron_to_gold_tier_upgrade": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000
+        },
+        "blacksmith_rew_forgotten_hat": {
+            "type": "item",
+            "content": "quark:forgotten_hat",
+            "rarity": "RARE",
+            "weightMult": 0.4,
+            "repRequired": 10,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2100,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_oxidized_copper": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:oxidized_copper",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 353
+        },
+        "blacksmith_rew_lead_block": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "oreganized:lead_block",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 270
+        },
+        "blacksmith_rew_silver_block": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "oreganized:silver_block",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 405
+        },
+		"blacksmith_rew_neptunium_ingot": {
+			"type": "item",
+			"rarity": "EPIC",
+            "repRequired": 15,
+			"content": "aquaculture:neptunium_ingot",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 9000,
+			"weightMult": 0.5
+		},
+        "blacksmith_rew_vent_plate": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "tetra:vent_plate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4900
+        },
+        "blacksmith_rew_planar_stabilizer": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "tetra:planar_stabilizer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4900
+        },
+        "blacksmith_rew_combustion_chamber": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "tetra:combustion_chamber",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4900
+        },
+        "blacksmith_rew_diamond_upgrade": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "functionalstorage:diamond_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 55000
+        },
+        "blacksmith_rew_n_backpack": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "sophisticatedbackpacks:backpack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20200
+        },
+        "blacksmith_rew_n_upgrade_base": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "sophisticatedbackpacks:upgrade_base",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 21000
+        },
+        "blacksmith_rew_netherite_upgrade_smithing_template": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "minecraft:netherite_upgrade_smithing_template",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6660
+        },
+        "blacksmith_rew_electrum_upgrade_smithing_template": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "oreganized:electrum_upgrade_smithing_template",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6700
+        },
+        "blacksmith_rew_obsidian_skull": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+			"weightMult": 0.3,
+            "content": "artifacts:obsidian_skull",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 18100
+        },
+        "blacksmith_rew_netherite_knife": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "farmersdelight:netherite_knife",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7350,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_sword": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_sword",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7650,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_axe": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_axe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7950,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_pickaxe": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_pickaxe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7950,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_hoe": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_hoe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7650,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_shovel": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_shovel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7350,
+            "nbt": "{Damage:0}"
+        },
+        "blacksmith_rew_netherite_upgrade": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "functionalstorage:netherite_upgrade",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 60000
+        },
+        "blacksmith_rew_netherite_ingot": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:netherite_ingot",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7800
+        },
+        "blacksmith_rew_block_grapple_modifier": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "grapplemod:block_grapple_modifier",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 42230
+        },
+        "blacksmith_rew_tetra_stonecutter": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:stonecutter",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        },
+        "blacksmith_rew_earthpiercer": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:earthpiercer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        },
+        "blacksmith_rew_dragon_sinew": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "tetra:dragon_sinew",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5900
+        }
+    }
+}

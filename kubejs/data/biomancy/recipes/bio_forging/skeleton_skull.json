@@ -1,0 +1,21 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "alexscaves:hollow_bone"
+        },
+        {
+            "count": 3,
+            "item": "biomancy:mob_marrow"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:bone_fragments"
+        }
+    ],
+    "nutrientsCost": 5,
+    "result": {
+        "item": "minecraft:skeleton_skull"
+    }
+}

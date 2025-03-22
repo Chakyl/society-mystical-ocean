@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:feeding_upgrade"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "artifacts:everlasting_beef"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "M": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    }
+  },
+  "pattern": [
+    "NCN",
+    "ABM",
+    "NEN"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:feeding_upgrade"
+  }
+}

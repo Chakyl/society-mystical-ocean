@@ -1,0 +1,200 @@
+{
+    "content": {
+        "plunderer_obj_sea_pickle_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:sea_pickle",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 17
+        },
+        "plunderer_obj_kelp_block_bulk": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:dried_kelp_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 16,
+                "max": 128
+            },
+            "unitWorth": 80
+        },
+        "plunderer_obj_arrow_bulk": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:arrow",
+            "weightMult": 1.75,
+            "amount": {
+                "min": 128,
+                "max": 128
+            },
+            "unitWorth": 15
+        },
+        "plunderer_obj_quartz_block": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "content": "minecraft:quartz_block",
+            "amount": {
+                "min": 32,
+                "max": 128
+            },
+            "unitWorth": 80
+        },
+        "plunderer_obj_shulker_shell_bulk": {
+            "type": "item",
+            "weightMult": 1.5,
+            "rarity": "RARE",
+            "content": "minecraft:shulker_shell",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 450
+        },
+        "plunderer_obj_sea_lantern": {
+            "type": "item",
+            "content": "minecraft:sea_lantern",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 350
+        },
+        "plunderer_obj_random_coral_fans_bulk": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "#society:coral_blocks",
+            "rarity": "RARE",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 195
+        },
+        "plunderer_obj_enchanted_book": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "minecraft:enchanted_book",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 550
+        },
+        "plunderer_obj_random_coral_plants_bulk": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "#society:coral_plants",
+            "rarity": "RARE",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 220
+        },
+        "plunderer_obj_prismarine": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "minecraft:prismarine",
+            "rarity": "RARE",
+            "amount": {
+                "min": 16,
+                "max": 256
+            },
+            "unitWorth": 25
+        },
+        "plunderer_obj_prismarine_bricks": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "minecraft:prismarine_bricks",
+            "rarity": "RARE",
+            "amount": {
+                "min": 16,
+                "max": 256
+            },
+            "unitWorth": 45
+        },
+        "trapper_obj_oxygen_tank": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "content": "aquamirae:oxygen_tank",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 500
+        },
+        "plunderer_obj_dark_dark_prismarine": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "minecraft:dark_prismarine",
+            "rarity": "RARE",
+            "amount": {
+                "min": 16,
+                "max": 128
+            },
+            "unitWorth": 175
+        },
+        "plunderer_obj_pearl_block": {
+            "type": "item",
+            "weightMult": 1.5,
+            "content": "crabbersdelight:pearl_block",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 900
+        },
+        "plunderer_obj_bolvar_wine_bulk": {
+            "type": "item",
+            "content": "vinery:bolvar_wine",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+        "plunderer_obj_wheat_beer_bulk": {
+            "type": "item",
+            "content": "brewery:beer_wheat",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 350
+        },
+        "fisher_rew_conduit": {
+            "type": "item",
+            "weightMult": 1.5,
+            "rarity": "EPIC",
+            "content": "minecraft:conduit",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "fisher_rew_ancient_knowledge": {
+            "type": "item",
+            "weightMult": 1.5,
+            "rarity": "EPIC",
+            "content": "irons_spellbooks:ancient_knowledge_fragment",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500
+        }
+    }
+}

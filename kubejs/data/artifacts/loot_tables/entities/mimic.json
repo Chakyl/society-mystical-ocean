@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "society:util/neptunium_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "society:util/rare_coin_loot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "artifacts:entities/mimic"
+}

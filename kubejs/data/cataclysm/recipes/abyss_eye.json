@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "cOt",
+        "#E#",
+        "tOc"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "t": {
+            "item": "upgrade_aquatic:thrasher_tooth"
+        },
+        "c": {
+            "item": "society:neptunium_sea_coin"
+        }
+    },
+    "result": {
+        "item": "cataclysm:abyss_eye",
+        "count": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "count": 16,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:bile"
+        },
+        {
+            "count": 10,
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "count": 4,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:bio_lab"
+    }
+}

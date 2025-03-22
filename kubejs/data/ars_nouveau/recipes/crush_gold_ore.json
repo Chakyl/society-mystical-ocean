@@ -1,0 +1,27 @@
+{
+  "type": "ars_nouveau:crush",
+  "input": {
+    "item": "minecraft:gold_ore"
+  },
+  "output": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "society:gold_sea_coin",
+      "maxRange": 1
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "minecraft:raw_gold",
+      "maxRange": 1
+    },
+    {
+      "chance": 0.75,
+      "count": 1,
+      "item": "minecraft:raw_gold",
+      "maxRange": 1
+    }
+  ],
+  "skip_block_place": false
+}

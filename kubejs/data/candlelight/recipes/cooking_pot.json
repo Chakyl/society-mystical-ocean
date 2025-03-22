@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cooking_pot",
+  "pattern": [
+    "ISI",
+    "INI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "result": {
+    "item": "candlelight:cooking_pot"
+  }
+}

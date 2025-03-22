@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:beef"
+        },        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:porkchop"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:rabbit"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:mutton"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "biomancy:creator_mix"
+        }
+      ]
+    }
+  ]
+}

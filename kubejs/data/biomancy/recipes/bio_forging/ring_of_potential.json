@@ -1,0 +1,29 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "eidolon:basic_ring"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "count": 32,
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "count": 21,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 3,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 750,
+    "result": {
+        "item": "ars_nouveau:ring_of_potential"
+    }
+}

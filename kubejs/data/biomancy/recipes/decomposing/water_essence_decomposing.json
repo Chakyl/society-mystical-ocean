@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "ars_nouveau:water_essence"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 120,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 5,
+                "min": 3
+            },
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 12,
+                "min": 3
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

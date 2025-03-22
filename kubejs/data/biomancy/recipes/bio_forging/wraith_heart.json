@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "item": "minecraft:blue_ice"
+        },
+        {
+            "item": "irons_spellbooks:blood_vial"
+        },
+        {
+            "count": 2,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 4,
+    "result": {
+        "item": "eidolon:wraith_heart"
+    }
+}

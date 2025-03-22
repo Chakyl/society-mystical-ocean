@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "tag": "forge:ingots/lead"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "BNB",
+    "BSB",
+    " S "
+  ],
+  "result": {
+    "item": "embers:tinker_hammer"
+  },
+  "show_notification": true
+}

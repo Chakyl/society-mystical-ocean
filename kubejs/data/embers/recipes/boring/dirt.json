@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": 120,
+  "output": {
+    "item": "minecraft:dirt"
+  },
+  "required_block": {
+    "amount": 9,
+    "block_tag": "society:dirt_boring"
+  },
+  "weight": 20
+}

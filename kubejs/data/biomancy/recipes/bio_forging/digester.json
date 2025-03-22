@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "count": 16,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 10,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "count": 4,
+            "item": "aquaculture:neptunium_ingot"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:bile"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:digester"
+    }
+}

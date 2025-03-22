@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "n#n",
+    "#s#",
+    "#B#"
+  ],
+  "key": {
+    "B": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "s": {
+      "item": "aquaculture:neptunes_bounty"
+    }
+    
+  },
+  "result": {
+    "item": "furniture:coffer",
+    "count": 1
+  }
+}

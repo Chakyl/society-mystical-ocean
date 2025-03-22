@@ -1,0 +1,10 @@
+{
+  "type": "betterarcheology:identifying",
+  "input": {
+    "item": "betterarcheology:unidentified_artifact"
+  },
+  "result": {
+    "item": "oreganized:music_disc_structure",
+    "Count": 1
+  }
+}

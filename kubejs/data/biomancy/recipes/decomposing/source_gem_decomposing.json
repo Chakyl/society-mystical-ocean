@@ -1,0 +1,42 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "ars_nouveau:source_gem"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 120,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 9,
+                "min": 5
+            },
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 0
+            },
+            "item": "society:sea_coin_fragments"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+
+{
+	"content": {
+        "sifter_obj_kill_spider": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:spider",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 450,
+            "weightMult": 0.25
+        },
+        "sifter_obj_brush_suspicious_blocks": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "content": "minecraft:item_used_on_block",
+            "name": "Brush suspicious blocks",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:brush", "betterarcheology:iron_brush", "betterarcheology:diamond_brush"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:suspicious_sand", "minecraft:suspicious_gravel","betterarcheology:suspicious_red_sand", "betterarcheology:fossiliferous_dirt"]
+                            }
+                        }
+                    }
+                ]
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 750,
+            "timeMult": 2,
+            "weightMult": 0.5
+        }
+	}
+}

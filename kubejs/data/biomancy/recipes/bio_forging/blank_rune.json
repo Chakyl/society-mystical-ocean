@@ -1,0 +1,20 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "embers:shifting_scales"
+        },
+        {
+            "item": "embers:archaic_circuit"
+        },
+        {
+            "count": 1,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 40,
+    "result": {
+        "item": "irons_spellbooks:blank_rune"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "eidolon:soul_shard"
+        }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        {
+          "item": "irons_spellbooks:scroll"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "tag": "forge:gems/diamond"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "society:aquamagical_dust",
+    "count": 5
+  }
+}

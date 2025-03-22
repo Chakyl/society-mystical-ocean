@@ -1,0 +1,11 @@
+{
+  "type": "embers:catalysis_combustion",
+  "burn_time": 4000,
+  "input": {
+    "item": "alexscaves:uranium_rod"
+  },
+  "machine": {
+    "item": "embers:combustion_chamber"
+  },
+  "multiplier": 6.0
+}

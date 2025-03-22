@@ -1,0 +1,29 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [
+        {
+            "item": "embers:caminite_bricks"
+        },
+        {
+            "count": 4,
+            "item": "irons_spellbooks:cinder_essence"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "count": 9,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_ingot"
+        }
+    ],
+    "nutrientsCost": 80,
+    "result": {
+        "item": "embers:mechanical_core"
+    }
+}

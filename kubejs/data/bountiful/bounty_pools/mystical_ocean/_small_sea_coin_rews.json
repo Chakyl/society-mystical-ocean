@@ -1,0 +1,24 @@
+{
+	"content": {
+		"small_sea_coin_rew_iron_sea_coin": {
+			"type": "item",
+			"content": "society:iron_sea_coin",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 50,
+			"weightMult": 0.6
+		},
+		"small_sea_coin_rew_gold_sea_coin": {
+			"type": "item",
+			"content": "society:gold_sea_coin",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 450,
+			"weightMult": 0.2
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " h ",
+    " p ",
+    " P "
+  ],
+  "reagents": "u i ",
+  "key": {
+    "h": {
+      "item": "aquaculture:gold_hook"
+    },
+    "p": {
+      "item": "eidolon:prestigious_palm"
+    },
+    "P": {
+      "item": "eidolon:pewter_block"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    }
+  },
+  "result": {
+    "item": "artifacts:golden_hook"
+  }
+}

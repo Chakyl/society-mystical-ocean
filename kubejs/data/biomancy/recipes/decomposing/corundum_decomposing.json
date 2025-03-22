@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "tag": "quark:corundum"
+    },
+    "nutrientsCost": 25,
+    "processingTime": 120,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:bio_lumens"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:gem_fragments"
+        }
+    ]
+}

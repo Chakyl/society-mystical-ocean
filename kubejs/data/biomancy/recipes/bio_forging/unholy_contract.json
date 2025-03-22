@@ -1,0 +1,29 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:misc",
+    "ingredients": [
+        {
+            "item": "eidolon:parchment"
+        },
+        {
+            "count": 100,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "count": 6,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 6,
+            "item": "society:neptunium_sea_coin"
+        }
+    ],
+    "nutrientsCost": 666,
+    "result": {
+        "item": "society:unholy_contract"
+    }
+}

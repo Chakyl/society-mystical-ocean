@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "aquaculture:atlantic_cod",
+      "required": false
+    },
+	{
+      "id": "aquaculture:catfish",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:plentifin",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:devilfish",
+      "required": false
+    }
+  ]
+}

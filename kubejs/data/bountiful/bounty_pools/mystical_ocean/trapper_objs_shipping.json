@@ -1,0 +1,208 @@
+
+{
+	"content": {
+        "trapper_obj_bone": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:bone",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 25
+        },
+        "trapper_obj_trapped_chest": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:trapped_chest",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 45,
+            "weightMult": 0.8
+        },
+        "trapper_obj_leather": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:leather",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 35
+        },
+        "trapper_obj_wool": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:white_wool",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 15
+        },
+        "trapper_obj_raw_fish_fillet": {
+           "type": "item",
+            "rarity": "COMMON",
+            "content": "aquaculture:fish_fillet_raw",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 70
+        },
+        "trapper_obj_raw_dog_food": {
+            "type": "item",
+             "rarity": "COMMON",
+             "content": "farmersdelight:dog_food",
+             "amount": {
+                 "min": 4,
+                 "max": 32
+             },
+             "unitWorth": 90
+         },
+        "trapper_obj_cage": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "supplementaries:cage",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "weightMult": 0.8,
+            "unitWorth": 145
+        },
+        "trapper_obj_rabbit": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:rabbit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 50
+        },
+        "trapper_obj_mutton": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:mutton",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 30
+        },
+        "trapper_obj_porkchop": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:porkchop",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 35
+        },
+        "trapper_obj_chicken": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:chicken",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 20
+        },
+        "trapper_obj_beef": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:beef",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 25
+        },
+        "trapper_obj_ham": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "farmersdelight:ham",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 70
+        },
+        "trapper_obj_cage_trap": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "securitycraft:cage_trap",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 800
+        },
+        "trapper_obj_firefly_jar": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "irons_spellbooks:firefly_jar",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 320
+        },
+        "trapper_obj_scute": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:scute",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 400
+        },
+        "trapper_obj_sniffer_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:sniffer_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 584
+        },
+        "trapper_obj_soul_sand": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:turtle_egg",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 384
+        },
+        "trapper_obj_whiskey_jojannik": {
+            "type": "item",
+            "content": "brewery:whiskey_jojannik",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "trapper_obj_neptunium_bow": {
+            "type": "item",
+            "content": "aquaculture:neptunium_bow",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        }
+	}
+}

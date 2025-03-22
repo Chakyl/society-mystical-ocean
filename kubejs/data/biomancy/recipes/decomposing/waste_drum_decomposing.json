@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "alexscaves:waste_drum"
+    },
+    "nutrientsCost": 10,
+    "processingTime": 450,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 1
+            },
+            "item": "minecraft:barrel"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

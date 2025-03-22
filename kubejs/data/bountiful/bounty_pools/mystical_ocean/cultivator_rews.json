@@ -1,0 +1,949 @@
+
+{
+	"content": {
+
+        "cultivator_rew_oak_sapling": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:oak_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_acacia_sapling": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:acacia_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_spruce_sapling": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:spruce_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_birch_sapling": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:birch_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_sugar_cane": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:sugar_cane",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_carrot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:carrot",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_potato": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:potato",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_tomato_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:tomato_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_cabbage_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:cabbage_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_rice": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:rice",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_onion": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "farmersdelight:onion",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_cactus": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:cactus",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_sesame_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "sushigocrafting:sesame_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_wasabi_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "sushigocrafting:wasabi_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_cucumber_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "sushigocrafting:cucumber_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_soy_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "sushigocrafting:soy_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_wheat_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:wheat_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "weightMult": 0.5,
+            "unitWorth": 5
+        },
+        "cultivator_rew_beetroot_seeds": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:beetroot_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 5
+        },
+        "cultivator_rew_lumberjack_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:lumberjack_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "cultivator_rew_farmer_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:farmer_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "cultivator_rew_dark_oak_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:dark_oak_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_jungle_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:jungle_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_cherry_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:cherry_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_mangrove_propagule": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:mangrove_propagule",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_flowering_azalea": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:flowering_azalea",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_azalea": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:azalea",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_aspen_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:aspen_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_green_aspen_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:green_aspen_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_dry_laurel_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:dry_laurel_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_laurel_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:laurel_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_yucca_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:yucca_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_morado_sapling": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "atmospheric:morado_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_cocoa_beans": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:cocoa_beans",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_bamboo": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:bamboo",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_glow_berries": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:glow_berries",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_sweet_berries": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:sweet_berries",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_lavender": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "herbalbrews:lavender",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_coffee": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "herbalbrews:wild_coffee_plant",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_rooibos": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "herbalbrews:wild_rooibos_plant",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_hibiscus": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "herbalbrews:hibiscus",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_yerba_mate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "herbalbrews:wild_yerba_mate_plant",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 30
+        },
+        "cultivator_rew_river_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "upgrade_aquatic:river_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_red_blossom_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:red_blossom_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_blue_blossom_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:blue_blossom_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_lavender_blossom_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:lavender_blossom_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_orange_blossom_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:orange_blossom_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_yellow_blossom_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:yellow_blossom_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_cherry_fruit_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "vinery:cherry_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_apple_tree_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "vinery:apple_tree_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_avocado_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "sushigocrafting:avocado_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_palm_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "beachparty:palm_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_rosewood_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "atmospheric:rosewood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_kousa_sapling": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "atmospheric:kousa_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_flax_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "supplementaries:flax_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_pumpkin_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:pumpkin_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_melon_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:melon_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_sildrian_seed": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "eidolon:sildrian_seed",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_oat_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "bakery:oat_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_strawberry_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "bakery:strawberry_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_hops_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "brewery:hops_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_barley_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "brewery:barley_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_corn_seeds": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "brewery:corn_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_tomato_seeds_candle": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "candlelight:tomato_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 60
+        },
+        "cultivator_rew_lettuce_seeds_candle": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "candlelight:lettuce_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "weightMult": 0.5,
+            "unitWorth": 60
+        },
+        "cultivator_rew_foul_berries": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "autumnity:foul_berries",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth":30
+        },
+        "cultivator_rew_maple_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "autumnity:maple_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth":60
+        },
+        "cultivator_rew_yellow_maple_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "autumnity:yellow_maple_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth":60
+        },
+        "cultivator_rew_orange_maple_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "autumnity:orange_maple_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth":60
+        },
+        "cultivator_rew_red_maple_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "autumnity:red_maple_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth":60
+        },
+        "cultivator_rew_ancient_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "quark:ancient_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_grimwood_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "atmospheric:grimwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_purple_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:purple_archwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_red_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:red_archwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_blue_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:blue_archwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_green_sapling": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:green_archwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "cultivator_rew_taiga_grape_seeds_red": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:taiga_grape_seeds_red",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_jungle_grape_seeds_red": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:jungle_grape_seeds_red",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_savanna_grape_seeds_red": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:savanna_grape_seeds_red",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_grape_seeds_red": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:red_grape_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_taiga_grape_seeds_white": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:taiga_grape_seeds_white",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_jungle_grape_seeds_white": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:jungle_grape_seeds_white",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_savanna_grape_seeds_white": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:savanna_grape_seeds_white",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_grape_seeds_white": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "vinery:white_grape_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 70.0
+        },
+        "cultivator_rew_crimson_grape_seeds": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "nethervinery:crimson_grape_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 140.0
+        },
+        "cultivator_rew_warped_grape_seeds": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "nethervinery:warped_grape_seeds",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 140.0
+        },
+        "cultivator_rew_yellow_archwood_sapling": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "ars_elemental:yellow_archwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 140.0
+        },
+        "cultivator_rew_illwood_sapling": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "eidolon:illwood_sapling",
+            "amount": {
+                "min": 4,
+                "max": 4
+            },
+            "unitWorth": 140.0
+        }
+
+	}
+
+}

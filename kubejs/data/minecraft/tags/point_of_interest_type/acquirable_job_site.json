@@ -1,0 +1,29 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:armorer",
+    "minecraft:butcher",
+    "minecraft:cartographer",
+    "minecraft:cleric",
+    "minecraft:farmer",
+    "minecraft:fisherman",
+    "minecraft:fletcher",
+    "minecraft:leatherworker",
+    "minecraft:mason",
+    "minecraft:shepherd",
+    "minecraft:toolsmith",
+    "minecraft:weaponsmith",
+    "betterarcheology:archeology_table_poi",
+    "etched:bard",
+    "vinery:winemaker_poi",
+    "workers:miner",
+    "workers:lumberjack",
+    "workers:farmer",
+    "workers:merchant",
+    "workers:shepherd",
+    "workers:fisherman",
+    "workers:cattle_farmer",
+    "workers:chicken_farmer",
+    "workers:swineherd"
+  ]
+}

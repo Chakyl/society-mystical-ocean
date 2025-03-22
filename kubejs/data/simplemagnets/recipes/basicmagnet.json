@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " n ",
+    "nun",
+    " n "
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "u": {
+      "item": "artifacts:universal_attractor"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:basicmagnet"
+  }
+}

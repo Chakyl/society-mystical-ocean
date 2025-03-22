@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "advancedperipherals:husbandry_automata_core"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    }
+  ],
+  "result": {
+    "item": "advancedperipherals:overpowered_husbandry_automata_core"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "tag": "aquaculture:molten_neptunium"
+  },
+  "output": {
+    "item": "aquaculture:neptunium_ingot"
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

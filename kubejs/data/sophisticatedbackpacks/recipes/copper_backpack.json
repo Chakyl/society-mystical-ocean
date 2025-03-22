@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:copper_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CNC"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:copper_backpack"
+  }
+}

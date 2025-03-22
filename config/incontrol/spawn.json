@@ -1,0 +1,46 @@
+[
+  {
+    "mod": "legendarycreatures",
+    "result": "deny",
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "mob": ["eidolon:wraith", "eidolon:giant_skeleton", "eidolon:zombie_brute", "embers:ancient_golem", "irons_spellbooks:necromancer"],
+    "minheight": 0,
+    "result": "deny",
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "mob": "ars_nouveau:whirlisprig",
+    "mincount": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "ars_nouveau:starbuncle",
+    "mincount": 2,
+    "result": "deny"
+  },
+  {
+    "mob": "ars_nouveau:drygmy",
+    "mincount": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "upgrade_aquatic:thrasher",
+    "mincount": {
+      "amount": 20,
+      "perplayer": false,
+      "mob": "upgrade_aquatic:thrasher"
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "balloonbox:balloonbox",
+    "mincount": {
+      "amount": 1,
+      "perplayer": false,
+      "mob": "balloonbox:balloonbox"
+    },
+    "result": "deny"
+  }
+]

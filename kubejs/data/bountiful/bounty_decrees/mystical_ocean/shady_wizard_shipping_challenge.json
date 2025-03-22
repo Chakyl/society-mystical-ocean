@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"shady_wizard_objs_shipping_bulk",
+		"shady_wizard_objs_shipping"
+	],
+	"rewards": ["_large_sea_coin_rews_challenge", "shady_wizard_mastery"]
+}

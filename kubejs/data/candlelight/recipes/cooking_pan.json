@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ii",
+        " Ni",
+        "/  "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:copper_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "N": {
+          "item": "aquaculture:neptunium_nugget"
+        }
+    },
+    "result": {
+        "item": "candlelight:cooking_pan",
+        "count": 1
+    }
+}

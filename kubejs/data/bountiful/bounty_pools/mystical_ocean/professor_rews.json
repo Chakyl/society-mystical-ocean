@@ -1,0 +1,78 @@
+{
+  "content": {
+    "large_sea_coin_rew_gold_sea_coin": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "society:gold_sea_coin",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 450
+    },
+    "large_sea_coin_rew_neptunium_sea_coin": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "society:neptunium_sea_coin",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 4010
+    },
+    "professor_rew_aquamagical_dust": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "repRequired": 5,
+      "weightMult": 0.4,
+      "content": "society:aquamagical_dust",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 296
+    },
+    "professor_rew_neptunium_ingot": {
+      "type": "item",
+      "rarity": "RARE",
+      "repRequired": 10,
+      "content": "aquaculture:neptunium_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8000,
+      "weightMult": 0.1
+    },
+    "professor_seed_of_evil": {
+      "type": "item",
+      "content": "society:seed_of_evil",
+      "repRequired": 25,
+      "weightMult": 0.15,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 300000,
+      "rarity": "LEGENDARY",
+      "forbids": [
+        {
+          "type": "item",
+          "content": "artifacts:everlasting_beef"
+        },
+        {
+          "type": "item",
+          "content": "society:iron_sea_coin"
+        },
+        {
+          "type": "item",
+          "content": "society:gold_sea_coin"
+        },
+        {
+          "type": "item",
+          "content": "society:neptunium_sea_coin"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CPP",
+    "NPP",
+    "CPP"
+  ],
+  "key":
+  {
+    "C":
+    {
+      "tag": "forge:ingots/copper"
+    },
+    "N":
+    {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "P":
+    {
+      "item": "minecraft:paper"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:copper_spell_book",
+    "count": 1
+  }
+}

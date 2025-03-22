@@ -1,0 +1,85 @@
+{
+    "content": {
+        "bartender_obj_basic_wines": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#society:basic_wines",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 250
+        },
+        "bartender_obj_simple_wines": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#society:simple_wines",
+            "amount": {
+                "min": 6,
+                "max": 48
+            },
+            "unitWorth": 325
+        },
+        "gourmand_obj_brewstation_drinks_bulk": {
+            "type": "item",
+            "rarity": "COMMON",
+            "weightMult": 4,
+            "content": "#society:brewstation_drinks",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 670
+        },
+        "gourmand_obj_cocktails_bulk": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#society:cocktails",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 300
+        },
+        "bartender_obj_intermediate_wines": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#society:intermediate_wines",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 375
+        },
+        "bartender_obj_advanced_wines": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "#society:advanced_wines",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 450
+        },
+        "bartender_obj_jellie_wine": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "vinery:jellie_wine",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1600
+        },
+        "bartender_obj_netherite_nectar": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "nethervinery:netherite_nectar",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        }
+    }
+}

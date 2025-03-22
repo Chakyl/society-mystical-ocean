@@ -1,0 +1,50 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "netherdepthsupgrade:blazefish"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 20,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 3,
+                "min": 2
+            },
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:bone_fragments"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 9,
+                "min": 2
+            },
+            "item": "supplementaries:ash"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 1
+            },
+            "item": "irons_spellbooks:cinder_essence"
+        }
+    ]
+}

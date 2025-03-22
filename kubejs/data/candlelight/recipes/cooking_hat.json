@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#N#",
+    " # "
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "#": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "candlelight:cooking_hat"
+  }
+}

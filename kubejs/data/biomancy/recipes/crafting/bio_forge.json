@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "C": {
+            "tag": "biomancy:claws"
+        },
+        "E": {
+            "item": "biomancy:living_flesh"
+        },
+        "D": {
+            "item": "biomancy:exotic_dust"
+        },
+        "M": {
+            "tag": "biomancy:raw_meats"
+        },
+        "N": {
+            "item": "aquaculture:neptunium_block"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "pattern": [
+        "CDC",
+        "MSM",
+        "NEN"
+    ],
+    "result": {
+        "item": "biomancy:bio_forge"
+    },
+    "show_notification": true
+}

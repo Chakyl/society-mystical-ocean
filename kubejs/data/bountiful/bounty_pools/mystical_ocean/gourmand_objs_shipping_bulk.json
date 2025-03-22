@@ -1,0 +1,188 @@
+{
+    "content": {
+        "gourmand_obj_hay_block": {
+            "type": "item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "content": "minecraft:hay_block",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 120
+        },
+        "gourmand_obj_tomato_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:tomato_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 85
+        },
+        "gourmand_obj_potato_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:potato_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 85
+        },
+        "gourmand_obj_carrot_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:carrot_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 85
+        },
+        "gourmand_obj_onion_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:onion_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 85
+        },
+        "gourmand_obj_cabbage_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:cabbage_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 120
+        },
+        "gourmand_obj_beetroot_crate": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "weightMult": 1.75,
+            "content": "farmersdelight:beetroot_crate",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 120
+        },
+        "gourmand_obj_meal_bulk": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "weightMult": 1.75,
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "gourmand_obj_rice_bag": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.5,
+            "content": "farmersdelight:rice_bag",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 150
+        },
+        "gourmand_obj_meal_bulk_large": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "weightMult": 1.75,
+            "rarity": "RARE",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 300
+        },
+        "gourmand_obj_wine_bulk": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 1.3,
+            "content": "#vinery:wine",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 370
+        },
+        "gourmand_obj_bread_bulk": {
+            "type": "item",
+            "content": "#bakery:bread",
+            "weightMult": 1.75,
+            "rarity": "RARE",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 60
+        },
+        "gourmand_obj_meal_bulk_grand": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 300
+        },
+        "gourmand_obj_kettle_drinks_bulk": {
+            "type": "item",
+            "rarity": "EPIC",
+            "weightMult": 1.3,
+            "content": "#society:kettle_drinks",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 270
+        },
+        "gourmand_obj_brewstation_drinks_bulk": {
+            "type": "item",
+            "rarity": "EPIC",
+            "weightMult": 1.3,
+            "content": "#society:brewstation_drinks",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 670
+        },
+        "gourmand_obj_red_grape_crate": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "vinery:red_grape_bag",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 190
+        },
+        "gourmand_obj_white_grape_crate": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "vinery:white_grape_bag",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 190
+        }
+    }
+}

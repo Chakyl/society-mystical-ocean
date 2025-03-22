@@ -1,0 +1,8 @@
+{
+    "objectives": [
+        "_sea_coin_objs"
+    ],
+    "rewards": [
+        "gatekeeper_rews"
+    ]
+}

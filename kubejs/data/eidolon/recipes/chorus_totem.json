@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " c ",
+    "ete",
+    " c "
+  ],
+  "reagents": "usss",
+  "key": {
+    "c": {
+      "item": "endersdelight:chorus_pie"
+    },
+    "t": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    }
+  },
+  "result": {
+    "item": "artifacts:chorus_totem"
+  }
+}

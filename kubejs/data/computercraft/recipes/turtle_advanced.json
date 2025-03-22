@@ -1,0 +1,24 @@
+{
+  "type": "computercraft:turtle",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "C": {
+      "item": "computercraft:computer_advanced"
+    },
+    "I": {
+      "item": "biomancy:fleshkin_chest"
+    }
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "#I#"
+  ],
+  "result": {
+    "item": "computercraft:turtle_advanced"
+  },
+  "show_notification": true
+}

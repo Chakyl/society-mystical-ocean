@@ -1,0 +1,46 @@
+{
+	"content": {
+		"plunderer_mastery": {
+			"type": "item",
+			"content": "society:plunderer_mastery",
+			"repRequired": 25,
+      		"weightMult": 0.01,
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 210000,
+            "rarity": "LEGENDARY",
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:enchanted_book"
+				},
+				{
+					"type": "item",
+					"content": "aquamirae:oxygen_tank"
+				},
+				{
+					"type": "item",
+					"content": "#society:coral_blocks"
+				},
+				{
+					"type": "item",
+					"content": "#society:coral_plants"
+				},
+				{
+					"type": "item",
+					"content": "society:iron_sea_coin"
+				},
+				{
+					"type": "item",
+					"content": "society:gold_sea_coin"
+				},
+				{
+					"type": "item",
+					"content": "society:neptunium_sea_coin"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "nSn",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "C": {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    "S": {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:upgrade_orb",
+    "count": 1
+  }
+}

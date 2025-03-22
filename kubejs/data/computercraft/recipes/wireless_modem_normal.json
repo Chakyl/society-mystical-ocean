@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    },
+    "E": {
+      "item": "irons_spellbooks:ender_rune"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ENE",
+    "EEE"
+  ],
+  "result": {
+    "count": 2,
+    "item": "computercraft:wireless_modem_normal"
+  },
+  "show_notification": true
+}

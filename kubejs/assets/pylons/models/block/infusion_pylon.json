@@ -1,0 +1,7 @@
+{
+  "parent": "pylons:block/pylon",
+  "textures": {
+    "center": "eidolon:block/shadow_gem_block",
+    "particle": "eidolon:block/shadow_gem_block"
+  }
+}

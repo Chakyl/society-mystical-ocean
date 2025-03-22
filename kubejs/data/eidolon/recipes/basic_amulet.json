@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    " n ",
+    "x x",
+    " y "
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "tag": "forge:ingots/arcane_gold"
+    }
+  },
+  "result": {
+    "item": "eidolon:basic_amulet"
+  }
+}

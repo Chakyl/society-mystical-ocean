@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " N ",
+    "SVS"
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    },
+    "V": {
+      "item": "minecraft:anvil"
+    },
+    "S": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "A": {
+      "tag": "forge:storage_blocks/amethyst"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:arcane_anvil",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "aquaculture:neptunium_ingot"
+  },
+  "output": "society:aquamagical_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:wilden_tribute"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_elemental:everfull_urn"
+      }
+    },
+    {
+      "item": {
+        "item": "society:aquamagical_dust"
+      }
+    }
+  ],
+  "source": 2000
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "dustrial_decor:industrial_iron_block"
+    },
+    "C": {
+      "item": "biomancy:primordial_core"
+    },
+    "i": {
+      "item": "biomancy:tendon_chain"
+    }
+  },
+  "pattern": [
+    "IiI",
+    "iCi",
+    "IiI"
+  ],
+  "result": {
+    "item": "advancedperipherals:peripheral_casing"
+  },
+  "show_notification": true
+}

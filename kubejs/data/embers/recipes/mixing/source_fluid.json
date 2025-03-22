@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 1,
+      "name": "embers:steam"
+    },
+    {
+      "amount": 1,
+      "name": "embers:dwarven_gas"
+    },
+    {
+      "amount": 20,
+      "name": "starbunclemania:sourceberry_juice"
+    }
+  ],
+  "output": {
+    "amount": 10,
+    "fluid": "starbunclemania:source_fluid"
+  }
+}

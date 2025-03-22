@@ -1,0 +1,151 @@
+{
+  "content": {
+    "sifter_obj_flint": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "minecraft:flint",
+      "amount": {
+        "min": 8,
+        "max": 64
+      },
+      "unitWorth": 5
+    },
+    "sifter_obj_concrete_powder": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "#forge:concrete_powder",
+      "amount": {
+        "min": 64,
+        "max": 64
+      },
+      "unitWorth": 9
+    },
+    "sifter_obj_gunpowder": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "minecraft:gunpowder",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 35
+    },
+    "sifter_obj_piston": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "minecraft:piston",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 65
+    },
+    "sifter_obj_hopper": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "minecraft:hopper",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 110
+    },
+    "sifter_obj_turn_table": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "supplementaries:turn_table",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 45
+    },
+    "sifter_obj_safety_net": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "farmersdelight:safety_net",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 80
+    },
+    "sifter_obj_corundum": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "#quark:corundum",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 120,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "#quark:corundum"
+        }
+      ]
+    },
+    "sifter_obj_soul_sand": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "minecraft:soul_sand",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 24
+    },
+    "sifter_obj_magnetic_wine": {
+      "type": "item",
+      "content": "vinery:magnetic_wine",
+      "rarity": "RARE",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 600
+    },
+    "sifter_obj_tnt": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "minecraft:tnt",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 200
+    },
+    "sifter_obj_shrapnel_bomb": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "oreganized:shrapnel_bomb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 250
+    },
+    "sifter_obj_nuclear_bomb": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "alexscaves:nuclear_bomb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9000
+    },
+    "sifter_obj_neptunium_shovel": {
+      "type": "item",
+      "content": "aquaculture:neptunium_shovel",
+      "weightMult": 0.3,
+      "rarity": "LEGENDARY",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3250
+    }
+  }
+}

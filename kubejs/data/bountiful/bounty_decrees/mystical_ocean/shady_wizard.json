@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"shady_wizard_objs",
+		"shady_wizard_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"shady_wizard_rews",
+		"_small_sea_coin_rews"
+	]
+}

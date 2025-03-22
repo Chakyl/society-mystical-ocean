@@ -1,0 +1,61 @@
+
+{
+	"content": {
+        "gatekeeper_rew_basic_key": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "dimdungeons:item_portal_key",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650
+        },
+        "gatekeeper_rew_block_gilded_portal": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "dimdungeons:block_gilded_portal",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 3300
+        },
+        "plunderer_rew_block_key_charger": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "dimdungeons:block_key_charger",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "gatekeeper_advanced_key": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 15,
+            "content": "dimdungeons:item_blank_advanced_key",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8050
+        },
+        "gatekeeper_arcane_key": {
+            "type": "command",
+            "rarity": "EPIC",
+            "repRequired": 20,
+            "name": "Arcane Crypt Key",
+            "icon": "dimdungeons:item_blank_advanced_key",
+            "content": "/dimdungeons givekey basic %PLAYER_NAME% 6",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 19100
+        }
+	}
+}

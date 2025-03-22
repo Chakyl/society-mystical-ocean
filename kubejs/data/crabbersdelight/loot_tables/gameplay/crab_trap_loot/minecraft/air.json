@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "aquaculture:tin_can"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "aquaculture:driftwood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:kelp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "aquaculture:algae"
+        }
+      ]
+    }
+  ]
+}

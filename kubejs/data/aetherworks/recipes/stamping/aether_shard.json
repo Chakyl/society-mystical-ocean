@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 10,
+    "name": "aetherworks:aether_gas_impure"
+  },
+  "input": {
+    "item": "society:aquamagical_dust"
+  },
+  "output": {
+    "item": "aetherworks:aether_shard"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

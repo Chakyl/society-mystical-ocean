@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "ars_elemental:flashpine_pod"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:yellow_archwood_leaves"
+    },
+    {
+      "item": "ars_elemental:yellow_archwood_leaves"
+    }, 
+    {
+      "item": "ars_elemental:yellow_archwood_leaves"
+    },  
+    {
+      "item": "ars_elemental:yellow_archwood_leaves"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:apple"
+    }
+  ]
+}

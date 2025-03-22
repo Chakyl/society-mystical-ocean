@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "n#n",
+        "#O#",
+        "nNn"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "N": {
+            "item": "aquaculture:neptunium_block"
+        },
+        "n": {
+            "item": "aquaculture:neptunium_ingot"
+        },
+        "O": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+    },
+    "result": {
+        "item": "cataclysm:ignitium_upgrade_smithing_template",
+        "count": 1
+    }
+}

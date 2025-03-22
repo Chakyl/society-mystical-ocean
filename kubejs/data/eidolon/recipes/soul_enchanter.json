@@ -1,0 +1,38 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " b ",
+    "gog",
+    "nsn"
+  ],
+  "reagents": "uidi",
+  "key": {
+    "b": {
+      "item": "minecraft:book"
+    },
+    "g": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem_block"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    }
+  },
+  "result": {
+    "item": "eidolon:soul_enchanter"
+  }
+}

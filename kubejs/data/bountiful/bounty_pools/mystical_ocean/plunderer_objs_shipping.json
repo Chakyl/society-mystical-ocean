@@ -1,0 +1,187 @@
+
+{
+	"content": {
+        "plunderer_obj_sea_pickle": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:sea_pickle",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 5
+        },
+        "plunderer_obj_seagrass": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:seagrass",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 15
+        },
+        "plunderer_obj_arrow": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:arrow",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 5
+        },
+        "plunderer_obj_kelp_block": {
+            "type": "item",
+            "content": "minecraft:dried_kelp_block",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 40
+        },
+        "plunderer_obj_prismarine_shard": {
+            "type": "item",
+            "content": "minecraft:prismarine_shard",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 35
+        },
+        "plunderer_obj_quartz": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:quartz",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 20
+        },
+        "plunderer_obj_prismarine_crystals": {
+            "type": "item",
+            "content": "minecraft:prismarine_crystals",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 40
+        },
+        "plunderer_obj_random_coral_fans": {
+            "type": "item",
+            "content": "#society:coral_blocks",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 150
+        },
+        "plunderer_obj_shulker_shell_bulk": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:shulker_shell",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 450
+        },
+        "plunderer_obj_random_coral_plants": {
+            "type": "item",
+            "content": "#society:coral_plants",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 150
+        },
+        "plunderer_obj_spirit_orb": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "paraglider:spirit_orb",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 1500
+        },
+        "plunderer_obj_bolvar_wine": {
+            "type": "item",
+            "content": "vinery:bolvar_wine",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "plunderer_obj_pearl": {
+            "type": "item",
+            "content": "crabbersdelight:pearl",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 100
+        },
+        "plunderer_obj_sea_lantern": {
+            "type": "item",
+            "content": "minecraft:sea_lantern",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 350,
+            "weightMult": 0.5
+        },
+        "plunderer_obj_wheat_beer": {
+            "type": "item",
+            "content": "brewery:beer_wheat",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 300
+        },
+        "plunderer_obj_kelp_shake": {
+            "type": "item",
+            "content": "crabbersdelight:kelp_shake",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 150
+        },
+        "fisher_rew_heart_sea": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:heart_of_the_sea",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000.0
+        },
+        "plunderer_obj_neptunium_sword": {
+            "type": "item",
+            "content": "aquaculture:neptunium_sword",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500
+        }
+    }
+}

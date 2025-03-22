@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"PTP",
+    "TCT",
+    "PTP"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "T": {
+      "item": "eidolon:pewter_inlay"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_proxy",
+    "count": 4
+  }
+}

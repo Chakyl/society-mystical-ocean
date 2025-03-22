@@ -1,0 +1,22 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "biomancy:malignant_flesh"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:malignant_flesh_veins"
+        },
+        {
+            "count": 4,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:primal_flesh"
+    }
+}

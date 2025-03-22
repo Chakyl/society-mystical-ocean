@@ -1,0 +1,42 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "minecraft:enchanted_book"
+    },
+    "nutrientsCost": 55,
+    "processingTime": 1200,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 8,
+                "min": 0
+            },
+            "item": "ars_nouveau:experience_gem"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 4,
+                "min": 0
+            },
+            "item": "ars_nouveau:greater_experience_gem"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 7,
+                "min": 1
+            },
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 0
+            },
+            "item": "minecraft:book"
+        }
+    ]
+}

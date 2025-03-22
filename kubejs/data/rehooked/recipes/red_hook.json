@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "rehooked:iron_hook"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "HRH",
+    " RR",
+    "R H"
+  ],
+  "result": {
+    "item": "rehooked:red_hook"
+  },
+  "show_notification": true
+}

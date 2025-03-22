@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    " x ",
+    "sns",
+    "xpx"
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "x": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "p": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "s": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "eidolon:censer"
+  }
+}

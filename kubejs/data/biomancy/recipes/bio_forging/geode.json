@@ -1,0 +1,22 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "minecraft:deepslate"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "count": 5,
+            "item": "biomancy:mineral_fragment"
+        }
+    ],
+    "nutrientsCost": 5,
+    "result": {
+        "item": "tetra:geode"
+    }
+}

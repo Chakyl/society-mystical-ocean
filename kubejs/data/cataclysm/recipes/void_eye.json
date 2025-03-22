@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AEA",
+        "SVS",
+        "AOA"
+    ],
+    "key": {
+        "A": {
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        "S": {
+            "item": "minecraft:shulker_shell"
+        },
+        "E": {
+            "item": "minecraft:end_stone_bricks"
+        },
+        "O": {
+            "item": "irons_spellbooks:ender_upgrade_orb"
+        },
+        "V": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "item": "cataclysm:void_eye",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "d#d",
+        "iEi",
+        "dId"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_block"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "I": {
+            "item": "embers:intelligent_apparatus"
+        },
+        "d": {
+            "item": "embers:dawnstone_nugget"
+        }
+    },
+    "result": {
+        "item": "cataclysm:mech_eye",
+        "count": 1
+    }
+}

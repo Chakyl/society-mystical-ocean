@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " # ",
+    "n#n",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "item": "handcrafted:mangrove_pillar_trim"
+  },
+  "show_notification": true
+}

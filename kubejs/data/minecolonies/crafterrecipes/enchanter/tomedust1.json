@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "enchanter_custom",
+  "inputs": [
+    {
+      "item": "minecolonies:ancienttome",
+      "matchType": "ignore"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": "society:aquamagical_dust",
+  "max-building-level": 1,
+  "min-building-level": 1
+}

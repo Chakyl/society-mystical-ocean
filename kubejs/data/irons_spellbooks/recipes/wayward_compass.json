@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DND",
+    "NLN",
+    "DND"
+  ],
+  "key": {
+    "D": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "L": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:wayward_compass",
+    "count": 1
+  }
+}

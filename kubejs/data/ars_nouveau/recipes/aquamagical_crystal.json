@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "society:aquamagical_crystal"
+  },
+  "pedestalItems": [
+    {
+      "item": "society:aquamagical_essence"
+    },
+    {
+      "item": "society:aquamagical_dust"
+    },  
+    {
+      "item": "society:aquamagical_essence"
+    },
+    {
+      "item": "society:aquamagical_dust"
+    },  
+    {
+      "item": "society:aquamagical_essence"
+    },
+    {
+      "item": "society:aquamagical_dust"
+    },  
+    {
+      "item": "society:aquamagical_essence"
+    },
+    {
+      "item": "society:aquamagical_dust"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "sourceCost": 2000
+}

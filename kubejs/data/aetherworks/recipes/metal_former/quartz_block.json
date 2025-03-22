@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 80,
+  "fluid": {
+    "amount": 100,
+    "name": "embers:soul_crude"
+  },
+  "input": {
+    "item": "biomancy:mineral_fragment"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "minecraft:quartz_block"
+  },
+  "temperature": 2100
+}

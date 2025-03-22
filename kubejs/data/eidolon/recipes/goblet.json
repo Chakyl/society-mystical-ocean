@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "x x",
+    " n ",
+    " x "
+  ],
+  "key": {
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "x": {
+      "tag": "forge:ingots/arcane_gold"
+    }
+  },
+  "result": {
+    "item": "eidolon:goblet"
+  }
+}

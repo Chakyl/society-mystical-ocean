@@ -1,0 +1,738 @@
+{
+    "content": {
+        "plunderer_rew_ice": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:ice",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 50
+        },
+        "plunderer_rew_packed_ice": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:packed_ice",
+            "amount": {
+                "min": 2,
+                "max": 10
+            },
+            "unitWorth": 75
+        },
+        "plunderer_rew_ender_pearl": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:ender_pearl",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 220
+        },
+        "plunderer_rew_blue_ice": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:blue_ice",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 100
+        },
+        "plunderer_rew_bell": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:bell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1120
+        },
+        "plunderer_rew_camera": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "exposure:camera",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100,
+            "weightMult": 0.1
+        },
+        "plunderer_rew_black_and_white_film": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "exposure:black_and_white_film",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 75
+        },
+        "plunderer_rew_snowball": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:snowball",
+            "amount": {
+                "min": 16,
+                "max": 16
+            },
+            "unitWorth": 10
+        },
+        "plunderer_rew_powder_snow_bucket": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:powder_snow_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250
+        },
+        "plunderer_rew_soul_bead": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "quark:soul_bead",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 100
+        },
+        "plunderer_rew_lockbox": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "aquaculture:lockbox",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 400
+        },
+        "plunderer_rew_urn": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "supplementaries:urn",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 120
+        },
+        "plunderer_experience_gem": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "ars_nouveau:experience_gem",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 120
+        },
+        "plunderer_rew_artifact_shards": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "betterarcheology:artifact_shards",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 700
+        },
+        "plunderer_rew_block_gilded_portal": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "dimdungeons:block_gilded_portal",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3300
+        },
+        "plunderer_rew_evoker_trap": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "weightMult": 0.2,
+            "content": "betterarcheology:evoker_trap",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2400
+        },
+        "plunderer_rew_spelunkery_table": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "alexscaves:spelunkery_table",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 450,
+            "weightMult": 0.1
+        },
+        "plundererr_rew_cobweb": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:cobweb",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250
+        },
+        "plunderer_rew_rotten_log": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "betterarcheology:rotten_log",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 35
+        },
+        "plunderer_rew_driftwood_log": {
+            "type": "minecraft:item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "upgrade_aquatic:driftwood_log",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 15
+        },
+        "cultivator_rew_merchant_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:merchant_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1400
+        },
+        "plunderer_rew_block_key_charger": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "dimdungeons:block_key_charger",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "plunderer_rew_treasure_box": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "aquaculture:treasure_chest",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2250
+        },
+        "plunderer_greater_experience_gem": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "ars_nouveau:greater_experience_gem",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 480
+        },
+        "plunderer_rew_diamond_machete": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.5,
+            "content": "nethersdelight:diamond_machete",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 800,
+            "nbt": "{Damage:0}"
+        },
+        "plunderer_rew_color_film": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "exposure:color_film",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 150
+        },
+        "plunderer_rew_sherd": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "#minecraft:decorated_pot_sherds",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 700
+        },
+        "plunderer_rew_disc": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "#minecraft:music_discs",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 700
+        },
+        "plunderer_rew_verdant_froglight": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:verdant_froglight",
+            "amount": {
+                "min": 2,
+                "max": 32
+            },
+            "unitWorth": 115
+        },
+        "plunderer_rew_ochre_froglight": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:ochre_froglight",
+            "amount": {
+                "min": 2,
+                "max": 32
+            },
+            "unitWorth": 115
+        },
+        "plunderer_rew_pearlescent_froglight": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:pearlescent_froglight",
+            "amount": {
+                "min": 2,
+                "max": 32
+            },
+            "unitWorth": 115
+        },
+        "plunderer_rew_primordial_caves": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:cave_tablet",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "nbt": "{CaveBiome:\"alexscaves:primordial_caves\"}"
+        },
+        "plunderer_rew_magnetic_caves": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:cave_tablet",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "nbt": "{CaveBiome:\"alexscaves:magnetic_caves\"}"
+        },
+        "plunderer_rew_toxic_caves": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:cave_tablet",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "nbt": "{CaveBiome:\"alexscaves:toxic_caves\"}"
+        },
+        "plunderer_rew_abyssal_chasm": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:cave_tablet",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "nbt": "{CaveBiome:\"alexscaves:abyssal_chasm\"}"
+        },
+        "plunderer_rew_forlorn_hollows": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "alexscaves:cave_tablet",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "nbt": "{CaveBiome:\"alexscaves:forlorn_hollows\"}"
+        },
+        "plunderer_rew_blank_music_disc": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "etched:blank_music_disc",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 600
+        },
+        "plunderer_rew_globe": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "supplementaries:globe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250
+        },
+        "plunderer_rew_diamond_heart": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:diamond_heart",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1525
+        },
+        "plunderer_rew_antique_ink": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "supplementaries:antique_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650
+        },
+        "plunderer_rew_diamond_brush": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.2,
+            "content": "betterarcheology:diamond_brush",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 350
+        },
+        "plunderer_rew_balloon": {
+            "type": "command",
+            "rarity": "RARE",
+            "repRequired": 20,
+            "weightMult": 0.4,
+            "name": "1x :balloon:",
+            "icon": "minecraft:painting",
+            "content": "/summon balloonbox:balloonbox %PLAYER_POSITION%",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 900
+        },
+        "plunderer_rew_n_natures_compass": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "weightMult": 0.5,
+            "content": "naturescompass:naturescompass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9100
+        },
+        "plunderer_rew_end_rod": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:end_rod",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 150
+        },
+        "plunderer_rew_unidentified_artifact": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "betterarcheology:unidentified_artifact",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5560
+        },
+        "plunderer_rew_wayward_compass": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "irons_spellbooks:wayward_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7060
+        },
+        "plunderer_rew_netherite_machete": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "nethersdelight:netherite_machete",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000,
+            "nbt": "{Damage:0}"
+        },
+        "plunderer_rew_aqua_dashers": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.3,
+            "content": "artifacts:aqua_dashers",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 35000
+        },
+        "plunderer_rew_goddess": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.1,
+            "content": "paraglider:goddess_statue",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4520
+        },
+        "plunderer_rew_spirit_orb": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "paraglider:spirit_orb",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500
+        },
+        "plunderer_rew_dragon_breath": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:dragon_breath",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1900
+        },
+        "plunderer_rew_item_secret_bell": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "dimdungeons:item_secret_bell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 17500
+        },
+        "plunderer_rew_block_portal_crown": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "weightMult": 0.5,
+            "content": "dimdungeons:block_portal_crown",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10500
+        },
+        "plunderer_rew_echo_shard": {
+            "type": "minecraft:item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:echo_shard",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 5055
+        },
+        "plunderer_rew_dragon_head": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:dragon_head",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 25000
+        },
+        "plunderer_rew_dragon_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:dragon_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 40000
+        },
+        "plunderer_rew_wild_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:wild_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_coast_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:coast_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_raiser_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:raiser_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_sentry_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:sentry_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_vex_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:vex_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_wayfinder_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:wayfinder_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_dune_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:dune_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_host_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:host_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "plunderer_rew_shaper_armor_trim_smithing_template": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:shaper_armor_trim_smithing_template",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        }
+    }
+}

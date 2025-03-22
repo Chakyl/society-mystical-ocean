@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDn",
+    "DWD",
+    "nDD"
+  ],
+  "key": {
+    "D": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:magic_cloth",
+    "count": 2
+  }
+}

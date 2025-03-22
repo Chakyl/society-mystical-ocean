@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 4,
+    "tag": "minecraft:lava"
+  },
+  "input": {
+    "item": "minecraft:cobblestone"
+  },
+  "output": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "aquaculture:bayad",
+      "required": false
+    },
+	{
+      "id": "aquaculture:gar",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:islehopper",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:pondie",
+      "required": false
+    }
+  ]
+}

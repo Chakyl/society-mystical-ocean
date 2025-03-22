@@ -1,0 +1,64 @@
+{
+    "content": { 
+        "chef_obj_meal": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 270
+        },
+        "chef_obj_meal_bulk_medium": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 320
+        },
+        "chef_obj_meal_bulk_large": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "rarity": "RARE",
+            "amount": {
+                "min": 64,
+                "max": 128
+            },
+            "unitWorth": 350
+        },
+        "chef_obj_meal_bulk_grand": {
+            "type": "item",
+            "content": "#society:meal_item",
+            "rarity": "RARE",
+            "amount": {
+                "min": 128,
+                "max": 256
+            },
+            "unitWorth": 400
+        },           
+        "chef_obj_bread_bulk": {
+            "type": "item",
+            "content": "#bakery:bread",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 60
+        },
+        "chef_obj_meal_feast": {
+            "type": "item",
+            "content": "#society:feast",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 500
+        }
+    }
+}

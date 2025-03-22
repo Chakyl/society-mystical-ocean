@@ -1,0 +1,1340 @@
+{
+	autofocus_id: "7B9E499EBEFB2062"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tree_getting_started"
+	group: ""
+	icon: "aquaculture:neptunium_ingot"
+	id: "626BCD0CCDF90F6E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1939AE4ADF8C04E8"]
+			description: [
+				"Sea Coins are the main currency of the world and can be aquired through mining, looting, fishing, and bounties. They come in three denominations:"
+				""
+				"&7Iron&r - Commonly found through most tasks."
+				""
+				"&6Gold&r - Rarely found in loot chests, but can be crafted using &l9&r &7Iron Sea Coins&r."
+				""
+				"&3Neptunium&r - Earned only from the rarest of loot chests or the toughest of bounties, worth &l9&r &6Gold Sea Coins&r and &l81&r &7Iron Sea Coins&r."
+				""
+				"&oAll Sea Coins can be crafted down or up into their lower or higher denomination."
+			]
+			id: "005E9359ECF28B69"
+			rewards: [{
+				id: "45D817C1B9BF7911"
+				item: {
+					Count: 1
+					id: "bountiful:bountyboard"
+					tag: {
+						BlockEntityTag: {
+							bounty_inv: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 3b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_brew_water_breathing\",\"logicId\":\"minecraft:criteria\",\"content\":\"minecraft:brewed_potion\",\"amount\":2,\"name\":\"Brew a potion of water breathing\",\"rarity\":\"RARE\",\"critConditions\":{\"potion\":\"minecraft:water_breathing\"}},{\"id\":\"fisher_obj_clawster\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:clawster\",\"amount\":7}],\"rewards\":[{\"id\":\"fisher_rew_ench_book_lure\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:enchanted_book\",\"amount\":1,\"nbt\":\"{StoredEnchantments:[{id:\\\"minecraft:lure\\\",lvl:1s}]}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":23084}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_clawster\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:clawster\",\"amount\":2},{\"id\":\"sea_coin_obj_iron_sea_coin\",\"logicId\":\"minecraft:item\",\"content\":\"society:iron_sea_coin\",\"amount\":4}],\"rewards\":[{\"id\":\"fisher_rew_bucket_of_shrimp_chum\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:bucket_of_shrimp_chum\",\"amount\":2,\"nbt\":\"{Damage:0}\"}]}"
+											"bountiful:bounty_info": "{\"timeStarted\":7309258,\"timeToComplete\":17029}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"sea_coin_obj_gold_sea_coin\",\"logicId\":\"minecraft:item\",\"content\":\"society:gold_sea_coin\",\"amount\":4}],\"rewards\":[{\"id\":\"fisher_rew_bucket_of_clawster_chum\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:bucket_of_clawster_chum\",\"amount\":1,\"nbt\":\"{Damage:0}\"},{\"id\":\"fisher_rew_ench_book_unbreaking\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:enchanted_book\",\"amount\":1,\"nbt\":\"{StoredEnchantments:[{id:\\\"minecraft:unbreaking\\\",lvl:1s}]}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":25079}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_shrimp\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:shrimp\",\"amount\":6}],\"rewards\":[{\"id\":\"fisher_rew_scuba_boots\",\"logicId\":\"minecraft:item\",\"content\":\"scuba_gear:scuba_boots\",\"amount\":1,\"nbt\":\"{Damage:0}\",\"rarity\":\"UNCOMMON\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":18569}"
+										}
+									}
+									{
+										Count: 1b
+										Slot: 18b
+										id: "bountiful:bounty"
+										tag: {
+											"bountiful:bounty_data": "{\"objectives\":[{\"id\":\"fisher_obj_shrimp\",\"logicId\":\"minecraft:item\",\"content\":\"crabbersdelight:shrimp\",\"amount\":16},{\"id\":\"fisher_obj_trop_fish\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:tropical_fish\",\"amount\":12}],\"rewards\":[{\"id\":\"fisher_rew_tug\",\"logicId\":\"minecraft:item\",\"content\":\"littlelogistics:tug\",\"amount\":1,\"rarity\":\"UNCOMMON\"},{\"id\":\"fisher_water_breathing_potion\",\"logicId\":\"minecraft:item\",\"content\":\"minecraft:potion\",\"amount\":1,\"nbt\":\"{Potion:\\\"minecraft:long_water_breathing\\\"}\"}]}"
+											"bountiful:bounty_info": "{\"rarity\":\"UNCOMMON\",\"timeStarted\":7309258,\"timeToComplete\":29979}"
+										}
+									}
+								]
+							}
+							completed: "{\n}"
+							decree_inv: {
+								Items: [{
+									Count: 1b
+									Slot: 0b
+									id: "bountiful:decree"
+									tag: {
+										"bountiful:decree_data": "{\"ids\":[\"fisher\"]}"
+									}
+								}]
+							}
+							id: "bountiful:board-be"
+							taken: "{\n    \"8d3c8e31-8b73-4336-9adb-df8508f79251\": [\n    ]\n}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "7D33D136A15018ED"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			title: "Your First Sea Coin"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["005E9359ECF28B69"]
+			description: [
+				"Bounty Boards are where you can pick up and turn in Bounties for items or Sea Coins."
+				""
+				"Over time, new Bounties will come and go. The Bounties that show up on a given Board are dependent on that Board's &5Decrees&r and their rarity depends on the &6Reputation level&r of the Board itself."
+				""
+				"The &cObjectives&r and &2Rewards&r that show up at a Bounty Board are determined based on an item called a &5Decree&r. Every Board starts with it's own &5Decree&r and up to three &5Decrees&r can fit on a Board at once."
+				""
+				"&oEvery player 'sees' the same Bounties when viewing a Bounty Board. Taking a Bounty from the Board and it won't disappear from your friend's board.&r"
+			]
+			icon: "bountiful:bountyboard"
+			id: "7B9E499EBEFB2062"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C3D504E40407E92"
+				table_id: 8921474869884390179L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7992900DDA23076D"
+				observe_type: 0
+				timer: 0L
+				title: "Look at a &lBounty Board&r   "
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "Bounty Boards"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3AEF70F045890B35"
+				"130A69AFE60D5B8E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now that you have &3Neptunium&r, you can being the difficult decision of how to use it."
+				""
+				"Many powerful or at the very least helpful items can be crafted with nuggets alone. Valuable artifacts and magical devices will take ingots or entire blocks of it."
+				""
+				"Do you save what little you have? Or use it to speed up your ability to aquire &3Neptunium&r..."
+				""
+				":warning: &oSome items crafted using &3Neptunium&r are also bounty rewards.&r"
+			]
+			id: "507CC6EA60E39890"
+			rewards: [{
+				id: "2492EF6FDAE6619E"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0583FFB809A4E9D2"
+				item: "aquaculture:neptunium_nugget"
+				type: "item"
+			}]
+			title: "Your First &3Neptunium&r"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507CC6EA60E39890"]
+			description: [
+				"With your first &3Neptunium&r Ingot, the world of magic and powerful tools has opened up to you!"
+				""
+				"Carefully consider what you craft using this, as each ingot is hard earned and easily spent."
+				""
+				"Your next focus should be on making more coins. Either explore the world for more, or hunker down with even more Bounty Boards and automate their objectives."
+			]
+			id: "33BA2492E563356F"
+			rewards: [{
+				id: "19211587F586BAE6"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "4D317D61AF2DFD21"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			title: "The Sea's Divine Ingot"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			description: ["Neptune's Bounty can be fished up, providing tools and armors that can be smelted down into &3Neptunium&r nuggets."]
+			id: "3AEF70F045890B35"
+			rewards: [{
+				id: "6607BEDCD7111C9D"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74D60F27ECDDC35A"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			title: "Fishing the Years Away"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: [
+				"&3Neptunium&r sea coins are the highest tier of coin, and can be broken into 2 &3Neptunium&r nuggets using flint."
+				""
+				"It's &lnot&r as efficient as buying them from a bounty, but it's reliable!"
+			]
+			id: "130A69AFE60D5B8E"
+			rewards: [{
+				count: 3
+				id: "4EE6A75C4ECD386D"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1342B95E2DC23554"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			title: "Capitalist Realist"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: [
+				"You may find some coins lodged in Iron or Gold ore."
+				""
+				"This is a fairly unreliable way of getting coins, as it is not affected by fortune."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_ore"
+			id: "6A5B405CEF4E19CB"
+			rewards: [{
+				id: "56E40676A8402DFB"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50359989FE5128DE"
+				type: "checkmark"
+			}]
+			title: "***Coin Miner"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: [
+				"Chests around the world may contain coins depending on the rarity of the structure."
+				""
+				"There may be a more renewable way to loot coins..."
+			]
+			hide_until_deps_visible: true
+			icon: "lootr:trophy"
+			id: "648041D023F84BB5"
+			rewards: [{
+				id: "4434E0519AF4AC7A"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1767B75678CC2A9C"
+				title: "Looting Chests"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: [
+				"Learning the mechanics of &5Decrees&r will make getting the bounties you want easier! "
+				""
+				"- Each &5Decree&r has a list of &cObjectives&r and &2Rewards&r. Adding multiple &5Decrees&r to a board will mix the pools together."
+				""
+				"- Every 5 &6Reputation levels&r will unlock new &2Rewards&r for the board up to 15. The final tier requires 25."
+				""
+				"- Being smart with which &5Decrees&r you mix together is the key to getting \"imbalanced\" trades in your favor."
+				""
+				"- There are some crafted &5Decrees&r not available in the shop."
+				""
+				"- Select few &5Decrees&r have a &3Neptunium&r as &cObjectives&r or &2Rewards&r!"
+				""
+				"- Despite its UI, the board discount caps out at level 30"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{}"
+				}
+			}
+			id: "2C1B1A4BF0DBA22D"
+			optional: true
+			rewards: [{
+				id: "45E056CCAA145003"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Break the economy"
+			tasks: [{
+				id: "625FE7E3DF62BAFD"
+				title: "More On Decrees"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59B980C135402D9B"]
+			description: [
+				"Water surrounds the island you ended up on, but the depths of the earth remain in pristine condition."
+				""
+				"You should start your mineshaft on your island, as the sea gets deeper the further away you are from dry land."
+			]
+			id: "1939AE4ADF8C04E8"
+			rewards: [{
+				count: 2
+				id: "68177DF0B7103734"
+				item: "beachparty:sweetberry_icecream"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61021A3A599A79D1"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Breaking Ground"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["This chapter will introduce you to the core concepts of &b&lSociety: Mystical Ocean&r, key in progressing to magic through the power of &3Neptunium&r."]
+			id: "59B980C135402D9B"
+			rewards: [
+				{
+					id: "195E5ACF210E6B7D"
+					item: "minecraft:bamboo_chest_raft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "638DF2FDD355021D"
+					item: "beachparty:icecream_coconut"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "12D56A570398B114"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Welcome to the Ocean"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1939AE4ADF8C04E8"]
+			description: [
+				"&6Tetra&r is the obligatory modular tool mod for customizing vanilla tools and weapons."
+				""
+				"Each piece can be customized for different effects, and the tools do not break when out of durability. They can even accept vanilla enchantments!"
+				""
+				""
+				"Right click a crafting table with your tetra hammer, and insert a vanilla tool into the slot to begin."
+			]
+			id: "2B901F0013ECC98A"
+			rewards: [{
+				count: 2
+				id: "7B264A990F313B4A"
+				item: "beachparty:coconut_icecream"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "tetra:basic_workbench"
+				id: "398EBE7DA047111F"
+				observe_type: 0
+				timer: 0L
+				title: "Make a Tetra workbench"
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
+			}]
+			title: "Tetra Tools"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B901F0013ECC98A"]
+			description: [
+				"The Toolbelt is a handy way of storing tools and other items accessible far earlier than the lauded backpack. "
+				""
+				"It can be opened using right click or whatever hotkey is set to it."
+			]
+			hide_until_deps_visible: true
+			id: "2A95878709144A40"
+			optional: true
+			rewards: [{
+				id: "4C891AE5F99CD998"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A2BF24D1620634D"
+				item: {
+					Count: 1
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "704c9dfc-b118-4f3f-bbec-5656dfe33ad9"
+						quickInventory: [
+							{
+								Count: 1b
+								id: "minecraft:stone_pickaxe"
+								slot: 0b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 1b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 2b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 3b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 4b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 5b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 6b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 7b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 8b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 9b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 10b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 11b
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+						]
+						quickShadows: [
+							{
+								Count: 1b
+								id: "minecraft:stone_pickaxe"
+								slot: 0
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 1
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 2
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 3
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 4
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 5
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 6
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 7
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 8
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 9
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 10
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								slot: 11
+								tag: {
+									"bountiful:bounty_data": "{}"
+								}
+							}
+						]
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "Toolbelts"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B901F0013ECC98A"]
+			description: [
+				"With the exception of the Stone and Wood Hammers, you'll need an hammer to upgrade your hammer from one tier to the next."
+				""
+				"It's recommended to have 2 hammers and upgrade them both at the same time to save yourself the headache."
+				""
+				"The tiers are as follows:"
+				""
+				"Wood -> Stone -> Iron -> Blackstone -> Obsidian -> Netherite"
+			]
+			hide_until_deps_visible: true
+			id: "6AA3A1452E3880F2"
+			rewards: [{
+				count: 2
+				id: "3EBD2AA7DF5EFBCD"
+				item: "beachparty:coconut_icecream"
+				type: "item"
+			}]
+			subtitle: "The hammer and hammer problem"
+			tasks: [{
+				id: "41FFDF56FC86E58F"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "6824ac25-363f-43df-9056-ffbc23553767"
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrading Tiers"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B901F0013ECC98A"]
+			description: [
+				"Carrying a hammer and knife in your inventory whenever you want to customize a tool gets old fast."
+				""
+				"Place down a rack near your &6Tetra&r workbench and hang any tools needed for crafting to get them out of the way."
+			]
+			hide_until_deps_visible: true
+			id: "267607195B309411"
+			rewards: [{
+				count: 4
+				id: "2637A4D4F0AACE35"
+				item: "beachparty:icecream_cactus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "584FEE7EF2743346"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			title: "Stop Losing Your Tools!"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AA3A1452E3880F2"]
+			description: [
+				"If you haven't yet learned the hard way, the &5&lObsidian&r tier upgrade tier is not as straightforward as the previous tiers."
+				""
+				"You'll need to locate tetra ruins underground, and get the Forge Hammer above the Forged Workbench online using &6Thermal Cells&r. "
+				""
+				"The Forged Workbench can upgrade tools to the highest tiers."
+				""
+				"&oThe ruins and Forged Workbench setup can be harvested using Netherite hammers&r"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:obsidian"
+			id: "2258F5833BF3DAED"
+			rewards: [{
+				id: "484BE4CBA94EC985"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07FC8DFF8D0DD776"
+					structure: "#tetra:forged_ruins"
+					title: "Locate Tetra ruins"
+					type: "structure"
+				}
+				{
+					icon: "tetra:forged_workbench"
+					id: "7A4DF3711BB0D2A4"
+					observe_type: 0
+					timer: 0L
+					title: "Look at a Forged Workbench"
+					to_observe: "tetra:forged_workbench"
+					type: "observation"
+				}
+				{
+					id: "5FC346DBC67A1EBF"
+					item: {
+						Count: 1
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obsidian Tier"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2258F5833BF3DAED"
+				"6AA3A1452E3880F2"
+			]
+			dependency_requirement: "one_completed"
+			description: ["If you don't feel like digging randomly, you can upgrade your Holosphere in a &6Tetra&r workbench using an Eye of Ender."]
+			icon: "minecraft:ender_eye"
+			id: "0404D3B6E8C47E5C"
+			invisible: true
+			optional: true
+			rewards: [{
+				count: 2
+				id: "17684D00BD39926A"
+				item: "beachparty:icecream_melon"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "510F9C03FB7FC5C6"
+					item: {
+						Count: 1
+						id: "tetra:holo"
+						tag: {
+							"holo/core": "holo/core"
+							"holo/core_material": "core/dim"
+							"holo/frame": "holo/frame"
+							"holo/frame_material": "frame/ancient"
+							"holo/repo": "holo/repo"
+							"holo/repo_material": "repo/default"
+							"holo/scanner": "holo/scanner"
+							"holo/scanner_material": "scanner/default"
+							id: "9503de92-046c-4d61-8afe-8c0d71c6afae"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B6DF2F24C14A4A3"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Can't Find the Ruins?"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1939AE4ADF8C04E8"]
+			description: [
+				"Backpacks will be out of reach for a good while, sacks and shulker boxes will be your go-to for a while."
+				""
+				"&oA &5Cultivator&r&o can help with acquiring flax, and a &5Blacksmith&r&o can provide shulker boxes...&r"
+			]
+			icon: "minecraft:chest"
+			id: "6EA8D44981E67F50"
+			rewards: [{
+				id: "17AC2A0D0C9FE482"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7CE4213AC7FA71"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
+				type: "item"
+			}]
+			title: "Managing Storage"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			description: [
+				"The humble backpack will make your life significantly easier."
+				""
+				"Unfortunately getting the sea-proof materials will cost you a ton of &3Neptunium&r."
+				""
+				"&oA well-learned mage may be able to craft a high tier one cheaper.&r"
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 1481884
+					clothColor: 1481884
+					contentsUuid: [I;
+						-300190510
+						1477398251
+						-1834508224
+						791298194
+					]
+					inventorySlots: 27
+					renderInfo: {
+						upgradeItems: [{
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								"bountiful:bounty_data": "{}"
+							}
+						}]
+					}
+					upgradeSlots: 1
+				}
+			}
+			id: "0501C194909CBCE8"
+			rewards: [{
+				id: "27B26524E62E4938"
+				item: "society:neptunium_sea_coin"
+				type: "item"
+			}]
+			subtitle: "Don't fear the cost"
+			tasks: [{
+				id: "2C4E7D748F96E9F2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:back"
+					}
+				}
+				title: "Any backpack"
+				type: "item"
+			}]
+			title: "Highly Sophisticated Backpacks"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			description: [
+				"Gaining access to the Nether will open up more possibilities, but it'll take some &3Neptunium&r to get there unless you're clever..."
+				""
+				"Luckily &3Neptunium&r is highly durable, and this tool has unlimited uses."
+			]
+			id: "2F82C5FB020F2C8A"
+			rewards: [{
+				count: 3
+				id: "2429F5516D1833A0"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4878C1F8503514E6"
+				item: "minecraft:flint_and_steel"
+				type: "item"
+			}]
+			title: "Reaching the Nether"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: [
+				"The Bounty system in this pack is completely optional, unless you're planning on \"beating\" the pack which is purely for completion's sake. "
+				""
+				"There are many ways to earn Sea Coins and Neptunium that do not involve the Bounty Board- things will just be drastically more difficult."
+			]
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_not_undead_filter"
+			id: "7EB0060552913713"
+			optional: true
+			rewards: [{
+				id: "5063BA19A22A071A"
+				item: "society:iron_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53C98C074FB9CA55"
+				type: "checkmark"
+			}]
+			title: "\"I Don't like Capitalism\""
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			description: [
+				"To avoid hoarding chests, upgrades can be crafted that increase the inventory or stack size of individual chests and barrels, greately reducing the amount of chests you'll need."
+				""
+				"&oNote: Only works with chests made of vanilla logs.&r"
+			]
+			icon: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			id: "58628A9A4E276482"
+			rewards: [{
+				id: "362AC0D26C1C45B6"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177B5385F1E1C1EF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+							}
+						]
+					}
+				}
+				title: "Any Iron Tier Upgrade"
+				type: "item"
+			}]
+			title: "Iron Chests"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B9E499EBEFB2062"]
+			description: ["Fishing is a more simple and renewable way of finding coins, but unless you hit the jackpot it can be fairly slow."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67C468D09D986A50"
+			rewards: [{
+				id: "3D97FDF876485CE1"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18CA635C1B088B93"
+				type: "checkmark"
+			}]
+			title: "Fishing For Coins"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			description: [
+				"Keeping track of the random books for mods can be annoying. The Eccentric Tome can store many guidebooks in one."
+				""
+				"Right click to select a book, left click with a book selected to reset it. "
+				""
+				"You can craft another if you lose this one."
+			]
+			icon: {
+				Count: 1
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": {
+						advancedperipherals: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "advancedperipherals:manual"
+								}
+							}
+						}
+						alexscaves: {
+							0: {
+								Count: 1b
+								id: "alexscaves:cave_book"
+							}
+						}
+						ars_nouveau: {
+							0: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+						}
+						buildinggadgets2: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+								}
+							}
+						}
+						dimdungeons: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "dimdungeons:guide_book"
+								}
+							}
+						}
+						eidolon: {
+							0: {
+								Count: 1b
+								id: "eidolon:codex"
+							}
+						}
+						embers: {
+							0: {
+								Count: 1b
+								id: "embers:ancient_codex"
+							}
+						}
+						ftbquests: {
+							0: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+						}
+						irons_spellbooks: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+							}
+						}
+						littlelogistics: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "littlelogistics:guide"
+								}
+							}
+						}
+						securitycraft: {
+							0: {
+								Count: 1b
+								id: "securitycraft:sc_manual"
+							}
+						}
+						solcarrot: {
+							0: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+						}
+						sushigocrafting: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "sushigocrafting:sushigocrafting"
+								}
+							}
+						}
+						tis3d: {
+							0: {
+								Count: 1b
+								id: "tis3d:manual"
+							}
+						}
+					}
+					"eccentrictome:version": 1
+				}
+			}
+			id: "2D39ED9CE66F7432"
+			rewards: [{
+				id: "00844D4DE1521BEC"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							alexscaves: {
+								0: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							buildinggadgets2: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+									}
+								}
+							}
+							dimdungeons: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							embers: {
+								0: {
+									Count: 1b
+									id: "embers:ancient_codex"
+								}
+							}
+							ftbquests: {
+								0: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							securitycraft: {
+								0: {
+									Count: 1b
+									id: "securitycraft:sc_manual"
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							sushigocrafting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sushigocrafting:sushigocrafting"
+									}
+								}
+							}
+							tis3d: {
+								0: {
+									Count: 1b
+									id: "tis3d:manual"
+								}
+							}
+						}
+						"eccentrictome:version": 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "630DC8CB29170D1A"
+				type: "checkmark"
+			}]
+			title: "Keeping Books Tidy"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			description: [
+				"From this point on, you're free to explore the rest of the pack. If you don't know where to start, try one of the following:"
+				""
+				"[ \"- Start magic with the \", { \"text\": \"\\\"Oceanic Magic\\\"\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F60607A50B0BB7\" } }, \" questline.\" ]"
+				""
+				"[ \"- Choose a \", { \"text\": \"bulk shipping decree\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06D5FCF8860D92DF\" } }, \" to specialize in and start making real money.\" ]"
+				""
+				"[ \"- Loot \", { \"text\": \"Dimensional Dungeons\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27E30173810B3158\" } }, \" or explore the sea.\" ]"
+			]
+			icon: "ars_nouveau:thread_high_step"
+			id: "479CBCF204044B45"
+			tasks: [{
+				id: "47657CD775B6E4AD"
+				title: "Next Steps"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33BA2492E563356F"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The \"Oceanic Magic\" quest group is dedicated to the five main magic mods, and gives you a detailed idea of what you should be working towards. &3Neptunium&r is the conduit for many components and items, and you'll need varying amounts to get started and progress in each mod."
+				""
+				"Each main branch has a description of the mod and what it can do. It contains:"
+				""
+				"- &eGame stage&r: When it's recommended to start the mod, though not a strict requirement."
+				""
+				"- &aStrength&r: The primary use of the mod (though usually not the only)"
+				""
+				"- &dUltimate item&r: The \"main\" objective item, picked because of its usefulness and/or because it is the final item in the progression path."
+			]
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "eidolon:soulfire_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13F60607A50B0BB7"
+			size: 1.5d
+			subtitle: "An introduction"
+			tasks: [{
+				id: "5DB90A67E645DBD8"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Schools of Magic"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["005E9359ECF28B69"]
+			description: [
+				"Sea Coins can be stored anywhere, but the safest place is in your wallet."
+				""
+				"Click on the icon in the bottom left of your inventory portrait to open it."
+				""
+				"On death, 15% of your coins will be left in your corpse to be recovered, and the rest will stay on your person."
+			]
+			icon: {
+				Count: 1
+				id: "taverntokens:money_bag"
+				tag: { }
+			}
+			id: "79C0D558983906D0"
+			rewards: [{
+				id: "30776CFF1328B61A"
+				item: "society:gold_sea_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3498EEABF3410468"
+				title: "Coin Keeping"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "Getting Started"
+}

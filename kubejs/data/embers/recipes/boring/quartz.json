@@ -1,0 +1,14 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:nether"
+  ],
+  "output": {
+    "item": "minecraft:quartz"
+  },
+  "required_block": {
+    "amount": 9,
+    "block_tag": "society:quartz_boring"
+  },
+  "weight": 5
+}

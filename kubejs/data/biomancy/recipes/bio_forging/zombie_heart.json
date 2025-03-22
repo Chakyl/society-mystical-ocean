@@ -1,0 +1,20 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "item": "irons_spellbooks:blood_vial"
+        }
+    ],
+    "nutrientsCost": 4,
+    "result": {
+        "item": "eidolon:zombie_heart"
+    }
+}

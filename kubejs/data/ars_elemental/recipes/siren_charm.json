@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_elemental:siren_charm"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "item": "society:aquamagical_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_elemental:siren_shards"
+    }
+  ],
+  "sourceCost": 2000
+}

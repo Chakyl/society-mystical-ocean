@@ -1,0 +1,36 @@
+{
+    "content": {
+        "obj_catch_anything": {
+            "type": "criteria",
+            "rarity": "COMMON",
+            "name": "Fish up anything",
+            "content": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "type_specific": {
+                    "fishing_hook": {
+                        "in_open_water": true
+                    }
+                }
+            },
+            "amount": {
+                "min": 3,
+                "max": 20
+            },
+            "unitWorth": 85,
+            "timeMult": 3,
+            "weightMult": 0.6
+        },
+        "fisher_obj_kill_thrasher": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "upgrade_aquatic:thrasher",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 550,
+            "weightMult": 0.25
+        }
+    }
+}

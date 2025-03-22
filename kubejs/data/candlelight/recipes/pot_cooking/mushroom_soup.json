@@ -1,0 +1,24 @@
+{
+  "type": "candlelight:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "candlelight:mushrooms"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    },
+    {
+      "tag": "candlelight:butter"
+    },
+    {
+      "tag": "candlelight:milk"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:mushroom_soup",
+    "count": 1
+  }
+}

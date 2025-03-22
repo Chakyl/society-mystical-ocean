@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": [],
+  "features": "embers:ore_lead_placer",
+  "step": "underground_ores"
+}

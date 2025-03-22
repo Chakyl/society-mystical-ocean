@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 8,
+            "item": "biomancy:vial"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:flesh_bits"
+        }
+    ],
+    "nutrientsCost": 5,
+    "result": {
+        "count": 8,
+        "item": "irons_spellbooks:blood_vial"
+    }
+}

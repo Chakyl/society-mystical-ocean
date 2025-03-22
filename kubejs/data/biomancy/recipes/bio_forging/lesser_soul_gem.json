@@ -1,0 +1,21 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "eidolon:soul_shard"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "count": 2,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 4,
+    "result": {
+        "item": "eidolon:lesser_soul_gem"
+    }
+}

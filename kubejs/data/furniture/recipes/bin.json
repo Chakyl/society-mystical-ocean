@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "#": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "B": {
+      "item": "aquaculture:neptunes_bounty"
+    }
+  },
+  "result": {
+    "item": "furniture:bin",
+    "count": 2
+  }
+}

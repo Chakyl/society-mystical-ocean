@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "D  ",
+        "NDn"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:dried_kelp"
+        },
+        "N": {
+          "item":"aquaculture:neptunium_block"
+        },
+        "n": {
+          "item":"aquaculture:neptunium_ingot"
+        }
+    },
+    "result": {
+        "item": "beachparty:crocs",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "tag": "forge:chests"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_cardboard_box_open",
+    "count": 1
+  }
+}

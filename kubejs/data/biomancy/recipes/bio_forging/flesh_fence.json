@@ -1,0 +1,19 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:misc",
+    "ingredients": [
+        {
+            "count": 8,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "count": 2,
+            "item": "alexscaves:thin_bone"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "count": 4,
+        "item": "biomancy:flesh_fence"
+    }
+}

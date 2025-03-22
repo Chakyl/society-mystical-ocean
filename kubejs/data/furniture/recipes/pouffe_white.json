@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "handcrafted:white_sheet"
+    }
+  },
+  "result": {
+    "item": "furniture:pouffe_white",
+    "count": 1
+  }
+}

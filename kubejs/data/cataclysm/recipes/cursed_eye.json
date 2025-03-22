@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sAs",
+        "gEg",
+        "sAs"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "s": {
+            "item": "ars_nouveau:source_gem"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "A": {
+            "item": "ars_elemental:anima_essence"
+        }
+    },
+    "result": {
+        "item": "cataclysm:cursed_eye",
+        "count": 1
+    }
+}

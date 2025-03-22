@@ -1,0 +1,7 @@
+{
+	"objectives": [
+		"plunderer_objs_shipping_bulk",
+		"plunderer_objs_shipping"
+	],
+	"rewards": ["_large_sea_coin_rews", "plunderer_mastery"]
+}

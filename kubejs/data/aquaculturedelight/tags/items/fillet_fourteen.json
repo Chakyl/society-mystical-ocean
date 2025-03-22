@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	 {
+      "id": "aquaculture:atlantic_halibut",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:battlegill",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:wrecker",
+      "required": false
+    }
+  ]
+}

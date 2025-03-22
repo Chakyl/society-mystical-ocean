@@ -1,0 +1,200 @@
+{
+    "content": {
+        "fisher_obj_string": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:string",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 15
+        },
+        "fisher_obj_crab": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:crab",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 55
+        },
+        "fisher_obj_clawster": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:clawster",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 55
+        },
+        "fisher_obj_raw_clam_meat": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:raw_clam_meat",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 60
+        },
+        "fisher_obj_shrimp": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "crabbersdelight:shrimp",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 55
+        },
+        "fisher_obj_trop_fish": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:tropical_fish",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 80,
+            "weightMult": 1,			
+            "forbids": [
+				{
+					"type": "item",
+					"content": "crabbersdelight:bucket_of_clam_chum"
+				}
+			]
+        },
+        "fisher_obj_random_fish": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#society:common_fish",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150,
+            "weightMult": 2
+        },
+        "fisher_obj_pufferfish": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:pufferfish",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 100,
+            "weightMult": 0.8,
+            "forbids": [
+				{
+					"type": "item",
+					"content": "crabbersdelight:bucket_of_shrimp_chum"
+				}
+			]
+        },
+        "fisher_obj_fish_bones": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "aquaculture:fish_bones",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 90
+        },
+        "fisher_obj_cooked_fish_fillet": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "aquaculture:fish_fillet_cooked",
+            "amount": {
+                "min": 3,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+        "fisher_obj_cooked_unusual_fillet": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "unusualfishmod:cooked_unusual_fillet",
+            "amount": {
+                "min": 3,
+                "max": 32
+            },
+            "unitWorth": 150
+        },
+        "fisher_obj_crab_leg": {
+            "type": "item",
+            "content": "quark:crab_leg",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 159
+        },
+        "fisher_obj_crab_shell": {
+            "type": "item",
+            "content": "quark:crab_shell",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 320
+        },
+        "fisher_obj_kelp_cider": {
+            "type": "item",
+            "content": "vinery:kelp_cider",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 600
+        },
+        "fisher_obj_thrasher_tooth": {
+            "type": "item",
+            "content": "upgrade_aquatic:thrasher_tooth",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 155
+        },
+        "fisher_obj_naut_shell": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:nautilus_shell",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1100
+        },
+        "fisher_obj_neptunes_bounty": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "aquaculture:neptunes_bounty",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8500
+        },
+        "fisher_obj_neptunium_leggings": {
+            "type": "item",
+            "content": "aquaculture:neptunium_leggings",
+            "weightMult": 0.1,
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 26250
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "embers:stamping",
+    "input": {
+      "item": "minecraft:clay"
+    },
+    "output": {
+      "count": 4,
+      "item": "minecraft:clay_ball"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

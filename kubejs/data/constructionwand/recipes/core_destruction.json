@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #X",
+    "#N#",
+    "X# "
+  ],
+  "key": {
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    },
+    "X": {
+      "item": "aquaculture:neptunium_pickaxe"
+    },
+    "#": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "constructionwand:core_destruction"
+  }
+}

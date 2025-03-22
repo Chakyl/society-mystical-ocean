@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gCs",
+        "COC",
+        "sCg"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "s": {
+            "item": "minecraft:chiseled_sandstone"
+        },
+        "C": {
+            "item": "biomancy:creator_mix"
+        },
+        "O": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "item": "cataclysm:desert_eye",
+        "count": 1
+    }
+}

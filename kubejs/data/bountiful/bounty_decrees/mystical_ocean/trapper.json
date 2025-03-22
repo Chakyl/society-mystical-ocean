@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"trapper_objs",
+		"trapper_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"trapper_rews",
+		"_small_sea_coin_rews"
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:everlasting_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "minecraft:end_crystal"
+    },
+    "S": {
+      "tag": "forge:nether_stars"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "NBN",
+    "CSC"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:everlasting_upgrade"
+  }
+}

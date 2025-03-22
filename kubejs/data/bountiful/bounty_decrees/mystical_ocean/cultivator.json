@@ -1,0 +1,11 @@
+{
+    "objectives": [
+        "_sea_coin_objs",
+        "cultivator_objs_shipping",
+        "cultivator_objs"
+    ],
+    "rewards": [
+        "cultivator_rews",
+		"_small_sea_coin_rews"
+    ]
+}

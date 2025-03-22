@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "count": 4,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 14,
+            "item": "biomancy:shrinking_serum"
+        },
+        {
+            "count": 32,
+            "item": "biomancy:stone_powder"
+        },
+        {
+            "count": 32,
+            "item": "biomancy:mineral_fragment"
+        }
+    ],
+    "nutrientsCost": 666,
+    "result": {
+        "item": "artifacts:plastic_drinking_hat"
+    }
+}

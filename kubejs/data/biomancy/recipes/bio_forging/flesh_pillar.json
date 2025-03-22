@@ -1,0 +1,17 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 2,
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "item": "alexscaves:hollow_bone"
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "biomancy:flesh_pillar"
+    }
+}

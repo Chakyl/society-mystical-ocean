@@ -1,0 +1,22 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "aquaculture:neptunium_nugget" },
+        { "item": "aquaculture:neptunium_nugget" },
+        { "item": "eidolon:soul_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "tag": "forge:ingots/gold" },
+        { "tag": "forge:ingots/gold" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:arcane_gold_ingot",
+    "count": 2
+  }
+}

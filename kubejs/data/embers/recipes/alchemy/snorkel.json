@@ -1,0 +1,31 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "alexscaves:diving_helmet"
+    },
+    {
+      "item": "aquamirae:three_bolt_helmet"
+    },
+    {
+      "item": "aquaculture:neptunium_helmet"
+    },
+    {
+      "item": "alexscaves:hazmat_mask"
+    }
+  ],
+  "output": {
+    "item": "artifacts:snorkel"
+  },
+  "tablet": {
+    "item": "scuba_gear:scuba_helmet"
+  }
+}

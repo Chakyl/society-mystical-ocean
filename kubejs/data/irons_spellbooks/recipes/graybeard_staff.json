@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  E",
+    " S ",
+    "N  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:graybeard_staff",
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "functionalstorage:ender_drawer"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "forge:chests/ender"
+          },
+          "L": {
+            "tag": "functionalstorage:drawer"
+          },
+          "P": {
+            "item": "aquaculture:neptunium_ingot"
+          },
+          "O": {
+            "item": "irons_spellbooks:ender_upgrade_orb"
+          }
+        },
+        "pattern": [
+          "POP",
+          "LCL",
+          "POP"
+        ],
+        "result": {
+          "item": "functionalstorage:ender_drawer"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

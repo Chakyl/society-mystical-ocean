@@ -1,0 +1,7 @@
+{
+    "objectives": [
+        "cultivator_objs_shipping",
+        "cultivator_objs_shipping_bulk"
+    ],
+	"rewards": ["_large_sea_coin_rews", "cultivator_mastery"]
+}

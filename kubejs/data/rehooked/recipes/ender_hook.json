@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "H": {
+      "item": "rehooked:diamond_hook"
+    },
+    "D": {
+      "item": "rehooked:diamond_chain"
+    }
+  },
+  "pattern": [
+    "NEH",
+    " DE",
+    "D N"
+  ],
+  "result": {
+    "item": "rehooked:ender_hook"
+  },
+  "show_notification": true
+}

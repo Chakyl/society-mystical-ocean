@@ -1,0 +1,22 @@
+{
+  "branch": "minecolonies:technology",
+  "effects": [
+    {
+      "minecolonies:effects/blockplacespeedmultiplier": 5
+    }
+  ],
+  "icon": "minecraft:spectral_arrow",
+  "parentResearch": "minecolonies:technology/seemsautomatic",
+  "requirements": [
+    {
+      "type": "minecolonies:item_list",
+      "item": {
+        "items": [
+          "society:blacksmith_mastery"
+        ]
+      },
+      "quantity": 1
+    }
+  ],
+  "researchLevel": 6
+}

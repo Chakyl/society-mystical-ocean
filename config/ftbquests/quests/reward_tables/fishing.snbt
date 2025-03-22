@@ -1,0 +1,34 @@
+{
+	id: "611927870EED83EF"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Lure I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Luck of the Sea I"
+		}
+	]
+	title: "Fishing"
+}

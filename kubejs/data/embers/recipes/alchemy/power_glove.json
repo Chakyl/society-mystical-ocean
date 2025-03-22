@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:winding_gears"
+    },
+    {
+      "item": "embers:intelligent_apparatus"
+    },
+    {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  ],
+  "output": {
+    "item": "artifacts:power_glove"
+  },
+  "tablet": {
+    "item": "irons_spellbooks:lightning_upgrade_orb"
+  }
+}

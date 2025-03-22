@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "winemaker_set",
+  "pattern": [
+    "S S",
+    "n n"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "result": {
+    "item": "vinery:winemaker_boots"
+  }
+}

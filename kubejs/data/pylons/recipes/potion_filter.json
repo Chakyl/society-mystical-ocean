@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pylons",
+  "key": {
+    "a": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "s": {
+      "item": "eidolon:arcane_seal"
+    },
+    "o": {
+      "item": "eidolon:withered_heart"
+    },
+    "r": {
+      "item": "eidolon:merammer_resin"
+    },
+    "n": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "pattern": [
+    "asa",
+    "rnr",
+    "aoa"
+  ],
+  "result": {
+    "item": "pylons:potion_filter"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"PCP",
+    "cDc",
+    "PCP"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "tag": "forge:chests/wooden"
+    },
+    "D": {
+      "item": "eidolon:crimson_gem"
+    },
+    "C": {
+      "item": "eidolon:pewter_ingot"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_connector"
+  }
+}

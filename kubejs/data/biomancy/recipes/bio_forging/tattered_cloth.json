@@ -1,0 +1,17 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "item": "irons_spellbooks:magic_cloth"
+        },
+        {
+            "count": 2,
+            "item": "biomancy:tough_fibers"
+        }
+    ],
+    "nutrientsCost": 4,
+    "result": {
+        "item": "eidolon:tattered_cloth"
+    }
+}

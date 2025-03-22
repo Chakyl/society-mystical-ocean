@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "artifacts:charm_of_sinking"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:water_bangle"
+    },
+    {
+      "item": "ars_nouveau:glyph_conjure_water"
+    },
+    {
+      "item": "irons_spellbooks:ice_rune"
+    },
+    {
+      "item": "irons_spellbooks:ice_upgrade_orb"
+    },
+    {
+      "item": "ars_elemental:water_focus"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:dull_trinket"
+    }
+  ],
+  "sourceCost": 0
+}

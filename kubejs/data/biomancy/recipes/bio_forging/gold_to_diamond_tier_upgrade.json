@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "biomancy:storage_sac"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:creator_mix"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:gem_fragments"
+        },
+        {
+            "count": 8,
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "count": 1,
+            "item": "aquaculture:neptunium_nugget"
+        }
+    ],
+    "nutrientsCost": 400,
+    "result": {
+        "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+    }
+}

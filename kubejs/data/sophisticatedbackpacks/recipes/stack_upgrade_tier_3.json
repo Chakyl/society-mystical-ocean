@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_tier_3"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_block"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "NSN",
+    "DDD"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"sifter_objs",
+		"sifter_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"sifter_rews",
+		"_small_sea_coin_rews"
+	]
+}

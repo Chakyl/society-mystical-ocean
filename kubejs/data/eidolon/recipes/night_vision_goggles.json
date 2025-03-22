@@ -1,0 +1,30 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " b ",
+    "hsh",
+    "i i"
+  ],
+  "reagents": "gghg",
+  "key": {
+    "g": {
+      "item": "endersdelight:enderman_sight"
+    },
+    "i": {
+    	"item": "eidolon:magic_ink"
+    },
+    "s": {
+    	"item": "beachparty:sunglasses"
+    },
+    "b": {
+    	"item": "eidolon:basic_belt"
+    },
+    "h": {
+    	"item": "eidolon:holy_symbol"
+    }
+    
+  },
+  "result": {
+    "item": "artifacts:night_vision_goggles"
+  }
+}

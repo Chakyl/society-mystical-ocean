@@ -1,0 +1,26 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "aquaculture:neptuna"
+    },
+    "nutrientsCost": 20,
+    "processingTime": 20,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "min": 2,
+                "max": 4
+            },
+            "item": "aquaculture:neptunium_nugget"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

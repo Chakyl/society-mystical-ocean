@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#fn",
+        "nBn",
+        "nf#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dried_kelp"
+        },
+        "f": {
+            "item": "artifacts:flippers"
+        },
+        "n": {
+            "item": "aquaculture:neptunium_ingot"
+        },
+        "B": {
+            "item": "minecraft:blue_dye"
+        }
+    },
+    "result": {
+        "item": "beachparty:rubber_ring_blue",
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": -57,
+  "output": {
+    "item": "alexscaves:toxic_paste"
+  },
+  "required_block": {
+    "amount": 9,
+    "block_tag": "society:uranium_boring"
+  },
+  "weight": 30
+}

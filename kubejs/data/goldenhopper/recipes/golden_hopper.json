@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "I": {
+      "tag": "forge:ingots/gold"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "nHn",
+    "RIR"
+  ],
+  "result": {
+    "item": "goldenhopper:golden_hopper"
+  },
+  "show_notification": true
+}

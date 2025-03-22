@@ -1,0 +1,119 @@
+{
+  "content": {
+    "sifter_obj_flint_block": {
+      "type": "item",
+      "weightMult": 1.75,
+      "rarity": "UNCOMMON",
+      "content": "supplementaries:flint_block",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 40
+    },
+    "sifter_rew_concrete_powder_bulk": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "weightMult": 1.75,
+      "content": "#forge:concrete_powder",
+      "amount": {
+        "min": 128,
+        "max": 128
+      },
+      "unitWorth": 15
+    },
+    "sifter_rew_concrete": {
+      "type": "item",
+      "rarity": "RARE",
+      "weightMult": 1.75,
+      "content": "#forge:concrete",
+      "amount": {
+        "min": 128,
+        "max": 128
+      },
+      "unitWorth": 45
+    },
+    "sifter_obj_safety_net": {
+      "type": "item",
+      "rarity": "RARE",
+      "weightMult": 1.75,
+      "content": "farmersdelight:safety_net",
+      "amount": {
+        "min": 16,
+        "max": 128
+      },
+      "unitWorth": 80
+    },
+    "sifter_obj_gunpowder_sack": {
+      "type": "item",
+      "weightMult": 1.75,
+      "rarity": "RARE",
+      "content": "quark:gunpowder_sack",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 280
+    },
+    "sifter_obj_tnt_large": {
+      "type": "item",
+      "weightMult": 1.75,
+      "rarity": "RARE",
+      "content": "minecraft:tnt",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 170
+    },
+    "sifter_obj_corundum_bulk": {
+      "type": "item",
+      "rarity": "RARE",
+      "weightMult": 1.75,
+      "content": "#quark:corundum",
+      "amount": {
+        "min": 8,
+        "max": 64
+      },
+      "unitWorth": 120,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "#quark:corundum"
+        }
+      ]
+    },
+    "sifter_obj_magnetic_wine_bulk": {
+      "type": "item",
+      "content": "vinery:magnetic_wine",
+      "rarity": "RARE",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 600
+    },
+    "sifter_obj_shrapnel_bomb_large": {
+      "type": "item",
+      "weightMult": 1.75,
+      "rarity": "EPIC",
+      "content": "oreganized:shrapnel_bomb",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 220
+    },
+    "sifter_obj_nuclear_bomb_large": {
+      "type": "item",
+      "weightMult": 0.5,
+      "rarity": "EPIC",
+      "content": "alexscaves:nuclear_bomb",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 9000
+    }
+  }
+}

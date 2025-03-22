@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "minecraft:iron_ore"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 250,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+            },
+            "item": "society:iron_sea_coin"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 15,
+                "min": 10
+            },
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 5,
+                "min": 1
+            },
+            "item": "biomancy:stone_powder"
+        }
+    ]
+}

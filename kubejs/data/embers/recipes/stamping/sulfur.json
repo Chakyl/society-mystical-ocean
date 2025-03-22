@@ -1,0 +1,16 @@
+{
+    "type": "embers:stamping",
+    "fluid": {
+      "amount": 10,
+      "name": "embers:dwarven_oil"
+    },
+    "input": {
+      "item": "embers:ember_grit"
+    },
+    "output": {
+      "item": "eidolon:sulfur"
+    },
+    "stamp": {
+      "item": "embers:flat_stamp"
+    }
+  }

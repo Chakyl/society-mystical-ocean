@@ -1,0 +1,28 @@
+{
+  "branch": "minecolonies:technology",
+  "effects": [
+    {
+      "minecolonies:effects/neptuniumenchantingunlock": 1
+    }
+  ],
+  "icon": "minecolonies:blockhutenchanter",
+  "parentResearch": "minecolonies:technology/morescrolls",
+  "requirements": [
+    {
+      "building": "enchanter",
+      "level": 3
+    },
+    {
+      "type": "minecolonies:item_list",
+      "item": {
+        "items": [
+          "aquaculture:neptunium_block"
+        ]
+      },
+      "quantity": 1
+    }
+  ],
+  "researchLevel": 2,
+  "sortOrder": 2,
+  "subtitle": "com.minecolonies.research.technology.neptuniumenchanting.subtitle"
+}

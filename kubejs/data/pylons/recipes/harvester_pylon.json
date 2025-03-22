@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "sss",
+    "nbn",
+    "eee"
+  ],
+  "reagents": "ugag",
+  "key": {
+    "g": {
+      "item": "eidolon:merammer_resin"
+    },
+    "n": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "b": {
+      "item": "eidolon:planter"
+    },
+    "e": {
+      "item": "eidolon:elder_bricks"
+    },
+    "s": {
+      "item": "eidolon:elder_bricks_slab"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    },
+    "a": {
+      "item": "eidolon:avennian_sprig"
+    }
+  },
+  "result": {
+    "item": "pylons:harvester_pylon"
+  }
+}

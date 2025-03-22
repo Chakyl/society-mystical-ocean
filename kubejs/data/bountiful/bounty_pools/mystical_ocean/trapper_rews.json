@@ -1,0 +1,548 @@
+{
+    "content": {
+        "trapper_rew_rabbit_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:rabbit_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_bee_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:bee_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_pig_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:pig_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_chicken_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:chicken_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_cow_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:cow_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_sheep_spawn_egg": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:sheep_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150
+        },
+        "trapper_rew_camel_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:camel_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_shiba_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "quark:shiba_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_cat_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:cat_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_llama_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:llama_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_horse_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:horse_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_mule_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:mule_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_donkey_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:donkey_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_goat_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:goat_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_parrot_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:parrot_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_squid_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:squid_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_wolf_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:wolf_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_ocelot_spawn_egg": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "minecraft:ocelot_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_shepherd_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:shepherd_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "trapper_rew_swineherd_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:swineherd_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "trapper_rew_chicken_farmer_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:chicken_farmer_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "trapper_rew_cattle_farmer_block": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "repRequired": 5,
+            "content": "workers:cattle_farmer_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "trapper_rew_dolphin_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:dolphin_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_polar_bear_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:polar_bear_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_crab_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "quark:crab_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_fox_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:fox_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_panda_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:panda_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_frog_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:frog_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_turkey_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "autumnity:turkey_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_rew_snail_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "autumnity:snail_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_witch_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "minecraft:witch_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500
+        },
+        "trapper_slug_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "eidolon:spawn_slimy_slug",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500
+        },
+        "trapper_starbuncle_spawn_egg": {
+            "type": "item",
+            "rarity": "RARE",
+            "repRequired": 10,
+            "content": "ars_nouveau:starbuncle_se",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_villager_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:villager_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "trapper_rew_piglin_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:piglin_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "trapper_raven_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "eidolon:spawn_raven",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "trapper_rew_allay_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:allay_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "trapper_rew_strider_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "minecraft:strider_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "trapper_rew_foxhound_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "quark:foxhound_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "trapper_rew_drygmy_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:drygmy_se",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3000
+        },
+        "trapper_rew_whirlisprig_spawn_egg": {
+            "type": "item",
+            "rarity": "EPIC",
+            "repRequired": 15,
+            "content": "ars_nouveau:whirlisprig_se",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3000
+        },
+        "trapper_rew_arrau_turtle_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "aquaculture:arrau_turtle_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_mooshroom_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:mooshroom_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_box_turtle_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "aquaculture:box_turtle_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_turtle_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "minecraft:turtle_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_starshell_turtle_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "aquaculture:starshell_turtle_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_toretoise_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "quark:toretoise_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_moobloom_spawn_egg": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "buzzier_bees:moobloom_spawn_egg",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500
+        },
+        "trapper_rew_golden_moth_in_a_jar": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "aquamirae:golden_moth_in_a_jar",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 300
+        },
+        "trapper_rew_superstitious_hat": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "repRequired": 25,
+            "content": "artifacts:superstitious_hat",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 55000
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"florist_objs",
+		"florist_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"florist_rews",
+		"_small_sea_coin_rews"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"content": {
+		"huge_sea_coin_rew_gold_sea_coin": {
+			"type": "item",
+			"content": "society:gold_sea_coin",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 450,
+			"weightMult": 0.3
+		},
+		"huge_sea_coin_rew_neptunium_sea_coin": {
+			"type": "item",
+			"content": "society:neptunium_sea_coin",
+			"amount": {
+				"min": 1,
+				"max": 12
+			},
+			"unitWorth": 4050,
+			"weightMult": 0.4
+		}
+	}
+}

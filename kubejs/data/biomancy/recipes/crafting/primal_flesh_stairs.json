@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": { "S": { "item": "biomancy:primal_flesh" } },
+  "pattern": ["S  ", "SS ", "SSS"],
+  "result": { "count": 4, "item": "biomancy:primal_flesh_stairs" },
+  "show_notification": true
+}
+

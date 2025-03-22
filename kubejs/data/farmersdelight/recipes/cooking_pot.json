@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "aquaculture:neptunium_nugget"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "bSb",
+    "iWi",
+    "iii"
+  ],
+  "result": {
+    "item": "farmersdelight:cooking_pot"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "#G#",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_brick"
+        },
+        "G": {
+            "item": "artifacts:fire_gauntlet"
+        },
+        "E": {
+            "item": "cataclysm:ignitium_ingot"
+        },
+        "C": {
+            "item": "embers:wildfire_core"
+        }
+    },
+    "result": {
+        "item": "cataclysm:blazing_grips",
+        "count": 1
+    }
+}

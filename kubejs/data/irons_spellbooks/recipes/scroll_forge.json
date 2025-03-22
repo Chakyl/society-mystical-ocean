@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    " N ",
+    "OOO"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "N": {
+      "item": "aquaculture:neptunes_bounty"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:scroll_forge",
+    "count": 1
+  }
+}

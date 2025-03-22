@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [
+
+        {
+            "count": 1,
+            "item": "candlelight:chefs_boots"
+        },
+        {
+            "count": 10,
+            "item": "biomancy:mob_claw"
+        },
+        {
+            "count": 2,
+            "item": "biomancy:primordial_core"
+        }
+    ],
+    "nutrientsCost": 250,
+    "result": {
+        "item": "artifacts:kitty_slippers"
+    }
+}

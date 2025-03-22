@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "crabbersdelight:cooked_crab"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "quark:cooked_crab_leg"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

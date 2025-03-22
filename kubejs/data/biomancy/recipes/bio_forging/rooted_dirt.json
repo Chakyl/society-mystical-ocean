@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 64,
+            "item": "minecraft:dirt"
+        },
+        {
+            "count": 8,
+            "item": "minecraft:mangrove_roots"
+        },
+        {
+            "count": 8,
+            "item": "biomancy:organic_matter"
+        }
+    ],
+    "nutrientsCost": 45,
+    "result": {
+        "count": 64,
+        "item": "minecraft:rooted_dirt"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    "did",
+    " t "
+  ],
+  "key": {
+    "e": {
+      "item": "embers:fluid_extractor"
+    },
+    "d": {
+      "item": "embers:dawnstone_plate"
+    },
+    "i": {
+      "item": "embers:intelligent_apparatus"
+    },
+    "t": {
+      "item": "embers:fluid_transfer"
+    }
+  },
+  "result": {
+    "item": "translocators:fluid_translocator",
+    "count": 2
+  }
+}

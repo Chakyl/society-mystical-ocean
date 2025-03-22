@@ -1,0 +1,35 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "irons_spellbooks:arcane_debris"
+    },
+    "nutrientsCost": 20,
+    "processingTime": 460,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 6,
+                "min": 4
+            },
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+            },
+            "item": "society:aquamagical_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 0
+            },
+            "item": "irons_spellbooks:arcane_salvage"
+        }
+        
+    ]
+}

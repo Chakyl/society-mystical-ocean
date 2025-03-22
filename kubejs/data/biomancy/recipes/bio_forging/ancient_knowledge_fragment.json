@@ -1,0 +1,22 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "count": 4,
+            "item": "biomancy:living_flesh"
+        },
+        {
+            "count": 6,
+            "item": "biomancy:bone_fragments"
+        },
+        {
+            "count": 16,
+            "item": "society:aquamagical_dust"
+        }
+    ],
+    "nutrientsCost": 666,
+    "result": {
+        "item": "irons_spellbooks:ancient_knowledge_fragment"
+    }
+}

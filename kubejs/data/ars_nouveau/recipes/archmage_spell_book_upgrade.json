@@ -1,0 +1,35 @@
+{
+  "type": "ars_nouveau:book_upgrade",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "society:aquamagical_crystal"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },  
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:archmage_spell_book"
+  }
+}

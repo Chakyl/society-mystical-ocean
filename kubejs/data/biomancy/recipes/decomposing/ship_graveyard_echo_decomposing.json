@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "aquamirae:ship_graveyard_echo"
+    },
+    "nutrientsCost": 10,
+    "processingTime": 120,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 7,
+                "min": 5
+            },
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 16,
+                "min": 4
+            },
+            "item": "biomancy:exotic_dust"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

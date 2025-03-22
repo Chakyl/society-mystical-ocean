@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type":"minecraft:translucent",
+  "textures": {
+    "down": "society:block/incubator_side_down",
+    "east": "society:block/incubator_side_east",
+    "north": "society:block/incubator_front",
+    "particle": "biomancy:block/packed_flesh",
+    "south": "biomancy:block/malignant_flesh",
+    "up": "society:block/incubator_side_up",
+    "west": "society:block/incubator_side_west"
+  }
+}

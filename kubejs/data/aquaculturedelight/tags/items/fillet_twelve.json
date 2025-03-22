@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+	  {
+      "id": "aquaculture:pacific_halibut",
+      "required": false
+    },
+    {
+      "id": "fishofthieves:stormfish",
+      "required": false
+    }
+  ]
+}

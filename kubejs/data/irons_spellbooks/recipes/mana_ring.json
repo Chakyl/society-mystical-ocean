@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NA ",
+    "A A",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "N": {
+      "item": "aquaculture:neptunium_ingot"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:mana_ring",
+    "count": 1
+  }
+}

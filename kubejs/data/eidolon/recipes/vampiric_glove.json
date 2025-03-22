@@ -1,0 +1,36 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "bsb",
+    "hph",
+    "beb"
+  ],
+  "reagents": "uggg",
+  "key": {
+    "h": {
+      "item": "irons_spellbooks:greater_healing_potion"
+    },
+    "e": {
+    	"item": "eidolon:death_essence"
+    },
+    "b": {
+    	"item": "irons_spellbooks:blood_vial"
+    },
+    "p": {
+    	"item": "eidolon:prestigious_palm"
+    },
+    "s": {
+    	"item": "eidolon:arcane_seal"
+    },
+    "u": {
+    	"item": "eidolon:unholy_symbol"
+    },
+    "g": {
+    	"item": "eidolon:shadow_gem"
+    }
+    
+  },
+  "result": {
+    "item": "artifacts:vampiric_glove"
+  }
+}

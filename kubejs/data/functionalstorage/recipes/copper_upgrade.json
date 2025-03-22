@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "functionalstorage:copper_upgrade"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "minecraft:copper_block"
+          },
+          "n": {
+            "item": "aquaculture:neptunium_ingot"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "D": {
+            "tag": "functionalstorage:drawer"
+          },
+          "I": {
+            "item": "minecraft:copper_ingot"
+          }
+        },
+        "pattern": [
+          "IBI",
+          "CDC",
+          "nBn"
+        ],
+        "result": {
+          "item": "functionalstorage:copper_upgrade"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

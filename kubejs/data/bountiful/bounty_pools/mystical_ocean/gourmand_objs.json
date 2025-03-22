@@ -1,0 +1,82 @@
+{
+    "content": {
+        "gourmand_obj_chop_on_cutting_board": {
+            "type": "criteria",
+            "rarity": "COMMON",
+            "name": "Chop things on a farmer's delight cutting board",
+            "content": "farmersdelight:use_cutting_board",
+            "conditions": {},
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 25,
+            "timeMult": 2,
+            "weightMult": 0.5
+        },
+        "gourmand_obj_camfire_cooking": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Cook on a campfire",
+            "content": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "tag": "minecraft:campfires"
+                        }
+                      }
+                    }
+                  ]
+            },
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 65,
+            "weightMult": 0.5
+        },
+        "gourmand_obj_kill_hoglin": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:hoglin",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 450,
+            "weightMult": 0.25
+        },
+        "gourmand_obj_tomato_throw": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "name": "Hit mobs with rotten tomatoes",
+            "content": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "farmersdelight:rotten_tomato"
+                        },
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_projectile"
+                            }
+                        ]
+                    }
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 275,
+            "timeMult": 2,
+            "weightMult": 0.3
+        }
+    }
+}

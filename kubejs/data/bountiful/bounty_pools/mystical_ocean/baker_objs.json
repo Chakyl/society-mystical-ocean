@@ -1,0 +1,87 @@
+{
+    "content": {
+        "baker_obj_bread": {
+            "type": "item",
+            "content": "#bakery:bread",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 150
+        },
+        "baker_obj_sides": {
+            "type": "minecraft:item",
+            "rarity": "COMMON",
+            "weightMult": 1.5,
+            "content": "#society:baker_small_goods",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 200
+        },
+        "baker_obj_cookie": {
+            "type": "minecraft:item",
+            "rarity": "COMMON",
+            "content": "#society:baker_cookies",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 95
+        },
+        "baker_obj_kettle_drinks": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#society:kettle_drinks",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 320
+        },
+        "baker_obj_jam": {
+            "type": "item",
+            "content": "#bakery:jam",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 340
+        },
+        "baker_obj_cake_pie_tart": {
+            "type": "minecraft:item",
+            "rarity": "RARE",
+            "content": "#society:baker_cake_pie_tart",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 420
+        },
+        "baker_obj_chocolate_box": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 0.5,
+            "content": "bakery:chocolate_box",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 750
+        },
+        "baker_obj_bread_crate": {
+            "type": "item",
+            "rarity": "RARE",
+            "weightMult": 0.5,
+            "content": "bakery:bread_crate",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 600
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "brewery:whiskey_lilitusinglemalt"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 20,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 1
+            },
+            "item": "minecraft:glass_bottle"
+        },        
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 12,
+                "min": 4
+            },
+            "item": "biomancy:regenerative_fluid"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 1,
+                "min": 1
+            },
+            "item": "society:aquamagical_dust"
+        }
+    ]
+}

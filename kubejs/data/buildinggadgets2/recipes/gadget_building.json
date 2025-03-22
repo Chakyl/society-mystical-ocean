@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "i": {
+      "tag": "forge:ingots/dawnstone"
+    },
+    "l": {
+      "tag": "forge:gems/lapis"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "a": {
+      "item": "embers:intelligent_apparatus"
+    }
+  },
+  "pattern": [
+    "iri",
+    "dad",
+    "ili"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_building"
+  },
+  "show_notification": true
+}

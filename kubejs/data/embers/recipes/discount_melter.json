@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "embers:caminite_bricks"
+    },
+    "F": {
+      "item": "embers:wildfire_core"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "item": "embers:caminite_plate"
+    }
+  },
+  "pattern": [
+    "BPB",
+    "BFB",
+    "III"
+  ],
+  "result": {
+    "item": "embers:melter"
+  },
+  "show_notification": true
+}

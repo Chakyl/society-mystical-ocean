@@ -1,0 +1,10 @@
+{
+  "type": "betterarcheology:identifying",
+  "input": {
+    "item": "betterarcheology:unidentified_artifact"
+  },
+  "result": {
+    "item": "irons_spellbooks:gold_spell_book",
+    "Count": 1
+  }
+}

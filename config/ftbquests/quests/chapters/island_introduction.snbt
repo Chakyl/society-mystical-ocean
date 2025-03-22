@@ -1,0 +1,256 @@
+{
+	autofocus_id: "2B6877708A709B5C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "island_introduction"
+	group: ""
+	icon: "eidolon:prestigious_palm"
+	id: "66FA8FEDF6FC9F63"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &l&bSociety: Mystical Ocean&r!"
+				""
+				"Where magic meets lightly industrial society in an endless sea of lost souls."
+				""
+				"Your end goal: discover the source of &3Neptunium&r and its power through magical research."
+				""
+				"This questbook will give you an introduction to the concepts of the pack, as well as a loosely guided experience through the magic mods."
+			]
+			icon: "beachparty:coconut_cocktail"
+			id: "2B6877708A709B5C"
+			rewards: [
+				{
+					id: "525A6E45CC76603B"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3EA76FBA24C42CF4"
+					item: "beachparty:palm_sapling"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "41EBA52522934671"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule artifacts.snorkel.isInfinite true"
+					elevate_perms: true
+					id: "78D37AF0CA1047D9"
+					silent: true
+					type: "command"
+				}
+			]
+			size: 2.0d
+			subtitle: "You only have to read this one"
+			tasks: [{
+				id: "072C2039D178F97E"
+				title: "Click to complete!"
+				type: "checkmark"
+			}]
+			title: "Welcome!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"The configuration file for the world generation can be found in:"
+				""
+				"&bkubejs/data/minecraft/worldgen/density_function/util/island_noise.json&r"
+				""
+				"In that file, &bargument1&r determines the size of generated islands. Higher numbers make larger islands."
+				""
+				"The key &bxz_scale1&r determines the rarity of islands. Lower values make islands rarer."
+				""
+				"For a hardcore experience try these values:"
+				""
+				"&bargument1&r: -0.55,"
+				"&bxz_scale&r: 1.75,"
+				""
+				"&oCredit to Quidvio for the original Survival Islands datapack&r"
+			]
+			icon: "supplementaries:globe"
+			id: "6E000FB6AF46C874"
+			subtitle: "For nerds and server owners"
+			tasks: [{
+				id: "26D1FC6B08100FED"
+				title: "I'm not reading all that"
+				type: "checkmark"
+			}]
+			title: "Customizing Island Generation"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"Certain villager workstations in this pack are disabled, primarily for balance reasons. This means &eMending&r is difficult to acquire, and may require some magic to get reliably..."
+				""
+				"Blocked workstations:"
+				"- Lectern"
+				"- Arcane Core"
+				"- Lounge Chair"
+				"- Advanced Computer"
+				"- Cooking Pot"
+				"- Bar Counter"
+			]
+			icon: "minecraft:lectern"
+			id: "2099624E3D6D5C67"
+			subtitle: "NO MENDING??"
+			tasks: [{
+				id: "2B185D10321BF24C"
+				type: "checkmark"
+			}]
+			title: "No Librarians?"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"&3Neptunium&r is a central part of progression in this pack. "
+				""
+				"It is very limited in ways to aquire it, and very precious. "
+				""
+				"Many recipes are changed to require it."
+			]
+			icon: "aquaculture:neptunium_ingot"
+			id: "0B76EEB45444FD51"
+			tasks: [{
+				id: "683134D2F4E61CAE"
+				title: "Neptunium and You"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"Over the course of your world, you'll obtain items known as &lSea Coins&r. This is a currency used in Bounties and a small amount of recipes."
+				""
+				"Unless you want to 100% pack, which is only for bragging rights, interacting with the currency system is &loptional&r outside those few recipes."
+			]
+			icon: "society:gold_sea_coin"
+			id: "42BBE95A6DE1DD19"
+			tasks: [{
+				id: "18D7A7C05EC66667"
+				title: "Bounties"
+				type: "checkmark"
+			}]
+			title: "Bounties and Currency"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"This pack features five magic mods that were picked based on personal taste and how much they overlapped with the rest:"
+				""
+				"- &6Eidolon&r - Alchemy and theurgy"
+				"- &6Iron's Spells and Spellbooks&r - Combat spellcasting"
+				"- &6Biomancy 2&r - Fleshcrafting"
+				"- &6Embers Rekindled&r - Magitech and alchemy"
+				"- &6Ars Nouveau&r - Spellcrafting and general automation"
+				""
+				"Each mod has either an innate or manufactured niche to keep things interesting."
+				""
+				"If your favorite magic flower or blood mod isn't here, maybe one of these other ones will catch your interest."
+			]
+			icon: {
+				Count: 1
+				id: "eidolon:bonechill_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2025E9E054728BF7"
+			subtitle: "If you care about magic mod selection"
+			tasks: [{
+				id: "7EB7102951BA82D9"
+				type: "checkmark"
+			}]
+			title: "Magical Choices"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"Teleportation does exist, however it will be very difficult to acquire."
+				""
+				"Use ships or underwater tunnels to connect parts of your base, it's a seapack after all."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "25777939975C3CEE"
+			tasks: [{
+				id: "12B5F8FF7A12B850"
+				title: "No Teleportation?"
+				type: "checkmark"
+			}]
+			title: "Teleportation"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"Spice of Life: Carrot Edition has been added to incentivize trying different foods."
+				""
+				"Reaching certain thresholds of food eaten will give you hearts. You'll need to try at least 300 to gain the maximum amount."
+			]
+			icon: "solcarrot:food_book"
+			id: "7A7B131D229E5279"
+			rewards: [{
+				id: "3055044356AF2CC9"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1751982CCE09E023"
+				type: "checkmark"
+			}]
+			title: "The Spice of Life"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"Create was intentionally excluded from the pack as its all magic, but if you can't live without it feel free to install it!"
+				""
+				"There is built in support for &3Neptunium&r in recipes in the backend."
+				""
+				"Be sure to replace the mod \"Create Ponder\" with \"Ponder for KubeJS\" or you &nwill&r crash."
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6657784DFDD6CB47"
+			tasks: [{
+				id: "22B48EA2DF526D03"
+				type: "checkmark"
+			}]
+			title: "Where Create."
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "Introduction"
+}

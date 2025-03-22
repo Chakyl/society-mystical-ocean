@@ -1,0 +1,23 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [
+        {
+            "count": 16,
+            "item": "supplementaries:ash"
+        },
+        {
+            "count": 16,
+            "item": "biomancy:stone_powder"
+        },
+        {
+            "count": 32,
+            "item": "biomancy:mineral_fragment"
+        }
+    ],
+    "nutrientsCost": 45,
+    "result": {
+        "count": 64,
+        "item": "supplementaries:ash_bricks"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "embers:melting",
+  "input": {
+    "item": "biomancy:flesh_bits"
+  },
+  "output": {
+    "amount": 100,
+    "fluid": "biomancy:blood"
+  }
+}

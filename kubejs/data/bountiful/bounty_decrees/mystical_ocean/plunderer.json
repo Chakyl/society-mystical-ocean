@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"plunderer_objs",
+		"plunderer_objs_shipping",
+		"_sea_coin_objs"
+	],
+	"rewards": [
+		"plunderer_rews",
+		"_small_sea_coin_rews"
+	]
+}

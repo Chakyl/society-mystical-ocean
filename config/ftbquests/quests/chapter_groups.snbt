@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "4A4C6D0E79E013A8", title: "Utilities" }
+		{ id: "0826EBDD2586467D", title: "Guided Quests" }
+		{ id: "418DBFC9E9BCC496", title: "Oceanic Magic" }
+	]
+}
