@@ -15,6 +15,9 @@ immersive_paintings_cache/
 ESM/
 etched-cache/
 
+minecraftinstance.json
+servers.dat
+servers.dat_old
 usercache.json
 usernamecache.json
 modernfix/
