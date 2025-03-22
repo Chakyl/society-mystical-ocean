@@ -1,0 +1,24 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+            "item": "netherdepthsupgrade:soulsucker"
+          }
+        ],
+        "result": [
+          {
+            "count": 3,
+            "item": "netherdepthsupgrade:soul_sucker_leather"
+          }
+        ],
+        "tool": {
+          "item": "minecraft:shears"
+        }
+      }
+    }
+  ]
+}

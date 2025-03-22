@@ -1,0 +1,10 @@
+{
+    "type": "embers:melting",
+    "input": {
+      "item": "minecraft:bucket"
+    },
+    "output": {
+      "amount": 90,
+      "fluid": "embers:molten_iron"
+    }
+  }

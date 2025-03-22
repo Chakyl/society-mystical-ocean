@@ -86,7 +86,7 @@
                 "min": 4,
                 "max": 32
             },
-            "unitWorth": 270
+            "unitWorth": 370
         },
         "gourmand_obj_rice_bag": {
             "type": "item",
@@ -108,7 +108,7 @@
                 "min": 32,
                 "max": 64
             },
-            "unitWorth": 300
+            "unitWorth": 450
         },
         "gourmand_obj_wine_bulk": {
             "type": "item",

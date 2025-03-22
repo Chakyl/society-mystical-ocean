@@ -36,13 +36,13 @@ const whiskyRecipes = {
 };
 const beers = ["beer_barley", "beer_wheat", "beer_hops", "beer_haley"];
 const beerRecipes = {
-  beer_barley: ["brewery:hops", "brewery:dried_barley", "brewery:dried_barley"],
-  beer_wheat: ["brewery:hops", "brewery:dried_wheat", "brewery:dried_wheat"],
+  beer_barley: ["brewery:dried_barley", "brewery:dried_barley", "brewery:hops"],
+  beer_wheat: ["brewery:dried_wheat", "brewery:dried_wheat", "brewery:hops"],
   beer_hops: ["brewery:hops", "brewery:hops", "brewery:hops"],
   beer_haley: [
+    "minecraft:popped_chorus_fruit",
+    "minecraft:popped_chorus_fruit",
     "brewery:hops",
-    "minecraft:popped_chorus_fruit",
-    "minecraft:popped_chorus_fruit",
   ],
 };
 const driedCrops = ["dried_corn", "dried_wheat", "dried_barley"];
@@ -56,7 +56,7 @@ console.info("[SOCIETY] addBreweryProcesses.js loaded");
 
 ServerEvents.recipes((e) => {
   const createIndustrialBrewerProcess = (inputs, output) => {
-    console.log(output);
+    const priority = inputs[0] === inputs[1] ? -5 : 1
     e.recipes.custommachinery
       .custom_machine("society:industrial_brewer", 500)
       .requireItem(Item.of(inputs[0]))
@@ -65,7 +65,7 @@ ServerEvents.recipes((e) => {
       .requireFluidPerTick(Fluid.of("minecraft:water", 1), "fluidInput")
       .requireFuel()
       .produceFluid(Fluid.of(`brewery:${output}`, 60), "output")
-      .priority(output = 'beer_hops' ? -10 : 1)
+      .priority((output == "beer_hops" ? -10 : priority))
       .requireStructure(
         [
           ["aca", "ccc", "c c", " m "],

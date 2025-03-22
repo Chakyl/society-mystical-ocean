@@ -2,13 +2,15 @@
   "type": "eidolon:crucible",
   "steps": [
     {
-      "stirs": 1,
       "items": [
         { "item": "minecraft:coarse_dirt" },
         { "item": "minecraft:coarse_dirt" },
         { "item": "minecraft:coarse_dirt" },
         { "item": "minecraft:coarse_dirt" }
       ]
+    },
+    {
+      "stirs": 1
     }
   ],
   "result": {

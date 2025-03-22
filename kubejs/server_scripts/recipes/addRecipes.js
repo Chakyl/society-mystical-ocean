@@ -34,9 +34,9 @@ ServerEvents.recipes((e) => {
 
   e.shaped("society:bucket_of_nether_chum", ["bfb", "fBf", "bfb"], {
     f: "netherdepthsupgrade:searing_cod",
-    B: "minecraft:lava_bucket",
+    B: "minecraft:bucket",
     b: "eidolon:warped_sprouts",
-  });
+  })
 
   // Decrees
   e.shapeless(
@@ -170,11 +170,7 @@ ServerEvents.recipes((e) => {
   });
 
   // Compat
-  e.shaped("oceansdelight:fugu_roll", ["PP ", "R  "], {
-    P: "crabbersdelight:pufferfish_slice",
-    R: "farmersdelight:cooked_rice",
-  });
-  e.shaped("oceansdelight:fugu_roll", ["csc", "c c", "ccc"], {
+  e.shaped("supplementaries:sack", ["csc", "c c", "ccc"], {
     s: "minecraft:string",
     c: "farmersdelight:canvas",
   });

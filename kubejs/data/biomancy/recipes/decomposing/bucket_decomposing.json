@@ -1,0 +1,18 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "item": "minecraft:bucket"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 100,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 25,
+                "min": 10
+            },
+            "item": "biomancy:mineral_fragment"
+        }
+    ]
+}

@@ -121,42 +121,6 @@
              },
              "unitWorth": 25
          },
-         "trapper_obj_tipped_arrow_poison": {
-            "type": "minecraft:item",
-            "content": "minecraft:tipped_arrow",
-            "rarity": "RARE",
-            "weightMult": 1.5,
-            "amount": {
-                "min": 16,
-                "max": 16
-            },
-            "unitWorth": 350,
-            "nbt": "{Potion:\"minecraft:poison\"}"
-        },
-        "trapper_obj_tipped_arrow_strong_slowness": {
-            "type": "minecraft:item",
-            "content": "minecraft:tipped_arrow",
-            "rarity": "RARE",
-            "weightMult": 1.5,
-            "amount": {
-                "min": 16,
-                "max": 16
-            },
-            "unitWorth": 450,
-            "nbt": "{Potion:\"minecraft:strong_slowness\"}"
-        },
-        "trapper_obj_tipped_arrow_harming": {
-            "type": "minecraft:item",
-            "content": "minecraft:tipped_arrow",
-            "rarity": "RARE",
-            "weightMult": 1.5,
-            "amount": {
-                "min": 16,
-                "max": 16
-            },
-            "unitWorth": 350,
-            "nbt": "{Potion:\"minecraft:harming\"}"
-        },
          "trapper_obj_ham_bulk": {
             "type": "item",
             "rarity": "RARE",

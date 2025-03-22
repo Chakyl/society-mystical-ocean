@@ -38,9 +38,9 @@ JEIAddedEvents.registerRecipes((e) => {
 
 })
 
-JEIAddedEvents.registerRecipeCatalysts((e) => {
-    e.data.addRecipeCatalyst('vinery:grapevine_pot', "vinery:manual_juicing")
-    e.data.addRecipeCatalyst('nethervinery:crimson_grapevine_pot', "vinery:manual_juicing")
-    e.data.addRecipeCatalyst('nethervinery:warped_grapevine_pot', "vinery:manual_juicing")
-  })
+// JEIAddedEvents.registerRecipeCatalysts((e) => {
+//     e.data.addRecipeCatalyst('vinery:grapevine_pot', "vinery:manual_juicing")
+//     e.data.addRecipeCatalyst('nethervinery:crimson_grapevine_pot', "vinery:manual_juicing")
+//     e.data.addRecipeCatalyst('nethervinery:warped_grapevine_pot', "vinery:manual_juicing")
+//   })
 

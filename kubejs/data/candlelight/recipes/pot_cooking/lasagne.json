@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "item": "candlelight:bolognese"
+    },
+    {
+      "tag": "candlelight:pasta"
+    },
+    {
+      "tag": "candlelight:cheese"
+    }
+  ],
+  "item": "candlelight:lasagne",
+  "count": 6,
+  "experience": 0.15
+}

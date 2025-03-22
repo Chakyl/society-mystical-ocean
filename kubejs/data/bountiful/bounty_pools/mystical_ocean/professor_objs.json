@@ -86,9 +86,9 @@
       "content": "biomancy:essence",
       "amount": {
         "min": 1,
-        "max": 8
+        "max": 4
       },
-      "unitWorth": 300
+      "unitWorth": 500
     },
     "professor_obj_mob_claw": {
       "type": "item",
@@ -116,9 +116,9 @@
       "content": "biomancy:enlargement_serum",
       "amount": {
         "min": 1,
-        "max": 64
+        "max": 32
       },
-      "unitWorth": 232
+      "unitWorth": 332
     },
     "professor_obj_ageing_serum": {
       "type": "item",
@@ -126,9 +126,9 @@
       "content": "biomancy:ageing_serum",
       "amount": {
         "min": 1,
-        "max": 64
+        "max": 32
       },
-      "unitWorth": 240
+      "unitWorth": 340
     },
     "professor_obj_rejuvenation_serum": {
       "type": "item",
@@ -136,9 +136,9 @@
       "content": "biomancy:rejuvenation_serum",
       "amount": {
         "min": 1,
-        "max": 64
+        "max": 32
       },
-      "unitWorth": 280
+      "unitWorth": 380
     },
     "professor_obj_melon_cocktail": {
       "type": "item",
