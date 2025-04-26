@@ -231,7 +231,7 @@
 			description: [
 				"A treasure trawling boat docks, peddling &5rare loot&r and &5smithing templates&r."
 				""
-				"For some reason all it costs is some &2sea junk&r."
+				"For some reason, all it costs is some &2sea junk&r."
 			]
 			icon: "quark:dark_oak_chest"
 			id: "302F9B3452363E1C"
@@ -605,7 +605,7 @@
 				""
 				"Your reputation will &lnot&r carry over however. Reputation only counts for the board you submit the bounty to."
 				""
-				"&oIt comes with it's own fisher decree!&r"
+				"&oIt comes with a fisher decree!&r"
 			]
 			icon: "bountiful:bountyboard"
 			id: "3AC715BAE98C0DBB"
@@ -728,7 +728,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Cultivator&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Cultivator&r rewards with Sea Coins."]
 			icon: "minecraft:cherry_sapling"
 			id: "2E8F535C98EC97B9"
 			optional: true
@@ -754,7 +754,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Trapper&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Trapper&r rewards with Sea Coins."]
 			icon: "minecraft:parrot_spawn_egg"
 			id: "266BAF25AAAE2FC4"
 			optional: true
@@ -780,7 +780,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Fisher&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Fisher&r rewards with Sea Coins."]
 			icon: {
 				Count: 1
 				id: "netherdepthsupgrade:lava_fishing_rod"
@@ -812,7 +812,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Sifter&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Sifter&r rewards with Sea Coins."]
 			icon: "minecraft:diamond"
 			id: "6E59F48748339AB3"
 			optional: true
@@ -838,7 +838,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Blacksmith&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Blacksmith&r rewards with Sea Coins."]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
@@ -870,7 +870,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Plunderer&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Plunderer&r rewards with Sea Coins."]
 			icon: "minecraft:wild_armor_trim_smithing_template"
 			id: "5AAA56A8B4F91ACF"
 			optional: true
@@ -897,7 +897,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Shady Wizard&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Shady Wizard&r rewards with Sea Coins."]
 			icon: "eidolon:lesser_soul_gem"
 			id: "3490D939D2FD8C8D"
 			optional: true
@@ -924,7 +924,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Florist&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Florist&r rewards with Sea Coins."]
 			icon: "minecraft:lily_of_the_valley"
 			id: "32236A4D003CCFF6"
 			optional: true
@@ -951,7 +951,7 @@
 		}
 		{
 			dependencies: ["2147D46F31676D2E"]
-			description: ["This decree allows you to buy &2Gourmand&r rewards with cold hard Sea Coins."]
+			description: ["This decree allows you to buy &2Gourmand&r rewards with Sea Coins."]
 			icon: "farmersdelight:cooking_pot"
 			id: "75B15863C4796BCB"
 			optional: true
@@ -981,7 +981,7 @@
 			description: [
 				"There are 5 hidden decrees that can be crafted from progressing through certain parts of the game."
 				""
-				"Some provde easier access to difficult to obtain items, or provide steady incomes from specilized professions."
+				"Some provide easier access to difficult to obtain items, or provide steady incomes from specialized professions."
 			]
 			icon: "eidolon:parchment"
 			id: "2921B8DA9C530D79"
@@ -1062,7 +1062,7 @@
 			description: [
 				"The &2Baker&r requires progression in the Gourmand decree's reputation, Bakery, and HerbalBrews."
 				""
-				"It is a shipping decree, providing wealth to those that can run an efficient bakery and cafe."
+				"It is a shipping decree, providing wealth to those that can run an efficient bakery and café."
 				""
 				"&oBe sure to replicate the banners in a smithing table before crafting, as they are one-time rewards!"
 			]
@@ -1111,7 +1111,7 @@
 				{
 					consume_items: false
 					id: "45DEC160AC868561"
-					item: "herbalbrews:herbalbrews_standard"
+					item: "herbalbrews:herbalbrews_banner"
 					type: "item"
 				}
 				{
@@ -1146,7 +1146,7 @@
 				""
 				"It is primarily a shipping decree, with the occasional rare eldritch rewards."
 				""
-				"&4&oWhat you'll be shipping however, is up to you to discover...&r"
+				"&4&oWhat you'll be shipping is up to you to discover...&r"
 			]
 			icon: "irons_spellbooks:fire_upgrade_orb"
 			id: "26B21A72F3FCF235"
@@ -1194,7 +1194,7 @@
 			description: [
 				"The &2Gatekeeper&r decree requires progression in Dimensional Dungons, Eidolon, and Iron's Spellbooks."
 				""
-				"It is a shop decree, providing a steady supply of certain dungeon keys, as well as key inscribers."
+				"It is a shop decree, providing a steady supply of certain dungeon keys and key inscribers."
 			]
 			icon: {
 				Count: 1

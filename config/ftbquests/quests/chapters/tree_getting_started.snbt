@@ -115,9 +115,9 @@
 				""
 				"Over time, new Bounties will come and go. The Bounties that show up on a given Board are dependent on that Board's &5Decrees&r and their rarity depends on the &6Reputation level&r of the Board itself."
 				""
-				"The &cObjectives&r and &2Rewards&r that show up at a Bounty Board are determined based on an item called a &5Decree&r. Every Board starts with it's own &5Decree&r and up to three &5Decrees&r can fit on a Board at once."
+				"The &cObjectives&r and &2Rewards&r that show up at a Bounty Board are determined based on an item called a &5Decree&r. Every Board starts with it's own &5Decree&r and up to three &5Decrees&r can be added to it."
 				""
-				"&oEvery player 'sees' the same Bounties when viewing a Bounty Board. Taking a Bounty from the Board and it won't disappear from your friend's board.&r"
+				"&oEvery player 'sees' the same Bounties when viewing a Bounty Board. Taking a Bounty from the Board won't remove it from your friend's board.&r"
 			]
 			icon: "bountiful:bountyboard"
 			id: "7B9E499EBEFB2062"
@@ -152,7 +152,7 @@
 				""
 				"Do you save what little you have? Or use it to speed up your ability to aquire &3Neptunium&r..."
 				""
-				":warning: &oSome items crafted using &3Neptunium&r are also bounty rewards.&r"
+				":warning: &oSome items crafted using &3Neptunium&r&o are also bounty rewards.&r"
 			]
 			id: "507CC6EA60E39890"
 			rewards: [{
@@ -215,7 +215,7 @@
 		{
 			dependencies: ["7B9E499EBEFB2062"]
 			description: [
-				"&3Neptunium&r sea coins are the highest tier of coin, and can be broken into 2 &3Neptunium&r nuggets using flint."
+				"&3Neptunium&r sea coins are the highest tier of coin. They can be broken into 2 &3Neptunium&r nuggets by crafting them with Flint."
 				""
 				"It's &lnot&r as efficient as buying them from a bounty, but it's reliable!"
 			]
@@ -294,9 +294,9 @@
 				""
 				"- There are some crafted &5Decrees&r not available in the shop."
 				""
-				"- Select few &5Decrees&r have a &3Neptunium&r as &cObjectives&r or &2Rewards&r!"
+				"- Select few &5Decrees&r have &3Neptunium&r as &cObjectives&r or &2Rewards&r!"
 				""
-				"- Despite its UI, the board discount caps out at level 30"
+				"- Despite the UI, the board discount caps out at level 30."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -640,13 +640,13 @@
 		{
 			dependencies: ["2B901F0013ECC98A"]
 			description: [
-				"With the exception of the Stone and Wood Hammers, you'll need an hammer to upgrade your hammer from one tier to the next."
+				"With the exception of the Stone and Wood Hammers, you'll need a hammer to upgrade your hammer from one tier to the next."
 				""
 				"It's recommended to have 2 hammers and upgrade them both at the same time to save yourself the headache."
 				""
 				"The tiers are as follows:"
 				""
-				"Wood -> Stone -> Iron -> Blackstone -> Obsidian -> Netherite"
+				"Wood → Stone → Iron → Blackstone → Obsidian → Netherite"
 			]
 			hide_until_deps_visible: true
 			id: "6AA3A1452E3880F2"
@@ -684,7 +684,7 @@
 			description: [
 				"Carrying a hammer and knife in your inventory whenever you want to customize a tool gets old fast."
 				""
-				"Place down a rack near your &6Tetra&r workbench and hang any tools needed for crafting to get them out of the way."
+				"Place down a rack near your &6Tetra&r workbench, and hang any tools needed for crafting to get them out of the way."
 			]
 			hide_until_deps_visible: true
 			id: "267607195B309411"
@@ -706,13 +706,13 @@
 		{
 			dependencies: ["6AA3A1452E3880F2"]
 			description: [
-				"If you haven't yet learned the hard way, the &5&lObsidian&r tier upgrade tier is not as straightforward as the previous tiers."
+				"If you haven't yet learned the hard way, the &5&lObsidian&r tier upgrade is not as straightforward as the previous tiers."
 				""
-				"You'll need to locate tetra ruins underground, and get the Forge Hammer above the Forged Workbench online using &6Thermal Cells&r. "
+				"You'll need to locate tetra ruins in deep cold oceans, and get a Forge Hammer above a Forged Workbench online using two charged &6Thermal Cells&r."
 				""
-				"The Forged Workbench can upgrade tools to the highest tiers."
+				"When two &6Combustion Chambers&r are applied to the Forge Hammer, the Forged Workbench is upgraded from tier 4 to tier 6, the highest. A \"prying\" tool such as a claw may be needed to remove any other upgrades the Forge Hammer may have to make room for them."
 				""
-				"&oThe ruins and Forged Workbench setup can be harvested using Netherite hammers&r"
+				"&oThe ruins and Forged Workbench setup can be harvested using any hammer with Silk Touch.&r"
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:obsidian"
@@ -750,7 +750,7 @@
 					type: "item"
 				}
 			]
-			title: "Obsidian Tier"
+			title: "Obsidian Tier Upgrade"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -804,7 +804,7 @@
 		{
 			dependencies: ["1939AE4ADF8C04E8"]
 			description: [
-				"Backpacks will be out of reach for a good while, sacks and shulker boxes will be your go-to for a while."
+				"Backpacks will be out of reach in the early game. Sacks and shulker boxes will be your go-to until then."
 				""
 				"&oA &5Cultivator&r&o can help with acquiring flax, and a &5Blacksmith&r&o can provide shulker boxes...&r"
 			]
@@ -836,9 +836,9 @@
 			description: [
 				"The humble backpack will make your life significantly easier."
 				""
-				"Unfortunately getting the sea-proof materials will cost you a ton of &3Neptunium&r."
+				"Unfortunately, getting the sea-proof materials will cost you a ton of &3Neptunium&r."
 				""
-				"&oA well-learned mage may be able to craft a high tier one cheaper.&r"
+				"&oA well-learned mage may be able to craft a high tier one more cheaply.&r"
 			]
 			icon: {
 				Count: 1
@@ -914,9 +914,9 @@
 		{
 			dependencies: ["7B9E499EBEFB2062"]
 			description: [
-				"The Bounty system in this pack is completely optional, unless you're planning on \"beating\" the pack which is purely for completion's sake. "
+				"The Bounty system in this pack is completely optional. There are many ways to earn Sea Coins and Neptunium that do not involve the Bounty Board."
 				""
-				"There are many ways to earn Sea Coins and Neptunium that do not involve the Bounty Board- things will just be drastically more difficult."
+				"The pack will just be drastically more difficult."
 			]
 			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_not_undead_filter"
@@ -931,7 +931,7 @@
 				id: "53C98C074FB9CA55"
 				type: "checkmark"
 			}]
-			title: "\"I Don't like Capitalism\""
+			title: "\"I Don't Like Capitalism\""
 			x: 6.0d
 			y: -2.0d
 		}
@@ -976,7 +976,7 @@
 		}
 		{
 			dependencies: ["7B9E499EBEFB2062"]
-			description: ["Fishing is a more simple and renewable way of finding coins, but unless you hit the jackpot it can be fairly slow."]
+			description: ["Fishing is a more simple and renewable way of finding coins, but it can be fairly slow."]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -1013,7 +1013,7 @@
 			description: [
 				"Keeping track of the random books for mods can be annoying. The Eccentric Tome can store many guidebooks in one."
 				""
-				"Right click to select a book, left click with a book selected to reset it. "
+				"Right click to select a book, and Left click with a book selected to reset it. "
 				""
 				"You can craft another if you lose this one."
 			]
@@ -1281,11 +1281,11 @@
 				""
 				"Each main branch has a description of the mod and what it can do. It contains:"
 				""
-				"- &eGame stage&r: When it's recommended to start the mod, though not a strict requirement."
+				"- &eGame stage&r: When it's recommended to start the mod, though not a strict requirement"
 				""
 				"- &aStrength&r: The primary use of the mod (though usually not the only)"
 				""
-				"- &dUltimate item&r: The \"main\" objective item, picked because of its usefulness and/or because it is the final item in the progression path."
+				"- &dUltimate item&r: The \"main\" objective item, picked because of its usefulness and/or because it is the final item in the progression path"
 			]
 			hide_until_deps_visible: false
 			icon: {

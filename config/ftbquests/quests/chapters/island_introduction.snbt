@@ -17,7 +17,7 @@
 				""
 				"Your end goal: discover the source of &3Neptunium&r and its power through magical research."
 				""
-				"This questbook will give you an introduction to the concepts of the pack, as well as a loosely guided experience through the magic mods."
+				"This quest book will give you an introduction to the concepts of the pack, as well as a loosely guided experience through the magic mods."
 			]
 			icon: "beachparty:coconut_cocktail"
 			id: "2B6877708A709B5C"
@@ -70,7 +70,7 @@
 				""
 				"The key &bxz_scale1&r determines the rarity of islands. Lower values make islands rarer."
 				""
-				"For a hardcore experience try these values:"
+				"For a hardcore experience, try these values:"
 				""
 				"&bargument1&r: -0.55,"
 				"&bxz_scale&r: 1.75,"
@@ -92,7 +92,7 @@
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-				"Certain villager workstations in this pack are disabled, primarily for balance reasons. This means &eMending&r is difficult to acquire, and may require some magic to get reliably..."
+				"Certain villager workstations in this pack are disabled, primarily for balance reasons. This means &eMending&r is difficult to acquire and may require some magic to get reliably..."
 				""
 				"Blocked workstations:"
 				"- Lectern"
@@ -137,7 +137,7 @@
 			description: [
 				"Over the course of your world, you'll obtain items known as &lSea Coins&r. This is a currency used in Bounties and a small amount of recipes."
 				""
-				"Unless you want to 100% pack, which is only for bragging rights, interacting with the currency system is &loptional&r outside those few recipes."
+				"Unless you want to 100% pack, which is only for bragging rights, interacting with the currency system is &loptional&r outside of those few recipes."
 			]
 			icon: "society:gold_sea_coin"
 			id: "42BBE95A6DE1DD19"
@@ -187,7 +187,7 @@
 			description: [
 				"Teleportation does exist, however it will be very difficult to acquire."
 				""
-				"Use ships or underwater tunnels to connect parts of your base, it's a seapack after all."
+				"Use ships or underwater tunnels to connect parts of your base; it's a seapack after all."
 			]
 			icon: {
 				Count: 1
@@ -209,7 +209,7 @@
 			description: [
 				"Spice of Life: Carrot Edition has been added to incentivize trying different foods."
 				""
-				"Reaching certain thresholds of food eaten will give you hearts. You'll need to try at least 300 to gain the maximum amount."
+				"Reaching certain thresholds of food eaten will give you hearts. You'll need to try at least 300 to gain the maximum amount of 10 hearts."
 			]
 			icon: "solcarrot:food_book"
 			id: "7A7B131D229E5279"
@@ -229,7 +229,7 @@
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-				"Create was intentionally excluded from the pack as its all magic, but if you can't live without it feel free to install it!"
+				"Create was intentionally excluded from the pack as its exclusively magic! If you can't live without it, feel free to install it."
 				""
 				"There is built in support for &3Neptunium&r in recipes in the backend."
 				""
@@ -247,7 +247,7 @@
 				id: "22B48EA2DF526D03"
 				type: "checkmark"
 			}]
-			title: "Where Create."
+			title: "Where Create?"
 			x: -2.0d
 			y: -2.0d
 		}
